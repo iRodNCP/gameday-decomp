@@ -1,0 +1,8 @@
+﻿.vs/
+.vscode/
+build/
+tools/*.exe
+tools/old/*.exe
+tools/*.dll
+tools/old/*.dll
+baserom.dol
