@@ -15,18 +15,18 @@ lbl_80420F44:
 lbl_80420F48:
 	.skip 0x8
 
-.global lbl_80420F50
-lbl_80420F50:
+.global bta_dm_pm_cfg
+bta_dm_pm_cfg:
 	.skip 0x8
 
-.global lbl_80420F58
-lbl_80420F58:
+.global bd_addr_null
+bd_addr_null:
 	.skip 0x8
 
 .global lbl_80420F60
 lbl_80420F60:
 	.skip 0x8
 
-.global lbl_80420F68
-lbl_80420F68:
+.global LOAD_GLYPH_ALL__Q44nw4r2ut6detail15ArchiveFontBase
+LOAD_GLYPH_ALL__Q44nw4r2ut6detail15ArchiveFontBase:
 	.skip 0x4

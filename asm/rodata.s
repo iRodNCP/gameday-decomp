@@ -112,8 +112,8 @@ lbl_802D7508:
 	.balign 4
 	.4byte 0
 
-.global lbl_802D7520
-lbl_802D7520:
+.global _LOCAL_conv_position__3KeyFRQ34nw4r4math4VEC2RC10KPADStatus_rect
+_LOCAL_conv_position__3KeyFRQ34nw4r4math4VEC2RC10KPADStatus_rect:
 
 	# ROM: 0x2D3600
 	.4byte 0xC3A00000
@@ -251,8 +251,8 @@ lbl_802D777C:
 	.4byte 0x0068006E
 	.4byte 0
 
-.global lbl_802D7788
-lbl_802D7788:
+.global _LOCAL_Initialize__Q34Flag8Volatile7FlagSetFv_player_name
+_LOCAL_Initialize__Q34Flag8Volatile7FlagSetFv_player_name:
 
 	# ROM: 0x2D3868
 	.4byte lbl_8041E0D0
@@ -1077,8 +1077,8 @@ lbl_802D8578:
 	.balign 4
 	.4byte 0
 
-.global lbl_802D8638
-lbl_802D8638:
+.global _LOCAL_BufferDef__Q28Resource9AnimationFQ38Resource9Animation4Type_tbl
+_LOCAL_BufferDef__Q28Resource9AnimationFQ38Resource9Animation4Type_tbl:
 
 	# ROM: 0x2D4718
 	.4byte 0
@@ -2022,8 +2022,8 @@ lbl_802D8EE4:
 	.4byte 0xFEFEFEFE
 	.4byte 0xFEFE0000
 
-.global lbl_802D8F88
-lbl_802D8F88:
+.global _LOCAL_InitEyeMove__Q34Game7Penguin4BodyFv_EYEMOVE_TEX
+_LOCAL_InitEyeMove__Q34Game7Penguin4BodyFv_EYEMOVE_TEX:
 
 	# ROM: 0x2D5068
 	.4byte 0
@@ -2214,8 +2214,8 @@ lbl_802D92D0:
 	.balign 4
 	.4byte 0
 
-.global lbl_802D9348
-lbl_802D9348:
+.global _LOCAL_JustifyEyeDir__Q24Game7EyeMoveFPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3l_EYE_RECT
+_LOCAL_JustifyEyeDir__Q24Game7EyeMoveFPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3l_EYE_RECT:
 
 	# ROM: 0x2D5428
 	.4byte 0x3F000000
@@ -3198,8 +3198,8 @@ lbl_802DA1B8:
 	.balign 4
 	.4byte 0
 
-.global lbl_802DA680
-lbl_802DA680:
+.global _LOCAL_GetID__Q24Game7BgmBaseFQ34Game7BgmBase7BgmType_bgmtbl
+_LOCAL_GetID__Q24Game7BgmBaseFQ34Game7BgmBase7BgmType_bgmtbl:
 
 	# ROM: 0x2D6760
 	.4byte 0
@@ -3256,8 +3256,8 @@ lbl_802DA720:
 	.asciz "vector length error"
 	.4byte 0
 
-.global lbl_802DA738
-lbl_802DA738:
+.global DefaultSetup__Q23DOF6ScnDOF
+DefaultSetup__Q23DOF6ScnDOF:
 
 	# ROM: 0x2D6818
 	.4byte 0x3F666666
@@ -3353,8 +3353,8 @@ lbl_802DA918:
 	.asciz "/font/cccomicrazybolditalic.brfna"
 	.balign 4
 
-.global lbl_802DA93C
-lbl_802DA93C:
+.global s_names__Q35Scene6Layout14LoadCommonFont
+s_names__Q35Scene6Layout14LoadCommonFont:
 
 	# ROM: 0x2D6A1C
 	.4byte lbl_802DA8A0
@@ -3594,8 +3594,8 @@ lbl_802DAD90:
 	.asciz "reate"
 	.balign 4
 
-.global lbl_802DADA8
-lbl_802DADA8:
+.global _LOCAL_Update__Q23Key9KeyRepeatFRQ23Key7Control_keys
+_LOCAL_Update__Q23Key9KeyRepeatFRQ23Key7Control_keys:
 
 	# ROM: 0x2D6E88
 	.4byte 0
@@ -3806,8 +3806,8 @@ lbl_802DB144:
 	.asciz "/common/nowsaving"
 	.balign 4
 
-.global lbl_802DB158
-lbl_802DB158:
+.global s_names__Q35Scene6Layout13LoadCommonRes
+s_names__Q35Scene6Layout13LoadCommonRes:
 
 	# ROM: 0x2D7238
 	.4byte lbl_802DB118
@@ -5603,8 +5603,8 @@ lbl_802DCB88:
 	.balign 4
 	.4byte 0
 
-.global lbl_802DCE08
-lbl_802DCE08:
+.global DefaultSetup__Q24Dof27ScnDof2
+DefaultSetup__Q24Dof27ScnDof2:
 
 	# ROM: 0x2D8EE8
 	.4byte 0
@@ -11492,8 +11492,8 @@ lbl_802E1C70:
 	.4byte 0x2E000000
 	.4byte 0
 
-.global lbl_802E1CE8
-lbl_802E1CE8:
+.global MESSAGE_LIST__11MessageList
+MESSAGE_LIST__11MessageList:
 
 	# ROM: 0x2DDDC8
 	.4byte lbl_802E1AE8
@@ -12279,35 +12279,35 @@ lbl_802E24C0:
 	.4byte 0x00000019
 	.4byte 0x00000016
 
-.global lbl_802E24F8
-lbl_802E24F8:
+.global hcisu_h2
+hcisu_h2:
 
 	# ROM: 0x2DE5D8
-	.4byte lbl_800FC840
-	.4byte lbl_800FC870
-	.4byte lbl_800FC8E0
-	.4byte lbl_800FC920
-	.4byte lbl_800FC950
+	.4byte hcisu_h2_init
+	.4byte hcisu_h2_open
+	.4byte hcisu_h2_close
+	.4byte hcisu_h2_send
+	.4byte hcisu_h2_handle_event
 	.4byte 0
 
-.global lbl_802E2510
-lbl_802E2510:
+.global bta_dm_cfg
+bta_dm_cfg:
 
 	# ROM: 0x2DE5F0
 	.4byte 0x40020400
 	.4byte 0x000F2000
 	.4byte 0x13880000
 
-.global lbl_802E251C
-lbl_802E251C:
+.global bta_dm_rm_cfg
+bta_dm_rm_cfg:
 
 	# ROM: 0x2DE5FC
 	.4byte 0x0002010E
 	.4byte 0x01020E02
 	.4byte 0x0212FF01
 
-.global lbl_802E2528
-lbl_802E2528:
+.global bta_dm_compress_cfg
+bta_dm_compress_cfg:
 
 	# ROM: 0x2DE608
 	.4byte 0x0005000A
@@ -12316,8 +12316,8 @@ lbl_802E2528:
 	.4byte 0x07FF0112
 	.4byte 0xFF020000
 
-.global lbl_802E253C
-lbl_802E253C:
+.global bta_dm_pm_spec
+bta_dm_pm_spec:
 
 	# ROM: 0x2DE61C
 	.4byte 0x03000200
@@ -12340,8 +12340,8 @@ lbl_802E253C:
 	.4byte 0x13880000
 	.4byte 0
 
-.global lbl_802E2588
-lbl_802E2588:
+.global bta_dm_pm_md
+bta_dm_pm_md:
 
 	# ROM: 0x2DE668
 	.4byte 0x019000C8
@@ -12351,8 +12351,8 @@ lbl_802E2588:
 	.4byte 0x00000300
 	.4byte 0
 
-.global lbl_802E25A0
-lbl_802E25A0:
+.global bta_hh_cfg
+bta_hh_cfg:
 
 	# ROM: 0x2DE680
 	.4byte 0x04000000
@@ -12360,8 +12360,8 @@ lbl_802E25A0:
 	.4byte 0x04000000
 	.4byte 0
 
-.global lbl_802E25B0
-lbl_802E25B0:
+.global bta_service_id_to_uuid_lkup_tbl
+bta_service_id_to_uuid_lkup_tbl:
 
 	# ROM: 0x2DE690
 	.4byte 0x12001101
@@ -12377,8 +12377,8 @@ lbl_802E25B0:
 	.4byte 0x11241304
 	.4byte 0x112F0000
 
-.global lbl_802E25E0
-lbl_802E25E0:
+.global bta_service_id_to_btm_srv_id_lkup_tbl
+bta_service_id_to_btm_srv_id_lkup_tbl:
 
 	# ROM: 0x2DE6C0
 	.4byte 0
@@ -12406,8 +12406,8 @@ lbl_802E25E0:
 	.4byte 0x0000002C
 	.4byte 0
 
-.global lbl_802E2640
-lbl_802E2640:
+.global bta_security
+bta_security:
 
 	# ROM: 0x2DE720
 	.4byte lbl_800FFAFC
@@ -12417,26 +12417,26 @@ lbl_802E2640:
 	.4byte lbl_800FFE58
 	.4byte 0
 
-.global lbl_802E2658
-lbl_802E2658:
+.global bta_dm_action
+bta_dm_action:
 
 	# ROM: 0x2DE738
-	.4byte lbl_800FE5F4
-	.4byte lbl_800FE704
-	.4byte lbl_800FE870
-	.4byte lbl_800FE878
-	.4byte lbl_800FE8C0
-	.4byte lbl_800FE930
-	.4byte lbl_800FE9CC
-	.4byte lbl_800FFF04
-	.4byte lbl_801000A4
-	.4byte lbl_801017EC
-	.4byte lbl_8010190C
-	.4byte lbl_8010083C
-	.4byte lbl_801008E0
+	.4byte bta_dm_enable
+	.4byte bta_dm_disable
+	.4byte bta_dm_set_dev_name
+	.4byte bta_dm_set_visibility
+	.4byte bta_dm_bond
+	.4byte bta_dm_pin_reply
+	.4byte bta_dm_auth_reply
+	.4byte bta_dm_signal_strength
+	.4byte bta_dm_acl_change
+	.4byte bta_dm_pm_btm_status
+	.4byte bta_dm_pm_timer
+	.4byte bta_dm_keep_acl
+	.4byte bta_dm_send_hci_reset
 
-.global lbl_802E268C
-lbl_802E268C:
+.global bta_dm_st_table
+bta_dm_st_table:
 
 	# ROM: 0x2DE76C
 	.4byte 0x000D0001
@@ -12451,31 +12451,31 @@ lbl_802E268C:
 	.4byte 0x0C0D0000
 	.4byte 0
 
-.global lbl_802E26B8
-lbl_802E26B8:
+.global bta_dm_search_action
+bta_dm_search_action:
 
 	# ROM: 0x2DE798
-	.4byte lbl_800FEAA0
-	.4byte lbl_800FEB00
-	.4byte lbl_800FEB84
-	.4byte lbl_800FEC98
-	.4byte lbl_800FEEBC
-	.4byte lbl_800FF08C
-	.4byte lbl_800FF2F4
-	.4byte lbl_800FF430
-	.4byte lbl_800FF30C
-	.4byte lbl_800FF35C
-	.4byte lbl_800FF474
-	.4byte lbl_800FF4BC
-	.4byte lbl_800FF504
-	.4byte lbl_800FF548
-	.4byte lbl_800FF5E8
-	.4byte lbl_800FF58C
-	.4byte lbl_800FF028
-	.4byte lbl_800FFAF8
+	.4byte bta_dm_search_start
+	.4byte bta_dm_search_cancel
+	.4byte bta_dm_discover
+	.4byte bta_dm_inq_cmpl
+	.4byte bta_dm_rmt_name
+	.4byte bta_dm_sdp_result
+	.4byte bta_dm_search_cmpl
+	.4byte bta_dm_free_sdp_db
+	.4byte bta_dm_disc_result
+	.4byte bta_dm_search_result
+	.4byte bta_dm_queue_search
+	.4byte bta_dm_queue_disc
+	.4byte bta_dm_search_clear_queue
+	.4byte bta_dm_search_cancel_cmpl
+	.4byte bta_dm_search_cancel_notify
+	.4byte bta_dm_search_cancel_transac_cmpl
+	.4byte bta_dm_disc_rmt_name
+	.4byte bta_dm_cancel_rmt_name
 
-.global lbl_802E2700
-lbl_802E2700:
+.global bta_dm_search_idle_st_table
+bta_dm_search_idle_st_table:
 
 	# ROM: 0x2DE7E0
 	.4byte 0x0012010E
@@ -12486,8 +12486,8 @@ lbl_802E2700:
 	.4byte 0x00121200
 	.4byte 0x12120000
 
-.global lbl_802E271C
-lbl_802E271C:
+.global bta_dm_search_search_active_st_table
+bta_dm_search_search_active_st_table:
 
 	# ROM: 0x2DE7FC
 	.4byte 0x12120101
@@ -12498,8 +12498,8 @@ lbl_802E271C:
 	.4byte 0x01061200
 	.4byte 0x09120100
 
-.global lbl_802E2738
-lbl_802E2738:
+.global bta_dm_search_search_cancelling_st_table
+bta_dm_search_search_cancelling_st_table:
 
 	# ROM: 0x2DE818
 	.4byte 0x0A12020C
@@ -12510,8 +12510,8 @@ lbl_802E2738:
 	.4byte 0x000D1200
 	.4byte 0x0D120000
 
-.global lbl_802E2754
-lbl_802E2754:
+.global bta_dm_search_disc_active_st_table
+bta_dm_search_disc_active_st_table:
 
 	# ROM: 0x2DE834
 	.4byte 0x1212030E
@@ -12522,34 +12522,34 @@ lbl_802E2754:
 	.4byte 0x03121200
 	.4byte 0x08120300
 
-.global lbl_802E2770
-lbl_802E2770:
+.global bta_dm_search_st_tbl
+bta_dm_search_st_tbl:
 
 	# ROM: 0x2DE850
-	.4byte lbl_802E2700
-	.4byte lbl_802E271C
-	.4byte lbl_802E2738
-	.4byte lbl_802E2754
+	.4byte bta_dm_search_idle_st_table
+	.4byte bta_dm_search_search_active_st_table
+	.4byte bta_dm_search_search_cancelling_st_table
+	.4byte bta_dm_search_disc_active_st_table
 
-.global lbl_802E2780
-lbl_802E2780:
+.global bta_hh_action
+bta_hh_action:
 
 	# ROM: 0x2DE860
-	.4byte lbl_80102064
-	.4byte lbl_801021F4
-	.4byte lbl_80102764
-	.4byte lbl_801022AC
-	.4byte lbl_8010256C
-	.4byte lbl_80102304
-	.4byte func_80101D68
-	.4byte lbl_80101EFC
-	.4byte lbl_80102C00
-	.4byte lbl_80102964
-	.4byte lbl_80102980
-	.4byte lbl_801020CC
+	.4byte bta_hh_api_disc_act
+	.4byte bta_hh_open_act
+	.4byte bta_hh_close_act
+	.4byte bta_hh_data_act
+	.4byte bta_hh_ctrl_dat_act
+	.4byte bta_hh_handsk_act
+	.4byte bta_hh_start_sdp
+	.4byte bta_hh_sdp_cmpl
+	.4byte bta_hh_write_dev_act
+	.4byte bta_hh_get_dscp_act
+	.4byte bta_hh_maint_dev_act
+	.4byte bta_hh_open_cmpl_act
 
-.global lbl_802E27B0
-lbl_802E27B0:
+.global bta_hh_st_idle
+bta_hh_st_idle:
 
 	# ROM: 0x2DE890
 	.4byte 0x06020C01
@@ -12559,8 +12559,8 @@ lbl_802E27B0:
 	.4byte 0x0C010C01
 	.4byte 0x0A010C01
 
-.global lbl_802E27C8
-lbl_802E27C8:
+.global bta_hh_st_w4_conn
+bta_hh_st_w4_conn:
 
 	# ROM: 0x2DE8A8
 	.4byte 0x0C020C01
@@ -12570,8 +12570,8 @@ lbl_802E27C8:
 	.4byte 0x0C020C02
 	.4byte 0x0A010B03
 
-.global lbl_802E27E0
-lbl_802E27E0:
+.global bta_hh_st_connected
+bta_hh_st_connected:
 
 	# ROM: 0x2DE8C0
 	.4byte 0x0C030003
@@ -12581,17 +12581,17 @@ lbl_802E27E0:
 	.4byte 0x08030903
 	.4byte 0x0A030C03
 
-.global lbl_802E27F8
-lbl_802E27F8:
+.global bta_hh_st_tbl
+bta_hh_st_tbl:
 
 	# ROM: 0x2DE8D8
-	.4byte lbl_802E27B0
-	.4byte lbl_802E27C8
-	.4byte lbl_802E27E0
+	.4byte bta_hh_st_idle
+	.4byte bta_hh_st_w4_conn
+	.4byte bta_hh_st_connected
 	.4byte 0
 
-.global lbl_802E2808
-lbl_802E2808:
+.global btm_pm_md_comp_matrix
+btm_pm_md_comp_matrix:
 
 	# ROM: 0x2DE8E8
 	.4byte 0x03020201
@@ -12710,8 +12710,8 @@ lbl_802E2960:
 	.4byte 0x80000080
 	.4byte 0x5F9B34FB
 
-.global lbl_802E2970
-lbl_802E2970:
+.global __DVDErrorMessageDefault
+__DVDErrorMessageDefault:
 
 	# ROM: 0x2DEA50
 	.4byte lbl_80309828
@@ -12722,8 +12722,8 @@ lbl_802E2970:
 	.4byte lbl_80309B70
 	.4byte lbl_80309C1C
 
-.global lbl_802E298C
-lbl_802E298C:
+.global __DVDErrorMessageEurope
+__DVDErrorMessageEurope:
 
 	# ROM: 0x2DEA6C
 	.4byte lbl_80309828
@@ -12734,8 +12734,8 @@ lbl_802E298C:
 	.4byte lbl_80309B70
 	.4byte lbl_80309C1C
 
-.global lbl_802E29A8
-lbl_802E29A8:
+.global __DVDDeviceErrorMessage
+__DVDDeviceErrorMessage:
 
 	# ROM: 0x2DEA88
 	.4byte lbl_80309FF0
@@ -12747,8 +12747,8 @@ lbl_802E29A8:
 	.4byte lbl_8030A158
 	.4byte 0
 
-.global lbl_802E29C8
-lbl_802E29C8:
+.global enc_tbl_jp_wctomb
+enc_tbl_jp_wctomb:
 
 	# ROM: 0x2DEAA8
 	.4byte 0x2281CD25
@@ -18318,8 +18318,8 @@ lbl_802E29C8:
 	.4byte 0x78000000
 	.4byte 0
 
-.global lbl_802E80C0
-lbl_802E80C0:
+.global enc_offset_jp
+enc_offset_jp:
 
 	# ROM: 0x2E41A0
 	.4byte 0x001B0039
@@ -18451,8 +18451,8 @@ lbl_802E80C0:
 	.4byte 0x1CAB1CC6
 	.4byte 0x1CE31CFB
 
-.global lbl_802E82C0
-lbl_802E82C0:
+.global unicode_win1252_array
+unicode_win1252_array:
 
 	# ROM: 0x2E43A0
 	.4byte 0x20AC8000
@@ -18938,8 +18938,8 @@ lbl_802E87B8:
 	.4byte lbl_8041F788
 	.4byte 0
 
-.global lbl_802E88B8
-lbl_802E88B8:
+.global _LOCAL_OSCalcCRC16__FPCvUl_crc16_table
+_LOCAL_OSCalcCRC16__FPCvUl_crc16_table:
 
 	# ROM: 0x2E4998
 	.4byte 0x0000CC01
@@ -18951,8 +18951,8 @@ lbl_802E88B8:
 	.4byte 0x50009C01
 	.4byte 0x88014400
 
-.global lbl_802E88D8
-lbl_802E88D8:
+.global _LOCAL_OSCalcCRC32__FPCvUl_crc32_table
+_LOCAL_OSCalcCRC32__FPCvUl_crc32_table:
 
 	# ROM: 0x2E49B8
 	.4byte 0
@@ -19061,8 +19061,8 @@ lbl_802E89F8:
 	.4byte 0x1AF308B6
 	.4byte 0
 
-.global lbl_802E8A40
-lbl_802E8A40:
+.global _LOCAL_WPADControlDpd__FlUlPFll_v_cfg1
+_LOCAL_WPADControlDpd__FlUlPFll_v_cfg1:
 
 	# ROM: 0x2E4B20
 	.4byte 0x02000071
@@ -19078,8 +19078,8 @@ lbl_802E8A40:
 	.4byte 0x01007200
 	.4byte 0x20000000
 
-.global lbl_802E8A70
-lbl_802E8A70:
+.global _LOCAL_WPADControlDpd__FlUlPFll_v_cfg2_0
+_LOCAL_WPADControlDpd__FlUlPFll_v_cfg2_0:
 
 	# ROM: 0x2E4B50
 	.4byte 0xFD05B304
@@ -19156,8 +19156,8 @@ lbl_802E8BA8:
 	# ROM: 0x2E4C88
 	.asciz "Assertion (%s) failed in \"%s\", line %d\n"
 
-.global lbl_802E8BD0
-lbl_802E8BD0:
+.global __ctype_mapC
+__ctype_mapC:
 
 	# ROM: 0x2E4CB0
 	.4byte 0x00040004
@@ -19289,8 +19289,8 @@ lbl_802E8BD0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802E8DD0
-lbl_802E8DD0:
+.global __lower_mapC
+__lower_mapC:
 
 	# ROM: 0x2E4EB0
 	.4byte 0x00010203
@@ -19358,8 +19358,8 @@ lbl_802E8DD0:
 	.4byte 0xF8F9FAFB
 	.4byte 0xFCFDFEFF
 
-.global lbl_802E8ED0
-lbl_802E8ED0:
+.global __upper_mapC
+__upper_mapC:
 
 	# ROM: 0x2E4FB0
 	.4byte 0x00010203
@@ -19507,8 +19507,8 @@ lbl_802E9138:
 	.balign 4
 	.4byte 0
 
-.global lbl_802E9148
-lbl_802E9148:
+.global __wctype_mapC
+__wctype_mapC:
 
 	# ROM: 0x2E5228
 	.4byte 0x00040004
@@ -19640,8 +19640,8 @@ lbl_802E9148:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802E9348
-lbl_802E9348:
+.global __wlower_mapC
+__wlower_mapC:
 
 	# ROM: 0x2E5428
 	.4byte 0x00000001
@@ -19773,8 +19773,8 @@ lbl_802E9348:
 	.4byte 0x00FC00FD
 	.4byte 0x00FE00FF
 
-.global lbl_802E9548
-lbl_802E9548:
+.global __wupper_mapC
+__wupper_mapC:
 
 	# ROM: 0x2E5628
 	.4byte 0x00000001
@@ -20151,8 +20151,8 @@ lbl_802E99D0:
 	.4byte 0x3F90AD3A
 	.4byte 0xE322DA11
 
-.global lbl_802E9A68
-lbl_802E9A68:
+.global __constants
+__constants:
 
 	# ROM: 0x2E5B48
 	.4byte 0
@@ -20171,8 +20171,8 @@ lbl_802E9A80:
 	.asciz "trowerks CW runtime library initializing default heap\n"
 	.balign 4
 
-.global lbl_802E9AF0
-lbl_802E9AF0:
+.global gTRKMemMap
+gTRKMemMap:
 
 	# ROM: 0x2E5BD0
 	.4byte 0
@@ -22199,52 +22199,52 @@ lbl_802EB9B0:
 lbl_802EBA70:
 
 	# ROM: 0x2E7B50
-	.4byte lbl_8032D918
+	.4byte csUSKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB150
 	.4byte 0
-	.4byte lbl_8032D918
+	.4byte csUSKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB214
 	.4byte 0
-	.4byte lbl_8032DDC8
+	.4byte csUKKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB2D8
 	.4byte 0
-	.4byte lbl_8032E020
+	.4byte csFRKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB460
 	.4byte lbl_802EB9B0
-	.4byte lbl_8032E278
+	.4byte csDEKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB460
 	.4byte lbl_802EB8F0
-	.4byte lbl_8032E4D0
+	.4byte csITKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB460
 	.4byte 0
-	.4byte lbl_8032E728
+	.4byte csESKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB39C
 	.4byte lbl_802EB770
-	.4byte lbl_8032E980
+	.4byte csNLKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB524
 	.4byte lbl_802EB830
-	.4byte lbl_8032EBD8
+	.4byte csCNKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB5E8
 	.4byte 0
-	.4byte lbl_8032D918
+	.4byte csUSKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB6AC
@@ -22254,7 +22254,7 @@ lbl_802EBA70:
 lbl_802EBB38:
 
 	# ROM: 0x2E7C18
-	.4byte lbl_8032DB70
+	.4byte csJPKeyboard__Q39textinput8keyboard6pctype
 	.4byte lbl_802EA978
 	.4byte lbl_802EAF28
 	.4byte lbl_802EB150
@@ -22729,64 +22729,64 @@ lbl_802EC458:
 
 	# ROM: 0x2E8538
 	.4byte 0x00040000
-	.4byte lbl_802ED794
-	.4byte lbl_802ED7C0
-	.4byte lbl_802ED7EC
-	.4byte lbl_802ED844
-	.4byte lbl_802ED818
+	.4byte csKeySetHiragana__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetKatakana__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetABCJP__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetabcJP__Q39textinput8keyboard13cellphonetype
 	.4byte 0x00040000
-	.4byte lbl_802ED3F8
-	.4byte lbl_802ED450
-	.4byte lbl_802ED424
-	.4byte lbl_802ED844
+	.4byte csKeySetUSAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUSabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUSABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED47C
-	.4byte lbl_802ED4D4
-	.4byte lbl_802ED4A8
-	.4byte lbl_802ED844
+	.4byte csKeySetUKAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUKabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUKABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED710
-	.4byte lbl_802ED768
-	.4byte lbl_802ED73C
-	.4byte lbl_802ED844
+	.4byte csKeySetFRAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetFRabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetFRABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED500
-	.4byte lbl_802ED558
-	.4byte lbl_802ED52C
-	.4byte lbl_802ED844
+	.4byte csKeySetDEAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetDEabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetDEABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED584
-	.4byte lbl_802ED5DC
-	.4byte lbl_802ED5B0
-	.4byte lbl_802ED844
+	.4byte csKeySetITAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetITabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetITABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED68C
-	.4byte lbl_802ED6E4
-	.4byte lbl_802ED6B8
-	.4byte lbl_802ED844
+	.4byte csKeySetSPAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetSPabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetSPABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED608
-	.4byte lbl_802ED660
-	.4byte lbl_802ED634
-	.4byte lbl_802ED844
+	.4byte csKeySetNLAbc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNLabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNLABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED8C8
-	.4byte lbl_802ED89C
-	.4byte lbl_802ED870
-	.4byte lbl_802ED844
+	.4byte csKeySetCNPinyin__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetCNabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetCNABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00040000
-	.4byte lbl_802ED8F4
-	.4byte lbl_802ED450
-	.4byte lbl_802ED424
-	.4byte lbl_802ED844
+	.4byte csKeySetHangul__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUSabc__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetUSABC__Q39textinput8keyboard13cellphonetype
+	.4byte csKeySetNumber__Q39textinput8keyboard13cellphonetype
 	.4byte 0
 	.4byte 0x00200000
 	.4byte 0x01000100
@@ -23003,8 +23003,8 @@ lbl_802EC830:
 	.4byte 0x00DE00F0
 	.4byte 0x00FE0000
 
-.global lbl_802EC850
-lbl_802EC850:
+.global _LOCAL_findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl_pppURLCheck
+_LOCAL_findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl_pppURLCheck:
 
 	# ROM: 0x2E8930
 	.4byte 0x00680074
@@ -23650,25 +23650,25 @@ lbl_802ED398:
 
 	# ROM: 0x2E9478
 	.4byte 0x03000000
-	.4byte lbl_8032B660
+	.4byte csSignKeyJP__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032B980
+	.4byte csSignKeyUS__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032BCA0
+	.4byte csSignKeyUK__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032C2E0
+	.4byte csSignKeyFR__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032BFC0
+	.4byte csSignKeyDE__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032C600
+	.4byte csSignKeyIT__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032C920
+	.4byte csSignKeySP__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032CC40
+	.4byte csSignKeyNL__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032CF60
+	.4byte csSignKeyCN__Q39textinput8keyboard10signwindow
 	.4byte 0x03000000
-	.4byte lbl_8032D280
+	.4byte csSignKeyKR__Q39textinput8keyboard10signwindow
 
 .global lbl_802ED3E8
 lbl_802ED3E8:
@@ -23679,8 +23679,8 @@ lbl_802ED3E8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802ED3F8
-lbl_802ED3F8:
+.global csKeySetUSAbc__Q39textinput8keyboard13cellphonetype
+csKeySetUSAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E94D8
 	.4byte lbl_80327BD0
@@ -23695,8 +23695,8 @@ lbl_802ED3F8:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED424
-lbl_802ED424:
+.global csKeySetUSABC__Q39textinput8keyboard13cellphonetype
+csKeySetUSABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9504
 	.4byte lbl_80327BD0
@@ -23711,8 +23711,8 @@ lbl_802ED424:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED450
-lbl_802ED450:
+.global csKeySetUSabc__Q39textinput8keyboard13cellphonetype
+csKeySetUSabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9530
 	.4byte lbl_80327E40
@@ -23727,8 +23727,8 @@ lbl_802ED450:
 	.4byte 0x0000000C
 	.4byte 0x00020000
 
-.global lbl_802ED47C
-lbl_802ED47C:
+.global csKeySetUKAbc__Q39textinput8keyboard13cellphonetype
+csKeySetUKAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E955C
 	.4byte lbl_80328800
@@ -23743,8 +23743,8 @@ lbl_802ED47C:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED4A8
-lbl_802ED4A8:
+.global csKeySetUKABC__Q39textinput8keyboard13cellphonetype
+csKeySetUKABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9588
 	.4byte lbl_80328800
@@ -23759,8 +23759,8 @@ lbl_802ED4A8:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED4D4
-lbl_802ED4D4:
+.global csKeySetUKabc__Q39textinput8keyboard13cellphonetype
+csKeySetUKabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E95B4
 	.4byte lbl_80328A70
@@ -23775,8 +23775,8 @@ lbl_802ED4D4:
 	.4byte 0x0000000C
 	.4byte 0x00020000
 
-.global lbl_802ED500
-lbl_802ED500:
+.global csKeySetDEAbc__Q39textinput8keyboard13cellphonetype
+csKeySetDEAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E95E0
 	.4byte lbl_80328CE0
@@ -23791,8 +23791,8 @@ lbl_802ED500:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED52C
-lbl_802ED52C:
+.global csKeySetDEABC__Q39textinput8keyboard13cellphonetype
+csKeySetDEABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E960C
 	.4byte lbl_80328CE0
@@ -23807,8 +23807,8 @@ lbl_802ED52C:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED558
-lbl_802ED558:
+.global csKeySetDEabc__Q39textinput8keyboard13cellphonetype
+csKeySetDEabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9638
 	.4byte lbl_80328F50
@@ -23823,8 +23823,8 @@ lbl_802ED558:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED584
-lbl_802ED584:
+.global csKeySetITAbc__Q39textinput8keyboard13cellphonetype
+csKeySetITAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9664
 	.4byte lbl_803291C0
@@ -23839,8 +23839,8 @@ lbl_802ED584:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED5B0
-lbl_802ED5B0:
+.global csKeySetITABC__Q39textinput8keyboard13cellphonetype
+csKeySetITABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9690
 	.4byte lbl_803291C0
@@ -23855,8 +23855,8 @@ lbl_802ED5B0:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED5DC
-lbl_802ED5DC:
+.global csKeySetITabc__Q39textinput8keyboard13cellphonetype
+csKeySetITabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E96BC
 	.4byte lbl_80329430
@@ -23871,8 +23871,8 @@ lbl_802ED5DC:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED608
-lbl_802ED608:
+.global csKeySetNLAbc__Q39textinput8keyboard13cellphonetype
+csKeySetNLAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E96E8
 	.4byte lbl_803296A0
@@ -23887,8 +23887,8 @@ lbl_802ED608:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED634
-lbl_802ED634:
+.global csKeySetNLABC__Q39textinput8keyboard13cellphonetype
+csKeySetNLABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9714
 	.4byte lbl_803296A0
@@ -23903,8 +23903,8 @@ lbl_802ED634:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED660
-lbl_802ED660:
+.global csKeySetNLabc__Q39textinput8keyboard13cellphonetype
+csKeySetNLabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9740
 	.4byte lbl_80329910
@@ -23919,8 +23919,8 @@ lbl_802ED660:
 	.4byte 0x0000000C
 	.4byte 0x00020000
 
-.global lbl_802ED68C
-lbl_802ED68C:
+.global csKeySetSPAbc__Q39textinput8keyboard13cellphonetype
+csKeySetSPAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E976C
 	.4byte lbl_80329B80
@@ -23935,8 +23935,8 @@ lbl_802ED68C:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED6B8
-lbl_802ED6B8:
+.global csKeySetSPABC__Q39textinput8keyboard13cellphonetype
+csKeySetSPABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9798
 	.4byte lbl_80329B80
@@ -23951,8 +23951,8 @@ lbl_802ED6B8:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED6E4
-lbl_802ED6E4:
+.global csKeySetSPabc__Q39textinput8keyboard13cellphonetype
+csKeySetSPabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E97C4
 	.4byte lbl_80329DF0
@@ -23967,8 +23967,8 @@ lbl_802ED6E4:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED710
-lbl_802ED710:
+.global csKeySetFRAbc__Q39textinput8keyboard13cellphonetype
+csKeySetFRAbc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E97F0
 	.4byte lbl_8032A060
@@ -23983,8 +23983,8 @@ lbl_802ED710:
 	.4byte 0x0000000C
 	.4byte 0x00010000
 
-.global lbl_802ED73C
-lbl_802ED73C:
+.global csKeySetFRABC__Q39textinput8keyboard13cellphonetype
+csKeySetFRABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E981C
 	.4byte lbl_8032A060
@@ -23999,8 +23999,8 @@ lbl_802ED73C:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED768
-lbl_802ED768:
+.global csKeySetFRabc__Q39textinput8keyboard13cellphonetype
+csKeySetFRabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9848
 	.4byte lbl_8032A2D0
@@ -24015,8 +24015,8 @@ lbl_802ED768:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED794
-lbl_802ED794:
+.global csKeySetHiragana__Q39textinput8keyboard13cellphonetype
+csKeySetHiragana__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9874
 	.4byte lbl_8032A540
@@ -24031,8 +24031,8 @@ lbl_802ED794:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED7C0
-lbl_802ED7C0:
+.global csKeySetKatakana__Q39textinput8keyboard13cellphonetype
+csKeySetKatakana__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E98A0
 	.4byte lbl_8032A7B0
@@ -24047,8 +24047,8 @@ lbl_802ED7C0:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED7EC
-lbl_802ED7EC:
+.global csKeySetABCJP__Q39textinput8keyboard13cellphonetype
+csKeySetABCJP__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E98CC
 	.4byte lbl_8032AA20
@@ -24063,8 +24063,8 @@ lbl_802ED7EC:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED818
-lbl_802ED818:
+.global csKeySetabcJP__Q39textinput8keyboard13cellphonetype
+csKeySetabcJP__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E98F8
 	.4byte lbl_8032AC90
@@ -24079,8 +24079,8 @@ lbl_802ED818:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED844
-lbl_802ED844:
+.global csKeySetNumber__Q39textinput8keyboard13cellphonetype
+csKeySetNumber__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9924
 	.4byte lbl_8032AF00
@@ -24095,8 +24095,8 @@ lbl_802ED844:
 	.4byte 0x0000000C
 	.4byte 0x00030000
 
-.global lbl_802ED870
-lbl_802ED870:
+.global csKeySetCNABC__Q39textinput8keyboard13cellphonetype
+csKeySetCNABC__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E9950
 	.4byte lbl_803280B0
@@ -24111,8 +24111,8 @@ lbl_802ED870:
 	.4byte 0x0000000C
 	.4byte 0
 
-.global lbl_802ED89C
-lbl_802ED89C:
+.global csKeySetCNabc__Q39textinput8keyboard13cellphonetype
+csKeySetCNabc__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E997C
 	.4byte lbl_80328320
@@ -24127,8 +24127,8 @@ lbl_802ED89C:
 	.4byte 0x0000000C
 	.4byte 0x00020000
 
-.global lbl_802ED8C8
-lbl_802ED8C8:
+.global csKeySetCNPinyin__Q39textinput8keyboard13cellphonetype
+csKeySetCNPinyin__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E99A8
 	.4byte lbl_80328590
@@ -24143,8 +24143,8 @@ lbl_802ED8C8:
 	.4byte 0x0000000C
 	.4byte 0x00040000
 
-.global lbl_802ED8F4
-lbl_802ED8F4:
+.global csKeySetHangul__Q39textinput8keyboard13cellphonetype
+csKeySetHangul__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x2E99D4
 	.4byte lbl_8032B170
@@ -26725,8 +26725,8 @@ lbl_802F0B78:
 	.asciz "onstructor"
 	.balign 4
 
-.global lbl_802F0D50
-lbl_802F0D50:
+.global NHTTPi_strMultipartBound
+NHTTPi_strMultipartBound:
 
 	# ROM: 0x2ECE30
 	.asciz "--t9Sf4yfjf1RtvDu3AA"
@@ -31039,8 +31039,8 @@ lbl_802F0E78:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802F50F0
-lbl_802F50F0:
+.global _LOCAL_DrawDirectional__Q34nw4r2ef23DrawDirectionalStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_p
+_LOCAL_DrawDirectional__Q34nw4r2ef23DrawDirectionalStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_p:
 
 	# ROM: 0x2F11D0
 	.4byte 0xBF800000
@@ -31056,8 +31056,8 @@ lbl_802F50F0:
 	.4byte 0xBF800000
 	.4byte 0
 
-.global lbl_802F5120
-lbl_802F5120:
+.global _LOCAL_DrawDirectional__Q34nw4r2ef23DrawDirectionalStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_px_0
+_LOCAL_DrawDirectional__Q34nw4r2ef23DrawDirectionalStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_px_0:
 
 	# ROM: 0x2F1200
 	.4byte 0
@@ -31073,8 +31073,8 @@ lbl_802F5120:
 	.4byte 0xBF800000
 	.4byte 0xBF800000
 
-.global lbl_802F5150
-lbl_802F5150:
+.global _LOCAL_Draw__Q34nw4r2ef16DrawFreeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_p
+_LOCAL_Draw__Q34nw4r2ef16DrawFreeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_p:
 
 	# ROM: 0x2F1230
 	.4byte 0xBF800000
@@ -31090,8 +31090,8 @@ lbl_802F5150:
 	.4byte 0xBF800000
 	.4byte 0
 
-.global lbl_802F5180
-lbl_802F5180:
+.global _LOCAL_Draw__Q34nw4r2ef16DrawFreeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_px_0
+_LOCAL_Draw__Q34nw4r2ef16DrawFreeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_px_0:
 
 	# ROM: 0x2F1260
 	.4byte 0
@@ -31107,8 +31107,8 @@ lbl_802F5180:
 	.4byte 0xBF800000
 	.4byte 0xBF800000
 
-.global lbl_802F51B0
-lbl_802F51B0:
+.global _LOCAL_GXGetTevOrder__Q34nw4r3g3d6ResTevCF13_GXTevStageIDP13_GXTexCoordIDP11_GXTexMapIDP12_GXChannelID_r2c
+_LOCAL_GXGetTevOrder__Q34nw4r3g3d6ResTevCF13_GXTevStageIDP13_GXTexCoordIDP11_GXTexMapIDP12_GXChannelID_r2c:
 
 	# ROM: 0x2F1290
 	.4byte 0x00000004
@@ -31120,8 +31120,8 @@ lbl_802F51B0:
 	.4byte 0x00000008
 	.4byte 0x00000006
 
-.global lbl_802F51D0
-lbl_802F51D0:
+.global _LOCAL_CallDisplayList__Q34nw4r3g3d6ResTevCFb_dlsize
+_LOCAL_CallDisplayList__Q34nw4r3g3d6ResTevCFb_dlsize:
 
 	# ROM: 0x2F12B0
 	.4byte 0x000000A0
@@ -31154,16 +31154,16 @@ lbl_802F5210:
 	.4byte lbl_80263B90
 	.4byte lbl_80263D80
 
-.global lbl_802F5230
-lbl_802F5230:
+.global TYPE_NAME__Q34nw4r3g3d9AnmObjVis
+TYPE_NAME__Q34nw4r3g3d9AnmObjVis:
 
 	# ROM: 0x2F1310
 	.4byte 0x0000000A
 	.asciz "AnmObjVis"
 	.balign 4
 
-.global lbl_802F5240
-lbl_802F5240:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjVisRes
+TYPE_NAME__Q34nw4r3g3d12AnmObjVisRes:
 
 	# ROM: 0x2F1320
 	.4byte 0x0000000D
@@ -31171,8 +31171,8 @@ lbl_802F5240:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5258
-lbl_802F5258:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjMatClr
+TYPE_NAME__Q34nw4r3g3d12AnmObjMatClr:
 
 	# ROM: 0x2F1338
 	.4byte 0x0000000D
@@ -31180,16 +31180,16 @@ lbl_802F5258:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5270
-lbl_802F5270:
+.global TYPE_NAME__Q34nw4r3g3d15AnmObjMatClrRes
+TYPE_NAME__Q34nw4r3g3d15AnmObjMatClrRes:
 
 	# ROM: 0x2F1350
 	.4byte 0x00000010
 	.asciz "AnmObjMatClrRes"
 	.4byte 0
 
-.global lbl_802F5288
-lbl_802F5288:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjTexPat
+TYPE_NAME__Q34nw4r3g3d12AnmObjTexPat:
 
 	# ROM: 0x2F1368
 	.4byte 0x0000000D
@@ -31197,16 +31197,16 @@ lbl_802F5288:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F52A0
-lbl_802F52A0:
+.global TYPE_NAME__Q34nw4r3g3d15AnmObjTexPatRes
+TYPE_NAME__Q34nw4r3g3d15AnmObjTexPatRes:
 
 	# ROM: 0x2F1380
 	.4byte 0x00000010
 	.asciz "AnmObjTexPatRes"
 	.4byte 0
 
-.global lbl_802F52B8
-lbl_802F52B8:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjTexSrt
+TYPE_NAME__Q34nw4r3g3d12AnmObjTexSrt:
 
 	# ROM: 0x2F1398
 	.4byte 0x0000000D
@@ -31214,40 +31214,40 @@ lbl_802F52B8:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F52D0
-lbl_802F52D0:
+.global TYPE_NAME__Q34nw4r3g3d15AnmObjTexSrtRes
+TYPE_NAME__Q34nw4r3g3d15AnmObjTexSrtRes:
 
 	# ROM: 0x2F13B0
 	.4byte 0x00000010
 	.asciz "AnmObjTexSrtRes"
 	.4byte 0
 
-.global lbl_802F52E8
-lbl_802F52E8:
+.global TYPE_NAME__Q34nw4r3g3d9AnmObjChr
+TYPE_NAME__Q34nw4r3g3d9AnmObjChr:
 
 	# ROM: 0x2F13C8
 	.4byte 0x0000000A
 	.asciz "AnmObjChr"
 	.balign 4
 
-.global lbl_802F52F8
-lbl_802F52F8:
+.global TYPE_NAME__Q34nw4r3g3d13AnmObjChrNode
+TYPE_NAME__Q34nw4r3g3d13AnmObjChrNode:
 
 	# ROM: 0x2F13D8
 	.4byte 0x0000000E
 	.asciz "AnmObjChrNode"
 	.balign 4
 
-.global lbl_802F530C
-lbl_802F530C:
+.global TYPE_NAME__Q34nw4r3g3d14AnmObjChrBlend
+TYPE_NAME__Q34nw4r3g3d14AnmObjChrBlend:
 
 	# ROM: 0x2F13EC
 	.4byte 0x0000000F
 	.asciz "AnmObjChrBlend"
 	.balign 4
 
-.global lbl_802F5320
-lbl_802F5320:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjChrRes
+TYPE_NAME__Q34nw4r3g3d12AnmObjChrRes:
 
 	# ROM: 0x2F1400
 	.4byte 0x0000000D
@@ -31255,32 +31255,32 @@ lbl_802F5320:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5338
-lbl_802F5338:
+.global TYPE_NAME__Q34nw4r3g3d9AnmObjShp
+TYPE_NAME__Q34nw4r3g3d9AnmObjShp:
 
 	# ROM: 0x2F1418
 	.4byte 0x0000000A
 	.asciz "AnmObjShp"
 	.balign 4
 
-.global lbl_802F5348
-lbl_802F5348:
+.global TYPE_NAME__Q34nw4r3g3d13AnmObjShpNode
+TYPE_NAME__Q34nw4r3g3d13AnmObjShpNode:
 
 	# ROM: 0x2F1428
 	.4byte 0x0000000E
 	.asciz "AnmObjShpNode"
 	.balign 4
 
-.global lbl_802F535C
-lbl_802F535C:
+.global TYPE_NAME__Q34nw4r3g3d14AnmObjShpBlend
+TYPE_NAME__Q34nw4r3g3d14AnmObjShpBlend:
 
 	# ROM: 0x2F143C
 	.4byte 0x0000000F
 	.asciz "AnmObjShpBlend"
 	.balign 4
 
-.global lbl_802F5370
-lbl_802F5370:
+.global TYPE_NAME__Q34nw4r3g3d12AnmObjShpRes
+TYPE_NAME__Q34nw4r3g3d12AnmObjShpRes:
 
 	# ROM: 0x2F1450
 	.4byte 0x0000000D
@@ -31288,8 +31288,8 @@ lbl_802F5370:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5388
-lbl_802F5388:
+.global TYPE_NAME__Q34nw4r3g3d6AnmScn
+TYPE_NAME__Q34nw4r3g3d6AnmScn:
 
 	# ROM: 0x2F1468
 	.4byte 0x00000007
@@ -31297,16 +31297,16 @@ lbl_802F5388:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5398
-lbl_802F5398:
+.global TYPE_NAME__Q34nw4r3g3d9AnmScnRes
+TYPE_NAME__Q34nw4r3g3d9AnmScnRes:
 
 	# ROM: 0x2F1478
 	.4byte 0x0000000A
 	.asciz "AnmScnRes"
 	.balign 4
 
-.global lbl_802F53A8
-lbl_802F53A8:
+.global TYPE_NAME__Q34nw4r3g3d6G3dObj
+TYPE_NAME__Q34nw4r3g3d6G3dObj:
 
 	# ROM: 0x2F1488
 	.4byte 0x00000007
@@ -31314,8 +31314,8 @@ lbl_802F53A8:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F53B8
-lbl_802F53B8:
+.global TYPE_NAME__Q34nw4r3g3d6AnmObj
+TYPE_NAME__Q34nw4r3g3d6AnmObj:
 
 	# ROM: 0x2F1498
 	.4byte 0x00000007
@@ -31323,8 +31323,8 @@ lbl_802F53B8:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F53C8
-lbl_802F53C8:
+.global _LOCAL_EnvironmentMapping__Q44nw4r3g3d6detail19ScnDependentMtxFuncFPQ34nw4r4math5MTX34ScSc_envMtx
+_LOCAL_EnvironmentMapping__Q44nw4r3g3d6detail19ScnDependentMtxFuncFPQ34nw4r4math5MTX34ScSc_envMtx:
 
 	# ROM: 0x2F14A8
 	.4byte 0x3F000000
@@ -31362,8 +31362,8 @@ lbl_802F5408:
 	.4byte lbl_802730D0
 	.4byte 0
 
-.global lbl_802F5428
-lbl_802F5428:
+.global _LOCAL_CalcTexMtx_Maya__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable
+_LOCAL_CalcTexMtx_Maya__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable:
 
 	# ROM: 0x2F1508
 	.4byte lbl_80278370
@@ -31374,8 +31374,8 @@ lbl_802F5428:
 	.4byte lbl_802780D0
 	.4byte lbl_80278090
 
-.global lbl_802F5444
-lbl_802F5444:
+.global _LOCAL_CalcTexMtx_Maya__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0
+_LOCAL_CalcTexMtx_Maya__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0:
 
 	# ROM: 0x2F1524
 	.4byte lbl_802789B0
@@ -31386,8 +31386,8 @@ lbl_802F5444:
 	.4byte lbl_802784D0
 	.4byte lbl_80278450
 
-.global lbl_802F5460
-lbl_802F5460:
+.global _LOCAL_CalcTexMtx_Xsi__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable
+_LOCAL_CalcTexMtx_Xsi__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable:
 
 	# ROM: 0x2F1540
 	.4byte lbl_80279070
@@ -31398,8 +31398,8 @@ lbl_802F5460:
 	.4byte lbl_80278DE0
 	.4byte lbl_80278DA0
 
-.global lbl_802F547C
-lbl_802F547C:
+.global _LOCAL_CalcTexMtx_Xsi__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0
+_LOCAL_CalcTexMtx_Xsi__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0:
 
 	# ROM: 0x2F155C
 	.4byte lbl_80279600
@@ -31410,8 +31410,8 @@ lbl_802F547C:
 	.4byte lbl_802791C0
 	.4byte lbl_80279140
 
-.global lbl_802F5498
-lbl_802F5498:
+.global _LOCAL_CalcTexMtx_3dsmax__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable
+_LOCAL_CalcTexMtx_3dsmax__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable:
 
 	# ROM: 0x2F1578
 	.4byte lbl_80279CF0
@@ -31422,8 +31422,8 @@ lbl_802F5498:
 	.4byte lbl_80279A10
 	.4byte lbl_802799C0
 
-.global lbl_802F54B4
-lbl_802F54B4:
+.global _LOCAL_CalcTexMtx_3dsmax__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0
+_LOCAL_CalcTexMtx_3dsmax__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag_funcTable_0:
 
 	# ROM: 0x2F1594
 	.4byte lbl_8027A2D0
@@ -31434,8 +31434,8 @@ lbl_802F54B4:
 	.4byte lbl_80279E40
 	.4byte lbl_80279DC0
 
-.global lbl_802F54D0
-lbl_802F54D0:
+.global TYPE_NAME__Q34nw4r3g3d6ScnObj
+TYPE_NAME__Q34nw4r3g3d6ScnObj:
 
 	# ROM: 0x2F15B0
 	.4byte 0x00000007
@@ -31443,32 +31443,32 @@ lbl_802F54D0:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F54E0
-lbl_802F54E0:
+.global TYPE_NAME__Q34nw4r3g3d7ScnLeaf
+TYPE_NAME__Q34nw4r3g3d7ScnLeaf:
 
 	# ROM: 0x2F15C0
 	.4byte 0x00000008
 	.asciz "ScnLeaf"
 	.4byte 0
 
-.global lbl_802F54F0
-lbl_802F54F0:
+.global TYPE_NAME__Q34nw4r3g3d8ScnGroup
+TYPE_NAME__Q34nw4r3g3d8ScnGroup:
 
 	# ROM: 0x2F15D0
 	.4byte 0x00000009
 	.asciz "ScnGroup"
 	.balign 4
 
-.global lbl_802F5500
-lbl_802F5500:
+.global TYPE_NAME__Q34nw4r3g3d7ScnRoot
+TYPE_NAME__Q34nw4r3g3d7ScnRoot:
 
 	# ROM: 0x2F15E0
 	.4byte 0x00000008
 	.asciz "ScnRoot"
 	.4byte 0
 
-.global lbl_802F5510
-lbl_802F5510:
+.global TYPE_NAME__Q34nw4r3g3d12ScnMdlSimple
+TYPE_NAME__Q34nw4r3g3d12ScnMdlSimple:
 
 	# ROM: 0x2F15F0
 	.4byte 0x0000000D
@@ -31476,8 +31476,8 @@ lbl_802F5510:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5528
-lbl_802F5528:
+.global TYPE_NAME__Q34nw4r3g3d6ScnMdl
+TYPE_NAME__Q34nw4r3g3d6ScnMdl:
 
 	# ROM: 0x2F1608
 	.4byte 0x00000007
@@ -31485,8 +31485,8 @@ lbl_802F5528:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5538
-lbl_802F5538:
+.global TYPE_NAME__Q34nw4r3g3d12ScnMdlExpand
+TYPE_NAME__Q34nw4r3g3d12ScnMdlExpand:
 
 	# ROM: 0x2F1618
 	.4byte 0x0000000D
@@ -31494,16 +31494,16 @@ lbl_802F5538:
 	.balign 4
 	.4byte 0
 
-.global lbl_802F5550
-lbl_802F5550:
+.global TYPE_NAME__Q34nw4r3g3d7ScnProc
+TYPE_NAME__Q34nw4r3g3d7ScnProc:
 
 	# ROM: 0x2F1630
 	.4byte 0x00000008
 	.asciz "ScnProc"
 	.4byte 0
 
-.global lbl_802F5560
-lbl_802F5560:
+.global gSinCosTbl__Q34nw4r4math6detail
+gSinCosTbl__Q34nw4r4math6detail:
 
 	# ROM: 0x2F1640
 	.4byte 0
@@ -32535,8 +32535,8 @@ lbl_802F5560:
 	.4byte 0x3CC90A35
 	.4byte 0xB99DCF89
 
-.global lbl_802F6570
-lbl_802F6570:
+.global coefTable__Q44nw4r3snd6detail15BiquadFilterLpf
+coefTable__Q44nw4r3snd6detail15BiquadFilterLpf:
 
 	# ROM: 0x2F2650
 	.4byte 0x3AB37566
@@ -32820,8 +32820,8 @@ lbl_802F6570:
 	.4byte 0x00070004
 	.4byte 0x7DB0C241
 
-.global lbl_802F69D0
-lbl_802F69D0:
+.global coefTable__Q44nw4r3snd6detail15BiquadFilterHpf
+coefTable__Q44nw4r3snd6detail15BiquadFilterHpf:
 
 	# ROM: 0x2F2AB0
 	.4byte 0x3BB58895
@@ -33068,8 +33068,8 @@ lbl_802F69D0:
 	.4byte 0x167B0DC1
 	.4byte 0xEE800000
 
-.global lbl_802F6D9C
-lbl_802F6D9C:
+.global coefTable__Q44nw4r3snd6detail18BiquadFilterBpf512
+coefTable__Q44nw4r3snd6detail18BiquadFilterBpf512:
 
 	# ROM: 0x2F2E7C
 	.4byte 0x2EFA0000
@@ -33378,8 +33378,8 @@ lbl_802F6D9C:
 	.4byte 0x0000FDBC
 	.4byte 0x7ADFC488
 
-.global lbl_802F7260
-lbl_802F7260:
+.global coefTable__Q44nw4r3snd6detail19BiquadFilterBpf1024
+coefTable__Q44nw4r3snd6detail19BiquadFilterBpf1024:
 
 	# ROM: 0x2F3340
 	.4byte 0x2F040000
@@ -33616,8 +33616,8 @@ lbl_802F7260:
 	.4byte 0xFC7676C8
 	.4byte 0xC7140000
 
-.global lbl_802F7604
-lbl_802F7604:
+.global coefTable__Q44nw4r3snd6detail19BiquadFilterBpf2048
+coefTable__Q44nw4r3snd6detail19BiquadFilterBpf2048:
 
 	# ROM: 0x2F36E4
 	.4byte 0x3F420000
@@ -33854,8 +33854,8 @@ lbl_802F7604:
 	.4byte 0xF94A6A89
 	.4byte 0xCD6C0000
 
-.global lbl_802F79A8
-lbl_802F79A8:
+.global DecibelSquareTable__Q44nw4r3snd6detail12EnvGenerator
+DecibelSquareTable__Q44nw4r3snd6detail12EnvGenerator:
 
 	# ROM: 0x2F3A88
 	.4byte 0xFD2DFD2E
@@ -33923,8 +33923,8 @@ lbl_802F79A8:
 	.4byte 0xFFFCFFFD
 	.4byte 0xFFFF0000
 
-.global lbl_802F7AA8
-lbl_802F7AA8:
+.global _LOCAL_SetAttack__Q44nw4r3snd6detail12EnvGeneratorFi_attackTable
+_LOCAL_SetAttack__Q44nw4r3snd6detail12EnvGeneratorFi_attackTable:
 
 	# ROM: 0x2F3B88
 	.4byte 0x3F7FCCB8
@@ -34056,8 +34056,8 @@ lbl_802F7AA8:
 	.4byte 0x3EA8E5A3
 	.4byte 0
 
-.global lbl_802F7CA8
-lbl_802F7CA8:
+.global _LOCAL_GetSinIdx__Q44nw4r3snd6detail3LfoFi_sinTable
+_LOCAL_GetSinIdx__Q44nw4r3snd6detail3LfoFi_sinTable:
 
 	# ROM: 0x2F3D88
 	.4byte 0x00060C13
@@ -34082,7 +34082,7 @@ lbl_802F7CD0:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A3740
+	.4byte ChannelCallbackFunc__Q44nw4r3snd6detail8SeqTrackFPQ44nw4r3snd6detail7ChannelQ54nw4r3snd6detail7Channel21ChannelCallbackStatusUl
 	.4byte 0
 	.4byte 0
 
@@ -34097,8 +34097,8 @@ lbl_802F7CF8:
 	.4byte 0x00000028
 	.4byte 0
 
-.global lbl_802F7D10
-lbl_802F7D10:
+.global NoteTable__Q44nw4r3snd6detail4Util
+NoteTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F3DF0
 	.4byte 0x3F800000
@@ -34114,8 +34114,8 @@ lbl_802F7D10:
 	.4byte 0x3FE411F0
 	.4byte 0x3FF1A1BF
 
-.global lbl_802F7D40
-lbl_802F7D40:
+.global PitchTable__Q44nw4r3snd6detail4Util
+PitchTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F3E20
 	.4byte 0x3F800000
@@ -34375,8 +34375,8 @@ lbl_802F7D40:
 	.4byte 0x3F878CD3
 	.4byte 0x3F8794A8
 
-.global lbl_802F8140
-lbl_802F8140:
+.global Decibel2RatioTable__Q44nw4r3snd6detail4Util
+Decibel2RatioTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F4220
 	.4byte 0
@@ -35345,8 +35345,8 @@ lbl_802F8140:
 	.4byte 0x3FFC7859
 	.4byte 0x3FFF64C1
 
-.global lbl_802F9054
-lbl_802F9054:
+.global Pan2RatioTableSqrt__Q44nw4r3snd6detail4Util
+Pan2RatioTableSqrt__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F5134
 	.4byte 0x3F800000
@@ -35607,8 +35607,8 @@ lbl_802F9054:
 	.4byte 0x3D800000
 	.4byte 0
 
-.global lbl_802F9458
-lbl_802F9458:
+.global Pan2RatioTableSinCos__Q44nw4r3snd6detail4Util
+Pan2RatioTableSinCos__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F5538
 	.4byte 0x3F800000
@@ -35869,8 +35869,8 @@ lbl_802F9458:
 	.4byte 0x3BC90F89
 	.4byte 0
 
-.global lbl_802F985C
-lbl_802F985C:
+.global Pan2RatioTableLinear__Q44nw4r3snd6detail4Util
+Pan2RatioTableLinear__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F593C
 	.4byte 0x3F800000
@@ -36131,8 +36131,8 @@ lbl_802F985C:
 	.4byte 0x3B800000
 	.4byte 0
 
-.global lbl_802F9C60
-lbl_802F9C60:
+.global RemoteFilterCoefTable__Q44nw4r3snd6detail4Util
+RemoteFilterCoefTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F5D40
 	.4byte 0x387C70F7
@@ -36456,8 +36456,8 @@ lbl_802F9C60:
 	.4byte 0x00010001
 	.4byte 0x7F18C0E6
 
-.global lbl_802FA160
-lbl_802FA160:
+.global CalcLpfFreqTable__Q44nw4r3snd6detail4Util
+CalcLpfFreqTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x2F6240
 	.4byte 0x00500064
@@ -36550,8 +36550,8 @@ lbl_802FA1E8:
 	.4byte 0x000006B2
 	.4byte 0x00000D23
 
-.global lbl_802FA2E8
-lbl_802FA2E8:
+.global TMCC_JPEGRomdata002
+TMCC_JPEGRomdata002:
 
 	# ROM: 0x2F63C8
 	.4byte 0x04010100
@@ -36561,8 +36561,8 @@ lbl_802FA2E8:
 	.4byte 0x01010100
 	.4byte 0x01000000
 
-.global lbl_802FA300
-lbl_802FA300:
+.global TMCC_JPEGRomdata003
+TMCC_JPEGRomdata003:
 
 	# ROM: 0x2F63E0
 	.4byte 0x01010100
@@ -36572,8 +36572,8 @@ lbl_802FA300:
 	.4byte 0x01010100
 	.4byte 0x01000000
 
-.global lbl_802FA318
-lbl_802FA318:
+.global TMCC_JPEGRomdata004
+TMCC_JPEGRomdata004:
 
 	# ROM: 0x2F63F8
 	.4byte 0x00010810
@@ -36593,8 +36593,8 @@ lbl_802FA318:
 	.4byte 0x353C3D36
 	.4byte 0x2F373E3F
 
-.global lbl_802FA358
-lbl_802FA358:
+.global TMCC_JPEGRomdata005
+TMCC_JPEGRomdata005:
 
 	# ROM: 0x2F6438
 	.4byte 0x00000011

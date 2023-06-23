@@ -16,8 +16,10 @@ TARGET := cp_us
 
 BUILD_DIR := build/$(TARGET)
 
-SRC_DIRS := src 
-
+SRC_DIRS := src \
+			src/RVL/dvd src/runtime_libs/debugger/embedded/MetroTRK/Os/dolphin \
+			src/nw4r/ut \
+			
 ASM_DIRS := asm
 
 # Inputs
@@ -51,6 +53,7 @@ LD      := $(WINE) tools/mwldeppc.exe
 ELF2DOL := tools/elf2dol
 SHA1SUM := sha1sum
 PYTHON  := python3
+PPROC    := tools/postprocess.py
 
 #POSTPROC := tools/postprocess.py
 
@@ -58,11 +61,11 @@ PYTHON  := python3
 INCLUDES := -i . -I- -i include
 
 ASFLAGS := -mgekko -I include
-LDFLAGS := -map $(MAP) -fp hard -nodefaults
+LDFLAGS := -v -map $(MAP) -fp hard -nodefaults
 CFLAGS  := -Cpp_exceptions off -proc gekko -fp hard -O4,s -nodefaults -msgstyle gcc $(INCLUDES)
 
 # for postprocess.py
-PROCFLAGS := -fprologue-fixup=old_stack
+PPROCFLAGS := -fsymbol-fixup
 
 # elf2dol needs to know these in order to calculate sbss correctly.
 BSS_PDHR := 8
@@ -100,10 +103,11 @@ tools:
 $(ELF): $(O_FILES) $(LDSCRIPT)
 	$(LD) $(LDFLAGS) -o $@ -lcf $(LDSCRIPT) $(O_FILES)
 # The Metrowerks linker doesn't generate physical addresses in the ELF program headers. This fixes it somehow.
-	$(OBJCOPY) $@ $@
+	# $(OBJCOPY) $@ $@
 
 $(BUILD_DIR)/%.o: %.s
 	$(AS) $(ASFLAGS) -o $@ $<
+	$(PPROC) $(PPROCFLAGS) $@
 
 $(BUILD_DIR)/%.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $<

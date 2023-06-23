@@ -36,15 +36,15 @@ lbl_8041DFB8:
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-.global lbl_8041DFC0
-lbl_8041DFC0:
+.global DIV_SIZE__Q34File5Async6Access
+DIV_SIZE__Q34File5Async6Access:
 
 	# ROM: 0x332DE0
 	.4byte 0x0000F000
 	.4byte 0
 
-.global lbl_8041DFC8
-lbl_8041DFC8:
+.global _LOCAL_Read__Q34File3Dvd4InfoFPvUllQ24File8Priority_DIV_SIZE_0
+_LOCAL_Read__Q34File3Dvd4InfoFPvUllQ24File8Priority_DIV_SIZE_0:
 
 	# ROM: 0x332DE8
 	.4byte 0x0000F000
@@ -92,15 +92,15 @@ lbl_8041DFE8:
 lbl_8041DFF0:
 
 	# ROM: 0x332E10
-	.4byte lbl_8000D318
-	.4byte lbl_8000D398
+	.4byte Alloc__Q26Memory3WiiFP12MEMAllocatorUl
+	.4byte Free__Q26Memory3WiiFP12MEMAllocatorPv
 
 .global lbl_8041DFF8
 lbl_8041DFF8:
 
 	# ROM: 0x332E18
-	.4byte lbl_8000D34C
-	.4byte lbl_8000D398
+	.4byte AllocBack__Q26Memory3WiiFP12MEMAllocatorUl
+	.4byte Free__Q26Memory3WiiFP12MEMAllocatorPv
 
 .global lbl_8041E000
 lbl_8041E000:
@@ -109,88 +109,88 @@ lbl_8041E000:
 	.4byte 0x3F800000
 	.4byte 0
 
-.global lbl_8041E008
-lbl_8041E008:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_one_7
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_one_7:
 
 	# ROM: 0x332E28
 	.4byte 0x3F800000
 
-.global lbl_8041E00C
-lbl_8041E00C:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_PIO2_10
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_PIO2_10:
 
 	# ROM: 0x332E2C
 	.4byte 0x3FC90FDB
 
-.global lbl_8041E010
-lbl_8041E010:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_3PIO2_11
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_3PIO2_11:
 
 	# ROM: 0x332E30
 	.4byte 0x4096CBE4
 
-.global lbl_8041E014
-lbl_8041E014:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_PI_9
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair___local_PI_9:
 
 	# ROM: 0x332E34
 	.4byte 0x40490FDB
 
-.global lbl_8041E018
-lbl_8041E018:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_neg_one_8
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_neg_one_8:
 
 	# ROM: 0x332E38
 	.4byte 0xBF800000
 	.4byte 0
 
-.global lbl_8041E020
-lbl_8041E020:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const4_6
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const4_6:
 
 	# ROM: 0x332E40
 	.4byte 0x3E2AAAAB
 	.4byte 0x3F000000
 
-.global lbl_8041E028
-lbl_8041E028:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const3_5
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const3_5:
 
 	# ROM: 0x332E48
 	.4byte 0x3C088887
 	.4byte 0x3D2AAAA4
 
-.global lbl_8041E030
-lbl_8041E030:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const2_4
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const2_4:
 
 	# ROM: 0x332E50
 	.4byte 0x39500C03
 	.4byte 0x3AB609BA
 
-.global lbl_8041E038
-lbl_8041E038:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const1_3
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_const1_3:
 
 	# ROM: 0x332E58
 	.4byte 0x3638B94F
 	.4byte 0x37CFB5A1
 
-.global lbl_8041E040
-lbl_8041E040:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_result_2
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_sincos_result_2:
 
 	# ROM: 0x332E60
 	.4byte 0xB2CD4CA8
 	.4byte 0xB48BDAD9
 
-.global lbl_8041E048
-lbl_8041E048:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_pi_po2_1
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_pi_po2_1:
 
 	# ROM: 0x332E68
 	.4byte 0x40490FDB
 	.4byte 0x3FC90FDB
 
-.global lbl_8041E050
-lbl_8041E050:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_negone_one_0
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_negone_one_0:
 
 	# ROM: 0x332E70
 	.4byte 0xBF800000
 	.4byte 0x3F800000
 
-.global lbl_8041E058
-lbl_8041E058:
+.global _LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_one_negone
+_LOCAL_SinCos__Q24Math5AngleCFRQ34Math5Angle10SinCosPair_one_negone:
 
 	# ROM: 0x332E78
 	.4byte 0x3F800000
@@ -448,21 +448,21 @@ lbl_8041E12C:
 	# ROM: 0x332F4C
 	.4byte 0x3F800000
 
-.global lbl_8041E130
-lbl_8041E130:
+.global _LOCAL_exec__Q28Sequence9RsoHolderFv_START_FUNC
+_LOCAL_exec__Q28Sequence9RsoHolderFv_START_FUNC:
 
 	# ROM: 0x332F50
 	.asciz "Create"
 	.balign 4
 
-.global lbl_8041E138
-lbl_8041E138:
+.global ASPECT_NORMAL__Q26System6Render
+ASPECT_NORMAL__Q26System6Render:
 
 	# ROM: 0x332F58
 	.4byte 0x3FAAAAAB
 
-.global lbl_8041E13C
-lbl_8041E13C:
+.global ASPECT_WIDE__Q26System6Render
+ASPECT_WIDE__Q26System6Render:
 
 	# ROM: 0x332F5C
 	.4byte 0x3FE38E39
@@ -656,8 +656,8 @@ lbl_8041E1D8:
 	# ROM: 0x332FF8
 	.4byte 0x3F800000
 
-.global lbl_8041E1DC
-lbl_8041E1DC:
+.global npos__Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__
+npos__Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__:
 
 	# ROM: 0x332FFC
 	.4byte 0xFFFFFFFF
@@ -2133,15 +2133,15 @@ lbl_8041E690:
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-.global lbl_8041E698
-lbl_8041E698:
+.global _LOCAL_Convert__Q25Event12TagProcessorFRQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__RCQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__l_TAG_START
+_LOCAL_Convert__Q25Event12TagProcessorFRQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__RCQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__l_TAG_START:
 
 	# ROM: 0x3334B8
 	.4byte 0x007B007B
 	.4byte 0
 
-.global lbl_8041E6A0
-lbl_8041E6A0:
+.global _LOCAL_Convert__Q25Event12TagProcessorFRQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__RCQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__l_TAG_END_0
+_LOCAL_Convert__Q25Event12TagProcessorFRQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__RCQ23std59basic_string_w_Q23std14char_traits_w__Q23std12allocator_w__l_TAG_END_0:
 
 	# ROM: 0x3334C0
 	.4byte 0x007D007D
@@ -3639,8 +3639,8 @@ lbl_8041EB98:
 	# ROM: 0x3339B8
 	.4byte 0x3727C5AC
 
-.global lbl_8041EB9C
-lbl_8041EB9C:
+.global _LOCAL_CalcRanking_TeamCompetition__Q24Game12cResultBoardFPQ34Game12cResultBoard12sInsideParam_TMNON
+_LOCAL_CalcRanking_TeamCompetition__Q24Game12cResultBoardFPQ34Game12cResultBoard12sInsideParam_TMNON:
 
 	# ROM: 0x3339BC
 	.4byte 0x437F0000
@@ -6164,8 +6164,8 @@ lbl_8041F428:
 	.4byte 0x13001100
 	.4byte 0x12001000
 
-.global lbl_8041F430
-lbl_8041F430:
+.global bta_sys_cfg
+bta_sys_cfg:
 
 	# ROM: 0x334250
 	.4byte 0x00040201
@@ -6188,22 +6188,22 @@ lbl_8041F43A:
 lbl_8041F440:
 
 	# ROM: 0x334260
-	.4byte lbl_80100D9C
+	.4byte bta_dm_sm_execute
 	.4byte 0
 
 .global lbl_8041F448
 lbl_8041F448:
 
 	# ROM: 0x334268
-	.4byte lbl_80100E34
+	.4byte bta_dm_search_sm_execute
 	.4byte 0
 
 .global lbl_8041F450
 lbl_8041F450:
 
 	# ROM: 0x334270
-	.4byte lbl_80103784
-	.4byte lbl_801030E8
+	.4byte bta_hh_hdl_event
+	.4byte BTA_HhDisable
 
 .global lbl_8041F458
 lbl_8041F458:
@@ -6217,14 +6217,14 @@ lbl_8041F45C:
 	# ROM: 0x33427C
 	.4byte 0x9E8B0000
 
-.global lbl_8041F460
-lbl_8041F460:
+.global btm_pm_mode_off
+btm_pm_mode_off:
 
 	# ROM: 0x334280
 	.4byte 0x00000100
 
-.global lbl_8041F464
-lbl_8041F464:
+.global btm_pm_mode_msk
+btm_pm_mode_msk:
 
 	# ROM: 0x334284
 	.4byte 0x40800100
@@ -6265,8 +6265,8 @@ lbl_8041F46D:
 	# ROM: 0x33428D
 	.byte 0xFF, 0x00, 0x00
 
-.global lbl_8041F470
-lbl_8041F470:
+.global BT_BD_ANY
+BT_BD_ANY:
 
 	# ROM: 0x334290
 	.4byte 0xFFFFFFFF
@@ -6286,15 +6286,15 @@ lbl_8041F480:
 	.4byte 0xFFFFFF00
 	.4byte 0
 
-.global lbl_8041F488
-lbl_8041F488:
+.global __EXIFreq
+__EXIFreq:
 
 	# ROM: 0x3342A8
 	.4byte 0x00000004
 	.4byte 0
 
-.global lbl_8041F490
-lbl_8041F490:
+.global __GXData
+__GXData:
 
 	# ROM: 0x3342B0
 	.4byte lbl_8038FE20
@@ -7026,8 +7026,8 @@ lbl_8041F704:
 	# ROM: 0x334524
 	.4byte 0x403FEF9E
 
-.global lbl_8041F708
-lbl_8041F708:
+.global _LOCAL_MEMInitAllocatorForExpHeap__FP12MEMAllocatorP12MEMiHeapHeadi_sAllocatorFunc
+_LOCAL_MEMInitAllocatorForExpHeap__FP12MEMAllocatorP12MEMiHeapHeadi_sAllocatorFunc:
 
 	# ROM: 0x334528
 	.4byte lbl_80150B80
@@ -9232,15 +9232,15 @@ lbl_8041FF84:
 	# ROM: 0x334DA4
 	.4byte 0x43D00000
 
-.global lbl_8041FF88
-lbl_8041FF88:
+.global csSpaceZero__Q39textinput8keyboard13cellphonetype
+csSpaceZero__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x334DA8
 	.4byte 0xE0570030
 	.4byte 0
 
-.global lbl_8041FF90
-lbl_8041FF90:
+.global csSpace__Q39textinput8keyboard13cellphonetype
+csSpace__Q39textinput8keyboard13cellphonetype:
 
 	# ROM: 0x334DB0
 	.4byte 0xE0570000
@@ -11661,8 +11661,8 @@ lbl_804207D8:
 	.4byte 0x3F800000
 	.4byte 0
 
-.global lbl_804207E0
-lbl_804207E0:
+.global det_epsilon__Q34nw4r3g3d6detail
+det_epsilon__Q34nw4r3g3d6detail:
 
 	# ROM: 0x335600
 	.4byte 0x03AA2425
@@ -12951,8 +12951,8 @@ lbl_80420C10:
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-.global lbl_80420C18
-lbl_80420C18:
+.global VOLUME_INIT__Q44nw4r3snd6detail12EnvGenerator
+VOLUME_INIT__Q44nw4r3snd6detail12EnvGenerator:
 
 	# ROM: 0x335A38
 	.4byte 0xC2B4CCCD
@@ -13919,15 +13919,15 @@ lbl_80420F28:
 	.asciz "@HOC"
 	.balign 4
 
-.global lbl_80420F30
-lbl_80420F30:
+.global _LOCAL_IsBigEndian__Q23atn6endianFv_swap_test
+_LOCAL_IsBigEndian__Q23atn6endianFv_swap_test:
 
 	# ROM: 0x335D50
 	.4byte 0x01000000
 	.4byte 0
 
-.global lbl_80420F38
-lbl_80420F38:
+.global TMCC_JPEGRomdata001
+TMCC_JPEGRomdata001:
 
 	# ROM: 0x335D58
 	.4byte 0x03030303

@@ -3,60 +3,60 @@
 .section .bss, "", @nobits  # 0x80335C80 - 0x8041BCC0 ; 0x000E6040
 
 
-.global lbl_80335C80
-lbl_80335C80:
+.global allocator__Q24Task4Heap
+allocator__Q24Task4Heap:
 	.skip 0x10
 
-.global lbl_80335C90
-lbl_80335C90:
+.global allocator_back__Q24Task4Heap
+allocator_back__Q24Task4Heap:
 	.skip 0x10
 
 .global lbl_80335CA0
 lbl_80335CA0:
 	.skip 0xC
 
-.global lbl_80335CAC
-lbl_80335CAC:
+.global error_func__Q24File3Dvd
+error_func__Q24File3Dvd:
 	.skip 0xC
 
 .global lbl_80335CB8
 lbl_80335CB8:
 	.skip 0x10
 
-.global lbl_80335CC8
-lbl_80335CC8:
+.global allocator__Q26Memory3Wii
+allocator__Q26Memory3Wii:
 	.skip 0x10
 
 .global lbl_80335CD8
 lbl_80335CD8:
 	.skip 0x10
 
-.global lbl_80335CE8
-lbl_80335CE8:
+.global Default__Q24File9Allocator
+Default__Q24File9Allocator:
 	.skip 0x28
 
-.global lbl_80335D10
-lbl_80335D10:
+.global Fast__Q24File9Allocator
+Fast__Q24File9Allocator:
 	.skip 0x58
 
 .global lbl_80335D68
 lbl_80335D68:
 	.skip 0xC
 
-.global lbl_80335D74
-lbl_80335D74:
+.global all_data__Q24Flag8SaveData
+all_data__Q24Flag8SaveData:
 	.skip 0x7FFC
 
-.global lbl_8033DD70
-lbl_8033DD70:
+.global hub_start_info__Q24Flag9Temporary
+hub_start_info__Q24Flag9Temporary:
 	.skip 0x20
 
 .global lbl_8033DD90
 lbl_8033DD90:
 	.skip 0x10
 
-.global lbl_8033DDA0
-lbl_8033DDA0:
+.global config_map__9Configure
+config_map__9Configure:
 	.skip 0x1C
 
 .global lbl_8033DDBC
@@ -67,40 +67,40 @@ lbl_8033DDBC:
 lbl_8033DDC8:
 	.skip 0xC
 
-.global lbl_8033DDD4
-lbl_8033DDD4:
+.global string_vector__Q213InterpretText12StringVector
+string_vector__Q213InterpretText12StringVector:
 	.skip 0xC
 
 .global lbl_8033DDE0
 lbl_8033DDE0:
 	.skip 0xC
 
-.global lbl_8033DDEC
-lbl_8033DDEC:
+.global current__8Sequence
+current__8Sequence:
 	.skip 0x24
 
 .global lbl_8033DE10
 lbl_8033DE10:
 	.skip 0x30
 
-.global lbl_8033DE40
-lbl_8033DE40:
+.global displayList__Q26System8SuportGX
+displayList__Q26System8SuportGX:
 	.skip 0xA0
 
 .global lbl_8033DEE0
 lbl_8033DEE0:
 	.skip 0x10
 
-.global lbl_8033DEF0
-lbl_8033DEF0:
+.global _LOCAL_Get__Q27Message7ManagerFv_self
+_LOCAL_Get__Q27Message7ManagerFv_self:
 	.skip 0x28
 
-.global lbl_8033DF18
-lbl_8033DF18:
+.global UserDataHeader__8SaveLoad
+UserDataHeader__8SaveLoad:
 	.skip 0x40
 
-.global lbl_8033DF58
-lbl_8033DF58:
+.global SaveLoadData__8SaveLoad
+SaveLoadData__8SaveLoad:
 	.skip 0x1A8
 
 .global lbl_8033E100
@@ -111,8 +111,8 @@ lbl_8033E100:
 lbl_8033E110:
 	.skip 0x30
 
-.global lbl_8033E140
-lbl_8033E140:
+.global s_setup__Q24Game6MapObj
+s_setup__Q24Game6MapObj:
 	.skip 0x20
 
 .global lbl_8033E160
@@ -131,8 +131,8 @@ lbl_8033E270:
 lbl_8033E2D0:
 	.skip 0x10
 
-.global lbl_8033E2E0
-lbl_8033E2E0:
+.global s_setup__5Bloom
+s_setup__5Bloom:
 	.skip 0x40
 
 .global lbl_8033E320
@@ -143,12 +143,12 @@ lbl_8033E320:
 lbl_8033E388:
 	.skip 0x80
 
-.global lbl_8033E408
-lbl_8033E408:
+.global current_setup__6Mirror
+current_setup__6Mirror:
 	.skip 0x30
 
-.global lbl_8033E438
-lbl_8033E438:
+.global m_mirror_up__6Mirror
+m_mirror_up__6Mirror:
 	.skip 0x10
 
 .global lbl_8033E448
@@ -159,40 +159,40 @@ lbl_8033E448:
 lbl_8033E4B0:
 	.skip 0x10
 
-.global lbl_8033E4C0
-lbl_8033E4C0:
+.global scnList__5Scene
+scnList__5Scene:
 	.skip 0x18
 
 .global lbl_8033E4D8
 lbl_8033E4D8:
 	.skip 0xC
 
-.global lbl_8033E4E4
-lbl_8033E4E4:
+.global func__Q25Scene6Normal
+func__Q25Scene6Normal:
 	.skip 0x1C
 
-.global lbl_8033E500
-lbl_8033E500:
+.global m_lightView__Q26Shadow12ShadowCamera
+m_lightView__Q26Shadow12ShadowCamera:
 	.skip 0x40
 
-.global lbl_8033E540
-lbl_8033E540:
+.global current_setup__6Shadow
+current_setup__6Shadow:
 	.skip 0x48
 
-.global lbl_8033E588
-lbl_8033E588:
+.global ShadowTexObj__6Shadow
+ShadowTexObj__6Shadow:
 	.skip 0x98
 
-.global lbl_8033E620
-lbl_8033E620:
+.global mkimg__Q26Shadow6TKList
+mkimg__Q26Shadow6TKList:
 	.skip 0x400
 
-.global lbl_8033EA20
-lbl_8033EA20:
+.global displayList__Q26Shadow6TKList
+displayList__Q26Shadow6TKList:
 	.skip 0xA0
 
-.global lbl_8033EAC0
-lbl_8033EAC0:
+.global displayList1__Q26Shadow12ShadowCamera
+displayList1__Q26Shadow12ShadowCamera:
 	.skip 0x180
 
 .global lbl_8033EC40
@@ -283,12 +283,12 @@ lbl_803401B8:
 lbl_80340218:
 	.skip 0xC
 
-.global lbl_80340224
-lbl_80340224:
+.global s_callbacks__Q25Scene6Layout
+s_callbacks__Q25Scene6Layout:
 	.skip 0x18
 
-.global lbl_8034023C
-lbl_8034023C:
+.global s_font_holder__Q35Scene6Layout7Manager
+s_font_holder__Q35Scene6Layout7Manager:
 	.skip 0x14
 
 .global lbl_80340250
@@ -311,44 +311,44 @@ lbl_80340298:
 lbl_803402A4:
 	.skip 0xC
 
-.global lbl_803402B0
-lbl_803402B0:
+.global _LOCAL_is_comp__Q25Scene6LayoutFRCQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___CMP_EXT
+_LOCAL_is_comp__Q25Scene6LayoutFRCQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___CMP_EXT:
 	.skip 0x10
 
-.global lbl_803402C0
-lbl_803402C0:
+.global _LOCAL___ct__Q35Scene6Layout7ManagerFv_loadres
+_LOCAL___ct__Q35Scene6Layout7ManagerFv_loadres:
 	.skip 0x18
 
-.global lbl_803402D8
-lbl_803402D8:
+.global _LOCAL___ct__Q35Scene6Layout7ManagerFv_fonts_0
+_LOCAL___ct__Q35Scene6Layout7ManagerFv_fonts_0:
 	.skip 0x28
 
 .global lbl_80340300
 lbl_80340300:
 	.skip 0xC
 
-.global lbl_8034030C
-lbl_8034030C:
+.global s_app_path__6Script
+s_app_path__6Script:
 	.skip 0xC
 
-.global lbl_80340318
-lbl_80340318:
+.global _LOCAL_Get__Q26SqPlus12ClassType_i_Fv_st_ct
+_LOCAL_Get__Q26SqPlus12ClassType_i_Fv_st_ct:
 	.skip 0x18
 
-.global lbl_80340330
-lbl_80340330:
+.global _LOCAL_Get__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_Fv_st_ct
+_LOCAL_Get__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_Fv_st_ct:
 	.skip 0x14
 
-.global lbl_80340344
-lbl_80340344:
+.global _LOCAL_Get__Q26SqPlus12ClassType_f_Fv_st_ct
+_LOCAL_Get__Q26SqPlus12ClassType_f_Fv_st_ct:
 	.skip 0x14
 
 .global lbl_80340358
 lbl_80340358:
 	.skip 0x48
 
-.global lbl_803403A0
-lbl_803403A0:
+.global s_setup__4Dof2
+s_setup__4Dof2:
 	.skip 0x28
 
 .global lbl_803403C8
@@ -363,16 +363,16 @@ lbl_80340430:
 lbl_803404B0:
 	.skip 0x30
 
-.global lbl_803404E0
-lbl_803404E0:
+.global s_sound_listener_setup__4Game
+s_sound_listener_setup__4Game:
 	.skip 0x10
 
 .global lbl_803404F0
 lbl_803404F0:
 	.skip 0x60
 
-.global lbl_80340550
-lbl_80340550:
+.global s_setup__9LensFlare
+s_setup__9LensFlare:
 	.skip 0x20
 
 .global lbl_80340570
@@ -383,24 +383,24 @@ lbl_80340570:
 lbl_80340580:
 	.skip 0x18
 
-.global lbl_80340598
-lbl_80340598:
+.global s_setup__11ColorFilter
+s_setup__11ColorFilter:
 	.skip 0x18
 
 .global lbl_803405B0
 lbl_803405B0:
 	.skip 0x10
 
-.global lbl_803405C0
-lbl_803405C0:
+.global scnList__Q25Scene5Front
+scnList__Q25Scene5Front:
 	.skip 0x18
 
 .global lbl_803405D8
 lbl_803405D8:
 	.skip 0x10
 
-.global lbl_803405E8
-lbl_803405E8:
+.global scnList__Q25Scene2pp
+scnList__Q25Scene2pp:
 	.skip 0x18
 
 .global lbl_80340600
@@ -455,8 +455,8 @@ lbl_80342BE0:
 lbl_80343960:
 	.skip 0x100
 
-.global lbl_80343A60
-lbl_80343A60:
+.global __AXLocalProfile
+__AXLocalProfile:
 	.skip 0x40
 
 .global lbl_80343AA0
@@ -491,8 +491,8 @@ lbl_8034C0E0:
 lbl_8034D8E0:
 	.skip 0x8700
 
-.global lbl_80355FE0
-lbl_80355FE0:
+.global gki_cb
+gki_cb:
 	.skip 0x131EE
 
 .global lbl_803691CE
@@ -507,12 +507,12 @@ lbl_8037EAC0:
 lbl_8037EB00:
 	.skip 0x60
 
-.global lbl_8037EB60
-lbl_8037EB60:
+.global __uusb_ppc_stack1
+__uusb_ppc_stack1:
 	.skip 0x1000
 
-.global lbl_8037FB60
-lbl_8037FB60:
+.global __uusb_ppc_stack2
+__uusb_ppc_stack2:
 	.skip 0x4A0
 
 .global lbl_80380000
@@ -531,72 +531,72 @@ lbl_80380014:
 lbl_80380030:
 	.skip 0xB30
 
-.global lbl_80380B60
-lbl_80380B60:
+.global _LOCAL_LogMsg__FUlPCce_tmp
+_LOCAL_LogMsg__FUlPCce_tmp:
 	.skip 0x7E0
 
-.global lbl_80381340
-lbl_80381340:
+.global __BTUInterruptHandlerStack
+__BTUInterruptHandlerStack:
 	.skip 0x1000
 
 .global lbl_80382340
 lbl_80382340:
 	.skip 0x30
 
-.global lbl_80382370
-lbl_80382370:
+.global btu_cb
+btu_cb:
 	.skip 0x88
 
-.global lbl_803823F8
-lbl_803823F8:
+.global bta_sys_cb
+bta_sys_cb:
 	.skip 0x90
 
 .global lbl_80382488
 lbl_80382488:
 	.skip 0x30
 
-.global lbl_803824B8
-lbl_803824B8:
+.global bta_dm_search_cb
+bta_dm_search_cb:
 	.skip 0x7C
 
-.global lbl_80382534
-lbl_80382534:
+.global bta_dm_cb
+bta_dm_cb:
 	.skip 0x104
 
-.global lbl_80382638
-lbl_80382638:
+.global bta_dm_conn_srvcs
+bta_dm_conn_srvcs:
 	.skip 0x30
 
-.global lbl_80382668
-lbl_80382668:
+.global bta_hh_cb
+bta_hh_cb:
 	.skip 0x230
 
-.global lbl_80382898
-lbl_80382898:
+.global btm_cb
+btm_cb:
 	.skip 0x27C8
 
-.global lbl_80385060
-lbl_80385060:
+.global gap_cb
+gap_cb:
 	.skip 0x3B0
 
-.global lbl_80385410
-lbl_80385410:
+.global hd_cb
+hd_cb:
 	.skip 0x148
 
-.global lbl_80385558
-lbl_80385558:
+.global hh_cb
+hh_cb:
 	.skip 0x408
 
-.global lbl_80385960
-lbl_80385960:
+.global l2cb
+l2cb:
 	.skip 0x7E8
 
-.global lbl_80386148
-lbl_80386148:
+.global rfc_cb
+rfc_cb:
 	.skip 0x418
 
-.global lbl_80386560
-lbl_80386560:
+.global sdp_cb
+sdp_cb:
 	.skip 0x4660
 
 .global lbl_8038ABC0
@@ -639,8 +639,8 @@ lbl_8038F7C0:
 lbl_8038F7E0:
 	.skip 0x30
 
-.global lbl_8038F810
-lbl_8038F810:
+.global __DVDStopMotorCommandBlock
+__DVDStopMotorCommandBlock:
 	.skip 0x60
 
 .global lbl_8038F870
@@ -655,8 +655,8 @@ lbl_8038F8A0:
 lbl_8038F92C:
 	.skip 0xD4
 
-.global lbl_8038FA00
-lbl_8038FA00:
+.global __ErrorInfo
+__ErrorInfo:
 	.skip 0x100
 
 .global lbl_8038FB00
@@ -843,8 +843,8 @@ lbl_80390540:
 lbl_803906F0:
 	.skip 0x700
 
-.global lbl_80390DF0
-lbl_80390DF0:
+.global mLoadingTexture__Q36nw4hbm2ut10CharWriter
+mLoadingTexture__Q36nw4hbm2ut10CharWriter:
 	.skip 0x10
 
 .global lbl_80390E00
@@ -855,28 +855,28 @@ lbl_80390E00:
 lbl_80390E0C:
 	.skip 0xC
 
-.global lbl_80390E18
-lbl_80390E18:
+.global mFormatBuffer__Q36nw4hbm2ut17TextWriterBase_c_
+mFormatBuffer__Q36nw4hbm2ut17TextWriterBase_c_:
 	.skip 0x4
 
-.global lbl_80390E1C
-lbl_80390E1C:
+.global mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_c_
+mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_c_:
 	.skip 0x4
 
-.global lbl_80390E20
-lbl_80390E20:
+.global mFormatBuffer__Q36nw4hbm2ut17TextWriterBase_w_
+mFormatBuffer__Q36nw4hbm2ut17TextWriterBase_w_:
 	.skip 0x4
 
-.global lbl_80390E24
-lbl_80390E24:
+.global mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_w_
+mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_w_:
 	.skip 0x4
 
-.global lbl_80390E28
-lbl_80390E28:
+.global _GUARD_mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_c_
+_GUARD_mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_c_:
 	.skip 0x1
 
-.global lbl_80390E29
-lbl_80390E29:
+.global _GUARD_mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_w_
+_GUARD_mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase_w_:
 	.skip 0x17
 
 .global lbl_80390E40
@@ -899,8 +899,8 @@ lbl_80390F80:
 lbl_80391000:
 	.skip 0x3A80
 
-.global lbl_80394A80
-lbl_80394A80:
+.global inside_kpads
+inside_kpads:
 	.skip 0x1A20
 
 .global lbl_803964A0
@@ -931,16 +931,16 @@ lbl_80396560:
 lbl_803965C0:
 	.skip 0x300
 
-.global lbl_803968C0
-lbl_803968C0:
+.global __OSRebootParams
+__OSRebootParams:
 	.skip 0x20
 
 .global lbl_803968E0
 lbl_803968E0:
 	.skip 0x50
 
-.global lbl_80396930
-lbl_80396930:
+.global __OSErrorTable
+__OSErrorTable:
 	.skip 0x48
 
 .global lbl_80396978
@@ -999,8 +999,8 @@ lbl_80397780:
 lbl_80397980:
 	.skip 0x20
 
-.global lbl_803979A0
-lbl_803979A0:
+.global __OSExpireAlarm
+__OSExpireAlarm:
 	.skip 0x30
 
 .global lbl_803979D0
@@ -1015,8 +1015,8 @@ lbl_80397A00:
 lbl_80397A10:
 	.skip 0x40
 
-.global lbl_80397A50
-lbl_80397A50:
+.global _LOCAL_PADRead__FP9PADStatus_pre_status_1
+_LOCAL_PADRead__FP9PADStatus_pre_status_1:
 	.skip 0x30
 
 .global lbl_80397A80
@@ -1083,8 +1083,8 @@ lbl_8039FF30:
 lbl_8039FF88:
 	.skip 0x28
 
-.global lbl_8039FFB0
-lbl_8039FFB0:
+.global VIZeroACPType
+VIZeroACPType:
 	.skip 0x30
 
 .global lbl_8039FFE0
@@ -1151,8 +1151,8 @@ lbl_803A000E:
 lbl_803A000F:
 	.skip 0x1
 
-.global lbl_803A0010
-lbl_803A0010:
+.global __rvl_p_wpadcb
+__rvl_p_wpadcb:
 	.skip 0x1
 
 .global lbl_803A0011
@@ -1207,8 +1207,8 @@ lbl_803A3FC0:
 lbl_803A4010:
 	.skip 0x30
 
-.global lbl_803A4040
-lbl_803A4040:
+.global __rvl_wudcb
+__rvl_wudcb:
 	.skip 0x750
 
 .global lbl_803A4790
@@ -1259,8 +1259,8 @@ lbl_803A6320:
 lbl_803A6420:
 	.skip 0x100
 
-.global lbl_803A6520
-lbl_803A6520:
+.global signal_funcs
+signal_funcs:
 	.skip 0x20
 
 .global lbl_803A6540
@@ -1275,40 +1275,40 @@ lbl_803A66C0:
 lbl_803A6BC0:
 	.skip 0x20
 
-.global lbl_803A6BE0
-lbl_803A6BE0:
+.global gDBCommTable
+gDBCommTable:
 	.skip 0x28
 
 .global lbl_803A6C08
 lbl_803A6C08:
 	.skip 0x28
 
-.global lbl_803A6C30
-lbl_803A6C30:
+.global gTRKMsgBufs
+gTRKMsgBufs:
 	.skip 0x19A8
 
-.global lbl_803A85D8
-lbl_803A85D8:
+.global gTRKRestoreFlags
+gTRKRestoreFlags:
 	.skip 0x10
 
 .global lbl_803A85E8
 lbl_803A85E8:
 	.skip 0x18
 
-.global lbl_803A8600
-lbl_803A8600:
+.global gTRKSaveState
+gTRKSaveState:
 	.skip 0x98
 
-.global lbl_803A8698
-lbl_803A8698:
+.global TRKvalue128_temp
+TRKvalue128_temp:
 	.skip 0x10
 
-.global lbl_803A86A8
-lbl_803A86A8:
+.global gTRKState
+gTRKState:
 	.skip 0xA8
 
-.global lbl_803A8750
-lbl_803A8750:
+.global gTRKCPUState
+gTRKCPUState:
 	.skip 0x430
 
 .global lbl_803A8B80
@@ -1339,16 +1339,16 @@ lbl_803A9150:
 lbl_803A915C:
 	.skip 0xC
 
-.global lbl_803A9168
-lbl_803A9168:
+.global sInstance__Q39textinput5input10HKBManager
+sInstance__Q39textinput5input10HKBManager:
 	.skip 0x10
 
 .global lbl_803A9178
 lbl_803A9178:
 	.skip 0x10
 
-.global lbl_803A9188
-lbl_803A9188:
+.global _LOCAL_Error__10SQCompilerFPCce_temp
+_LOCAL_Error__10SQCompilerFPCce_temp:
 	.skip 0x100
 
 .global lbl_803A9288
@@ -1359,16 +1359,16 @@ lbl_803A9288:
 lbl_803A92C8:
 	.skip 0xC
 
-.global lbl_803A92D4
-lbl_803A92D4:
+.global _vm__10SquirrelVM
+_vm__10SquirrelVM:
 	.skip 0xC
 
-.global lbl_803A92E0
-lbl_803A92E0:
+.global vm_list
+vm_list:
 	.skip 0x90
 
-.global lbl_803A9370
-lbl_803A9370:
+.global _LOCAL_PrintFunc__10SquirrelVMFP4SQVMPCce_temp
+_LOCAL_PrintFunc__10SquirrelVMFP4SQVMPCce_temp:
 	.skip 0x800
 
 .global lbl_803A9B70
@@ -1419,12 +1419,12 @@ lbl_803AAC80:
 lbl_803AACA0:
 	.skip 0x3020
 
-.global lbl_803ADCC0
-lbl_803ADCC0:
+.global VFipdm_disk_set
+VFipdm_disk_set:
 	.skip 0xBD0
 
-.global lbl_803AE890
-lbl_803AE890:
+.global VFipf_vol_set
+VFipf_vol_set:
 	.skip 0x21780
 
 .global lbl_803D0010
@@ -1691,84 +1691,84 @@ lbl_803D6890:
 lbl_803D6A98:
 	.skip 0x30
 
-.global lbl_803D6AC8
-lbl_803D6AC8:
+.global mSortEffectOperatorZDrawInfo__Q34nw4r2ef12EffectSystem
+mSortEffectOperatorZDrawInfo__Q34nw4r2ef12EffectSystem:
 	.skip 0xAC
 
-.global lbl_803D6B74
-lbl_803D6B74:
+.global instance__Q34nw4r2ef12EffectSystem
+instance__Q34nw4r2ef12EffectSystem:
 	.skip 0x948C
 
 .global lbl_803E0000
 lbl_803E0000:
 	.skip 0x2BE0
 
-.global lbl_803E2BE0
-lbl_803E2BE0:
+.global smDrawMtxPMtoEM__Q34nw4r2ef15ParticleManager
+smDrawMtxPMtoEM__Q34nw4r2ef15ParticleManager:
 	.skip 0x30
 
-.global lbl_803E2C10
-lbl_803E2C10:
+.global mResource__Q34nw4r2ef8Resource
+mResource__Q34nw4r2ef8Resource:
 	.skip 0x20
 
-.global lbl_803E2C30
-lbl_803E2C30:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_billboardStrategy
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_billboardStrategy:
 	.skip 0xE0
 
-.global lbl_803E2D10
-lbl_803E2D10:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_directionalStrategy_0
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_directionalStrategy_0:
 	.skip 0xE0
 
-.global lbl_803E2DF0
-lbl_803E2DF0:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_freeStrategy_1
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_freeStrategy_1:
 	.skip 0xE0
 
-.global lbl_803E2ED0
-lbl_803E2ED0:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_lineStrategy_2
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_lineStrategy_2:
 	.skip 0xE0
 
-.global lbl_803E2FB0
-lbl_803E2FB0:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_pointStrategy_3
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_pointStrategy_3:
 	.skip 0xE0
 
-.global lbl_803E3090
-lbl_803E3090:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_stripeStrategy_4
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_stripeStrategy_4:
 	.skip 0xE0
 
-.global lbl_803E3170
-lbl_803E3170:
+.global _LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_smoothStripeStrategy_5
+_LOCAL_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_smoothStripeStrategy_5:
 	.skip 0xE0
 
-.global lbl_803E3250
-lbl_803E3250:
+.global mXUnitVec__Q34nw4r2ef16DrawStrategyImpl
+mXUnitVec__Q34nw4r2ef16DrawStrategyImpl:
 	.skip 0x18
 
-.global lbl_803E3268
-lbl_803E3268:
+.global mZUnitVec__Q34nw4r2ef16DrawStrategyImpl
+mZUnitVec__Q34nw4r2ef16DrawStrategyImpl:
 	.skip 0xC
 
-.global lbl_803E3274
-lbl_803E3274:
+.global mZeroVec__Q34nw4r2ef16DrawStrategyImpl
+mZeroVec__Q34nw4r2ef16DrawStrategyImpl:
 	.skip 0xC
 
-.global lbl_803E3280
-lbl_803E3280:
+.global mIdentityMtx__Q34nw4r2ef16DrawStrategyImpl
+mIdentityMtx__Q34nw4r2ef16DrawStrategyImpl:
 	.skip 0x30
 
-.global lbl_803E32B0
-lbl_803E32B0:
+.global _LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v0
+_LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v0:
 	.skip 0xC
 
-.global lbl_803E32BC
-lbl_803E32BC:
+.global _LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v1_0
+_LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v1_0:
 	.skip 0xC
 
-.global lbl_803E32C8
-lbl_803E32C8:
+.global _LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v2_1
+_LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v2_1:
 	.skip 0xC
 
-.global lbl_803E32D4
-lbl_803E32D4:
+.global _LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v3_2
+_LOCAL_Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager_v3_2:
 	.skip 0xC
 
 .global lbl_803E32E0
@@ -1819,8 +1819,8 @@ lbl_803E8788:
 lbl_803E87C8:
 	.skip 0x98
 
-.global lbl_803E8860
-lbl_803E8860:
+.global _LOCAL_GetViewNrmMtxPtr__Q54nw4r3g3d8G3DState23_unnamed_g3d_state_cpp_19PosNrmMtxArrayStateCFUl_m
+_LOCAL_GetViewNrmMtxPtr__Q54nw4r3g3d8G3DState23_unnamed_g3d_state_cpp_19PosNrmMtxArrayStateCFUl_m:
 	.skip 0xA0
 
 .global lbl_803E8900
@@ -1895,56 +1895,56 @@ lbl_8040001E:
 lbl_804000B8:
 	.skip 0x848
 
-.global lbl_80400900
-lbl_80400900:
+.global _LOCAL_SetSize__Q44nw4r3lyt6detail11TexCoordAryFUc_texCoords
+_LOCAL_SetSize__Q44nw4r3lyt6detail11TexCoordAryFUc_texCoords:
 	.skip 0x20
 
-.global lbl_80400920
-lbl_80400920:
+.global sZeroBuffer__Q44nw4r3snd6detail9AxManager
+sZeroBuffer__Q44nw4r3snd6detail9AxManager:
 	.skip 0x100
 
-.global lbl_80400A20
-lbl_80400A20:
+.global sBiquadFilterCallbackTable__Q44nw4r3snd6detail9AxManager
+sBiquadFilterCallbackTable__Q44nw4r3snd6detail9AxManager:
 	.skip 0x200
 
 .global lbl_80400C20
 lbl_80400C20:
 	.skip 0x10
 
-.global lbl_80400C30
-lbl_80400C30:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail9AxManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail9AxManagerFv_instance:
 	.skip 0x100
 
 .global lbl_80400D30
 lbl_80400D30:
 	.skip 0xC
 
-.global lbl_80400D3C
-lbl_80400D3C:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail14AxVoiceManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail14AxVoiceManagerFv_instance:
 	.skip 0x2C
 
 .global lbl_80400D68
 lbl_80400D68:
 	.skip 0x10
 
-.global lbl_80400D78
-lbl_80400D78:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail14ChannelManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail14ChannelManagerFv_instance:
 	.skip 0x20
 
 .global lbl_80400D98
 lbl_80400D98:
 	.skip 0xC
 
-.global lbl_80400DA4
-lbl_80400DA4:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail22DisposeCallbackManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail22DisposeCallbackManagerFv_instance:
 	.skip 0xC
 
-.global lbl_80400DB0
-lbl_80400DB0:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail20RemoteSpeakerManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail20RemoteSpeakerManagerFv_instance:
 	.skip 0x2D8
 
-.global lbl_80401088
-lbl_80401088:
+.global mGlobalVariable__Q44nw4r3snd6detail9SeqPlayer
+mGlobalVariable__Q44nw4r3snd6detail9SeqPlayer:
 	.skip 0x20
 
 .global lbl_804010A8
@@ -1955,64 +1955,64 @@ lbl_804010A8:
 lbl_804010C0:
 	.skip 0x10
 
-.global lbl_804010D0
-lbl_804010D0:
+.global _LOCAL_detail_SortPriorityList__Q34nw4r3snd11SoundPlayerFv_tmplist_0
+_LOCAL_detail_SortPriorityList__Q34nw4r3snd11SoundPlayerFv_tmplist_0:
 	.skip 0x610
 
 .global lbl_804016E0
 lbl_804016E0:
 	.skip 0x10
 
-.global lbl_804016F0
-lbl_804016F0:
+.global sTaskThread__Q34nw4r3snd11SoundSystem
+sTaskThread__Q34nw4r3snd11SoundSystem:
 	.skip 0x330
 
-.global lbl_80401A20
-lbl_80401A20:
+.global _LOCAL_InitSoundSystem__Q34nw4r3snd11SoundSystemFll_defaultSoundSystemWork
+_LOCAL_InitSoundSystem__Q34nw4r3snd11SoundSystemFll_defaultSoundSystemWork:
 	.skip 0x155E0
 
 .global lbl_80417000
 lbl_80417000:
 	.skip 0x10
 
-.global lbl_80417010
-lbl_80417010:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail11SoundThreadFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail11SoundThreadFv_instance:
 	.skip 0x3B0
 
-.global lbl_804173C0
-lbl_804173C0:
+.global sLoadBuffer__Q44nw4r3snd6detail10StrmPlayer
+sLoadBuffer__Q44nw4r3snd6detail10StrmPlayer:
 	.skip 0x4000
 
-.global lbl_8041B3C0
-lbl_8041B3C0:
+.global sLoadBufferMutex__Q44nw4r3snd6detail10StrmPlayer
+sLoadBufferMutex__Q44nw4r3snd6detail10StrmPlayer:
 	.skip 0x18
 
 .global lbl_8041B3D8
 lbl_8041B3D8:
 	.skip 0xC
 
-.global lbl_8041B3E4
-lbl_8041B3E4:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail11TaskManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail11TaskManagerFv_instance:
 	.skip 0x3C
 
 .global lbl_8041B420
 lbl_8041B420:
 	.skip 0xC
 
-.global lbl_8041B42C
-lbl_8041B42C:
+.global _LOCAL_GetInstance__Q44nw4r3snd6detail12VoiceManagerFv_instance
+_LOCAL_GetInstance__Q44nw4r3snd6detail12VoiceManagerFv_instance:
 	.skip 0x1C
 
-.global lbl_8041B448
-lbl_8041B448:
+.global sMutex__Q34nw4r2ut19DvdLockedFileStream
+sMutex__Q34nw4r2ut19DvdLockedFileStream:
 	.skip 0x18
 
 .global lbl_8041B460
 lbl_8041B460:
 	.skip 0x20
 
-.global lbl_8041B480
-lbl_8041B480:
+.global mLoadingTexture__Q34nw4r2ut10CharWriter
+mLoadingTexture__Q34nw4r2ut10CharWriter:
 	.skip 0x10
 
 .global lbl_8041B490

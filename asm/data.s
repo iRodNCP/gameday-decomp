@@ -3,481 +3,481 @@
 .section .data, "wa"  # 0x802FA460 - 0x80335C60 ; 0x0003B800
 
 
-.global lbl_802FA460
-lbl_802FA460:
+.global _STRING_allocate__Q23std13allocator_Ul_FUlPCv
+_STRING_allocate__Q23std13allocator_Ul_FUlPCv:
 
 	# ROM: 0x2F6540
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FA480
-lbl_802FA480:
+.global __vt__Q24File4Base
+__vt__Q24File4Base:
 
 	# ROM: 0x2F6560
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80007ACC
-	.4byte lbl_80007AC4
-	.4byte lbl_80007A30
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q24File4BaseFv
+	.4byte SetWork__Q24File4BaseFPvUl
 	.4byte 0
-	.4byte lbl_80007A2C
-	.4byte func_800077C0
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q24File4BaseFv
 
-.global lbl_802FA4A8
-lbl_802FA4A8:
+.global __vt__Q26System8RootTask
+__vt__Q26System8RootTask:
 
 	# ROM: 0x2F6588
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008294
-	.4byte lbl_80007DF8
-	.4byte lbl_800080C0
-	.4byte lbl_80008290
+	.4byte GetRTI__Q26System8RootTaskCFv
+	.4byte __dt__Q26System8RootTaskFv
+	.4byte exec__Q26System8RootTaskFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FA4C0
-lbl_802FA4C0:
+.global __vt__Q34Task4Base8TaskLink
+__vt__Q34Task4Base8TaskLink:
 
 	# ROM: 0x2F65A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800085A4
+	.4byte __dt__Q34Task4Base8TaskLinkFv
 
-.global lbl_802FA4CC
-lbl_802FA4CC:
+.global __vt__Q24Task5Pause
+__vt__Q24Task5Pause:
 
 	# ROM: 0x2F65AC
 	.4byte 0
 	.4byte 0
-	.4byte func_80008E34
+	.4byte __dt__Q24Task5PauseFv
 
-.global lbl_802FA4D8
-lbl_802FA4D8:
+.global __vt__Q24Task4Base
+__vt__Q24Task4Base:
 
 	# ROM: 0x2F65B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008EA4
-	.4byte func_80008AA0
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Task4BaseCFv
+	.4byte __dt__Q24Task4BaseFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FA4F0
-lbl_802FA4F0:
+.global __vt__Q34Task4Base9TaskClass
+__vt__Q34Task4Base9TaskClass:
 
 	# ROM: 0x2F65D0
 	.4byte 0
 	.4byte 0
-	.4byte func_800084D4
+	.4byte __dt__Q34Task4Base9TaskClassFv
 
-.global lbl_802FA4FC
-lbl_802FA4FC:
+.global __vt__Q24Task4Work
+__vt__Q24Task4Work:
 
 	# ROM: 0x2F65DC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800083B8
+	.4byte __dt__Q24Task4WorkFv
 
-.global lbl_802FA508
-lbl_802FA508:
+.global __vt__Q43std3tr16detail94shared_ptr_deleter_Q34File3Arc9ArcAccess_Q33std6detail37default_delete_Q34File3Arc9ArcAccess__
+__vt__Q43std3tr16detail94shared_ptr_deleter_Q34File3Arc9ArcAccess_Q33std6detail37default_delete_Q34File3Arc9ArcAccess__:
 
 	# ROM: 0x2F65E8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80009A40
-	.4byte lbl_80009860
+	.4byte __dt__Q43std3tr16detail94shared_ptr_deleter_Q34File3Arc9ArcAccess_Q33std6detail37default_delete_Q34File3Arc9ArcAccess__Fv
+	.4byte dispose__Q43std3tr16detail94shared_ptr_deleter_Q34File3Arc9ArcAccess_Q33std6detail37default_delete_Q34File3Arc9ArcAccess__Fv
 
-.global lbl_802FA518
-lbl_802FA518:
+.global __vt__Q43std3tr16detail90shared_ptr_deleter_Q34File3Arc7ArcFile_Q33std6detail35default_delete_Q34File3Arc7ArcFile__
+__vt__Q43std3tr16detail90shared_ptr_deleter_Q34File3Arc7ArcFile_Q33std6detail35default_delete_Q34File3Arc7ArcFile__:
 
 	# ROM: 0x2F65F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80009A00
-	.4byte lbl_80009884
+	.4byte __dt__Q43std3tr16detail90shared_ptr_deleter_Q34File3Arc7ArcFile_Q33std6detail35default_delete_Q34File3Arc7ArcFile__Fv
+	.4byte dispose__Q43std3tr16detail90shared_ptr_deleter_Q34File3Arc7ArcFile_Q33std6detail35default_delete_Q34File3Arc7ArcFile__Fv
 
-.global lbl_802FA528
-lbl_802FA528:
+.global __vt__Q34File3Arc9ArcAccess
+__vt__Q34File3Arc9ArcAccess:
 
 	# ROM: 0x2F6608
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80009588
-	.4byte lbl_80009848
-	.4byte lbl_80007ACC
-	.4byte lbl_80007AC4
-	.4byte lbl_80007A30
-	.4byte lbl_800096DC
-	.4byte lbl_80007A2C
-	.4byte lbl_800094E8
+	.4byte Read__Q34File3Arc9ArcAccessFPvUl
+	.4byte Write__Q34File3Arc9ArcAccessFPCvUl
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q24File4BaseFv
+	.4byte SetWork__Q24File4BaseFPvUl
+	.4byte Duplicate__Q34File3Arc9ArcAccessFv
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q34File3Arc9ArcAccessFv
 
-.global lbl_802FA550
-lbl_802FA550:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Arc6Access_Q33std6detail34default_delete_Q34File3Arc6Access__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Arc6Access_Q33std6detail34default_delete_Q34File3Arc6Access__:
 
 	# ROM: 0x2F6630
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800099C0
-	.4byte lbl_80009890
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Arc6Access_Q33std6detail34default_delete_Q34File3Arc6Access__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q34File3Arc6Access_Q33std6detail34default_delete_Q34File3Arc6Access__Fv
 
-.global lbl_802FA560
-lbl_802FA560:
+.global __vt__Q34File3Arc6Access
+__vt__Q34File3Arc6Access:
 
 	# ROM: 0x2F6640
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800091BC
-	.4byte lbl_80009858
-	.4byte lbl_80007ACC
-	.4byte lbl_80009850
-	.4byte lbl_80007A30
-	.4byte lbl_8000928C
-	.4byte lbl_80007A2C
-	.4byte lbl_80009148
+	.4byte Read__Q34File3Arc6AccessFPvUl
+	.4byte Write__Q34File3Arc6AccessFPCvUl
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q34File3Arc6AccessFv
+	.4byte SetWork__Q24File4BaseFPvUl
+	.4byte Duplicate__Q34File3Arc6AccessFv
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q34File3Arc6AccessFv
 
-.global lbl_802FA588
-lbl_802FA588:
+.global __vt__Q43std3tr16detail92shared_ptr_deleter_Q34File5Async6Access_Q33std6detail36default_delete_Q34File5Async6Access__
+__vt__Q43std3tr16detail92shared_ptr_deleter_Q34File5Async6Access_Q33std6detail36default_delete_Q34File5Async6Access__:
 
 	# ROM: 0x2F6668
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000A6F8
-	.4byte lbl_8000A6D4
+	.4byte __dt__Q43std3tr16detail92shared_ptr_deleter_Q34File5Async6Access_Q33std6detail36default_delete_Q34File5Async6Access__Fv
+	.4byte dispose__Q43std3tr16detail92shared_ptr_deleter_Q34File5Async6Access_Q33std6detail36default_delete_Q34File5Async6Access__Fv
 
-.global lbl_802FA598
-lbl_802FA598:
+.global __vt__Q34File5Async6Access
+__vt__Q34File5Async6Access:
 
 	# ROM: 0x2F6678
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000A138
-	.4byte lbl_8000A6CC
-	.4byte lbl_8000A6B8
-	.4byte lbl_8000A55C
-	.4byte lbl_80007A30
-	.4byte lbl_8000A280
-	.4byte lbl_8000A564
-	.4byte lbl_8000A028
+	.4byte Read__Q34File5Async6AccessFPvUl
+	.4byte Write__Q34File5Async6AccessFPCvUl
+	.4byte IsBusy__Q34File5Async6AccessFv
+	.4byte GetLength__Q34File5Async6AccessFv
+	.4byte SetWork__Q24File4BaseFPvUl
+	.4byte Duplicate__Q34File5Async6AccessFv
+	.4byte ResetCallback__Q34File5Async6AccessFv
+	.4byte __dt__Q34File5Async6AccessFv
 
-.global lbl_802FA5C0
-lbl_802FA5C0:
+.global __vt__Q43std3tr16detail86shared_ptr_deleter_Q34File2CX6Access_Q33std6detail33default_delete_Q34File2CX6Access__
+__vt__Q43std3tr16detail86shared_ptr_deleter_Q34File2CX6Access_Q33std6detail33default_delete_Q34File2CX6Access__:
 
 	# ROM: 0x2F66A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000ACF4
-	.4byte lbl_8000ACD0
+	.4byte __dt__Q43std3tr16detail86shared_ptr_deleter_Q34File2CX6Access_Q33std6detail33default_delete_Q34File2CX6Access__Fv
+	.4byte dispose__Q43std3tr16detail86shared_ptr_deleter_Q34File2CX6Access_Q33std6detail33default_delete_Q34File2CX6Access__Fv
 
-.global lbl_802FA5D0
-lbl_802FA5D0:
+.global __vt__Q34File2CX6Access
+__vt__Q34File2CX6Access:
 
 	# ROM: 0x2F66B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000AA88
-	.4byte lbl_8000ACC8
-	.4byte lbl_80007ACC
-	.4byte lbl_8000ACC0
-	.4byte lbl_80007A30
-	.4byte lbl_8000AB58
-	.4byte lbl_80007A2C
-	.4byte lbl_8000AA14
+	.4byte Read__Q34File2CX6AccessFPvUl
+	.4byte Write__Q34File2CX6AccessFPCvUl
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q34File2CX6AccessFv
+	.4byte SetWork__Q24File4BaseFPvUl
+	.4byte Duplicate__Q34File2CX6AccessFv
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q34File2CX6AccessFv
 
-.global lbl_802FA5F8
-lbl_802FA5F8:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Dvd6Access_Q33std6detail34default_delete_Q34File3Dvd6Access__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Dvd6Access_Q33std6detail34default_delete_Q34File3Dvd6Access__:
 
 	# ROM: 0x2F66D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000B6E0
-	.4byte lbl_8000B6BC
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q34File3Dvd6Access_Q33std6detail34default_delete_Q34File3Dvd6Access__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q34File3Dvd6Access_Q33std6detail34default_delete_Q34File3Dvd6Access__Fv
 
-.global lbl_802FA608
-lbl_802FA608:
+.global __vt__Q34File3Dvd6Access
+__vt__Q34File3Dvd6Access:
 
 	# ROM: 0x2F66E8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000AE78
-	.4byte lbl_8000B124
-	.4byte lbl_80007ACC
-	.4byte lbl_8000B11C
-	.4byte lbl_80007A30
-	.4byte lbl_8000AFB4
-	.4byte lbl_80007A2C
-	.4byte lbl_8000ADFC
+	.4byte Read__Q34File3Dvd6AccessFPvUl
+	.4byte Write__Q34File3Dvd6AccessFPCvUl
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q34File3Dvd6AccessFv
+	.4byte SetWork__Q24File4BaseFPvUl
+	.4byte Duplicate__Q34File3Dvd6AccessFv
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q34File3Dvd6AccessFv
 
-.global lbl_802FA630
-lbl_802FA630:
+.global _STRING_allocate__Q23std12allocator_c_FUlPCv
+_STRING_allocate__Q23std12allocator_c_FUlPCv:
 
 	# ROM: 0x2F6710
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FA650
-lbl_802FA650:
+.global __vt__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_
+__vt__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_:
 
 	# ROM: 0x2F6730
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000BA98
-	.4byte lbl_8000B9EC
-	.4byte lbl_8000BA38
-	.4byte lbl_8000BA5C
+	.4byte __dt__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_Fv
+	.4byte clone__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_CFv
+	.4byte clone__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_CFPv
+	.4byte __cl__Q43std3tr16detail29function_imp_PFl_b_PFl_b_0_0_Fl
 
-.global lbl_802FA668
-lbl_802FA668:
+.global __vt__Q43std3tr16detail86shared_ptr_deleter_Q34File2PC6Access_Q33std6detail33default_delete_Q34File2PC6Access__
+__vt__Q43std3tr16detail86shared_ptr_deleter_Q34File2PC6Access_Q33std6detail33default_delete_Q34File2PC6Access__:
 
 	# ROM: 0x2F6748
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000C060
-	.4byte lbl_8000C03C
+	.4byte __dt__Q43std3tr16detail86shared_ptr_deleter_Q34File2PC6Access_Q33std6detail33default_delete_Q34File2PC6Access__Fv
+	.4byte dispose__Q43std3tr16detail86shared_ptr_deleter_Q34File2PC6Access_Q33std6detail33default_delete_Q34File2PC6Access__Fv
 
-.global lbl_802FA678
-lbl_802FA678:
+.global __vt__Q34File2PC6Access
+__vt__Q34File2PC6Access:
 
 	# ROM: 0x2F6758
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000BFDC
-	.4byte lbl_8000BFD4
-	.4byte lbl_80007ACC
-	.4byte lbl_80007AC4
-	.4byte lbl_8000BFD0
-	.4byte lbl_8000BFC0
-	.4byte lbl_80007A2C
-	.4byte lbl_8000BFE4
+	.4byte Read__Q34File2PC6AccessFPvUl
+	.4byte Write__Q34File2PC6AccessFPCvUl
+	.4byte IsBusy__Q24File4BaseFv
+	.4byte GetLength__Q24File4BaseFv
+	.4byte SetWork__Q34File2PC6AccessFPvUl
+	.4byte Duplicate__Q34File2PC6AccessFv
+	.4byte ResetCallback__Q24File4BaseFv
+	.4byte __dt__Q34File2PC6AccessFv
 
-.global lbl_802FA6A0
-lbl_802FA6A0:
+.global __vt__Q23Key7Control
+__vt__Q23Key7Control:
 
 	# ROM: 0x2F6780
 	.4byte 0
 	.4byte 0
-	.4byte func_8000C2C4
-	.4byte lbl_8000C3CC
-	.4byte lbl_8000C704
-	.4byte lbl_8000C70C
-	.4byte lbl_8000C304
-	.4byte lbl_8000C31C
-	.4byte lbl_8000C334
-	.4byte lbl_8000C34C
-	.4byte lbl_8000C3C4
-	.4byte lbl_8000C364
-	.4byte lbl_8000C36C
-	.4byte lbl_8000C374
-	.4byte lbl_8000C37C
-	.4byte lbl_8000C3BC
-	.4byte lbl_8000C3AC
-	.4byte lbl_8000C3B4
+	.4byte __dt__Q23Key7ControlFv
+	.4byte Update__Q23Key7ControlFv
+	.4byte IsConnected__Q23Key7ControlCFv
+	.4byte IsStickConnected__Q23Key7ControlCFv
+	.4byte On__Q23Key7ControlCFUs
+	.4byte Press__Q23Key7ControlCFUs
+	.4byte Release__Q23Key7ControlCFUs
+	.4byte Repeat__Q23Key7ControlCFUs
+	.4byte GetStick__Q23Key7ControlCFv
+	.4byte Get__Q23Key7ControlCFv
+	.4byte GetPress__Q23Key7ControlCFv
+	.4byte GetRepeat__Q23Key7ControlCFv
+	.4byte GetRelease__Q23Key7ControlCFv
+	.4byte GetPosition__Q23Key7ControlCFv
+	.4byte GetAcc__Q23Key7ControlCFv
+	.4byte GetAcc2__Q23Key7ControlCFv
 
-.global lbl_802FA6E8
-lbl_802FA6E8:
+.global _STRING_FSqrt__Q24nw4r4mathFf_0
+_STRING_FSqrt__Q24nw4r4mathFf_0:
 
 	# ROM: 0x2F67C8
 	.asciz "FSqrt: Input is out of the domain."
 	.balign 4
 
-.global lbl_802FA70C
-lbl_802FA70C:
+.global _STRING_FSqrt__Q24nw4r4mathFf
+_STRING_FSqrt__Q24nw4r4mathFf:
 
 	# ROM: 0x2F67EC
 	.asciz "arithmetic.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FA720
-lbl_802FA720:
+.global __vt__Q43std3tr16detail102shared_ptr_deleter_Q34nw4r3snd12Sound3DActor_Q33std6detail41default_delete_Q34nw4r3snd12Sound3DActor__
+__vt__Q43std3tr16detail102shared_ptr_deleter_Q34nw4r3snd12Sound3DActor_Q33std6detail41default_delete_Q34nw4r3snd12Sound3DActor__:
 
 	# ROM: 0x2F6800
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000E568
-	.4byte lbl_8000E434
+	.4byte __dt__Q43std3tr16detail102shared_ptr_deleter_Q34nw4r3snd12Sound3DActor_Q33std6detail41default_delete_Q34nw4r3snd12Sound3DActor__Fv
+	.4byte dispose__Q43std3tr16detail102shared_ptr_deleter_Q34nw4r3snd12Sound3DActor_Q33std6detail41default_delete_Q34nw4r3snd12Sound3DActor__Fv
 
-.global lbl_802FA730
-lbl_802FA730:
+.global __vt__Q43std3tr16detail114shared_ptr_deleter_Q34nw4r3snd18SoundArchivePlayer_Q33std6detail47default_delete_Q34nw4r3snd18SoundArchivePlayer__
+__vt__Q43std3tr16detail114shared_ptr_deleter_Q34nw4r3snd18SoundArchivePlayer_Q33std6detail47default_delete_Q34nw4r3snd18SoundArchivePlayer__:
 
 	# ROM: 0x2F6810
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000E528
-	.4byte lbl_8000E458
+	.4byte __dt__Q43std3tr16detail114shared_ptr_deleter_Q34nw4r3snd18SoundArchivePlayer_Q33std6detail47default_delete_Q34nw4r3snd18SoundArchivePlayer__Fv
+	.4byte dispose__Q43std3tr16detail114shared_ptr_deleter_Q34nw4r3snd18SoundArchivePlayer_Q33std6detail47default_delete_Q34nw4r3snd18SoundArchivePlayer__Fv
 
-.global lbl_802FA740
-lbl_802FA740:
+.global __vt__Q25Sound8Handle3D
+__vt__Q25Sound8Handle3D:
 
 	# ROM: 0x2F6820
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000E398
+	.4byte __dt__Q25Sound8Handle3DFv
 
-.global lbl_802FA74C
-lbl_802FA74C:
+.global __vt__Q25Sound6Handle
+__vt__Q25Sound6Handle:
 
 	# ROM: 0x2F682C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000E198
+	.4byte __dt__Q25Sound6HandleFv
 
-.global lbl_802FA758
-lbl_802FA758:
+.global __vt__Q25Timer8TimerWii
+__vt__Q25Timer8TimerWii:
 
 	# ROM: 0x2F6838
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8000E720
-	.4byte lbl_8000E620
-	.4byte lbl_8000E6C8
-	.4byte lbl_8000E67C
+	.4byte __dt__Q25Timer8TimerWiiFv
+	.4byte Clear__Q25Timer8TimerWiiFv
+	.4byte Get__Q25Timer8TimerWiiCFv
+	.4byte Duplicate__Q25Timer8TimerWiiCFv
 
-.global lbl_802FA770
-lbl_802FA770:
+.global __vt__Q43std3tr16detail106shared_ptr_deleter_Q47Romfont3Put7Manager4data_Q33std6detail43default_delete_Q47Romfont3Put7Manager4data__
+__vt__Q43std3tr16detail106shared_ptr_deleter_Q47Romfont3Put7Manager4data_Q33std6detail43default_delete_Q47Romfont3Put7Manager4data__:
 
 	# ROM: 0x2F6850
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80010AA4
-	.4byte lbl_80010A50
+	.4byte __dt__Q43std3tr16detail106shared_ptr_deleter_Q47Romfont3Put7Manager4data_Q33std6detail43default_delete_Q47Romfont3Put7Manager4data__Fv
+	.4byte dispose__Q43std3tr16detail106shared_ptr_deleter_Q47Romfont3Put7Manager4data_Q33std6detail43default_delete_Q47Romfont3Put7Manager4data__Fv
 
-.global lbl_802FA780
-lbl_802FA780:
+.global _STRING_allocate__Q23std62allocator_Q33std3tr139shared_ptr_Q47Romfont3Put7Manager4data__FUlPCv
+_STRING_allocate__Q23std62allocator_Q33std3tr139shared_ptr_Q47Romfont3Put7Manager4data__FUlPCv:
 
 	# ROM: 0x2F6860
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FA79C
-lbl_802FA79C:
+.global _STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_2
+_STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_2:
 
 	# ROM: 0x2F687C
 	.asciz "NW4R:Pointer Error\n& font(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA7D4
-lbl_802FA7D4:
+.global _STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_1
+_STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_1:
 
 	# ROM: 0x2F68B4
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA7E4
-lbl_802FA7E4:
+.global _STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_0
+_STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font_0:
 
 	# ROM: 0x2F68C4
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA818
-lbl_802FA818:
+.global _STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font
+_STRING_SetFont__Q34nw4r2ut10CharWriterFRCQ34nw4r2ut4Font:
 
 	# ROM: 0x2F68F8
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA828
-lbl_802FA828:
+.global _STRING_SetTextColor__Q34nw4r2ut10CharWriterFQ34nw4r2ut5Color_0
+_STRING_SetTextColor__Q34nw4r2ut10CharWriterFQ34nw4r2ut5Color_0:
 
 	# ROM: 0x2F6908
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA85C
-lbl_802FA85C:
+.global _STRING_SetTextColor__Q34nw4r2ut10CharWriterFQ34nw4r2ut5Color
+_STRING_SetTextColor__Q34nw4r2ut10CharWriterFQ34nw4r2ut5Color:
 
 	# ROM: 0x2F693C
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA86C
-lbl_802FA86C:
+.global _STRING_SetFixedWidth__Q34nw4r2ut10CharWriterFf_0
+_STRING_SetFixedWidth__Q34nw4r2ut10CharWriterFf_0:
 
 	# ROM: 0x2F694C
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA8A0
-lbl_802FA8A0:
+.global _STRING_SetFixedWidth__Q34nw4r2ut10CharWriterFf
+_STRING_SetFixedWidth__Q34nw4r2ut10CharWriterFf:
 
 	# ROM: 0x2F6980
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA8B0
-lbl_802FA8B0:
+.global _STRING_SetCursor__Q34nw4r2ut10CharWriterFff_0
+_STRING_SetCursor__Q34nw4r2ut10CharWriterFff_0:
 
 	# ROM: 0x2F6990
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA8E4
-lbl_802FA8E4:
+.global _STRING_SetCursor__Q34nw4r2ut10CharWriterFff
+_STRING_SetCursor__Q34nw4r2ut10CharWriterFff:
 
 	# ROM: 0x2F69C4
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA8F4
-lbl_802FA8F4:
+.global _STRING_MoveCursorX__Q34nw4r2ut10CharWriterFf_0
+_STRING_MoveCursorX__Q34nw4r2ut10CharWriterFf_0:
 
 	# ROM: 0x2F69D4
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FA928
-lbl_802FA928:
+.global _STRING_MoveCursorX__Q34nw4r2ut10CharWriterFf
+_STRING_MoveCursorX__Q34nw4r2ut10CharWriterFf:
 
 	# ROM: 0x2F6A08
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FA938
-lbl_802FA938:
+.global __vt__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_
+__vt__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_:
 
 	# ROM: 0x2F6A18
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8001152C
-	.4byte lbl_80011164
-	.4byte lbl_800111C0
-	.4byte lbl_800111F4
+	.4byte __dt__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
+	.4byte clone__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFv
+	.4byte clone__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFPv
+	.4byte __cl__Q43std3tr16detail279function_imp_PFUl_Pv_Q43std3tr16detail233bound_func_Pv_PFUlQ26Memory6FourCC_Pv_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_FUl
 
-.global lbl_802FA950
-lbl_802FA950:
+.global __vt__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_
+__vt__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_:
 
 	# ROM: 0x2F6A30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800114EC
-	.4byte lbl_80011234
-	.4byte lbl_80011290
-	.4byte lbl_800112C4
+	.4byte __dt__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_Fv
+	.4byte clone__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFv
+	.4byte clone__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFPv
+	.4byte __cl__Q43std3tr16detail276function_imp_PFPv_v_Q43std3tr16detail231bound_func_v_PFPvQ26Memory6FourCC_v_Q33std3tr1181tuple_Q53std3tr112placeholders6detail5ph_1__Q26Memory6FourCC_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_FPv
 
-.global lbl_802FA968
-lbl_802FA968:
+.global __vt__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_
+__vt__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_:
 
 	# ROM: 0x2F6A48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800114AC
-	.4byte lbl_80011304
-	.4byte lbl_80011358
-	.4byte lbl_80011384
+	.4byte __dt__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
+	.4byte clone__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFv
+	.4byte clone__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFPv
+	.4byte __cl__Q43std3tr16detail261function_imp_PFUl_Pv_Q43std3tr16detail215bound_func_Pv_PFUl_Pv_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_FUl
 
-.global lbl_802FA980
-lbl_802FA980:
+.global __vt__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_
+__vt__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_:
 
 	# ROM: 0x2F6A60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8001146C
-	.4byte lbl_800113B8
-	.4byte lbl_8001140C
-	.4byte lbl_80011438
+	.4byte __dt__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_Fv
+	.4byte clone__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFv
+	.4byte clone__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFPv
+	.4byte __cl__Q43std3tr16detail258function_imp_PFPv_v_Q43std3tr16detail213bound_func_v_PFPv_v_Q33std3tr1179tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_FPv
 
 .global lbl_802FA998
 lbl_802FA998:
@@ -492,179 +492,179 @@ lbl_802FA998:
 	.4byte 0x01010000
 	.4byte 0
 
-.global lbl_802FA9B8
-lbl_802FA9B8:
+.global __vt__Q43std3tr16detail82shared_ptr_deleter_Q24Dof27ScnDof2_Q33std6detail31default_delete_Q24Dof27ScnDof2__
+__vt__Q43std3tr16detail82shared_ptr_deleter_Q24Dof27ScnDof2_Q33std6detail31default_delete_Q24Dof27ScnDof2__:
 
 	# ROM: 0x2F6A98
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013D6C
-	.4byte lbl_800139FC
+	.4byte __dt__Q43std3tr16detail82shared_ptr_deleter_Q24Dof27ScnDof2_Q33std6detail31default_delete_Q24Dof27ScnDof2__Fv
+	.4byte dispose__Q43std3tr16detail82shared_ptr_deleter_Q24Dof27ScnDof2_Q33std6detail31default_delete_Q24Dof27ScnDof2__Fv
 
-.global lbl_802FA9C8
-lbl_802FA9C8:
+.global __vt__Q43std3tr16detail78shared_ptr_deleter_Q23DOF6ScnDOF_Q33std6detail29default_delete_Q23DOF6ScnDOF__
+__vt__Q43std3tr16detail78shared_ptr_deleter_Q23DOF6ScnDOF_Q33std6detail29default_delete_Q23DOF6ScnDOF__:
 
 	# ROM: 0x2F6AA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013D2C
-	.4byte lbl_80013A20
+	.4byte __dt__Q43std3tr16detail78shared_ptr_deleter_Q23DOF6ScnDOF_Q33std6detail29default_delete_Q23DOF6ScnDOF__Fv
+	.4byte dispose__Q43std3tr16detail78shared_ptr_deleter_Q23DOF6ScnDOF_Q33std6detail29default_delete_Q23DOF6ScnDOF__Fv
 
-.global lbl_802FA9D8
-lbl_802FA9D8:
+.global __vt__Q43std3tr16detail86shared_ptr_deleter_Q25Bloom8ScnBloom_Q33std6detail33default_delete_Q25Bloom8ScnBloom__
+__vt__Q43std3tr16detail86shared_ptr_deleter_Q25Bloom8ScnBloom_Q33std6detail33default_delete_Q25Bloom8ScnBloom__:
 
 	# ROM: 0x2F6AB8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013CEC
-	.4byte lbl_80013A44
+	.4byte __dt__Q43std3tr16detail86shared_ptr_deleter_Q25Bloom8ScnBloom_Q33std6detail33default_delete_Q25Bloom8ScnBloom__Fv
+	.4byte dispose__Q43std3tr16detail86shared_ptr_deleter_Q25Bloom8ScnBloom_Q33std6detail33default_delete_Q25Bloom8ScnBloom__Fv
 
-.global lbl_802FA9E8
-lbl_802FA9E8:
+.global __vt__Q43std3tr16detail102shared_ptr_deleter_Q28Sequence12SeqTaskScn3D_Q33std6detail41default_delete_Q28Sequence12SeqTaskScn3D__
+__vt__Q43std3tr16detail102shared_ptr_deleter_Q28Sequence12SeqTaskScn3D_Q33std6detail41default_delete_Q28Sequence12SeqTaskScn3D__:
 
 	# ROM: 0x2F6AC8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013CAC
-	.4byte lbl_80013A68
+	.4byte __dt__Q43std3tr16detail102shared_ptr_deleter_Q28Sequence12SeqTaskScn3D_Q33std6detail41default_delete_Q28Sequence12SeqTaskScn3D__Fv
+	.4byte dispose__Q43std3tr16detail102shared_ptr_deleter_Q28Sequence12SeqTaskScn3D_Q33std6detail41default_delete_Q28Sequence12SeqTaskScn3D__Fv
 
-.global lbl_802FA9F8
-lbl_802FA9F8:
+.global __vt__Q43std3tr16detail86shared_ptr_deleter_Q25Scene8Scn3DSub_Q33std6detail33default_delete_Q25Scene8Scn3DSub__
+__vt__Q43std3tr16detail86shared_ptr_deleter_Q25Scene8Scn3DSub_Q33std6detail33default_delete_Q25Scene8Scn3DSub__:
 
 	# ROM: 0x2F6AD8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013C6C
-	.4byte lbl_80013A8C
+	.4byte __dt__Q43std3tr16detail86shared_ptr_deleter_Q25Scene8Scn3DSub_Q33std6detail33default_delete_Q25Scene8Scn3DSub__Fv
+	.4byte dispose__Q43std3tr16detail86shared_ptr_deleter_Q25Scene8Scn3DSub_Q33std6detail33default_delete_Q25Scene8Scn3DSub__Fv
 
-.global lbl_802FAA08
-lbl_802FAA08:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnEffect_Q33std6detail34default_delete_Q25Scene9ScnEffect__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnEffect_Q33std6detail34default_delete_Q25Scene9ScnEffect__:
 
 	# ROM: 0x2F6AE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013C2C
-	.4byte lbl_80013AB0
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnEffect_Q33std6detail34default_delete_Q25Scene9ScnEffect__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnEffect_Q33std6detail34default_delete_Q25Scene9ScnEffect__Fv
 
-.global lbl_802FAA18
-lbl_802FAA18:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnSprite_Q33std6detail34default_delete_Q25Scene9ScnSprite__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnSprite_Q33std6detail34default_delete_Q25Scene9ScnSprite__:
 
 	# ROM: 0x2F6AF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013BEC
-	.4byte lbl_80013AD4
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnSprite_Q33std6detail34default_delete_Q25Scene9ScnSprite__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q25Scene9ScnSprite_Q33std6detail34default_delete_Q25Scene9ScnSprite__Fv
 
-.global lbl_802FAA28
-lbl_802FAA28:
+.global __vt__Q28Sequence12SeqTaskScn3D
+__vt__Q28Sequence12SeqTaskScn3D:
 
 	# ROM: 0x2F6B08
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8001399C
-	.4byte lbl_80077AFC
-	.4byte lbl_800135C0
-	.4byte lbl_80013588
-	.4byte func_80077B5C
-	.4byte func_80077BE4
+	.4byte __dt__Q28Sequence12SeqTaskScn3DFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q28Sequence12SeqTaskScn3DFi
+	.4byte DrawSetEnd__Q28Sequence12SeqTaskScn3DFv
+	.4byte DrawOpa__Q25Scene5Scn3DFv
+	.4byte DrawXlu__Q25Scene5Scn3DFv
 
-.global lbl_802FAA48
-lbl_802FAA48:
+.global __vt__Q28Sequence9SeqTask3D
+__vt__Q28Sequence9SeqTask3D:
 
 	# ROM: 0x2F6B28
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800139F4
-	.4byte func_80012614
-	.4byte lbl_80013224
-	.4byte lbl_80008290
-	.4byte func_80012A34
-	.4byte func_80012E34
+	.4byte GetRTI__Q28Sequence9SeqTask3DCFv
+	.4byte __dt__Q28Sequence9SeqTask3DFv
+	.4byte exec__Q28Sequence9SeqTask3DFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte InitBefore__Q28Sequence9SeqTask3DFv
+	.4byte InitAfter__Q28Sequence9SeqTask3DFv
 	.4byte 0
-	.4byte lbl_80013998
+	.4byte drawSet__Q28Sequence9SeqTask3DFi
 	.4byte 0
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FAA7C
-lbl_802FAA7C:
+.global _STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_Fv_0
+_STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_Fv_0:
 
 	# ROM: 0x2F6B5C
 	.asciz "NW4R:Pointer must not be NULL (mpData)"
 	.balign 4
 
-.global lbl_802FAAA4
-lbl_802FAAA4:
+.global _STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_Fv
+_STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_Fv:
 
 	# ROM: 0x2F6B84
 	.asciz "g3d_rescommon_ac.h"
 	.balign 4
 
-.global lbl_802FAAB8
-lbl_802FAAB8:
+.global _STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_CFv_0
+_STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_CFv_0:
 
 	# ROM: 0x2F6B98
 	.asciz "NW4R:Pointer must not be NULL (mpData)"
 	.balign 4
 
-.global lbl_802FAAE0
-lbl_802FAAE0:
+.global _STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_CFv
+_STRING_ref__Q34nw4r3g3d34ResCommon_Q34nw4r3g3d10CameraData_CFv:
 
 	# ROM: 0x2F6BC0
 	.asciz "g3d_rescommon_ac.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FAAF8
-lbl_802FAAF8:
+.global _STRING_SetFogType__Q34nw4r3g3d3FogF10_GXFogType_0
+_STRING_SetFogType__Q34nw4r3g3d3FogF10_GXFogType_0:
 
 	# ROM: 0x2F6BD8
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FAB18
-lbl_802FAB18:
+.global _STRING_SetFogType__Q34nw4r3g3d3FogF10_GXFogType
+_STRING_SetFogType__Q34nw4r3g3d3FogF10_GXFogType:
 
 	# ROM: 0x2F6BF8
 	.asciz "g3d_fog.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FAB28
-lbl_802FAB28:
+.global _STRING_SetZ__Q34nw4r3g3d3FogFff_0
+_STRING_SetZ__Q34nw4r3g3d3FogFff_0:
 
 	# ROM: 0x2F6C08
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FAB48
-lbl_802FAB48:
+.global _STRING_SetZ__Q34nw4r3g3d3FogFff
+_STRING_SetZ__Q34nw4r3g3d3FogFff:
 
 	# ROM: 0x2F6C28
 	.asciz "g3d_fog.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FAB58
-lbl_802FAB58:
+.global _STRING_SetFogColor__Q34nw4r3g3d3FogF8_GXColor_0
+_STRING_SetFogColor__Q34nw4r3g3d3FogF8_GXColor_0:
 
 	# ROM: 0x2F6C38
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FAB78
-lbl_802FAB78:
+.global _STRING_SetFogColor__Q34nw4r3g3d3FogF8_GXColor
+_STRING_SetFogColor__Q34nw4r3g3d3FogF8_GXColor:
 
 	# ROM: 0x2F6C58
 	.asciz "g3d_fog.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FAB88
-lbl_802FAB88:
+.global _STRING_SetFogRangeAdj__Q34nw4r3g3d3FogFb_0
+_STRING_SetFogRangeAdj__Q34nw4r3g3d3FogFb_0:
 
 	# ROM: 0x2F6C68
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FABA8
-lbl_802FABA8:
+.global _STRING_SetFogRangeAdj__Q34nw4r3g3d3FogFb
+_STRING_SetFogRangeAdj__Q34nw4r3g3d3FogFb:
 
 	# ROM: 0x2F6C88
 	.asciz "g3d_fog.h"
@@ -677,72 +677,72 @@ lbl_802FABB8:
 	# ROM: 0x2F6C98
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_80008BB0
+	.4byte Kill__Q24Task4BaseFv
 	.4byte 0
 
-.global lbl_802FABC8
-lbl_802FABC8:
+.global __vt__Q43std3tr16detail72shared_ptr_deleter_Q26System8RootTask_Q23std25mem_fun_t_v_Q24Task4Base__
+__vt__Q43std3tr16detail72shared_ptr_deleter_Q26System8RootTask_Q23std25mem_fun_t_v_Q24Task4Base__:
 
 	# ROM: 0x2F6CA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80026974
-	.4byte lbl_80026944
+	.4byte __dt__Q43std3tr16detail72shared_ptr_deleter_Q26System8RootTask_Q23std25mem_fun_t_v_Q24Task4Base__Fv
+	.4byte dispose__Q43std3tr16detail72shared_ptr_deleter_Q26System8RootTask_Q23std25mem_fun_t_v_Q24Task4Base__Fv
 
-.global lbl_802FABD8
-lbl_802FABD8:
+.global _STRING___ct__Q24Main9SystemSetFv
+_STRING___ct__Q24Main9SystemSetFv:
 
 	# ROM: 0x2F6CB8
 	.asciz "main.sel"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FABE8
-lbl_802FABE8:
+.global __vt__Q43std3tr16detail78shared_ptr_deleter_Q23Rso6Module_Q33std6detail29default_delete_Q23Rso6Module__
+__vt__Q43std3tr16detail78shared_ptr_deleter_Q23Rso6Module_Q33std6detail29default_delete_Q23Rso6Module__:
 
 	# ROM: 0x2F6CC8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800274CC
-	.4byte lbl_80027378
+	.4byte __dt__Q43std3tr16detail78shared_ptr_deleter_Q23Rso6Module_Q33std6detail29default_delete_Q23Rso6Module__Fv
+	.4byte dispose__Q43std3tr16detail78shared_ptr_deleter_Q23Rso6Module_Q33std6detail29default_delete_Q23Rso6Module__Fv
 
-.global lbl_802FABF8
-lbl_802FABF8:
+.global __vt__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_
+__vt__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_:
 
 	# ROM: 0x2F6CD8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80028078
-	.4byte lbl_80027E84
-	.4byte lbl_80027F0C
-	.4byte lbl_80027F64
+	.4byte __dt__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_Fv
+	.4byte clone__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFv
+	.4byte clone__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFPv
+	.4byte __cl__Q43std3tr16detail374function_imp_PFPQ24Task4Base_PQ24Task4Base_Q43std3tr16detail306bound_func_PQ24Task4Base_PFPQ24Task4BaseQ33std3tr124shared_ptr_Q24File4Base__PQ24Task4Base_Q33std3tr1201tuple_Q53std3tr112placeholders6detail5ph_1__Q33std3tr124shared_ptr_Q24File4Base__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_FPQ24Task4Base
 
-.global lbl_802FAC10
-lbl_802FAC10:
+.global __vt__Q28Sequence9RsoHolder
+__vt__Q28Sequence9RsoHolder:
 
 	# ROM: 0x2F6CF0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80027E6C
-	.4byte lbl_80027DDC
-	.4byte lbl_80027C7C
-	.4byte lbl_80008290
+	.4byte GetRTI__Q28Sequence9RsoHolderCFv
+	.4byte __dt__Q28Sequence9RsoHolderFv
+	.4byte exec__Q28Sequence9RsoHolderFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FAC28
-lbl_802FAC28:
+.global __vt__Q28Sequence6RsoSeq
+__vt__Q28Sequence6RsoSeq:
 
 	# ROM: 0x2F6D08
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80027FF4
-	.4byte lbl_80027E80
-	.4byte lbl_80027E7C
-	.4byte lbl_800276EC
-	.4byte lbl_80027E78
-	.4byte lbl_80027E74
+	.4byte __dt__Q28Sequence6RsoSeqFv
+	.4byte Load__Q28Sequence6ObjectFv
+	.4byte Loaded__Q28Sequence6ObjectFv
+	.4byte Start__Q28Sequence6RsoSeqFv
+	.4byte Kill__Q28Sequence6ObjectFv
+	.4byte Killed__Q28Sequence6ObjectFv
 
-.global lbl_802FAC48
-lbl_802FAC48:
+.global _STRING_exec__Q28Sequence9RsoHolderFv_0
+_STRING_exec__Q28Sequence9RsoHolderFv_0:
 
 	# ROM: 0x2F6D28
 	.asciz "RSO Sequence. 'Create' Adr = 0x%x\n"
@@ -780,16 +780,16 @@ lbl_802FAC70:
 	.4byte lbl_800284D8
 	.4byte lbl_80028500
 
-.global lbl_802FACD8
-lbl_802FACD8:
+.global _STRING_allocate__Q23std34allocator_Q28Sequence10ObjectData_FUlPCv
+_STRING_allocate__Q23std34allocator_Q28Sequence10ObjectData_FUlPCv:
 
 	# ROM: 0x2F6DB8
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FACF8
-lbl_802FACF8:
+.global banner_name_tbl__8SaveLoad
+banner_name_tbl__8SaveLoad:
 
 	# ROM: 0x2F6DD8
 	.4byte lbl_802D80A4
@@ -801,14 +801,14 @@ lbl_802FACF8:
 	.4byte lbl_802D80A4
 	.4byte 0
 
-.global lbl_802FAD18
-lbl_802FAD18:
+.global __vt__Q44Game5Hikey5Basic3Obj
+__vt__Q44Game5Hikey5Basic3Obj:
 
 	# ROM: 0x2F6DF8
 	.4byte 0
 	.4byte 0
-	.4byte func_80030FC8
-	.4byte func_80031038
+	.4byte __dt__Q44Game5Hikey5Basic3ObjFv
+	.4byte Update__Q44Game5Hikey5Basic3ObjFv
 
 .global lbl_802FAD28
 lbl_802FAD28:
@@ -830,16 +830,16 @@ lbl_802FAD38:
 	.4byte lbl_802D829C
 	.4byte lbl_802D82B0
 
-.global lbl_802FAD50
-lbl_802FAD50:
+.global __vt__Q34Game7Penguin7Manager
+__vt__Q34Game7Penguin7Manager:
 
 	# ROM: 0x2F6E30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800324B4
-	.4byte lbl_80031AD4
-	.4byte lbl_80031B84
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game7Penguin7ManagerCFv
+	.4byte __dt__Q34Game7Penguin7ManagerFv
+	.4byte exec__Q34Game7Penguin7ManagerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FAD68
 lbl_802FAD68:
@@ -1021,16 +1021,16 @@ lbl_802FAFA0:
 	.4byte lbl_802D8D78
 	.4byte lbl_802D8D8C
 
-.global lbl_802FAFC0
-lbl_802FAFC0:
+.global __vt__Q34Game7Penguin4Body
+__vt__Q34Game7Penguin4Body:
 
 	# ROM: 0x2F70A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80038E10
-	.4byte lbl_80032CDC
-	.4byte lbl_80032DB0
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game7Penguin4BodyCFv
+	.4byte __dt__Q34Game7Penguin4BodyFv
+	.4byte exec__Q34Game7Penguin4BodyFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
@@ -1038,42 +1038,42 @@ lbl_802FAFC0:
 	.4byte 0
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FB030
-lbl_802FB030:
+.global _STRING_ref__Q34nw4r3g3d6ResMatCFv_0
+_STRING_ref__Q34nw4r3g3d6ResMatCFv_0:
 
 	# ROM: 0x2F7110
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 	.4byte 0
 
-.global lbl_802FB050
-lbl_802FB050:
+.global _STRING_ref__Q34nw4r3g3d6ResMatCFv
+_STRING_ref__Q34nw4r3g3d6ResMatCFv:
 
 	# ROM: 0x2F7130
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FB060
-lbl_802FB060:
+.global _STRING___ct__Q34nw4r3g3d9ResTexSrtFPv_0
+_STRING___ct__Q34nw4r3g3d9ResTexSrtFPv_0:
 
 	# ROM: 0x2F7140
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FB088
-lbl_802FB088:
+.global _STRING___ct__Q34nw4r3g3d9ResTexSrtFPv
+_STRING___ct__Q34nw4r3g3d9ResTexSrtFPv:
 
 	# ROM: 0x2F7168
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FB098
-lbl_802FB098:
+.global _STRING___ct__Q34nw4r3g3d6ResMdlFPv_0
+_STRING___ct__Q34nw4r3g3d6ResMdlFPv_0:
 
 	# ROM: 0x2F7178
 	.asciz "NW4R:Failed assertion !((u32)p & 0x1f)"
 	.balign 4
 
-.global lbl_802FB0C0
-lbl_802FB0C0:
+.global _STRING___ct__Q34nw4r3g3d6ResMdlFPv
+_STRING___ct__Q34nw4r3g3d6ResMdlFPv:
 
 	# ROM: 0x2F71A0
 	.asciz "g3d_resmdl_ac.h"
@@ -1082,22 +1082,22 @@ lbl_802FB0C0:
 	.asciz "g3d_resanmchr_ac.h"
 	.balign 4
 
-.global lbl_802FB10C
-lbl_802FB10C:
+.global _STRING_GetClassName__Q34nw4r3g3d9ResAnmChrFv
+_STRING_GetClassName__Q34nw4r3g3d9ResAnmChrFv:
 
 	# ROM: 0x2F71EC
 	.asciz "ResAnmChr"
 	.balign 4
 
-.global lbl_802FB118
-lbl_802FB118:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmChrCFv_0
+_STRING_ref__Q34nw4r3g3d9ResAnmChrCFv_0:
 
 	# ROM: 0x2F71F8
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB134
-lbl_802FB134:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmChrCFv
+_STRING_ref__Q34nw4r3g3d9ResAnmChrCFv:
 
 	# ROM: 0x2F7214
 	.asciz "g3d_resanmchr_ac.h"
@@ -1138,16 +1138,16 @@ lbl_802FB17C:
 	.4byte func_8003AD70
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_8000E028
+	.4byte Pause__Q25Sound6HandleFbUl
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8000E2FC
+	.4byte Pause__Q25Sound8Handle3DFbUl
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_8000E028
+	.4byte Pause__Q25Sound6HandleFbUl
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8000E2FC
+	.4byte Pause__Q25Sound8Handle3DFbUl
 
 .global lbl_802FB1D8
 lbl_802FB1D8:
@@ -1168,251 +1168,251 @@ lbl_802FB1D8:
 	.4byte lbl_8003CB24
 	.4byte lbl_8003CB34
 
-.global lbl_802FB210
-lbl_802FB210:
+.global __vt__Q24Game8GameBase
+__vt__Q24Game8GameBase:
 
 	# ROM: 0x2F72F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003CB40
-	.4byte lbl_80039E8C
-	.4byte lbl_80013224
-	.4byte lbl_80008290
-	.4byte lbl_8003A074
-	.4byte lbl_8003A128
-	.4byte lbl_8003A150
-	.4byte lbl_80013998
+	.4byte GetRTI__Q24Game8GameBaseCFv
+	.4byte __dt__Q24Game8GameBaseFv
+	.4byte exec__Q28Sequence9SeqTask3DFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte InitBefore__Q24Game8GameBaseFv
+	.4byte InitAfter__Q24Game8GameBaseFv
+	.4byte seq_exec__Q24Game8GameBaseFv
+	.4byte drawSet__Q28Sequence9SeqTask3DFi
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003AED8
+	.4byte InitTriangle__Q24Game8GameBaseFv
 	.4byte 0
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FB268
-lbl_802FB268:
+.global _STRING_allocate__Q23std77allocator_Q33std53__tree_deleter_i_Q23std7less_i__Q23std12allocator_i__4node_FUlPCv
+_STRING_allocate__Q23std77allocator_Q33std53__tree_deleter_i_Q23std7less_i__Q23std12allocator_i__4node_FUlPCv:
 
 	# ROM: 0x2F7348
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FB288
-lbl_802FB288:
+.global __vt__Q45Scene6Camera7forGame3Obj
+__vt__Q45Scene6Camera7forGame3Obj:
 
 	# ROM: 0x2F7368
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003DA78
-	.4byte lbl_8003DB4C
+	.4byte __dt__Q45Scene6Camera7forGame3ObjFv
+	.4byte update__Q45Scene6Camera7forGame3ObjFv
 
-.global lbl_802FB298
-lbl_802FB298:
+.global __vt__Q24Game7FadeOut
+__vt__Q24Game7FadeOut:
 
 	# ROM: 0x2F7378
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003E068
-	.4byte lbl_8003E02C
-	.4byte lbl_8003E060
+	.4byte Start__Q24Game7FadeOutCFv
+	.4byte Update__Q24Game7FadeOutCFRQ29GameSpeed4TimeRCQ29GameSpeed4Time
+	.4byte End__Q24Game7FadeOutCFv
 
-.global lbl_802FB2AC
-lbl_802FB2AC:
+.global __vt__Q24Game6FadeIn
+__vt__Q24Game6FadeIn:
 
 	# ROM: 0x2F738C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003E078
-	.4byte lbl_8003DFF8
-	.4byte lbl_8003E070
+	.4byte Start__Q24Game6FadeInCFv
+	.4byte Update__Q24Game6FadeInCFRQ29GameSpeed4TimeRCQ29GameSpeed4Time
+	.4byte End__Q24Game6FadeInCFv
 
-.global lbl_802FB2C0
-lbl_802FB2C0:
+.global __vt__Q24Game11FadeControl
+__vt__Q24Game11FadeControl:
 
 	# ROM: 0x2F73A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003E080
-	.4byte lbl_8003DEE8
-	.4byte lbl_8003DF74
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game11FadeControlCFv
+	.4byte __dt__Q24Game11FadeControlFv
+	.4byte exec__Q24Game11FadeControlFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FB2D8
-lbl_802FB2D8:
+.global __vt__Q34Game6MapObj19cMapObjDrawCallback
+__vt__Q34Game6MapObj19cMapObjDrawCallback:
 
 	# ROM: 0x2F73B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003F680
-	.4byte lbl_80041234
-	.4byte lbl_80041230
-	.4byte lbl_80040F04
-	.4byte lbl_8004122C
-	.4byte lbl_80041228
+	.4byte __dt__Q34Game6MapObj19cMapObjDrawCallbackFv
+	.4byte ExecCallback_CALC_WORLD__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_CALC_MAT__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_CALC_VIEW__Q34Game6MapObj19cMapObjDrawCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_DRAW_OPA__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_DRAW_XLU__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
 
-.global lbl_802FB2F8
-lbl_802FB2F8:
+.global __vt__Q34Game6MapObj7Manager
+__vt__Q34Game6MapObj7Manager:
 
 	# ROM: 0x2F73D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80041238
-	.4byte lbl_8003E1A8
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game6MapObj7ManagerCFv
+	.4byte __dt__Q34Game6MapObj7ManagerFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FB310
-lbl_802FB310:
+.global __vt__Q34Game6MapObj3Obj
+__vt__Q34Game6MapObj3Obj:
 
 	# ROM: 0x2F73F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80041248
-	.4byte lbl_8003F58C
-	.4byte lbl_80040470
-	.4byte lbl_8003F6C0
-	.4byte lbl_8003FA1C
-	.4byte lbl_8003FD98
-	.4byte lbl_8003F7D4
-	.4byte lbl_80041240
-	.4byte lbl_8003F9E8
-	.4byte lbl_8003FF9C
-	.4byte lbl_800400C8
-	.4byte lbl_8004017C
-	.4byte lbl_80040254
-	.4byte lbl_8004030C
-	.4byte lbl_80040314
-	.4byte lbl_80040468
-	.4byte lbl_8004031C
-	.4byte lbl_800403F8
+	.4byte GetRTI__Q34Game6MapObj3ObjCFv
+	.4byte __dt__Q34Game6MapObj3ObjFv
+	.4byte exec__Q34Game6MapObj3ObjFv
+	.4byte kill_callback__Q34Game6MapObj3ObjFv
+	.4byte Update__Q34Game6MapObj3ObjFRCQ34nw4r4math5MTX34
+	.4byte Update__Q34Game6MapObj3ObjFRCQ34nw4r4math4VEC3RCQ34nw4r4math4VEC3RCQ34nw4r4math4VEC3
+	.4byte Entry__Q34Game6MapObj3ObjFPQ34nw4r3g3d8ScnGroup
+	.4byte IsEntry__Q34Game6MapObj3ObjFv
+	.4byte SetVisible__Q34Game6MapObj3ObjFb
+	.4byte PlayAnime__Q34Game6MapObj3ObjFib
+	.4byte SetAnimeFrame__Q34Game6MapObj3ObjFf
+	.4byte GetAnimeFrame__Q34Game6MapObj3ObjFv
+	.4byte SetAnimeSpeed__Q34Game6MapObj3ObjFf
+	.4byte GetAnimeSpeed__Q34Game6MapObj3ObjFv
+	.4byte PauseAnime__Q34Game6MapObj3ObjFb
+	.4byte IsEndAnime__Q34Game6MapObj3ObjFv
+	.4byte StopAnime__Q34Game6MapObj3ObjFv
+	.4byte GetAnimeSize__Q34Game6MapObj3ObjFv
 
-.global lbl_802FB360
-lbl_802FB360:
+.global _STRING_CheckCast_PQ34nw4r3g3d6ScnObj___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnObj_0
+_STRING_CheckCast_PQ34nw4r3g3d6ScnObj___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnObj_0:
 
 	# ROM: 0x2F7440
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FB3A0
-lbl_802FB3A0:
+.global _STRING_CheckCast_PQ34nw4r3g3d6ScnObj___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnObj
+_STRING_CheckCast_PQ34nw4r3g3d6ScnObj___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnObj:
 
 	# ROM: 0x2F7480
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FB3AC
-lbl_802FB3AC:
+.global _STRING_PropInt__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPii
+_STRING_PropInt__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPii:
 
 	# ROM: 0x2F748C
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB3CC
-lbl_802FB3CC:
+.global _STRING_PropFloat__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPff
+_STRING_PropFloat__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPff:
 
 	# ROM: 0x2F74AC
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB3EC
-lbl_802FB3EC:
+.global _STRING_PropText__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc
+_STRING_PropText__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc:
 
 	# ROM: 0x2F74CC
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB40C
-lbl_802FB40C:
+.global _STRING_PropVector__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3_2
+_STRING_PropVector__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3_2:
 
 	# ROM: 0x2F74EC
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB42C
-lbl_802FB42C:
+.global _STRING_ref__Q34nw4r3g3d6ResMdlFv_0
+_STRING_ref__Q34nw4r3g3d6ResMdlFv_0:
 
 	# ROM: 0x2F750C
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB448
-lbl_802FB448:
+.global _STRING_ref__Q34nw4r3g3d6ResMdlFv
+_STRING_ref__Q34nw4r3g3d6ResMdlFv:
 
 	# ROM: 0x2F7528
 	.asciz "g3d_resmdl_ac.h"
 
-.global lbl_802FB458
-lbl_802FB458:
+.global _STRING___ct__Q34nw4r3g3d10ResMdlInfoFPv_0
+_STRING___ct__Q34nw4r3g3d10ResMdlInfoFPv_0:
 
 	# ROM: 0x2F7538
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FB480
-lbl_802FB480:
+.global _STRING___ct__Q34nw4r3g3d10ResMdlInfoFPv
+_STRING___ct__Q34nw4r3g3d10ResMdlInfoFPv:
 
 	# ROM: 0x2F7560
 	.asciz "g3d_resmdl_ac.h"
 
-.global lbl_802FB490
-lbl_802FB490:
+.global _STRING_GetClassName__Q34nw4r3g3d10ResMdlInfoFv
+_STRING_GetClassName__Q34nw4r3g3d10ResMdlInfoFv:
 
 	# ROM: 0x2F7570
 	.asciz "ResMdlInfo"
 	.balign 4
 
-.global lbl_802FB49C
-lbl_802FB49C:
+.global _STRING_ref__Q34nw4r3g3d10ResMdlInfoFv_0
+_STRING_ref__Q34nw4r3g3d10ResMdlInfoFv_0:
 
 	# ROM: 0x2F757C
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB4B8
-lbl_802FB4B8:
+.global _STRING_ref__Q34nw4r3g3d10ResMdlInfoFv
+_STRING_ref__Q34nw4r3g3d10ResMdlInfoFv:
 
 	# ROM: 0x2F7598
 	.asciz "g3d_resmdl_ac.h"
 
-.global lbl_802FB4C8
-lbl_802FB4C8:
+.global __vt__Q34Game5Pause7Control
+__vt__Q34Game5Pause7Control:
 
 	# ROM: 0x2F75A8
 	.4byte 0
 	.4byte 0
-	.4byte func_80041FA0
+	.4byte __dt__Q34Game5Pause7ControlFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008EA4
-	.4byte lbl_80042034
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Task4BaseCFv
+	.4byte _12___dt__Q34Game5Pause7ControlFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.4byte 0
 
-.global lbl_802FB4F0
-lbl_802FB4F0:
+.global __vt__Q24Game18GamePlayerTriangle
+__vt__Q24Game18GamePlayerTriangle:
 
 	# ROM: 0x2F75D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80042928
-	.4byte lbl_80042880
-	.4byte lbl_80042728
-	.4byte lbl_80008290
-	.4byte lbl_800426BC
+	.4byte GetRTI__Q24Game18GamePlayerTriangleCFv
+	.4byte __dt__Q24Game18GamePlayerTriangleFv
+	.4byte exec__Q24Game18GamePlayerTriangleFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte GetModelAttachPos__Q24Game18GamePlayerTriangleFv
 	.4byte 0
 
-.global lbl_802FB510
-lbl_802FB510:
+.global __vt__Q24Game11GameReadyGo
+__vt__Q24Game11GameReadyGo:
 
 	# ROM: 0x2F75F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80042DBC
-	.4byte lbl_80042D44
-	.4byte lbl_80042B78
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game11GameReadyGoCFv
+	.4byte __dt__Q24Game11GameReadyGoFv
+	.4byte exec__Q24Game11GameReadyGoFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FB528
 lbl_802FB528:
@@ -1461,38 +1461,38 @@ lbl_802FB598:
 	.4byte lbl_8041E360
 	.4byte lbl_8041E368
 
-.global lbl_802FB5A8
-lbl_802FB5A8:
+.global __vt__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_
+__vt__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_:
 
 	# ROM: 0x2F7688
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80044578
-	.4byte lbl_80044414
-	.4byte lbl_80044470
-	.4byte lbl_800444A4
+	.4byte __dt__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
+	.4byte clone__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFv
+	.4byte clone__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFPv
+	.4byte __cl__Q43std3tr16detail390function_imp_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q43std3tr16detail292bound_func_v_PFPQ24Game10DispResultQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1185tuple_PQ24Game10DispResult_Q53std3tr112placeholders6detail5ph_1__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_FQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder_
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80043118
+	.4byte __dt__Q43std3tr16detail74function_base_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Fv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FB5D8
-lbl_802FB5D8:
+.global __vt__Q24Game10DispResult
+__vt__Q24Game10DispResult:
 
 	# ROM: 0x2F76B8
 	.4byte 0
 	.4byte 0
-	.4byte func_80043158
+	.4byte __dt__Q24Game10DispResultFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800445F8
-	.4byte lbl_800445F0
-	.4byte lbl_800445E8
-	.4byte lbl_80008290
-	.4byte func_8004440C
-	.4byte func_80043284
+	.4byte _12_GetRTI__Q24Game10DispResultCFv
+	.4byte _12___dt__Q24Game10DispResultFv
+	.4byte _12_exec__Q24Game10DispResultFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte GetRTI__Q24Game10DispResultCFv
+	.4byte exec__Q24Game10DispResultFv
 	.asciz "Memory allocation failure"
 	.balign 4
 
@@ -1526,663 +1526,663 @@ lbl_802FB648:
 	.4byte lbl_80051928
 	.4byte lbl_80051940
 
-.global lbl_802FB670
-lbl_802FB670:
+.global __vt__Q24Game9GameScene
+__vt__Q24Game9GameScene:
 
 	# ROM: 0x2F7750
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003E128
-	.4byte lbl_80044AAC
-	.4byte lbl_800523FC
-	.4byte lbl_80008290
-	.4byte lbl_800524E4
+	.4byte GetRTI__Q24Game9GameSceneCFv
+	.4byte __dt__Q24Game9GameSceneFv
+	.4byte exec__Q24Game9GameSceneFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte IsPlaying__Q24Game9GameSceneFv
 
-.global lbl_802FB68C
-lbl_802FB68C:
+.global _STRING_PropResName__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc
+_STRING_PropResName__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc:
 
 	# ROM: 0x2F776C
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB6AC
-lbl_802FB6AC:
+.global _STRING_PropRGB__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcP8_GXColorP8_GXColor_2
+_STRING_PropRGB__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcP8_GXColorP8_GXColor_2:
 
 	# ROM: 0x2F778C
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB6CC
-lbl_802FB6CC:
+.global _STRING_PropRGBA__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcP8_GXColorP8_GXColor_3
+_STRING_PropRGBA__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcP8_GXColorP8_GXColor_3:
 
 	# ROM: 0x2F77AC
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FB6EC
-lbl_802FB6EC:
+.global _STRING_GetClassName__Q34nw4r3g3d9ResAnmShpFv
+_STRING_GetClassName__Q34nw4r3g3d9ResAnmShpFv:
 
 	# ROM: 0x2F77CC
 	.asciz "ResAnmShp"
 	.balign 4
 
-.global lbl_802FB6F8
-lbl_802FB6F8:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmShpCFv_0
+_STRING_ref__Q34nw4r3g3d9ResAnmShpCFv_0:
 
 	# ROM: 0x2F77D8
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB714
-lbl_802FB714:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmShpCFv
+_STRING_ref__Q34nw4r3g3d9ResAnmShpCFv:
 
 	# ROM: 0x2F77F4
 	.asciz "g3d_resanmshp_ac.h"
 	.balign 4
 
-.global lbl_802FB728
-lbl_802FB728:
+.global _STRING_GetClassName__Q34nw4r3g3d9ResAnmScnFv
+_STRING_GetClassName__Q34nw4r3g3d9ResAnmScnFv:
 
 	# ROM: 0x2F7808
 	.asciz "ResAnmScn"
 	.balign 4
 
-.global lbl_802FB734
-lbl_802FB734:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmScnCFv_0
+_STRING_ref__Q34nw4r3g3d9ResAnmScnCFv_0:
 
 	# ROM: 0x2F7814
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB750
-lbl_802FB750:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmScnCFv
+_STRING_ref__Q34nw4r3g3d9ResAnmScnCFv:
 
 	# ROM: 0x2F7830
 	.asciz "g3d_resanmscn_ac.h"
 	.balign 4
 
-.global lbl_802FB764
-lbl_802FB764:
+.global _STRING_GetClassName__Q34nw4r3g3d12ResAnmTexSrtFv
+_STRING_GetClassName__Q34nw4r3g3d12ResAnmTexSrtFv:
 
 	# ROM: 0x2F7844
 	.asciz "ResAnmTexSrt"
 	.balign 4
 
-.global lbl_802FB774
-lbl_802FB774:
+.global _STRING_ref__Q34nw4r3g3d12ResAnmTexSrtCFv_0
+_STRING_ref__Q34nw4r3g3d12ResAnmTexSrtCFv_0:
 
 	# ROM: 0x2F7854
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB790
-lbl_802FB790:
+.global _STRING_ref__Q34nw4r3g3d12ResAnmTexSrtCFv
+_STRING_ref__Q34nw4r3g3d12ResAnmTexSrtCFv:
 
 	# ROM: 0x2F7870
 	.asciz "g3d_resanmtexsrt_ac.h"
 	.balign 4
 
-.global lbl_802FB7A8
-lbl_802FB7A8:
+.global _STRING_ref__Q34nw4r3g3d6ResMdlCFv_0
+_STRING_ref__Q34nw4r3g3d6ResMdlCFv_0:
 
 	# ROM: 0x2F7888
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 	.4byte 0
 
-.global lbl_802FB7C8
-lbl_802FB7C8:
+.global _STRING_ref__Q34nw4r3g3d6ResMdlCFv
+_STRING_ref__Q34nw4r3g3d6ResMdlCFv:
 
 	# ROM: 0x2F78A8
 	.asciz "g3d_resmdl_ac.h"
 
-.global lbl_802FB7D8
-lbl_802FB7D8:
+.global _STRING_GetClassName__Q34nw4r3g3d12ResAnmTexPatFv
+_STRING_GetClassName__Q34nw4r3g3d12ResAnmTexPatFv:
 
 	# ROM: 0x2F78B8
 	.asciz "ResAnmTexPat"
 	.balign 4
 
-.global lbl_802FB7E8
-lbl_802FB7E8:
+.global _STRING_ref__Q34nw4r3g3d12ResAnmTexPatCFv_0
+_STRING_ref__Q34nw4r3g3d12ResAnmTexPatCFv_0:
 
 	# ROM: 0x2F78C8
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB804
-lbl_802FB804:
+.global _STRING_ref__Q34nw4r3g3d12ResAnmTexPatCFv
+_STRING_ref__Q34nw4r3g3d12ResAnmTexPatCFv:
 
 	# ROM: 0x2F78E4
 	.asciz "g3d_resanmtexpat_ac.h"
 	.balign 4
 
-.global lbl_802FB81C
-lbl_802FB81C:
+.global _STRING_ref__Q34nw4r3g3d6ResTexCFv_0
+_STRING_ref__Q34nw4r3g3d6ResTexCFv_0:
 
 	# ROM: 0x2F78FC
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB838
-lbl_802FB838:
+.global _STRING_ref__Q34nw4r3g3d6ResTexCFv
+_STRING_ref__Q34nw4r3g3d6ResTexCFv:
 
 	# ROM: 0x2F7918
 	.asciz "g3d_restex_ac.h"
 
-.global lbl_802FB848
-lbl_802FB848:
+.global _STRING_GetClassName__Q34nw4r3g3d9ResAnmVisFv
+_STRING_GetClassName__Q34nw4r3g3d9ResAnmVisFv:
 
 	# ROM: 0x2F7928
 	.asciz "ResAnmVis"
 	.balign 4
 
-.global lbl_802FB854
-lbl_802FB854:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmVisCFv_0
+_STRING_ref__Q34nw4r3g3d9ResAnmVisCFv_0:
 
 	# ROM: 0x2F7934
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB870
-lbl_802FB870:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmVisCFv
+_STRING_ref__Q34nw4r3g3d9ResAnmVisCFv:
 
 	# ROM: 0x2F7950
 	.asciz "g3d_resanmvis_ac.h"
 	.balign 4
 
-.global lbl_802FB884
-lbl_802FB884:
+.global _STRING_GetClassName__Q34nw4r3g3d9ResAnmClrFv
+_STRING_GetClassName__Q34nw4r3g3d9ResAnmClrFv:
 
 	# ROM: 0x2F7964
 	.asciz "ResAnmClr"
 	.balign 4
 
-.global lbl_802FB890
-lbl_802FB890:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmClrCFv_0
+_STRING_ref__Q34nw4r3g3d9ResAnmClrCFv_0:
 
 	# ROM: 0x2F7970
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FB8AC
-lbl_802FB8AC:
+.global _STRING_ref__Q34nw4r3g3d9ResAnmClrCFv
+_STRING_ref__Q34nw4r3g3d9ResAnmClrCFv:
 
 	# ROM: 0x2F798C
 	.asciz "g3d_resanmclr_ac.h"
 	.balign 4
 
-.global lbl_802FB8C0
-lbl_802FB8C0:
+.global __vt__Q34Game8Timeline12TLEffEmitter
+__vt__Q34Game8Timeline12TLEffEmitter:
 
 	# ROM: 0x2F79A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AB90
-	.4byte lbl_8005AB38
-	.4byte lbl_8005B424
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_80059A10
-	.4byte lbl_800599A4
-	.4byte lbl_800599C8
-	.4byte lbl_800599EC
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_80059D50
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline12TLEffEmitterFv
+	.4byte check_cast__Q34Game8Timeline12TLEffEmitterFi
+	.4byte __dt__Q34Game8Timeline12TLEffEmitterFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline12TLEffEmitterFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline12TLEffEmitterFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline12TLEffEmitterFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline12TLEffEmitterFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline12TLEffEmitterFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FB91C
-lbl_802FB91C:
+.global __vt__Q34Game8Timeline9TLSetData
+__vt__Q34Game8Timeline9TLSetData:
 
 	# ROM: 0x2F79FC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005ABF8
-	.4byte lbl_8005ABA0
-	.4byte lbl_8005B3E4
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_8005914C
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline9TLSetDataFv
+	.4byte check_cast__Q34Game8Timeline9TLSetDataFi
+	.4byte __dt__Q34Game8Timeline9TLSetDataFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline9TLSetDataFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FB978
-lbl_802FB978:
+.global __vt__Q34Game8Timeline6TLAnim
+__vt__Q34Game8Timeline6TLAnim:
 
 	# ROM: 0x2F7A58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AC58
-	.4byte lbl_8005AC00
-	.4byte lbl_8005B3A4
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80058F18
-	.4byte lbl_80059020
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline6TLAnimFv
+	.4byte check_cast__Q34Game8Timeline6TLAnimFi
+	.4byte __dt__Q34Game8Timeline6TLAnimFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLAnimFf
+	.4byte running__Q34Game8Timeline6TLAnimFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FB9D4
-lbl_802FB9D4:
+.global __vt__Q34Game8Timeline8TLPlayer
+__vt__Q34Game8Timeline8TLPlayer:
 
 	# ROM: 0x2F7AB4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005ACB8
-	.4byte lbl_8005AC60
-	.4byte lbl_8005B364
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_800586B4
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058790
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline8TLPlayerFv
+	.4byte check_cast__Q34Game8Timeline8TLPlayerFi
+	.4byte __dt__Q34Game8Timeline8TLPlayerFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline8TLPlayerFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline8TLPlayerFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBA30
-lbl_802FBA30:
+.global __vt__Q34Game8Timeline8TLExpand
+__vt__Q34Game8Timeline8TLExpand:
 
 	# ROM: 0x2F7B10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AD18
-	.4byte lbl_8005ACC0
-	.4byte lbl_8005B324
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline8TLExpandFv
+	.4byte check_cast__Q34Game8Timeline8TLExpandFi
+	.4byte __dt__Q34Game8Timeline8TLExpandFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 	.4byte 0
 
-.global lbl_802FBA90
-lbl_802FBA90:
+.global __vt__Q34Game8Timeline7TLModel
+__vt__Q34Game8Timeline7TLModel:
 
 	# ROM: 0x2F7B70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AD80
-	.4byte lbl_8005AD28
-	.4byte lbl_8005B2E4
-	.4byte lbl_80058134
-	.4byte lbl_80058188
-	.4byte lbl_80058234
-	.4byte lbl_800582E8
-	.4byte lbl_80058334
-	.4byte lbl_8005833C
-	.4byte lbl_80058344
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_800584E0
-	.4byte lbl_80058450
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_8005834C
-	.4byte lbl_800583B8
-	.4byte lbl_8005842C
-	.4byte lbl_80053614
-	.4byte func_80053C10
-	.4byte lbl_8005AD20
-	.4byte lbl_800584EC
-	.4byte lbl_80056D9C
+	.4byte get_class_id__Q34Game8Timeline7TLModelFv
+	.4byte check_cast__Q34Game8Timeline7TLModelFi
+	.4byte __dt__Q34Game8Timeline7TLModelFv
+	.4byte GetNodeIndex__Q34Game8Timeline7TLModelFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline7TLModelFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline7TLModelFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline7TLModelFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline7TLModelFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline7TLModelFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline7TLModelFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline7TLModelFv
+	.4byte GetFilename__Q34Game8Timeline7TLModelFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline7TLModelFf
+	.4byte running__Q34Game8Timeline7TLModelFf
+	.4byte leave_running__Q34Game8Timeline7TLModelFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
+	.4byte GetObj__Q34Game8Timeline7TLModelFv
+	.4byte GetName__Q34Game8Timeline7TLModelFv
+	.4byte EntryDraw__Q34Game8Timeline7TLModelFb
 
-.global lbl_802FBAF8
-lbl_802FBAF8:
+.global __vt__Q34Game8Timeline12TLLocatorObj
+__vt__Q34Game8Timeline12TLLocatorObj:
 
 	# ROM: 0x2F7BD8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005ADE8
-	.4byte lbl_8005AD90
-	.4byte lbl_8005B2A4
-	.4byte lbl_80056AD8
-	.4byte lbl_80056AE0
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_8005AD88
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80056B78
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline12TLLocatorObjFv
+	.4byte check_cast__Q34Game8Timeline12TLLocatorObjFi
+	.4byte __dt__Q34Game8Timeline12TLLocatorObjFv
+	.4byte GetNodeIndex__Q34Game8Timeline12TLLocatorObjFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline12TLLocatorObjFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline12TLLocatorObjFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline12TLLocatorObjFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBB54
-lbl_802FBB54:
+.global __vt__Q34Game8Timeline7TLMover
+__vt__Q34Game8Timeline7TLMover:
 
 	# ROM: 0x2F7C34
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AEB0
-	.4byte lbl_8005AE58
-	.4byte lbl_8005B264
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_8005ADF0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80055400
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline7TLMoverFv
+	.4byte check_cast__Q34Game8Timeline7TLMoverFi
+	.4byte __dt__Q34Game8Timeline7TLMoverFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline7TLMoverFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline7TLMoverFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBBB0
-lbl_802FBBB0:
+.global __vt__Q34Game8Timeline9TLLocator
+__vt__Q34Game8Timeline9TLLocator:
 
 	# ROM: 0x2F7C90
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AF78
-	.4byte lbl_8005AF20
-	.4byte lbl_8005B224
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_8005AEB8
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_800547B0
-	.4byte lbl_80053C04
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline9TLLocatorFv
+	.4byte check_cast__Q34Game8Timeline9TLLocatorFi
+	.4byte __dt__Q34Game8Timeline9TLLocatorFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline9TLLocatorFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline9TLLocatorFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBC0C
-lbl_802FBC0C:
+.global __vt__Q34Game8Timeline13TLLayoutMover
+__vt__Q34Game8Timeline13TLLayoutMover:
 
 	# ROM: 0x2F7CEC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005AFD8
-	.4byte lbl_8005AF80
-	.4byte lbl_8005B1E4
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80056294
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline13TLLayoutMoverFv
+	.4byte check_cast__Q34Game8Timeline13TLLayoutMoverFi
+	.4byte __dt__Q34Game8Timeline13TLLayoutMoverFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline13TLLayoutMoverFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBC68
-lbl_802FBC68:
+.global __vt__Q34Game8Timeline8TLLayout
+__vt__Q34Game8Timeline8TLLayout:
 
 	# ROM: 0x2F7D48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005B038
-	.4byte lbl_8005AFE0
-	.4byte lbl_8005B1A4
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80056094
-	.4byte lbl_800560D8
-	.4byte lbl_800560E8
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline8TLLayoutFv
+	.4byte check_cast__Q34Game8Timeline8TLLayoutFi
+	.4byte __dt__Q34Game8Timeline8TLLayoutFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline8TLLayoutFf
+	.4byte running__Q34Game8Timeline8TLLayoutFf
+	.4byte leave_running__Q34Game8Timeline8TLLayoutFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBCC4
-lbl_802FBCC4:
+.global __vt__Q34Game8Timeline8TLCamera
+__vt__Q34Game8Timeline8TLCamera:
 
 	# ROM: 0x2F7DA4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005B098
-	.4byte lbl_8005B040
-	.4byte lbl_8005B164
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_800557D8
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline8TLCameraFv
+	.4byte check_cast__Q34Game8Timeline8TLCameraFi
+	.4byte __dt__Q34Game8Timeline8TLCameraFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline8TLCameraFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 
-.global lbl_802FBD20
-lbl_802FBD20:
+.global __vt__Q34Game8Timeline10TLItemRoot
+__vt__Q34Game8Timeline10TLItemRoot:
 
 	# ROM: 0x2F7E00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005B100
-	.4byte lbl_8005B0A8
-	.4byte lbl_80045204
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_80053530
-	.4byte lbl_80046CBC
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte lbl_800524EC
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053568
-	.4byte lbl_8003E10C
-	.4byte lbl_8005B0A0
+	.4byte get_class_id__Q34Game8Timeline10TLItemRootFv
+	.4byte check_cast__Q34Game8Timeline10TLItemRootFi
+	.4byte __dt__Q34Game8Timeline10TLItemRootFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline10TLItemRootFv
+	.4byte IsSetlist__Q34Game8Timeline10TLItemRootFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline10TLItemRootFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline10TLItemRootFv
+	.4byte GetTimelineFrame__Q34Game8Timeline10TLItemRootFv
+	.4byte IsPlaying__Q34Game8Timeline10TLItemRootFv
 
-.global lbl_802FBD80
-lbl_802FBD80:
+.global __vt__Q34Game8Timeline6TLItem
+__vt__Q34Game8Timeline6TLItem:
 
 	# ROM: 0x2F7E60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8003E104
-	.4byte lbl_8003E0AC
-	.4byte lbl_80045244
-	.4byte lbl_80053A84
-	.4byte lbl_80053A90
-	.4byte lbl_80055BC0
-	.4byte lbl_8005AB98
-	.4byte lbl_800554E0
-	.4byte lbl_800554E4
-	.4byte lbl_800554E8
-	.4byte lbl_800557B4
-	.4byte lbl_800456B8
-	.4byte lbl_80058F10
-	.4byte lbl_8005AB30
-	.4byte func_80053A98
-	.4byte lbl_80053C00
-	.4byte lbl_80053C04
-	.4byte lbl_80053C08
-	.4byte lbl_80053C0C
-	.4byte lbl_80053614
-	.4byte func_80053C10
+	.4byte get_class_id__Q34Game8Timeline6TLItemFv
+	.4byte check_cast__Q34Game8Timeline6TLItemFi
+	.4byte __dt__Q34Game8Timeline6TLItemFv
+	.4byte GetNodeIndex__Q34Game8Timeline6TLItemFPCcPlRl
+	.4byte GetNodeMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34i
+	.4byte GetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetMatrix__Q34Game8Timeline6TLItemFPQ34nw4r4math5MTX34
+	.4byte SetPos__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetRot__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte SetScale__Q34Game8Timeline6TLItemFPQ34nw4r4math4VEC3
+	.4byte IsSetupResource__Q34Game8Timeline6TLItemFv
+	.4byte IsSetlist__Q34Game8Timeline6TLItemFv
+	.4byte GetModel__Q34Game8Timeline6TLItemFv
+	.4byte GetFilename__Q34Game8Timeline6TLItemFv
+	.4byte _exec__Q34Game8Timeline6TLItemFf
+	.4byte exec__Q34Game8Timeline6TLItemFf
+	.4byte enter_running__Q34Game8Timeline6TLItemFf
+	.4byte running__Q34Game8Timeline6TLItemFf
+	.4byte leave_running__Q34Game8Timeline6TLItemFf
+	.4byte Stop__Q34Game8Timeline6TLItemFv
+	.4byte GetTimelineFrame__Q34Game8Timeline6TLItemFv
 	.4byte 0
 
-.global lbl_802FBDE0
-lbl_802FBDE0:
+.global __vt__Q38Resource9Animation3Chr
+__vt__Q38Resource9Animation3Chr:
 
 	# ROM: 0x2F7EC0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005B108
-	.4byte lbl_80071050
-	.4byte lbl_80071034
-	.4byte lbl_800719C4
-	.4byte lbl_80071ABC
-	.4byte lbl_80071B98
+	.4byte __dt__Q38Resource9Animation3ChrFv
+	.4byte GetFrame__Q38Resource9Animation3ObjCFv
+	.4byte GetUpdateRate__Q38Resource9Animation3ObjCFv
+	.4byte Entry__Q38Resource9Animation3ObjFv
+	.4byte Remove__Q38Resource9Animation3ObjFv
+	.4byte SetModel__Q38Resource9Animation3ObjFPQ38Resource5Model3Obj
 
-.global lbl_802FBE00
-lbl_802FBE00:
+.global _STRING_PropFileName__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc
+_STRING_PropFileName__Q34Game13GameStructure6MLTreeFQ44Game13GameStructure6MLTree15EN_NOKEY_ACTIONPCcPPCcPCc:
 
 	# ROM: 0x2F7EE0
 	.asciz "***Warning key:%s not found\n"
 	.balign 4
 
-.global lbl_802FBE20
-lbl_802FBE20:
+.global __vt__Q43std3tr16detail82shared_ptr_deleter_Q24Game7BgmBase_Q33std6detail31default_delete_Q24Game7BgmBase__
+__vt__Q43std3tr16detail82shared_ptr_deleter_Q24Game7BgmBase_Q33std6detail31default_delete_Q24Game7BgmBase__:
 
 	# ROM: 0x2F7F00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005CBC8
-	.4byte lbl_8005C864
+	.4byte __dt__Q43std3tr16detail82shared_ptr_deleter_Q24Game7BgmBase_Q33std6detail31default_delete_Q24Game7BgmBase__Fv
+	.4byte dispose__Q43std3tr16detail82shared_ptr_deleter_Q24Game7BgmBase_Q33std6detail31default_delete_Q24Game7BgmBase__Fv
 
-.global lbl_802FBE30
-lbl_802FBE30:
+.global __vt__Q34Game7BgmBase8BgmStack
+__vt__Q34Game7BgmBase8BgmStack:
 
 	# ROM: 0x2F7F10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005C620
+	.4byte __dt__Q34Game7BgmBase8BgmStackFv
 	.4byte 0
 
-.global lbl_802FBE40
-lbl_802FBE40:
+.global __vt__Q24Game11BgmPlayWait
+__vt__Q24Game11BgmPlayWait:
 
 	# ROM: 0x2F7F20
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005C85C
-	.4byte lbl_8005CB6C
-	.4byte lbl_8005C73C
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game11BgmPlayWaitCFv
+	.4byte __dt__Q24Game11BgmPlayWaitFv
+	.4byte exec__Q24Game11BgmPlayWaitFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FBE58
-lbl_802FBE58:
+.global __vt__Q24Game8Se3DTask
+__vt__Q24Game8Se3DTask:
 
 	# ROM: 0x2F7F38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005D21C
-	.4byte lbl_8005D058
-	.4byte lbl_8005D208
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game8Se3DTaskCFv
+	.4byte __dt__Q24Game8Se3DTaskFv
+	.4byte exec__Q24Game8Se3DTaskFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FBE70
-lbl_802FBE70:
+.global __vt__Q24Game6SeTask
+__vt__Q24Game6SeTask:
 
 	# ROM: 0x2F7F50
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005D224
-	.4byte lbl_8005CD38
-	.4byte lbl_8005CF44
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game6SeTaskCFv
+	.4byte __dt__Q24Game6SeTaskFv
+	.4byte exec__Q24Game6SeTaskFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FBE88
-lbl_802FBE88:
+.global DefaultSetup__Q25Bloom8ScnBloom
+DefaultSetup__Q25Bloom8ScnBloom:
 
 	# ROM: 0x2F7F68
 	.4byte 0
@@ -2202,458 +2202,458 @@ lbl_802FBE88:
 	.4byte 0x00000020
 	.4byte 0x42340000
 
-.global lbl_802FBEC8
-lbl_802FBEC8:
+.global __vt__Q25Bloom8ScnBloom
+__vt__Q25Bloom8ScnBloom:
 
 	# ROM: 0x2F7FA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8005D464
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_8005D6A0
-	.4byte lbl_8005D6B4
+	.4byte __dt__Q25Bloom8ScnBloomFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Bloom8ScnBloomFv
+	.4byte DrawXlu__Q25Bloom8ScnBloomFv
 
-.global lbl_802FBEE8
-lbl_802FBEE8:
+.global _STRING_CheckCast_PQ34nw4r3g3d8ScnGroup___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d8ScnGroup_0
+_STRING_CheckCast_PQ34nw4r3g3d8ScnGroup___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d8ScnGroup_0:
 
 	# ROM: 0x2F7FC8
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FBF28
-lbl_802FBF28:
+.global _STRING_CheckCast_PQ34nw4r3g3d8ScnGroup___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d8ScnGroup
+_STRING_CheckCast_PQ34nw4r3g3d8ScnGroup___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d8ScnGroup:
 
 	# ROM: 0x2F8008
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FBF34
-lbl_802FBF34:
+.global _STRING_ref__Q34nw4r3g3d6ResMatFv_0
+_STRING_ref__Q34nw4r3g3d6ResMatFv_0:
 
 	# ROM: 0x2F8014
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FBF50
-lbl_802FBF50:
+.global _STRING_ref__Q34nw4r3g3d6ResMatFv
+_STRING_ref__Q34nw4r3g3d6ResMatFv:
 
 	# ROM: 0x2F8030
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FBF60
-lbl_802FBF60:
+.global _STRING___ct__Q34nw4r3g3d17ResMatTexCoordGenFPv_0
+_STRING___ct__Q34nw4r3g3d17ResMatTexCoordGenFPv_0:
 
 	# ROM: 0x2F8040
 	.asciz "NW4R:Failed assertion !((u32)p & 0x1f)"
 	.balign 4
 
-.global lbl_802FBF88
-lbl_802FBF88:
+.global _STRING___ct__Q34nw4r3g3d17ResMatTexCoordGenFPv
+_STRING___ct__Q34nw4r3g3d17ResMatTexCoordGenFPv:
 
 	# ROM: 0x2F8068
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FBF98
-lbl_802FBF98:
+.global _STRING___ct__Q34nw4r3g3d14ResMatTevColorFPv_0
+_STRING___ct__Q34nw4r3g3d14ResMatTevColorFPv_0:
 
 	# ROM: 0x2F8078
 	.asciz "NW4R:Failed assertion !((u32)p & 0x1f)"
 	.balign 4
 
-.global lbl_802FBFC0
-lbl_802FBFC0:
+.global _STRING___ct__Q34nw4r3g3d14ResMatTevColorFPv
+_STRING___ct__Q34nw4r3g3d14ResMatTevColorFPv:
 
 	# ROM: 0x2F80A0
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FBFD0
-lbl_802FBFD0:
+.global _STRING___ct__Q34nw4r3g3d9ResMatPixFPv_0
+_STRING___ct__Q34nw4r3g3d9ResMatPixFPv_0:
 
 	# ROM: 0x2F80B0
 	.asciz "NW4R:Failed assertion !((u32)p & 0x1f)"
 	.balign 4
 
-.global lbl_802FBFF8
-lbl_802FBFF8:
+.global _STRING___ct__Q34nw4r3g3d9ResMatPixFPv
+_STRING___ct__Q34nw4r3g3d9ResMatPixFPv:
 
 	# ROM: 0x2F80D8
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC008
-lbl_802FC008:
+.global _STRING___ct__Q34nw4r3g3d10ResMatMiscFPv_0
+_STRING___ct__Q34nw4r3g3d10ResMatMiscFPv_0:
 
 	# ROM: 0x2F80E8
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FC030
-lbl_802FC030:
+.global _STRING___ct__Q34nw4r3g3d10ResMatMiscFPv
+_STRING___ct__Q34nw4r3g3d10ResMatMiscFPv:
 
 	# ROM: 0x2F8110
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC040
-lbl_802FC040:
+.global _STRING___ct__Q34nw4r3g3d10ResGenModeFPv_0
+_STRING___ct__Q34nw4r3g3d10ResGenModeFPv_0:
 
 	# ROM: 0x2F8120
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FC068
-lbl_802FC068:
+.global _STRING___ct__Q34nw4r3g3d10ResGenModeFPv
+_STRING___ct__Q34nw4r3g3d10ResGenModeFPv:
 
 	# ROM: 0x2F8148
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC078
-lbl_802FC078:
+.global _STRING_GXGetNumTexGens__Q34nw4r3g3d10ResGenModeCFv_0
+_STRING_GXGetNumTexGens__Q34nw4r3g3d10ResGenModeCFv_0:
 
 	# ROM: 0x2F8158
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FC098
-lbl_802FC098:
+.global _STRING_GXGetNumTexGens__Q34nw4r3g3d10ResGenModeCFv
+_STRING_GXGetNumTexGens__Q34nw4r3g3d10ResGenModeCFv:
 
 	# ROM: 0x2F8178
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC0A8
-lbl_802FC0A8:
+.global _STRING_GXGetNumTevStages__Q34nw4r3g3d10ResGenModeCFv_0
+_STRING_GXGetNumTevStages__Q34nw4r3g3d10ResGenModeCFv_0:
 
 	# ROM: 0x2F8188
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FC0C8
-lbl_802FC0C8:
+.global _STRING_GXGetNumTevStages__Q34nw4r3g3d10ResGenModeCFv
+_STRING_GXGetNumTevStages__Q34nw4r3g3d10ResGenModeCFv:
 
 	# ROM: 0x2F81A8
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC0D8
-lbl_802FC0D8:
+.global _STRING_GXGetNumIndStages__Q34nw4r3g3d10ResGenModeCFv_0
+_STRING_GXGetNumIndStages__Q34nw4r3g3d10ResGenModeCFv_0:
 
 	# ROM: 0x2F81B8
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FC0F8
-lbl_802FC0F8:
+.global _STRING_GXGetNumIndStages__Q34nw4r3g3d10ResGenModeCFv
+_STRING_GXGetNumIndStages__Q34nw4r3g3d10ResGenModeCFv:
 
 	# ROM: 0x2F81D8
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC108
-lbl_802FC108:
+.global _STRING___ct__Q34nw4r3g3d9ResTexObjFPv_0
+_STRING___ct__Q34nw4r3g3d9ResTexObjFPv_0:
 
 	# ROM: 0x2F81E8
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FC130
-lbl_802FC130:
+.global _STRING___ct__Q34nw4r3g3d9ResTexObjFPv
+_STRING___ct__Q34nw4r3g3d9ResTexObjFPv:
 
 	# ROM: 0x2F8210
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FC140
-lbl_802FC140:
+.global _STRING_GetClassName__Q34nw4r3g3d11ResUserDataFv
+_STRING_GetClassName__Q34nw4r3g3d11ResUserDataFv:
 
 	# ROM: 0x2F8220
 	.asciz "ResUserData"
 
-.global lbl_802FC14C
-lbl_802FC14C:
+.global _STRING_ref__Q34nw4r3g3d11ResUserDataCFv_0
+_STRING_ref__Q34nw4r3g3d11ResUserDataCFv_0:
 
 	# ROM: 0x2F822C
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FC168
-lbl_802FC168:
+.global _STRING_ref__Q34nw4r3g3d11ResUserDataCFv
+_STRING_ref__Q34nw4r3g3d11ResUserDataCFv:
 
 	# ROM: 0x2F8248
 	.asciz "g3d_resuser_ac.h"
 	.balign 4
 
-.global lbl_802FC17C
-lbl_802FC17C:
+.global _STRING___ct__Q34nw4r3g3d15ResUserDataItemFPv_0
+_STRING___ct__Q34nw4r3g3d15ResUserDataItemFPv_0:
 
 	# ROM: 0x2F825C
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FC1A4
-lbl_802FC1A4:
+.global _STRING___ct__Q34nw4r3g3d15ResUserDataItemFPv
+_STRING___ct__Q34nw4r3g3d15ResUserDataItemFPv:
 
 	# ROM: 0x2F8284
 	.asciz "g3d_resuser_ac.h"
 	.balign 4
 
-.global lbl_802FC1B8
-lbl_802FC1B8:
+.global _STRING_GetClassName__Q34nw4r3g3d15ResUserDataItemFv
+_STRING_GetClassName__Q34nw4r3g3d15ResUserDataItemFv:
 
 	# ROM: 0x2F8298
 	.asciz "ResUserDataItem"
 
-.global lbl_802FC1C8
-lbl_802FC1C8:
+.global _STRING_ref__Q34nw4r3g3d15ResUserDataItemFv_0
+_STRING_ref__Q34nw4r3g3d15ResUserDataItemFv_0:
 
 	# ROM: 0x2F82A8
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FC1E4
-lbl_802FC1E4:
+.global _STRING_ref__Q34nw4r3g3d15ResUserDataItemFv
+_STRING_ref__Q34nw4r3g3d15ResUserDataItemFv:
 
 	# ROM: 0x2F82C4
 	.asciz "g3d_resuser_ac.h"
 	.balign 4
 
-.global lbl_802FC1F8
-lbl_802FC1F8:
+.global _STRING_ref__Q34nw4r3g3d15ResUserDataItemCFv_0
+_STRING_ref__Q34nw4r3g3d15ResUserDataItemCFv_0:
 
 	# ROM: 0x2F82D8
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FC214
-lbl_802FC214:
+.global _STRING_ref__Q34nw4r3g3d15ResUserDataItemCFv
+_STRING_ref__Q34nw4r3g3d15ResUserDataItemCFv:
 
 	# ROM: 0x2F82F4
 	.asciz "g3d_resuser_ac.h"
 	.balign 4
 
-.global lbl_802FC228
-lbl_802FC228:
+.global _STRING_GetS32__Q34nw4r3g3d15ResUserDataItemFv_0
+_STRING_GetS32__Q34nw4r3g3d15ResUserDataItemFv_0:
 
 	# ROM: 0x2F8308
 	.asciz "NW4R:Failed assertion GetValueType() == ResUserDataItemData::S32"
 	.balign 4
 
-.global lbl_802FC26C
-lbl_802FC26C:
+.global _STRING_GetS32__Q34nw4r3g3d15ResUserDataItemFv
+_STRING_GetS32__Q34nw4r3g3d15ResUserDataItemFv:
 
 	# ROM: 0x2F834C
 	.asciz "g3d_resuser_ac.h"
 	.balign 4
 
-.global lbl_802FC280
-lbl_802FC280:
+.global _STRING___ct__Q34nw4r3g3d6ResDicFPv_0
+_STRING___ct__Q34nw4r3g3d6ResDicFPv_0:
 
 	# ROM: 0x2F8360
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FC2A8
-lbl_802FC2A8:
+.global _STRING___ct__Q34nw4r3g3d6ResDicFPv
+_STRING___ct__Q34nw4r3g3d6ResDicFPv:
 
 	# ROM: 0x2F8388
 	.asciz "g3d_resdict_ac.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FC2C0
-lbl_802FC2C0:
+.global __vt__Q35Scene6Camera3Obj
+__vt__Q35Scene6Camera3Obj:
 
 	# ROM: 0x2F83A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80012594
+	.4byte __dt__Q35Scene6Camera3ObjFv
 	.4byte 0
 
-.global lbl_802FC2D0
-lbl_802FC2D0:
+.global __vt__Q23DOF6ScnDOF
+__vt__Q23DOF6ScnDOF:
 
 	# ROM: 0x2F83B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8006137C
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800614E8
-	.4byte lbl_800614FC
+	.4byte __dt__Q23DOF6ScnDOFFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q23DOF6ScnDOFFv
+	.4byte DrawXlu__Q23DOF6ScnDOFFv
 
-.global lbl_802FC2F0
-lbl_802FC2F0:
+.global __vt__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_
+__vt__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_:
 
 	# ROM: 0x2F83D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80065BD0
-	.4byte lbl_800659C4
-	.4byte lbl_80065A10
-	.4byte lbl_80065A34
+	.4byte __dt__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_Fv
+	.4byte clone__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_CFv
+	.4byte clone__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_CFPv
+	.4byte __cl__Q43std3tr16detail65function_imp_PFPQ34nw4r2ef7Emitter_v_PFPQ34nw4r2ef7Emitter_v_0_1_FPQ34nw4r2ef7Emitter
 
-.global lbl_802FC308
-lbl_802FC308:
+.global __vt__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_
+__vt__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_:
 
 	# ROM: 0x2F83E8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80065B90
-	.4byte lbl_80065A48
-	.4byte lbl_80065AA4
-	.4byte lbl_80065AD8
+	.4byte __dt__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_Fv
+	.4byte clone__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFv
+	.4byte clone__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_CFPv
+	.4byte __cl__Q43std3tr16detail298function_imp_PFPQ34nw4r2ef15ParticleManager_v_Q43std3tr16detail227bound_func_v_PFPQ34nw4r2ef15ParticleManagerf_v_Q33std3tr1166tuple_Q53std3tr112placeholders6detail5ph_1__f_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_1_FPQ34nw4r2ef15ParticleManager
 
-.global lbl_802FC320
-lbl_802FC320:
+.global __vt__Q34nw4r2ef13MemoryManager
+__vt__Q34nw4r2ef13MemoryManager:
 
 	# ROM: 0x2F8400
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800652C4
-	.4byte lbl_80064FC0
-	.4byte lbl_80064F1C
-	.4byte lbl_80064ECC
-	.4byte lbl_80064EA8
-	.4byte lbl_80064E8C
-	.4byte lbl_80064E70
-	.4byte lbl_80064DCC
-	.4byte lbl_80064D7C
-	.4byte lbl_80064D58
-	.4byte lbl_80064D3C
-	.4byte lbl_80064D20
-	.4byte lbl_80064C7C
-	.4byte lbl_80064C2C
-	.4byte lbl_80064C08
-	.4byte lbl_80064BEC
-	.4byte lbl_80064BD0
-	.4byte lbl_80064B2C
-	.4byte lbl_80064ADC
-	.4byte lbl_80064AB8
-	.4byte lbl_80064A9C
-	.4byte lbl_80064A80
-	.4byte lbl_80062B18
-	.4byte lbl_800648BC
+	.4byte __dt__Q34nw4r2ef13MemoryManagerFv
+	.4byte GarbageCollection__Q34nw4r2ef13MemoryManagerFv
+	.4byte AllocEffect__Q34nw4r2ef13MemoryManagerFv
+	.4byte FreeEffect__Q34nw4r2ef13MemoryManagerFPv
+	.4byte GetNumAllocEffect__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumActiveEffect__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumFreeEffect__Q34nw4r2ef13MemoryManagerCFv
+	.4byte AllocEmitter__Q34nw4r2ef13MemoryManagerFv
+	.4byte FreeEmitter__Q34nw4r2ef13MemoryManagerFPv
+	.4byte GetNumAllocEmitter__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumActiveEmitter__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumFreeEmitter__Q34nw4r2ef13MemoryManagerCFv
+	.4byte AllocParticleManager__Q34nw4r2ef13MemoryManagerFv
+	.4byte FreeParticleManager__Q34nw4r2ef13MemoryManagerFPv
+	.4byte GetNumAllocParticleManager__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumActiveParticleManager__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumFreeParticleManager__Q34nw4r2ef13MemoryManagerCFv
+	.4byte AllocParticle__Q34nw4r2ef13MemoryManagerFv
+	.4byte FreeParticle__Q34nw4r2ef13MemoryManagerFPv
+	.4byte GetNumAllocParticle__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumActiveParticle__Q34nw4r2ef13MemoryManagerCFv
+	.4byte GetNumFreeParticle__Q34nw4r2ef13MemoryManagerCFv
+	.4byte AllocHeap__Q34nw4r2ef13MemoryManagerFUl
+	.4byte FreeHeap__Q34nw4r2ef13MemoryManagerFPv
 
-.global lbl_802FC388
-lbl_802FC388:
+.global __vt__Q34nw4r2ef37MemoryManagerTmp_Q34nw4r2ef8Particle_
+__vt__Q34nw4r2ef37MemoryManagerTmp_Q34nw4r2ef8Particle_:
 
 	# ROM: 0x2F8468
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80064BC0
+	.4byte AssignObjectID__Q34nw4r2ef37MemoryManagerTmp_Q34nw4r2ef8Particle_FPv
 
-.global lbl_802FC394
-lbl_802FC394:
+.global __vt__Q34nw4r2ef45MemoryManagerTmp_Q34nw4r2ef15ParticleManager_
+__vt__Q34nw4r2ef45MemoryManagerTmp_Q34nw4r2ef15ParticleManager_:
 
 	# ROM: 0x2F8474
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80064D10
+	.4byte AssignObjectID__Q34nw4r2ef45MemoryManagerTmp_Q34nw4r2ef15ParticleManager_FPv
 
-.global lbl_802FC3A0
-lbl_802FC3A0:
+.global __vt__Q34nw4r2ef36MemoryManagerTmp_Q34nw4r2ef7Emitter_
+__vt__Q34nw4r2ef36MemoryManagerTmp_Q34nw4r2ef7Emitter_:
 
 	# ROM: 0x2F8480
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80064E60
+	.4byte AssignObjectID__Q34nw4r2ef36MemoryManagerTmp_Q34nw4r2ef7Emitter_FPv
 
-.global lbl_802FC3AC
-lbl_802FC3AC:
+.global __vt__Q34nw4r2ef35MemoryManagerTmp_Q34nw4r2ef6Effect_
+__vt__Q34nw4r2ef35MemoryManagerTmp_Q34nw4r2ef6Effect_:
 
 	# ROM: 0x2F848C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80064FB0
+	.4byte AssignObjectID__Q34nw4r2ef35MemoryManagerTmp_Q34nw4r2ef6Effect_FPv
 
-.global lbl_802FC3B8
-lbl_802FC3B8:
+.global __vt__Q35Scene6Effect3Obj
+__vt__Q35Scene6Effect3Obj:
 
 	# ROM: 0x2F8498
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80065304
-	.4byte lbl_80064304
-	.4byte lbl_80064838
-	.4byte lbl_80008290
+	.4byte GetRTI__Q35Scene6Effect3ObjCFv
+	.4byte __dt__Q35Scene6Effect3ObjFv
+	.4byte exec__Q35Scene6Effect3ObjFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FC3D0
-lbl_802FC3D0:
+.global _STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_2
+_STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_2:
 
 	# ROM: 0x2F84B0
 	.asciz "NW4R:Failed assertion mHeapStartAddr < mHeapEndAddr && reinterpret_cast<u8*>(mHeapEndAddr) - reinterpret_cast<u8*>(mHeapStartAddr) > headerSize"
 
-.global lbl_802FC460
-lbl_802FC460:
+.global _STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_1
+_STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_1:
 
 	# ROM: 0x2F8540
 	.asciz "memorymanagertmp.h"
 	.balign 4
 
-.global lbl_802FC474
-lbl_802FC474:
+.global _STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_0
+_STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii_0:
 
 	# ROM: 0x2F8554
 	.asciz "NW4R:Alignment Error(0x%x)\nstartAddress must be aligned to 32 bytes boundary."
 	.balign 4
 
-.global lbl_802FC4C4
-lbl_802FC4C4:
+.global _STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii
+_STRING___ct__Q34nw4r2ef13MemoryManagerFPvUliiii:
 
 	# ROM: 0x2F85A4
 	.asciz "memorymanagertmp.h"
 	.balign 4
 
-.global lbl_802FC4D8
-lbl_802FC4D8:
+.global _STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_2
+_STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_2:
 
 	# ROM: 0x2F85B8
 	.asciz "NW4R:Failed assertion pp->mParticleManager->GetLifeStatus() == ::nw4r::ef::ReferencedObject::NW4R_EF_LS_ACTIVE || pp->mParticleManager->GetLifeStatus() == ::nw4r::ef::ReferencedObject::NW4R_EF_LS_WAIT || pp->mParticleManager->GetLifeStatus() == ::nw4r::ef::ReferencedObject::NW4R_EF_LS_CLOSING"
 	.balign 4
 
-.global lbl_802FC600
-lbl_802FC600:
+.global _STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_1
+_STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_1:
 
 	# ROM: 0x2F86E0
 	.asciz "memorymanagertmp.h"
 	.balign 4
 
-.global lbl_802FC614
-lbl_802FC614:
+.global _STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_0
+_STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv_0:
 
 	# ROM: 0x2F86F4
 	.asciz "NW4R:Failed assertion pp->GetRefCount() == 0"
 	.balign 4
 
-.global lbl_802FC644
-lbl_802FC644:
+.global _STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv
+_STRING_GarbageCollection__Q34nw4r2ef13MemoryManagerFv:
 
 	# ROM: 0x2F8724
 	.asciz "memorymanagertmp.h"
 	.balign 4
 
-.global lbl_802FC658
-lbl_802FC658:
+.global _STRING_AllocHeap__Q34nw4r2ef13MemoryManagerFUl_0
+_STRING_AllocHeap__Q34nw4r2ef13MemoryManagerFUl_0:
 
 	# ROM: 0x2F8738
 	.asciz "NW4R:Failed assertion false"
 
-.global lbl_802FC674
-lbl_802FC674:
+.global _STRING_AllocHeap__Q34nw4r2ef13MemoryManagerFUl
+_STRING_AllocHeap__Q34nw4r2ef13MemoryManagerFUl:
 
 	# ROM: 0x2F8754
 	.asciz "memorymanagertmp.h"
 	.balign 4
 
-.global lbl_802FC688
-lbl_802FC688:
+.global _STRING_GetScale__Q34nw4r2ef7EmitterFPQ34nw4r4math4VEC3_0
+_STRING_GetScale__Q34nw4r2ef7EmitterFPQ34nw4r4math4VEC3_0:
 
 	# ROM: 0x2F8768
 	.asciz "NW4R:Failed assertion scale != NULL"
 
-.global lbl_802FC6AC
-lbl_802FC6AC:
+.global _STRING_GetScale__Q34nw4r2ef7EmitterFPQ34nw4r4math4VEC3
+_STRING_GetScale__Q34nw4r2ef7EmitterFPQ34nw4r4math4VEC3:
 
 	# ROM: 0x2F878C
 	.asciz "emitter.h"
 	.balign 4
 
-.global lbl_802FC6B8
-lbl_802FC6B8:
+.global default_setup__10FaceWindow
+default_setup__10FaceWindow:
 
 	# ROM: 0x2F8798
 	.4byte 0x00000280
@@ -2675,93 +2675,93 @@ lbl_802FC6B8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FC700
-lbl_802FC700:
+.global __vt__Q210FaceWindow16FaceWindowCamera
+__vt__Q210FaceWindow16FaceWindowCamera:
 
 	# ROM: 0x2F87E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80066530
-	.4byte lbl_80066054
+	.4byte __dt__Q210FaceWindow16FaceWindowCameraFv
+	.4byte update__Q210FaceWindow16FaceWindowCameraFv
 
-.global lbl_802FC710
-lbl_802FC710:
+.global _STRING_allocate__Q23std153allocator_Q33std128__list_deleter_Q310FaceWindow17FaceWindowManager11STEntryData_Q23std57allocator_Q310FaceWindow17FaceWindowManager11STEntryData__4node_FUlPCv
+_STRING_allocate__Q23std153allocator_Q33std128__list_deleter_Q310FaceWindow17FaceWindowManager11STEntryData_Q23std57allocator_Q310FaceWindow17FaceWindowManager11STEntryData__4node_FUlPCv:
 
 	# ROM: 0x2F87F0
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FC730
-lbl_802FC730:
+.global __vt__Q35Scene6Layout18PaneManagerPointer
+__vt__Q35Scene6Layout18PaneManagerPointer:
 
 	# ROM: 0x2F8810
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8006A8C4
-	.4byte lbl_8006A8EC
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_8006A3C4
-	.4byte lbl_80068C74
-	.4byte lbl_8006A2EC
-	.4byte lbl_8006A14C
+	.4byte GetRTI__Q35Scene6Layout18PaneManagerPointerCFv
+	.4byte __dt__Q35Scene6Layout18PaneManagerPointerFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte Update__Q35Scene6Layout18PaneManagerPointerFPQ23Key14RemoconManager
+	.4byte HitTest__Q35Scene6Layout15PaneManagerBaseFRQ34nw4r4math4VEC2
+	.4byte UpdateIcon__Q35Scene6Layout18PaneManagerPointerFPQ23Key14RemoconManager
+	.4byte Init__Q35Scene6Layout18PaneManagerPointerFv
 
-.global lbl_802FC758
-lbl_802FC758:
+.global __vt__Q35Scene6Layout14PaneManagerOne
+__vt__Q35Scene6Layout14PaneManagerOne:
 
 	# ROM: 0x2F8838
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8006A8CC
-	.4byte lbl_8002F230
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_8006955C
-	.4byte lbl_80068C74
-	.4byte lbl_800694AC
-	.4byte lbl_800692F0
-	.4byte lbl_80069B84
-	.4byte lbl_80069B88
-	.4byte lbl_8002F438
-	.4byte lbl_8002F434
-	.4byte lbl_8002F42C
+	.4byte GetRTI__Q35Scene6Layout14PaneManagerOneCFv
+	.4byte __dt__Q35Scene6Layout14PaneManagerOneFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte Update__Q35Scene6Layout14PaneManagerOneFPQ23Key14RemoconManager
+	.4byte HitTest__Q35Scene6Layout15PaneManagerBaseFRQ34nw4r4math4VEC2
+	.4byte UpdateIcon__Q35Scene6Layout14PaneManagerOneFPQ23Key14RemoconManager
+	.4byte Init__Q35Scene6Layout14PaneManagerOneFi
+	.4byte LeftMove__Q35Scene6Layout14PaneManagerOneFv
+	.4byte RightMove__Q35Scene6Layout14PaneManagerOneFv
+	.4byte UpMove__Q35Scene6Layout14PaneManagerOneFv
+	.4byte DownMove__Q35Scene6Layout14PaneManagerOneFv
+	.4byte CurChange__Q35Scene6Layout14PaneManagerOneFi
 
-.global lbl_802FC794
-lbl_802FC794:
+.global __vt__Q35Scene6Layout15PaneManagerBase
+__vt__Q35Scene6Layout15PaneManagerBase:
 
 	# ROM: 0x2F8874
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8006A8DC
-	.4byte lbl_8002F2C4
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_8006A8D8
-	.4byte lbl_80068C74
-	.4byte lbl_8006A8D4
+	.4byte GetRTI__Q35Scene6Layout15PaneManagerBaseCFv
+	.4byte __dt__Q35Scene6Layout15PaneManagerBaseFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte Update__Q35Scene6Layout15PaneManagerBaseFPQ23Key14RemoconManager
+	.4byte HitTest__Q35Scene6Layout15PaneManagerBaseFRQ34nw4r4math4VEC2
+	.4byte UpdateIcon__Q35Scene6Layout15PaneManagerBaseFPQ23Key14RemoconManager
 
-.global lbl_802FC7B8
-lbl_802FC7B8:
+.global __vt__Q35Scene6Layout8PaneBase
+__vt__Q35Scene6Layout8PaneBase:
 
 	# ROM: 0x2F8898
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8006A8E4
-	.4byte lbl_8002F364
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_80068734
-	.4byte lbl_800687B0
-	.4byte lbl_800687E0
-	.4byte lbl_8002F3C8
-	.4byte lbl_8002F3C0
-	.4byte lbl_8006886C
-	.4byte lbl_8002F354
+	.4byte GetRTI__Q35Scene6Layout8PaneBaseCFv
+	.4byte __dt__Q35Scene6Layout8PaneBaseFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte FocusTest__Q35Scene6Layout8PaneBaseFRQ34nw4r4math4VEC2i
+	.4byte IsSelectAnmEnd__Q35Scene6Layout8PaneBaseCFv
+	.4byte Update__Q35Scene6Layout8PaneBaseFv
+	.4byte SetActive__Q35Scene6Layout8PaneBaseFb
+	.4byte SetFocus__Q35Scene6Layout8PaneBaseFb
+	.4byte SetSelect__Q35Scene6Layout8PaneBaseFbb
+	.4byte SetFrame__Q35Scene6Layout8PaneBaseFf
 	.4byte 0
 
-.global lbl_802FC7F0
-lbl_802FC7F0:
+.global _LOCAL___ct__Q35Scene5Light7ManagerFPQ34nw4r3g3d7ScnRootPCQ33std3tr136function_FPQ35Scene5Light7Manager_v__default_light
+_LOCAL___ct__Q35Scene5Light7ManagerFPQ34nw4r3g3d7ScnRootPCQ33std3tr136function_FPQ35Scene5Light7Manager_v__default_light:
 
 	# ROM: 0x2F88D0
 	.4byte 0
@@ -2794,247 +2794,247 @@ lbl_802FC828:
 	.4byte 0x7478A45C
 	.4byte 0
 
-.global lbl_802FC850
-lbl_802FC850:
+.global __vt__Q26Mirror12MirrorCamera
+__vt__Q26Mirror12MirrorCamera:
 
 	# ROM: 0x2F8930
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800125D4
-	.4byte lbl_8006D010
+	.4byte __dt__Q26Mirror12MirrorCameraFv
+	.4byte update__Q26Mirror12MirrorCameraFv
 
-.global lbl_802FC860
-lbl_802FC860:
+.global _STRING_allocate__Q23std33allocator_Q36Mirror6TKList5Setup_FUlPCv
+_STRING_allocate__Q23std33allocator_Q36Mirror6TKList5Setup_FUlPCv:
 
 	# ROM: 0x2F8940
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FC880
-lbl_802FC880:
+.global __vt__Q35Scene3Obj4Base
+__vt__Q35Scene3Obj4Base:
 
 	# ROM: 0x2F8960
 	.4byte 0
 	.4byte 0
-	.4byte func_8006D15C
-	.4byte lbl_8006D1DC
-	.4byte lbl_8006D418
-	.4byte lbl_8006D644
-	.4byte lbl_8006D718
-	.4byte lbl_800417EC
+	.4byte __dt__Q35Scene3Obj4BaseFv
+	.4byte SetViewing__Q35Scene3Obj4BaseFb
+	.4byte Update__Q35Scene3Obj4BaseFv
+	.4byte Update__Q35Scene3Obj4BaseFRCQ34nw4r4math4QUAT
+	.4byte Update__Q35Scene3Obj4BaseFRCQ34nw4r4math5MTX34
+	.4byte get_leaf__Q35Scene3Obj4BaseFv
 
-.global lbl_802FC8A0
-lbl_802FC8A0:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q28Resource6Holder_Q33std6detail34default_delete_Q28Resource6Holder__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q28Resource6Holder_Q33std6detail34default_delete_Q28Resource6Holder__:
 
 	# ROM: 0x2F8980
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800703D4
-	.4byte lbl_8006FDA4
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q28Resource6Holder_Q33std6detail34default_delete_Q28Resource6Holder__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q28Resource6Holder_Q33std6detail34default_delete_Q28Resource6Holder__Fv
 
-.global lbl_802FC8B0
-lbl_802FC8B0:
+.global _STRING___ct__Q34nw4r3g3d7ResFileFPv_0
+_STRING___ct__Q34nw4r3g3d7ResFileFPv_0:
 
 	# ROM: 0x2F8990
 	.asciz "NW4R:Failed assertion !((u32)p & 0x1f)"
 	.balign 4
 
-.global lbl_802FC8D8
-lbl_802FC8D8:
+.global _STRING___ct__Q34nw4r3g3d7ResFileFPv
+_STRING___ct__Q34nw4r3g3d7ResFileFPv:
 
 	# ROM: 0x2F89B8
 	.asciz "g3d_resfile_ac.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FC8F0
-lbl_802FC8F0:
+.global __vt__Q38Resource9Animation3Obj
+__vt__Q38Resource9Animation3Obj:
 
 	# ROM: 0x2F89D0
 	.4byte 0
 	.4byte 0
-	.4byte func_80070E94
-	.4byte lbl_80071050
-	.4byte lbl_80071034
-	.4byte lbl_800719C4
-	.4byte lbl_80071ABC
-	.4byte lbl_80071B98
+	.4byte __dt__Q38Resource9Animation3ObjFv
+	.4byte GetFrame__Q38Resource9Animation3ObjCFv
+	.4byte GetUpdateRate__Q38Resource9Animation3ObjCFv
+	.4byte Entry__Q38Resource9Animation3ObjFv
+	.4byte Remove__Q38Resource9Animation3ObjFv
+	.4byte SetModel__Q38Resource9Animation3ObjFPQ38Resource5Model3Obj
 
-.global lbl_802FC910
-lbl_802FC910:
+.global _STRING_CheckCast_PQ34nw4r3g3d12ScnMdlSimple___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12ScnMdlSimple_0
+_STRING_CheckCast_PQ34nw4r3g3d12ScnMdlSimple___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12ScnMdlSimple_0:
 
 	# ROM: 0x2F89F0
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FC950
-lbl_802FC950:
+.global _STRING_CheckCast_PQ34nw4r3g3d12ScnMdlSimple___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12ScnMdlSimple
+_STRING_CheckCast_PQ34nw4r3g3d12ScnMdlSimple___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12ScnMdlSimple:
 
 	# ROM: 0x2F8A30
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FC95C
-lbl_802FC95C:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjChrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjChrRes_0
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjChrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjChrRes_0:
 
 	# ROM: 0x2F8A3C
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FC99C
-lbl_802FC99C:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjChrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjChrRes
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjChrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjChrRes:
 
 	# ROM: 0x2F8A7C
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FC9A8
-lbl_802FC9A8:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjMatClrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjMatClrRes_0
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjMatClrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjMatClrRes_0:
 
 	# ROM: 0x2F8A88
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FC9E8
-lbl_802FC9E8:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjMatClrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjMatClrRes
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjMatClrRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjMatClrRes:
 
 	# ROM: 0x2F8AC8
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FC9F4
-lbl_802FC9F4:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexPatRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexPatRes_0
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexPatRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexPatRes_0:
 
 	# ROM: 0x2F8AD4
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FCA34
-lbl_802FCA34:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexPatRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexPatRes
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexPatRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexPatRes:
 
 	# ROM: 0x2F8B14
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FCA40
-lbl_802FCA40:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexSrtRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexSrtRes_0
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexSrtRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexSrtRes_0:
 
 	# ROM: 0x2F8B20
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FCA80
-lbl_802FCA80:
+.global _STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexSrtRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexSrtRes
+_STRING_CheckCast_PQ34nw4r3g3d15AnmObjTexSrtRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d15AnmObjTexSrtRes:
 
 	# ROM: 0x2F8B60
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FCA8C
-lbl_802FCA8C:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjVisRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjVisRes_0
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjVisRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjVisRes_0:
 
 	# ROM: 0x2F8B6C
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FCACC
-lbl_802FCACC:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjVisRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjVisRes
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjVisRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjVisRes:
 
 	# ROM: 0x2F8BAC
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FCAD8
-lbl_802FCAD8:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjShpRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjShpRes_0
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjShpRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjShpRes_0:
 
 	# ROM: 0x2F8BB8
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FCB18
-lbl_802FCB18:
+.global _STRING_CheckCast_PQ34nw4r3g3d12AnmObjShpRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjShpRes
+_STRING_CheckCast_PQ34nw4r3g3d12AnmObjShpRes___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d12AnmObjShpRes:
 
 	# ROM: 0x2F8BF8
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FCB24
-lbl_802FCB24:
+.global _STRING_SetPlayPolicy__Q34nw4r3g3d9FrameCtrlFPFfff_f_0
+_STRING_SetPlayPolicy__Q34nw4r3g3d9FrameCtrlFPFfff_f_0:
 
 	# ROM: 0x2F8C04
 	.asciz "NW4R:Pointer Error\nfunc(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FCB58
-lbl_802FCB58:
+.global _STRING_SetPlayPolicy__Q34nw4r3g3d9FrameCtrlFPFfff_f
+_STRING_SetPlayPolicy__Q34nw4r3g3d9FrameCtrlFPFfff_f:
 
 	# ROM: 0x2F8C38
 	.asciz "g3d_anmobj.h"
 	.balign 4
 
-.global lbl_802FCB68
-lbl_802FCB68:
+.global __vt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_
+__vt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_:
 
 	# ROM: 0x2F8C48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80072280
-	.4byte lbl_80071050
-	.4byte lbl_80071034
-	.4byte lbl_80072B5C
-	.4byte lbl_80072C3C
-	.4byte lbl_80071B98
-	.4byte lbl_80072370
-	.4byte lbl_800723F8
-	.4byte lbl_80072708
-	.4byte lbl_8007277C
-	.4byte lbl_80072830
-	.4byte lbl_80072D18
-	.4byte lbl_80072F54
-	.4byte lbl_80072F68
-	.4byte lbl_800730A0
-	.4byte lbl_800730A8
-	.4byte lbl_800730C4
-	.4byte lbl_800730D4
+	.4byte __dt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fv
+	.4byte GetFrame__Q38Resource9Animation3ObjCFv
+	.4byte GetUpdateRate__Q38Resource9Animation3ObjCFv
+	.4byte Entry__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fv
+	.4byte Remove__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fv
+	.4byte SetModel__Q38Resource9Animation3ObjFPQ38Resource5Model3Obj
+	.4byte Active__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FPCcb
+	.4byte Active__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FQ33std3tr130shared_ptr_Q28Resource6Holder_PCcb
+	.4byte Replace__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FUlPCcb
+	.4byte Replace__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FUlQ33std3tr130shared_ptr_Q28Resource6Holder_PCcb
+	.4byte Set__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FUlf
+	.4byte Update__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fv
+	.4byte IsComp__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_CFv
+	.4byte SetEx__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FUlf
+	.4byte SetExWeight__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Ff
+	.4byte StorePreBlend__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_FPlPlPf
+	.4byte RestorePreBlend__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fllf
+	.4byte BlendDetachAll__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjShpRes_Q34nw4r3g3d14AnmObjShpBlend_Fv
 
-.global lbl_802FCBB8
-lbl_802FCBB8:
+.global __vt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_
+__vt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_:
 
 	# ROM: 0x2F8C98
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800730E8
-	.4byte lbl_80071050
-	.4byte lbl_80071034
-	.4byte lbl_800739C4
-	.4byte lbl_80073AA4
-	.4byte lbl_80071B98
-	.4byte lbl_800731D8
-	.4byte lbl_80073260
-	.4byte lbl_80073570
-	.4byte lbl_800735E4
-	.4byte lbl_80073698
-	.4byte lbl_80073B80
-	.4byte lbl_80073DBC
-	.4byte lbl_80073DD0
-	.4byte lbl_80073F08
-	.4byte lbl_80073F10
-	.4byte lbl_80073F2C
-	.4byte lbl_80073F3C
+	.4byte __dt__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fv
+	.4byte GetFrame__Q38Resource9Animation3ObjCFv
+	.4byte GetUpdateRate__Q38Resource9Animation3ObjCFv
+	.4byte Entry__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fv
+	.4byte Remove__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fv
+	.4byte SetModel__Q38Resource9Animation3ObjFPQ38Resource5Model3Obj
+	.4byte Active__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FPCcb
+	.4byte Active__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FQ33std3tr130shared_ptr_Q28Resource6Holder_PCcb
+	.4byte Replace__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FUlPCcb
+	.4byte Replace__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FUlQ33std3tr130shared_ptr_Q28Resource6Holder_PCcb
+	.4byte Set__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FUlf
+	.4byte Update__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fv
+	.4byte IsComp__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_CFv
+	.4byte SetEx__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FUlf
+	.4byte SetExWeight__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Ff
+	.4byte StorePreBlend__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_FPlPlPf
+	.4byte RestorePreBlend__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fllf
+	.4byte BlendDetachAll__Q48Resource9Animation9Implement65Continuity_Q34nw4r3g3d12AnmObjChrRes_Q34nw4r3g3d14AnmObjChrBlend_Fv
 
-.global lbl_802FCC08
-lbl_802FCC08:
+.global __vt__Q38Resource9Animation10Continuity
+__vt__Q38Resource9Animation10Continuity:
 
 	# ROM: 0x2F8CE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800330D8
-	.4byte lbl_80071050
-	.4byte lbl_80071034
-	.4byte lbl_800719C4
-	.4byte lbl_80071ABC
-	.4byte lbl_80071B98
+	.4byte __dt__Q38Resource9Animation10ContinuityFv
+	.4byte GetFrame__Q38Resource9Animation3ObjCFv
+	.4byte GetUpdateRate__Q38Resource9Animation3ObjCFv
+	.4byte Entry__Q38Resource9Animation3ObjFv
+	.4byte Remove__Q38Resource9Animation3ObjFv
+	.4byte SetModel__Q38Resource9Animation3ObjFPQ38Resource5Model3Obj
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -3048,283 +3048,283 @@ lbl_802FCC08:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FCC58
-lbl_802FCC58:
+.global _STRING_GetID__Q34nw4r3g3d7ResNodeCFv_0
+_STRING_GetID__Q34nw4r3g3d7ResNodeCFv_0:
 
 	# ROM: 0x2F8D38
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FCC78
-lbl_802FCC78:
+.global _STRING_GetID__Q34nw4r3g3d7ResNodeCFv
+_STRING_GetID__Q34nw4r3g3d7ResNodeCFv:
 
 	# ROM: 0x2F8D58
 	.asciz "g3d_resnode_ac.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FCC90
-lbl_802FCC90:
+.global __vt__Q38Resource5Model3Obj
+__vt__Q38Resource5Model3Obj:
 
 	# ROM: 0x2F8D70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80074874
-	.4byte lbl_8006D1DC
-	.4byte lbl_8006D418
-	.4byte lbl_8006D644
-	.4byte lbl_8006D718
-	.4byte lbl_800755EC
+	.4byte __dt__Q38Resource5Model3ObjFv
+	.4byte SetViewing__Q35Scene3Obj4BaseFb
+	.4byte Update__Q35Scene3Obj4BaseFv
+	.4byte Update__Q35Scene3Obj4BaseFRCQ34nw4r4math4QUAT
+	.4byte Update__Q35Scene3Obj4BaseFRCQ34nw4r4math5MTX34
+	.4byte get_leaf__Q38Resource5Model3ObjFv
 
-.global lbl_802FCCB0
-lbl_802FCCB0:
+.global _STRING_CheckCast_PQ34nw4r3g3d6ScnMdl___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnMdl_0
+_STRING_CheckCast_PQ34nw4r3g3d6ScnMdl___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnMdl_0:
 
 	# ROM: 0x2F8D90
 	.asciz "CheckCast faild: The pointer type %s is not derived from %s."
 	.balign 4
 
-.global lbl_802FCCF0
-lbl_802FCCF0:
+.global _STRING_CheckCast_PQ34nw4r3g3d6ScnMdl___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnMdl
+_STRING_CheckCast_PQ34nw4r3g3d6ScnMdl___Q34nw4r3g3d6G3dObjFPQ34nw4r3g3d6G3dObj_PQ34nw4r3g3d6ScnMdl:
 
 	# ROM: 0x2F8DD0
 	.asciz "g3d_obj.h"
 	.balign 4
 
-.global lbl_802FCCFC
-lbl_802FCCFC:
+.global _STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_2
+_STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_2:
 
 	# ROM: 0x2F8DDC
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_802FCD20
-lbl_802FCD20:
+.global _STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_1
+_STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_1:
 
 	# ROM: 0x2F8E00
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FCD30
-lbl_802FCD30:
+.global _STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_0
+_STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl_0:
 
 	# ROM: 0x2F8E10
 	.asciz "NW4R:Failed assertion idx < GetNumResTexPlttInfo()"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FCD68
-lbl_802FCD68:
+.global _STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl
+_STRING_GetResTexPlttInfo__Q34nw4r3g3d6ResMatFUl:
 
 	# ROM: 0x2F8E48
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FCD78
-lbl_802FCD78:
+.global _STRING___ct__Q34nw4r3g3d14ResTexPlttInfoFPv_0
+_STRING___ct__Q34nw4r3g3d14ResTexPlttInfoFPv_0:
 
 	# ROM: 0x2F8E58
 	.asciz "NW4R:Failed assertion !((u32)p & 0x3)"
 	.balign 4
 
-.global lbl_802FCDA0
-lbl_802FCDA0:
+.global _STRING___ct__Q34nw4r3g3d14ResTexPlttInfoFPv
+_STRING___ct__Q34nw4r3g3d14ResTexPlttInfoFPv:
 
 	# ROM: 0x2F8E80
 	.asciz "g3d_resmat_ac.h"
 
-.global lbl_802FCDB0
-lbl_802FCDB0:
+.global _STRING_ref__Q34nw4r3g3d7ResNodeCFv_0
+_STRING_ref__Q34nw4r3g3d7ResNodeCFv_0:
 
 	# ROM: 0x2F8E90
 	.asciz "%s::%s: Object not valid."
 	.balign 4
 
-.global lbl_802FCDCC
-lbl_802FCDCC:
+.global _STRING_ref__Q34nw4r3g3d7ResNodeCFv
+_STRING_ref__Q34nw4r3g3d7ResNodeCFv:
 
 	# ROM: 0x2F8EAC
 	.asciz "g3d_resnode_ac.h"
 	.balign 4
 
-.global lbl_802FCDE0
-lbl_802FCDE0:
+.global _STRING_GetMtxID__Q34nw4r3g3d7ResNodeCFv_0
+_STRING_GetMtxID__Q34nw4r3g3d7ResNodeCFv_0:
 
 	# ROM: 0x2F8EC0
 	.asciz "NW4R:Failed assertion IsValid()"
 
-.global lbl_802FCE00
-lbl_802FCE00:
+.global _STRING_GetMtxID__Q34nw4r3g3d7ResNodeCFv
+_STRING_GetMtxID__Q34nw4r3g3d7ResNodeCFv:
 
 	# ROM: 0x2F8EE0
 	.asciz "g3d_resnode_ac.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FCE18
-lbl_802FCE18:
+.global __vt__Q48Resource5Model11MultiMatrix8Callback
+__vt__Q48Resource5Model11MultiMatrix8Callback:
 
 	# ROM: 0x2F8EF8
 	.4byte 0
 	.4byte 0
-	.4byte func_80075D30
+	.4byte __dt__Q48Resource5Model11MultiMatrix8CallbackFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80075DF4
-	.4byte lbl_80075DEC
-	.4byte lbl_80075CD0
-	.4byte lbl_80075CCC
-	.4byte func_80075C34
+	.4byte _24___dt__Q48Resource5Model11MultiMatrix8CallbackFv
+	.4byte _24_ExecCallbackA__Q48Resource5Model11MultiMatrix8CallbackFPQ34nw4r3g3d12ChrAnmResultQ34nw4r3g3d6ResMdlPQ34nw4r3g3d16FuncObjCalcWorld
+	.4byte ExecCallbackB__Q34nw4r3g3d18ICalcWorldCallbackFPQ34nw4r3g3d13WorldMtxManipQ34nw4r3g3d6ResMdlPQ34nw4r3g3d16FuncObjCalcWorld
+	.4byte ExecCallbackC__Q34nw4r3g3d18ICalcWorldCallbackFPQ34nw4r4math5MTX34Q34nw4r3g3d6ResMdlPQ34nw4r3g3d16FuncObjCalcWorld
+	.4byte ExecCallbackA__Q48Resource5Model11MultiMatrix8CallbackFPQ34nw4r3g3d12ChrAnmResultQ34nw4r3g3d6ResMdlPQ34nw4r3g3d16FuncObjCalcWorld
 
-.global lbl_802FCE40
-lbl_802FCE40:
+.global __vt__Q38Resource5Model11MultiMatrix
+__vt__Q38Resource5Model11MultiMatrix:
 
 	# ROM: 0x2F8F20
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80075CD4
+	.4byte __dt__Q38Resource5Model11MultiMatrixFv
 	.4byte 0
 
-.global lbl_802FCE50
-lbl_802FCE50:
+.global __vt__Q38Resource13PathAnimation3Obj
+__vt__Q38Resource13PathAnimation3Obj:
 
 	# ROM: 0x2F8F30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800760BC
+	.4byte __dt__Q38Resource13PathAnimation3ObjFv
 	.4byte 0
 
-.global lbl_802FCE60
-lbl_802FCE60:
+.global __vt__Q38Resource7Texture3Obj
+__vt__Q38Resource7Texture3Obj:
 
 	# ROM: 0x2F8F40
 	.4byte 0
 	.4byte 0
-	.4byte func_800761E4
+	.4byte __dt__Q38Resource7Texture3ObjFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80076268
+	.4byte _48___dt__Q38Resource7Texture3ObjFv
 
-.global lbl_802FCE78
-lbl_802FCE78:
+.global __vt__Q43std3tr16detail80shared_ptr_deleter_Q25Scene5Scn3D_Q33std6detail30default_delete_Q25Scene5Scn3D__
+__vt__Q43std3tr16detail80shared_ptr_deleter_Q25Scene5Scn3D_Q33std6detail30default_delete_Q25Scene5Scn3D__:
 
 	# ROM: 0x2F8F58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800787A8
-	.4byte lbl_800786DC
+	.4byte __dt__Q43std3tr16detail80shared_ptr_deleter_Q25Scene5Scn3D_Q33std6detail30default_delete_Q25Scene5Scn3D__Fv
+	.4byte dispose__Q43std3tr16detail80shared_ptr_deleter_Q25Scene5Scn3D_Q33std6detail30default_delete_Q25Scene5Scn3D__Fv
 
-.global lbl_802FCE88
-lbl_802FCE88:
+.global __vt__Q25Scene9ScnSprite
+__vt__Q25Scene9ScnSprite:
 
 	# ROM: 0x2F8F68
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013AF8
-	.4byte lbl_80076D44
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800780B8
-	.4byte lbl_800780C0
+	.4byte __dt__Q25Scene9ScnSpriteFv
+	.4byte Update__Q25Scene3ScnFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene9ScnSpriteFv
+	.4byte DrawXlu__Q25Scene9ScnSpriteFv
 
-.global lbl_802FCEA8
-lbl_802FCEA8:
+.global __vt__Q25Scene9ScnEffect
+__vt__Q25Scene9ScnEffect:
 
 	# ROM: 0x2F8F88
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80077F58
-	.4byte lbl_80077FB8
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_80076E90
-	.4byte lbl_80078048
+	.4byte __dt__Q25Scene9ScnEffectFv
+	.4byte Update__Q25Scene9ScnEffectFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene3ScnFv
+	.4byte DrawXlu__Q25Scene9ScnEffectFv
 
-.global lbl_802FCEC8
-lbl_802FCEC8:
+.global __vt__Q25Scene8Scn3DSub
+__vt__Q25Scene8Scn3DSub:
 
 	# ROM: 0x2F8FA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013B94
-	.4byte lbl_800763B8
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte func_80077CC4
-	.4byte func_80077EB8
+	.4byte __dt__Q25Scene8Scn3DSubFv
+	.4byte Update__Q25Scene9Scn3DBaseFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene8Scn3DSubFv
+	.4byte DrawXlu__Q25Scene8Scn3DSubFv
 
-.global lbl_802FCEE8
-lbl_802FCEE8:
+.global __vt__Q25Scene5Scn3D
+__vt__Q25Scene5Scn3D:
 
 	# ROM: 0x2F8FC8
 	.4byte 0
 	.4byte 0
-	.4byte func_80077A68
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte func_80077B5C
-	.4byte func_80077BE4
+	.4byte __dt__Q25Scene5Scn3DFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene5Scn3DFv
+	.4byte DrawXlu__Q25Scene5Scn3DFv
 
-.global lbl_802FCF08
-lbl_802FCF08:
+.global __vt__Q25Scene7ScnList
+__vt__Q25Scene7ScnList:
 
 	# ROM: 0x2F8FE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80078700
-	.4byte lbl_80076CCC
-	.4byte lbl_80076D48
-	.4byte lbl_80076DC0
-	.4byte lbl_80076E28
-	.4byte lbl_80076E94
+	.4byte __dt__Q25Scene7ScnListFv
+	.4byte Update__Q25Scene7ScnListFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene7ScnListFi
+	.4byte DrawSetEnd__Q25Scene7ScnListFv
+	.4byte DrawOpa__Q25Scene7ScnListFv
+	.4byte DrawXlu__Q25Scene7ScnListFv
 
-.global lbl_802FCF28
-lbl_802FCF28:
+.global __vt__Q25Scene9Scn3DBase
+__vt__Q25Scene9Scn3DBase:
 
 	# ROM: 0x2F9008
 	.4byte 0
 	.4byte 0
-	.4byte func_800762AC
-	.4byte lbl_800763B8
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_80076E90
-	.4byte lbl_80076EFC
+	.4byte __dt__Q25Scene9Scn3DBaseFv
+	.4byte Update__Q25Scene9Scn3DBaseFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene3ScnFv
+	.4byte DrawXlu__Q25Scene3ScnFv
 
-.global lbl_802FCF48
-lbl_802FCF48:
+.global __vt__Q25Scene3Scn
+__vt__Q25Scene3Scn:
 
 	# ROM: 0x2F9028
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80013B54
-	.4byte lbl_80076D44
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_80076E90
-	.4byte lbl_80076EFC
+	.4byte __dt__Q25Scene3ScnFv
+	.4byte Update__Q25Scene3ScnFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q25Scene3ScnFv
+	.4byte DrawXlu__Q25Scene3ScnFv
 
-.global lbl_802FCF68
-lbl_802FCF68:
+.global _STRING_allocate__Q23std94allocator_Q23std75pair_PQ34nw4r3g3d8ScnGroup_PQ33std3tr134function_FPQ34nw4r3g3d8ScnGroup_v___FUlPCv
+_STRING_allocate__Q23std94allocator_Q23std75pair_PQ34nw4r3g3d8ScnGroup_PQ33std3tr134function_FPQ34nw4r3g3d8ScnGroup_v___FUlPCv:
 
 	# ROM: 0x2F9048
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FCF84
-lbl_802FCF84:
+.global _STRING_allocate__Q23std47allocator_Q33std3tr124shared_ptr_Q25Scene3Scn__FUlPCv
+_STRING_allocate__Q23std47allocator_Q33std3tr124shared_ptr_Q25Scene3Scn__FUlPCv:
 
 	# ROM: 0x2F9064
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FCFA0
-lbl_802FCFA0:
+.global __vt__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_
+__vt__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_:
 
 	# ROM: 0x2F9080
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80078C1C
-	.4byte lbl_80078B98
-	.4byte lbl_80078BE4
-	.4byte lbl_80078C08
+	.4byte __dt__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_Fv
+	.4byte clone__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_CFv
+	.4byte clone__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_CFPv
+	.4byte __cl__Q43std3tr16detail69function_imp_PFPQ34nw4r3g3d8ScnGroup_v_PFPQ34nw4r3g3d8ScnGroup_v_0_1_FPQ34nw4r3g3d8ScnGroup
 
 .global lbl_802FCFB8
 lbl_802FCFB8:
@@ -3345,24 +3345,24 @@ lbl_802FCFB8:
 	.4byte 0x00000100
 	.4byte 0x00000002
 
-.global lbl_802FCFF0
-lbl_802FCFF0:
+.global __vt__Q26Shadow12ShadowCamera
+__vt__Q26Shadow12ShadowCamera:
 
 	# ROM: 0x2F90D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80012554
-	.4byte lbl_8007A498
+	.4byte __dt__Q26Shadow12ShadowCameraFv
+	.4byte update__Q26Shadow12ShadowCameraFv
 
-.global lbl_802FD000
-lbl_802FD000:
+.global _STRING_allocate__Q23std33allocator_Q36Shadow6TKList5Setup_FUlPCv
+_STRING_allocate__Q23std33allocator_Q36Shadow6TKList5Setup_FUlPCv:
 
 	# ROM: 0x2F90E0
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FD01C
-lbl_802FD01C:
+.global _STRING_allocate__Q23std40allocator_Q36Shadow6TKList11GroundSetup_FUlPCv
+_STRING_allocate__Q23std40allocator_Q36Shadow6TKList11GroundSetup_FUlPCv:
 
 	# ROM: 0x2F90FC
 	.asciz "Memory allocation failure"
@@ -3461,292 +3461,292 @@ lbl_802FD118:
 	.4byte lbl_80085DAC
 	.4byte lbl_800859C8
 
-.global lbl_802FD170
-lbl_802FD170:
+.global __vt__Q25Event12TagProcessor
+__vt__Q25Event12TagProcessor:
 
 	# ROM: 0x2F9250
 	.4byte 0
 	.4byte 0
-	.4byte func_8007F79C
-	.4byte lbl_8007F7F4
-	.4byte lbl_80081A20
+	.4byte __dt__Q25Event12TagProcessorFv
+	.4byte Process__Q25Event12TagProcessorFUsPQ34nw4r2ut15PrintContext_w_
+	.4byte CalcRect__Q25Event12TagProcessorFPQ34nw4r2ut4RectUsPQ34nw4r2ut15PrintContext_w_
 
-.global lbl_802FD184
-lbl_802FD184:
+.global _STRING_allocate__Q23std12allocator_w_FUlPCv
+_STRING_allocate__Q23std12allocator_w_FUlPCv:
 
 	# ROM: 0x2F9264
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FD1A0
-lbl_802FD1A0:
+.global _STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_2
+_STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_2:
 
 	# ROM: 0x2F9280
 	.asciz "NW4R:Pointer Error\nstr(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD1D4
-lbl_802FD1D4:
+.global _STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_1
+_STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_1:
 
 	# ROM: 0x2F92B4
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD1E8
-lbl_802FD1E8:
+.global _STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_0
+_STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw_0:
 
 	# ROM: 0x2F92C8
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD21C
-lbl_802FD21C:
+.global _STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw
+_STRING_CalcStringWidth__Q34nw4r2ut17TextWriterBase_w_CFPCw:
 
 	# ROM: 0x2F92FC
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD230
-lbl_802FD230:
+.global _STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_w_Ff_0
+_STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_w_Ff_0:
 
 	# ROM: 0x2F9310
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD264
-lbl_802FD264:
+.global _STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_w_Ff
+_STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_w_Ff:
 
 	# ROM: 0x2F9344
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD278
-lbl_802FD278:
+.global _STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_w_Ff_0
+_STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_w_Ff_0:
 
 	# ROM: 0x2F9358
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD2AC
-lbl_802FD2AC:
+.global _STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_w_Ff
+_STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_w_Ff:
 
 	# ROM: 0x2F938C
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD2C0
-lbl_802FD2C0:
+.global _STRING_GetDrawFlag__Q34nw4r2ut17TextWriterBase_w_CFv_0
+_STRING_GetDrawFlag__Q34nw4r2ut17TextWriterBase_w_CFv_0:
 
 	# ROM: 0x2F93A0
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD2F4
-lbl_802FD2F4:
+.global _STRING_GetDrawFlag__Q34nw4r2ut17TextWriterBase_w_CFv
+_STRING_GetDrawFlag__Q34nw4r2ut17TextWriterBase_w_CFv:
 
 	# ROM: 0x2F93D4
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD308
-lbl_802FD308:
+.global _STRING_GetWidthLimit__Q34nw4r2ut17TextWriterBase_w_CFv_0
+_STRING_GetWidthLimit__Q34nw4r2ut17TextWriterBase_w_CFv_0:
 
 	# ROM: 0x2F93E8
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD33C
-lbl_802FD33C:
+.global _STRING_GetWidthLimit__Q34nw4r2ut17TextWriterBase_w_CFv
+_STRING_GetWidthLimit__Q34nw4r2ut17TextWriterBase_w_CFv:
 
 	# ROM: 0x2F941C
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD350
-lbl_802FD350:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_2
+_STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_2:
 
 	# ROM: 0x2F9430
 	.asciz "NW4R:Pointer Error\nstr(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD384
-lbl_802FD384:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_1
+_STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_1:
 
 	# ROM: 0x2F9464
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD398
-lbl_802FD398:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_0
+_STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw_0:
 
 	# ROM: 0x2F9478
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD3CC
-lbl_802FD3CC:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw
+_STRING_Print__Q34nw4r2ut17TextWriterBase_w_FPCw:
 
 	# ROM: 0x2F94AC
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD3E0
-lbl_802FD3E0:
+.global _STRING_SetDrawFlag__Q34nw4r2ut17TextWriterBase_w_FUl_0
+_STRING_SetDrawFlag__Q34nw4r2ut17TextWriterBase_w_FUl_0:
 
 	# ROM: 0x2F94C0
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD414
-lbl_802FD414:
+.global _STRING_SetDrawFlag__Q34nw4r2ut17TextWriterBase_w_FUl
+_STRING_SetDrawFlag__Q34nw4r2ut17TextWriterBase_w_FUl:
 
 	# ROM: 0x2F94F4
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD428
-lbl_802FD428:
+.global _STRING_GetCharSpace__Q34nw4r2ut17TextWriterBase_w_CFv_0
+_STRING_GetCharSpace__Q34nw4r2ut17TextWriterBase_w_CFv_0:
 
 	# ROM: 0x2F9508
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD45C
-lbl_802FD45C:
+.global _STRING_GetCharSpace__Q34nw4r2ut17TextWriterBase_w_CFv
+_STRING_GetCharSpace__Q34nw4r2ut17TextWriterBase_w_CFv:
 
 	# ROM: 0x2F953C
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD470
-lbl_802FD470:
+.global _STRING_SetCharSpace__Q34nw4r2ut17TextWriterBase_w_Ff_0
+_STRING_SetCharSpace__Q34nw4r2ut17TextWriterBase_w_Ff_0:
 
 	# ROM: 0x2F9550
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD4A4
-lbl_802FD4A4:
+.global _STRING_SetCharSpace__Q34nw4r2ut17TextWriterBase_w_Ff
+_STRING_SetCharSpace__Q34nw4r2ut17TextWriterBase_w_Ff:
 
 	# ROM: 0x2F9584
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD4B8
-lbl_802FD4B8:
+.global _STRING_GetFont__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetFont__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F9598
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD4EC
-lbl_802FD4EC:
+.global _STRING_GetFont__Q34nw4r2ut10CharWriterCFv
+_STRING_GetFont__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F95CC
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD4FC
-lbl_802FD4FC:
+.global _STRING_GetTextColor__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetTextColor__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F95DC
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD530
-lbl_802FD530:
+.global _STRING_GetTextColor__Q34nw4r2ut10CharWriterCFv
+_STRING_GetTextColor__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F9610
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD540
-lbl_802FD540:
+.global _STRING_SetScale__Q34nw4r2ut10CharWriterFff_0
+_STRING_SetScale__Q34nw4r2ut10CharWriterFff_0:
 
 	# ROM: 0x2F9620
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD574
-lbl_802FD574:
+.global _STRING_SetScale__Q34nw4r2ut10CharWriterFff
+_STRING_SetScale__Q34nw4r2ut10CharWriterFff:
 
 	# ROM: 0x2F9654
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD584
-lbl_802FD584:
+.global _STRING_GetScaleH__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetScaleH__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F9664
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD5B8
-lbl_802FD5B8:
+.global _STRING_GetScaleH__Q34nw4r2ut10CharWriterCFv
+_STRING_GetScaleH__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F9698
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD5C8
-lbl_802FD5C8:
+.global _STRING_GetScaleV__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetScaleV__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F96A8
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD5FC
-lbl_802FD5FC:
+.global _STRING_GetScaleV__Q34nw4r2ut10CharWriterCFv
+_STRING_GetScaleV__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F96DC
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD60C
-lbl_802FD60C:
+.global _STRING_GetCursorX__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetCursorX__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F96EC
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD640
-lbl_802FD640:
+.global _STRING_GetCursorX__Q34nw4r2ut10CharWriterCFv
+_STRING_GetCursorX__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F9720
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_802FD650
-lbl_802FD650:
+.global _STRING_GetCursorY__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetCursorY__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x2F9730
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD684
-lbl_802FD684:
+.global _STRING_GetCursorY__Q34nw4r2ut10CharWriterCFv
+_STRING_GetCursorY__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x2F9764
 	.asciz "CharWriter.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FD698
-lbl_802FD698:
+.global __vt__Q27Texture3Obj
+__vt__Q27Texture3Obj:
 
 	# ROM: 0x2F9778
 	.4byte 0
 	.4byte 0
-	.4byte func_80086F80
+	.4byte __dt__Q27Texture3ObjFv
 	.4byte 0
 
-.global lbl_802FD6A8
-lbl_802FD6A8:
+.global __vt__Q24File3Csv
+__vt__Q24File3Csv:
 
 	# ROM: 0x2F9788
 	.4byte 0
 	.4byte 0
-	.4byte func_80087088
+	.4byte __dt__Q24File3CsvFv
 	.4byte 0
 
 .global lbl_802FD6B8
@@ -3755,113 +3755,113 @@ lbl_802FD6B8:
 	# ROM: 0x2F9798
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80087C84
+	.4byte recovery__Q26System9DiskErrorFv
 	.4byte 0
 
-.global lbl_802FD6C8
-lbl_802FD6C8:
+.global __vt__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_
+__vt__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_:
 
 	# ROM: 0x2F97A8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800886FC
-	.4byte lbl_80088620
-	.4byte lbl_80088684
-	.4byte lbl_800886C0
+	.4byte __dt__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
+	.4byte clone__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFv
+	.4byte clone__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFPv
+	.4byte __cl__Q43std3tr16detail284function_imp_PFl_b_Q43std3tr16detail240bound_func_b_Q43std3tr16detail31mem_fn_0_b_Q26System9DiskError__Q33std3tr1162tuple_PQ26System9DiskError_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fl
 
-.global lbl_802FD6E0
-lbl_802FD6E0:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_2
+_STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_2:
 
 	# ROM: 0x2F97C0
 	.asciz "NW4R:Pointer Error\nstr(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD714
-lbl_802FD714:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_1
+_STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_1:
 
 	# ROM: 0x2F97F4
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD728
-lbl_802FD728:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_0
+_STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc_0:
 
 	# ROM: 0x2F9808
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD75C
-lbl_802FD75C:
+.global _STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc
+_STRING_Print__Q34nw4r2ut17TextWriterBase_c_FPCc:
 
 	# ROM: 0x2F983C
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD770
-lbl_802FD770:
+.global _STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_c_Ff_0
+_STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_c_Ff_0:
 
 	# ROM: 0x2F9850
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD7A4
-lbl_802FD7A4:
+.global _STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_c_Ff
+_STRING_SetWidthLimit__Q34nw4r2ut17TextWriterBase_c_Ff:
 
 	# ROM: 0x2F9884
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD7B8
-lbl_802FD7B8:
+.global _STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_c_Ff_0
+_STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_c_Ff_0:
 
 	# ROM: 0x2F9898
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_802FD7EC
-lbl_802FD7EC:
+.global _STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_c_Ff
+_STRING_SetLineSpace__Q34nw4r2ut17TextWriterBase_c_Ff:
 
 	# ROM: 0x2F98CC
 	.asciz "TextWriterBase.h"
 	.balign 4
 
-.global lbl_802FD800
-lbl_802FD800:
+.global __vt__Q210HomeButton12ValidManager
+__vt__Q210HomeButton12ValidManager:
 
 	# ROM: 0x2F98E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80088B90
-	.4byte lbl_800888B0
-	.4byte lbl_800888D8
-	.4byte lbl_800888EC
-	.4byte lbl_80088AE8
-	.4byte lbl_80088B0C
-	.4byte lbl_80088B04
-	.4byte lbl_80088AC0
-	.4byte lbl_80088B50
-	.4byte lbl_80088B20
-	.4byte lbl_80088B34
-	.4byte lbl_80088B78
+	.4byte __dt__Q210HomeButton12ValidManagerFv
+	.4byte Validate__Q210HomeButton12ValidManagerFv
+	.4byte IsValid__Q210HomeButton12ValidManagerFv
+	.4byte Update__Q210HomeButton12ValidManagerFv
+	.4byte IsInitialized__Q210HomeButton12ValidManagerFv
+	.4byte IsDraw__Q210HomeButton12ValidManagerFv
+	.4byte IsOpen__Q210HomeButton12ValidManagerFv
+	.4byte IsEnable__Q210HomeButton12ValidManagerFv
+	.4byte SetEnable__Q210HomeButton12ValidManagerFb
+	.4byte Draw__Q210HomeButton12ValidManagerFv
+	.4byte Reset__Q210HomeButton12ValidManagerFv
+	.4byte SetResetLock__Q210HomeButton12ValidManagerFb
 
-.global lbl_802FD838
-lbl_802FD838:
+.global __vt__Q210HomeButton7Manager
+__vt__Q210HomeButton7Manager:
 
 	# ROM: 0x2F9918
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80026190
-	.4byte lbl_80088B8C
-	.4byte lbl_800888A0
-	.4byte lbl_800261D0
-	.4byte lbl_80088AFC
-	.4byte lbl_800261D8
-	.4byte lbl_800261E4
-	.4byte lbl_80088B84
-	.4byte lbl_80088B80
-	.4byte lbl_800261E0
-	.4byte lbl_80029A7C
-	.4byte lbl_80029A84
+	.4byte __dt__Q210HomeButton7ManagerFv
+	.4byte Validate__Q210HomeButton7ManagerFv
+	.4byte IsValid__Q210HomeButton7ManagerFv
+	.4byte Update__Q210HomeButton7ManagerFv
+	.4byte IsInitialized__Q210HomeButton7ManagerFv
+	.4byte IsDraw__Q210HomeButton7ManagerFv
+	.4byte IsOpen__Q210HomeButton7ManagerFv
+	.4byte IsEnable__Q210HomeButton7ManagerFv
+	.4byte SetEnable__Q210HomeButton7ManagerFb
+	.4byte Draw__Q210HomeButton7ManagerFv
+	.4byte Reset__Q210HomeButton7ManagerFv
+	.4byte SetResetLock__Q210HomeButton7ManagerFb
 
 .global lbl_802FD870
 lbl_802FD870:
@@ -3876,26 +3876,26 @@ lbl_802FD870:
 	.4byte lbl_802DAE64
 	.4byte 0
 
-.global lbl_802FD890
-lbl_802FD890:
+.global __vt__Q24File14NowLoadingTask
+__vt__Q24File14NowLoadingTask:
 
 	# ROM: 0x2F9970
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8008AE88
-	.4byte lbl_8008ADD4
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24File14NowLoadingTaskCFv
+	.4byte __dt__Q24File14NowLoadingTaskFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FD8A8
-lbl_802FD8A8:
+.global _STRING_GetTexture__Q34nw4r3lyt8MaterialCFUc_0
+_STRING_GetTexture__Q34nw4r3lyt8MaterialCFUc_0:
 
 	# ROM: 0x2F9988
 	.asciz "NW4R:Failed assertion texMapIdx < mGXMemNum.texMap"
 	.balign 4
 
-.global lbl_802FD8DC
-lbl_802FD8DC:
+.global _STRING_GetTexture__Q34nw4r3lyt8MaterialCFUc
+_STRING_GetTexture__Q34nw4r3lyt8MaterialCFUc:
 
 	# ROM: 0x2F99BC
 	.asciz "material.h"
@@ -3910,127 +3910,127 @@ lbl_802FD8E8:
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
 
-.global lbl_802FD8F8
-lbl_802FD8F8:
+.global __vt__Q23Key14RemoconManager
+__vt__Q23Key14RemoconManager:
 
 	# ROM: 0x2F99D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8008C9E0
-	.4byte lbl_8008B938
-	.4byte lbl_8008C080
-	.4byte lbl_8008B450
+	.4byte GetRTI__Q23Key14RemoconManagerCFv
+	.4byte __dt__Q23Key14RemoconManagerFv
+	.4byte exec__Q23Key14RemoconManagerFv
+	.4byte kill_callback__Q23Key14RemoconManagerFv
 
-.global lbl_802FD910
-lbl_802FD910:
+.global __vt__Q23Key18RemoconPointerDisp
+__vt__Q23Key18RemoconPointerDisp:
 
 	# ROM: 0x2F99F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8008C9E8
-	.4byte lbl_8008C9F0
-	.4byte lbl_80008908
-	.4byte lbl_8008AF38
+	.4byte GetRTI__Q23Key18RemoconPointerDispCFv
+	.4byte __dt__Q23Key18RemoconPointerDispFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q23Key18RemoconPointerDispFv
 
-.global lbl_802FD928
-lbl_802FD928:
+.global __vt__Q33Key9Vibration3Obj
+__vt__Q33Key9Vibration3Obj:
 
 	# ROM: 0x2F9A08
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8008CBBC
-	.4byte lbl_8008CB14
-	.4byte lbl_8008CB90
-	.4byte lbl_80008290
+	.4byte GetRTI__Q33Key9Vibration3ObjCFv
+	.4byte __dt__Q33Key9Vibration3ObjFv
+	.4byte exec__Q33Key9Vibration3ObjFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FD940
-lbl_802FD940:
+.global __vt__16CollisionManager
+__vt__16CollisionManager:
 
 	# ROM: 0x2F9A20
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008EA4
-	.4byte lbl_8008F72C
-	.4byte lbl_8008F988
-	.4byte lbl_8008FE6C
+	.4byte GetRTI__Q24Task4BaseCFv
+	.4byte __dt__16CollisionManagerFv
+	.4byte exec__16CollisionManagerFv
+	.4byte kill_callback__16CollisionManagerFv
 
-.global lbl_802FD958
-lbl_802FD958:
+.global __vt__Q29Collision20ColliOBJ_9HCBObject_
+__vt__Q29Collision20ColliOBJ_9HCBObject_:
 
 	# ROM: 0x2F9A38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80090430
-	.4byte lbl_8008FE70
-	.4byte lbl_8008FF68
-	.4byte lbl_80090060
-	.4byte lbl_80090158
+	.4byte __dt__Q29Collision20ColliOBJ_9HCBObject_Fv
+	.4byte HitCheck__Q29Collision20ColliOBJ_9HCBObject_FPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision20ColliOBJ_9HCBObject_FPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision20ColliOBJ_9HCBObject_FPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision20ColliOBJ_9HCBObject_Fll
 
-.global lbl_802FD974
-lbl_802FD974:
+.global __vt__Q29Collision22ColliOBJ_10HOCBObject_
+__vt__Q29Collision22ColliOBJ_10HOCBObject_:
 
 	# ROM: 0x2F9A54
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800904A8
-	.4byte lbl_8009015C
-	.4byte lbl_8009024C
-	.4byte lbl_8009033C
-	.4byte lbl_8009042C
+	.4byte __dt__Q29Collision22ColliOBJ_10HOCBObject_Fv
+	.4byte HitCheck__Q29Collision22ColliOBJ_10HOCBObject_FPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision22ColliOBJ_10HOCBObject_FPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision22ColliOBJ_10HOCBObject_FPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision22ColliOBJ_10HOCBObject_Fll
 
-.global lbl_802FD990
-lbl_802FD990:
+.global __vt__Q29Collision9ColliTree
+__vt__Q29Collision9ColliTree:
 
 	# ROM: 0x2F9A70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80092870
-	.4byte lbl_80092DF4
-	.4byte lbl_80093010
-	.4byte lbl_8009322C
-	.4byte lbl_80093448
-	.4byte lbl_8009292C
-	.4byte lbl_80092A18
-	.4byte lbl_80092C0C
+	.4byte __dt__Q29Collision9ColliTreeFv
+	.4byte HitCheck__Q29Collision9ColliTreeFPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision9ColliTreeFPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision9ColliTreeFPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision9ColliTreeFll
+	.4byte LoadRequest__Q29Collision9ColliTreeFQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__
+	.4byte LoadRequest__Q29Collision9ColliTreeFQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__RQ33std3tr124shared_ptr_Q24File4Base_
+	.4byte LoadRequest__Q29Collision9ColliTreeFRQ33std3tr124shared_ptr_Q24File4Base_
 
-.global lbl_802FD9B8
-lbl_802FD9B8:
+.global __vt__Q29Collision11ColliObject
+__vt__Q29Collision11ColliObject:
 
 	# ROM: 0x2F9A98
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80091B10
-	.4byte lbl_80092160
-	.4byte lbl_80092384
-	.4byte lbl_800925A8
-	.4byte lbl_800927CC
-	.4byte lbl_80091BCC
-	.4byte lbl_80091CB8
-	.4byte lbl_80091EAC
+	.4byte __dt__Q29Collision11ColliObjectFv
+	.4byte HitCheck__Q29Collision11ColliObjectFPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision11ColliObjectFPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision11ColliObjectFPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision11ColliObjectFll
+	.4byte LoadRequest__Q29Collision11ColliObjectFQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__
+	.4byte LoadRequest__Q29Collision11ColliObjectFQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c__RQ33std3tr124shared_ptr_Q24File4Base_
+	.4byte LoadRequest__Q29Collision11ColliObjectFRQ33std3tr124shared_ptr_Q24File4Base_
 
-.global lbl_802FD9E0
-lbl_802FD9E0:
+.global __vt__Q29Collision8ColliBox
+__vt__Q29Collision8ColliBox:
 
 	# ROM: 0x2F9AC0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800934A8
-	.4byte lbl_800915B8
-	.4byte lbl_80091744
-	.4byte lbl_800918D0
-	.4byte lbl_80091A5C
+	.4byte __dt__Q29Collision8ColliBoxFv
+	.4byte HitCheck__Q29Collision8ColliBoxFPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision8ColliBoxFPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision8ColliBoxFPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision8ColliBoxFll
 
-.global lbl_802FD9FC
-lbl_802FD9FC:
+.global __vt__Q29Collision11ColliSphere
+__vt__Q29Collision11ColliSphere:
 
 	# ROM: 0x2F9ADC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8009344C
-	.4byte lbl_80090988
-	.4byte lbl_80090C50
-	.4byte lbl_80090F18
-	.4byte lbl_800911E0
+	.4byte __dt__Q29Collision11ColliSphereFv
+	.4byte HitCheck__Q29Collision11ColliSphereFPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision11ColliSphereFPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q29Collision11ColliSphereFPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q29Collision11ColliSphereFll
 
 .global lbl_802FDA18
 lbl_802FDA18:
@@ -4038,7 +4038,7 @@ lbl_802FDA18:
 	# ROM: 0x2F9AF8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800A1914
+	.4byte unreg__Q35Scene6Layout14ResourceHolderFQ23std106pair_Q33std3tr139shared_ptr_Q35Scene6Layout10FontHolder__Q33std3tr136shared_ptr_Q34nw4r3lyt11FontRefLink__
 
 .global lbl_802FDA24
 lbl_802FDA24:
@@ -4046,7 +4046,7 @@ lbl_802FDA24:
 	# ROM: 0x2F9B04
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800A1914
+	.4byte unreg__Q35Scene6Layout14ResourceHolderFQ23std106pair_Q33std3tr139shared_ptr_Q35Scene6Layout10FontHolder__Q33std3tr136shared_ptr_Q34nw4r3lyt11FontRefLink__
 
 .global lbl_802FDA30
 lbl_802FDA30:
@@ -4054,7 +4054,7 @@ lbl_802FDA30:
 	# ROM: 0x2F9B10
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
 .global lbl_802FDA3C
 lbl_802FDA3C:
@@ -4062,7 +4062,7 @@ lbl_802FDA3C:
 	# ROM: 0x2F9B1C
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
 .global lbl_802FDA48
 lbl_802FDA48:
@@ -4070,7 +4070,7 @@ lbl_802FDA48:
 	# ROM: 0x2F9B28
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
 .global lbl_802FDA54
 lbl_802FDA54:
@@ -4078,7 +4078,7 @@ lbl_802FDA54:
 	# ROM: 0x2F9B34
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
 .global lbl_802FDA60
 lbl_802FDA60:
@@ -4086,7 +4086,7 @@ lbl_802FDA60:
 	# ROM: 0x2F9B40
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
 .global lbl_802FDA6C
 lbl_802FDA6C:
@@ -4094,62 +4094,62 @@ lbl_802FDA6C:
 	# ROM: 0x2F9B4C
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8009BEEC
+	.4byte equal__Q45Scene6Layout3Obj5AnimeFRCQ23std60basic_string_c_Q23std14char_traits_c__Q24Task12Allocator_c__
 
-.global lbl_802FDA78
-lbl_802FDA78:
+.global __vt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10FontHolder_Q33std6detail43default_delete_Q35Scene6Layout10FontHolder__
+__vt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10FontHolder_Q33std6detail43default_delete_Q35Scene6Layout10FontHolder__:
 
 	# ROM: 0x2F9B58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A1AE0
-	.4byte lbl_800A1048
+	.4byte __dt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10FontHolder_Q33std6detail43default_delete_Q35Scene6Layout10FontHolder__Fv
+	.4byte dispose__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10FontHolder_Q33std6detail43default_delete_Q35Scene6Layout10FontHolder__Fv
 
-.global lbl_802FDA88
-lbl_802FDA88:
+.global __vt__Q43std3tr16detail100shared_ptr_deleter_Q34nw4r3lyt11FontRefLink_Q33std6detail40default_delete_Q34nw4r3lyt11FontRefLink__
+__vt__Q43std3tr16detail100shared_ptr_deleter_Q34nw4r3lyt11FontRefLink_Q33std6detail40default_delete_Q34nw4r3lyt11FontRefLink__:
 
 	# ROM: 0x2F9B68
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A1AA0
-	.4byte lbl_800A1054
+	.4byte __dt__Q43std3tr16detail100shared_ptr_deleter_Q34nw4r3lyt11FontRefLink_Q33std6detail40default_delete_Q34nw4r3lyt11FontRefLink__Fv
+	.4byte dispose__Q43std3tr16detail100shared_ptr_deleter_Q34nw4r3lyt11FontRefLink_Q33std6detail40default_delete_Q34nw4r3lyt11FontRefLink__Fv
 
-.global lbl_802FDA98
-lbl_802FDA98:
+.global __vt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10AsyncEntry_Q33std6detail43default_delete_Q35Scene6Layout10AsyncEntry__
+__vt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10AsyncEntry_Q33std6detail43default_delete_Q35Scene6Layout10AsyncEntry__:
 
 	# ROM: 0x2F9B78
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A1A60
-	.4byte lbl_800A1068
+	.4byte __dt__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10AsyncEntry_Q33std6detail43default_delete_Q35Scene6Layout10AsyncEntry__Fv
+	.4byte dispose__Q43std3tr16detail106shared_ptr_deleter_Q35Scene6Layout10AsyncEntry_Q33std6detail43default_delete_Q35Scene6Layout10AsyncEntry__Fv
 
-.global lbl_802FDAA8
-lbl_802FDAA8:
+.global __vt__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_
+__vt__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_:
 
 	# ROM: 0x2F9B88
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A19EC
-	.4byte lbl_800A0F10
-	.4byte lbl_800A0F90
-	.4byte lbl_800A0FE0
+	.4byte __dt__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
+	.4byte clone__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFv
+	.4byte clone__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_CFPv
+	.4byte __cl__Q43std3tr16detail328function_imp_PFv_v_Q43std3tr16detail284bound_func_v_PFQ33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__v_Q33std3tr1197tuple_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat_Q33std3tr13nat___0_0_Fv
 
-.global lbl_802FDAC0
-lbl_802FDAC0:
+.global __vt__Q43std3tr16detail114shared_ptr_deleter_Q35Scene6Layout14ResourceHolder_Q33std6detail47default_delete_Q35Scene6Layout14ResourceHolder__
+__vt__Q43std3tr16detail114shared_ptr_deleter_Q35Scene6Layout14ResourceHolder_Q33std6detail47default_delete_Q35Scene6Layout14ResourceHolder__:
 
 	# ROM: 0x2F9BA0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A19AC
-	.4byte lbl_800A1108
+	.4byte __dt__Q43std3tr16detail114shared_ptr_deleter_Q35Scene6Layout14ResourceHolder_Q33std6detail47default_delete_Q35Scene6Layout14ResourceHolder__Fv
+	.4byte dispose__Q43std3tr16detail114shared_ptr_deleter_Q35Scene6Layout14ResourceHolder_Q33std6detail47default_delete_Q35Scene6Layout14ResourceHolder__Fv
 
-.global lbl_802FDAD0
-lbl_802FDAD0:
+.global __vt__Q35Scene6Layout3Obj
+__vt__Q35Scene6Layout3Obj:
 
 	# ROM: 0x2F9BB0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8009B5BC
+	.4byte __dt__Q35Scene6Layout3ObjFv
 
 .global lbl_802FDADC
 lbl_802FDADC:
@@ -4157,73 +4157,73 @@ lbl_802FDADC:
 	# ROM: 0x2F9BBC
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800A1914
+	.4byte unreg__Q35Scene6Layout14ResourceHolderFQ23std106pair_Q33std3tr139shared_ptr_Q35Scene6Layout10FontHolder__Q33std3tr136shared_ptr_Q34nw4r3lyt11FontRefLink__
 
-.global lbl_802FDAE8
-lbl_802FDAE8:
+.global _STRING_allocate__Q23std60allocator_Q33std3tr137weak_ptr_Q35Scene6Layout10AsyncEntry__FUlPCv
+_STRING_allocate__Q23std60allocator_Q33std3tr137weak_ptr_Q35Scene6Layout10AsyncEntry__FUlPCv:
 
 	# ROM: 0x2F9BC8
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FDB04
-lbl_802FDB04:
+.global _STRING_allocate__Q23std66allocator_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__FUlPCv
+_STRING_allocate__Q23std66allocator_Q33std3tr143shared_ptr_Q35Scene6Layout14ResourceHolder__FUlPCv:
 
 	# ROM: 0x2F9BE4
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FDB20
-lbl_802FDB20:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimationLink_0_FPQ34nw4r2ut12LinkListNode_0
+_STRING_GetPointerFromNode__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimationLink_0_FPQ34nw4r2ut12LinkListNode_0:
 
 	# ROM: 0x2F9C00
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_802FDB44
-lbl_802FDB44:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimationLink_0_FPQ34nw4r2ut12LinkListNode
+_STRING_GetPointerFromNode__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimationLink_0_FPQ34nw4r2ut12LinkListNode:
 
 	# ROM: 0x2F9C24
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_802FDB50
-lbl_802FDB50:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_FPQ34nw4r2ut12LinkListNode_0
+_STRING_GetPointerFromNode__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_FPQ34nw4r2ut12LinkListNode_0:
 
 	# ROM: 0x2F9C30
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_802FDB74
-lbl_802FDB74:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_FPQ34nw4r2ut12LinkListNode
+_STRING_GetPointerFromNode__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_FPQ34nw4r2ut12LinkListNode:
 
 	# ROM: 0x2F9C54
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_802FDB80
-lbl_802FDB80:
+.global _STRING___ml__Q44nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_8IteratorCFv_0
+_STRING___ml__Q44nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_8IteratorCFv_0:
 
 	# ROM: 0x2F9C60
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_802FDBA4
-lbl_802FDBA4:
+.global _STRING___ml__Q44nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_8IteratorCFv
+_STRING___ml__Q44nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_8IteratorCFv:
 
 	# ROM: 0x2F9C84
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_802FDBB0
-lbl_802FDBB0:
+.global _STRING_GetTexturePtr__Q34nw4r3lyt8MaterialFUc_0
+_STRING_GetTexturePtr__Q34nw4r3lyt8MaterialFUc_0:
 
 	# ROM: 0x2F9C90
 	.asciz "NW4R:Failed assertion texMapIdx < mGXMemNum.texMap"
 	.balign 4
 
-.global lbl_802FDBE4
-lbl_802FDBE4:
+.global _STRING_GetTexturePtr__Q34nw4r3lyt8MaterialFUc
+_STRING_GetTexturePtr__Q34nw4r3lyt8MaterialFUc:
 
 	# ROM: 0x2F9CC4
 	.asciz "material.h"
@@ -4257,50 +4257,50 @@ lbl_802FDC08:
 	.4byte lbl_800A3290
 	.4byte lbl_800A32A8
 
-.global lbl_802FDC38
-lbl_802FDC38:
+.global __vt__Q43std3tr16detail106shared_ptr_deleter_Q216SoftwareKeyboard6SKWork_Q33std6detail43default_delete_Q216SoftwareKeyboard6SKWork__
+__vt__Q43std3tr16detail106shared_ptr_deleter_Q216SoftwareKeyboard6SKWork_Q33std6detail43default_delete_Q216SoftwareKeyboard6SKWork__:
 
 	# ROM: 0x2F9D18
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4BB0
-	.4byte lbl_800A49C4
+	.4byte __dt__Q43std3tr16detail106shared_ptr_deleter_Q216SoftwareKeyboard6SKWork_Q33std6detail43default_delete_Q216SoftwareKeyboard6SKWork__Fv
+	.4byte dispose__Q43std3tr16detail106shared_ptr_deleter_Q216SoftwareKeyboard6SKWork_Q33std6detail43default_delete_Q216SoftwareKeyboard6SKWork__Fv
 
-.global lbl_802FDC48
-lbl_802FDC48:
+.global __vt__Q43std3tr16detail116shared_ptr_deleter_Q49textinput6extend4memo7Manager_Q33std6detail48default_delete_Q49textinput6extend4memo7Manager__
+__vt__Q43std3tr16detail116shared_ptr_deleter_Q49textinput6extend4memo7Manager_Q33std6detail48default_delete_Q49textinput6extend4memo7Manager__:
 
 	# ROM: 0x2F9D28
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4B70
-	.4byte lbl_800A4A30
+	.4byte __dt__Q43std3tr16detail116shared_ptr_deleter_Q49textinput6extend4memo7Manager_Q33std6detail48default_delete_Q49textinput6extend4memo7Manager__Fv
+	.4byte dispose__Q43std3tr16detail116shared_ptr_deleter_Q49textinput6extend4memo7Manager_Q33std6detail48default_delete_Q49textinput6extend4memo7Manager__Fv
 
-.global lbl_802FDC58
-lbl_802FDC58:
+.global __vt__Q43std3tr16detail108shared_ptr_deleter_Q34nw4r3lyt15ArcResourceLink_Q33std6detail44default_delete_Q34nw4r3lyt15ArcResourceLink__
+__vt__Q43std3tr16detail108shared_ptr_deleter_Q34nw4r3lyt15ArcResourceLink_Q33std6detail44default_delete_Q34nw4r3lyt15ArcResourceLink__:
 
 	# ROM: 0x2F9D38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4B30
-	.4byte lbl_800A4A54
+	.4byte __dt__Q43std3tr16detail108shared_ptr_deleter_Q34nw4r3lyt15ArcResourceLink_Q33std6detail44default_delete_Q34nw4r3lyt15ArcResourceLink__Fv
+	.4byte dispose__Q43std3tr16detail108shared_ptr_deleter_Q34nw4r3lyt15ArcResourceLink_Q33std6detail44default_delete_Q34nw4r3lyt15ArcResourceLink__Fv
 
-.global lbl_802FDC68
-lbl_802FDC68:
+.global __vt__Q43std3tr16detail126shared_ptr_deleter_Q34nw4r3lyt24MultiArcResourceAccessor_Q33std6detail53default_delete_Q34nw4r3lyt24MultiArcResourceAccessor__
+__vt__Q43std3tr16detail126shared_ptr_deleter_Q34nw4r3lyt24MultiArcResourceAccessor_Q33std6detail53default_delete_Q34nw4r3lyt24MultiArcResourceAccessor__:
 
 	# ROM: 0x2F9D48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4AF0
-	.4byte lbl_800A4A68
+	.4byte __dt__Q43std3tr16detail126shared_ptr_deleter_Q34nw4r3lyt24MultiArcResourceAccessor_Q33std6detail53default_delete_Q34nw4r3lyt24MultiArcResourceAccessor__Fv
+	.4byte dispose__Q43std3tr16detail126shared_ptr_deleter_Q34nw4r3lyt24MultiArcResourceAccessor_Q33std6detail53default_delete_Q34nw4r3lyt24MultiArcResourceAccessor__Fv
 
-.global lbl_802FDC78
-lbl_802FDC78:
+.global __vt__Q43std3tr16detail98shared_ptr_deleter_Q34nw4r2ut11ArchiveFont_Q33std6detail39default_delete_Q34nw4r2ut11ArchiveFont__
+__vt__Q43std3tr16detail98shared_ptr_deleter_Q34nw4r2ut11ArchiveFont_Q33std6detail39default_delete_Q34nw4r2ut11ArchiveFont__:
 
 	# ROM: 0x2F9D58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4AB0
-	.4byte lbl_800A4A8C
+	.4byte __dt__Q43std3tr16detail98shared_ptr_deleter_Q34nw4r2ut11ArchiveFont_Q33std6detail39default_delete_Q34nw4r2ut11ArchiveFont__Fv
+	.4byte dispose__Q43std3tr16detail98shared_ptr_deleter_Q34nw4r2ut11ArchiveFont_Q33std6detail39default_delete_Q34nw4r2ut11ArchiveFont__Fv
 
 .global lbl_802FDC88
 lbl_802FDC88:
@@ -4322,119 +4322,119 @@ lbl_802FDC88:
 	.4byte lbl_800A4840
 	.4byte lbl_800A4848
 
-.global lbl_802FDCC4
-lbl_802FDCC4:
+.global __vt__15MyEventObserver
+__vt__15MyEventObserver:
 
 	# ROM: 0x2F9DA4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A47C4
-	.4byte lbl_800A47C0
-	.4byte lbl_800A47BC
-	.4byte lbl_800A47C8
-	.4byte lbl_800A48AC
-	.4byte lbl_800A4898
-	.4byte lbl_800A47AC
+	.4byte onInput__Q29textinput13EventObserverFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte onCommand__Q29textinput13EventObserverFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte onEvent__Q29textinput13EventObserverFPQ34nw4r3lyt4PaneUl
+	.4byte onSE__15MyEventObserverFQ39textinput5sound2SE
+	.4byte onOK__15MyEventObserverFv
+	.4byte onCancel__15MyEventObserverFv
+	.4byte onOutOfLength__Q29textinput13EventObserverFv
 
-.global lbl_802FDCE8
-lbl_802FDCE8:
+.global __vt__Q216SoftwareKeyboard16ResourceLoadTask
+__vt__Q216SoftwareKeyboard16ResourceLoadTask:
 
 	# ROM: 0x2F9DC8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A4994
-	.4byte lbl_800A2A6C
-	.4byte lbl_800A2C94
-	.4byte lbl_80008290
+	.4byte GetRTI__Q216SoftwareKeyboard16ResourceLoadTaskCFv
+	.4byte __dt__Q216SoftwareKeyboard16ResourceLoadTaskFv
+	.4byte exec__Q216SoftwareKeyboard16ResourceLoadTaskFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FDD00
-lbl_802FDD00:
+.global __vt__Q29textinput13EventObserver
+__vt__Q29textinput13EventObserver:
 
 	# ROM: 0x2F9DE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A47C4
-	.4byte lbl_800A47C0
-	.4byte lbl_800A47BC
-	.4byte lbl_800A49B8
-	.4byte lbl_800A49AC
-	.4byte lbl_800A499C
-	.4byte lbl_800A47AC
+	.4byte onInput__Q29textinput13EventObserverFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte onCommand__Q29textinput13EventObserverFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte onEvent__Q29textinput13EventObserverFPQ34nw4r3lyt4PaneUl
+	.4byte onSE__Q29textinput13EventObserverFQ39textinput5sound2SE
+	.4byte onOK__Q29textinput13EventObserverFv
+	.4byte onCancel__Q29textinput13EventObserverFv
+	.4byte onOutOfLength__Q29textinput13EventObserverFv
 	.4byte 0
 
-.global lbl_802FDD28
-lbl_802FDD28:
+.global __vt__Q216SoftwareKeyboard7Manager
+__vt__Q216SoftwareKeyboard7Manager:
 
 	# ROM: 0x2F9E08
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A49BC
-	.4byte lbl_800A469C
-	.4byte lbl_800A3DA0
-	.4byte lbl_80008290
+	.4byte GetRTI__Q216SoftwareKeyboard7ManagerCFv
+	.4byte __dt__Q216SoftwareKeyboard7ManagerFv
+	.4byte exec__Q216SoftwareKeyboard7ManagerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FDD40
-lbl_802FDD40:
+.global _STRING_onCancel__Q29textinput13EventObserverFv
+_STRING_onCancel__Q29textinput13EventObserverFv:
 
 	# ROM: 0x2F9E20
 	.asciz "Cancel!\n"
 	.balign 4
 
-.global lbl_802FDD4C
-lbl_802FDD4C:
+.global _STRING_onOutOfLength__Q29textinput13EventObserverFv
+_STRING_onOutOfLength__Q29textinput13EventObserverFv:
 
 	# ROM: 0x2F9E2C
 	.asciz "OutOfLength\n"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FDD60
-lbl_802FDD60:
+.global __vt__Q43std3tr16detail94shared_ptr_deleter_Q26Script10ArcObjImpl_Q33std6detail37default_delete_Q26Script10ArcObjImpl__
+__vt__Q43std3tr16detail94shared_ptr_deleter_Q26Script10ArcObjImpl_Q33std6detail37default_delete_Q26Script10ArcObjImpl__:
 
 	# ROM: 0x2F9E40
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A79E4
-	.4byte lbl_800A797C
+	.4byte __dt__Q43std3tr16detail94shared_ptr_deleter_Q26Script10ArcObjImpl_Q33std6detail37default_delete_Q26Script10ArcObjImpl__Fv
+	.4byte dispose__Q43std3tr16detail94shared_ptr_deleter_Q26Script10ArcObjImpl_Q33std6detail37default_delete_Q26Script10ArcObjImpl__Fv
 
-.global lbl_802FDD70
-lbl_802FDD70:
+.global __vt__Q26Script7Manager
+__vt__Q26Script7Manager:
 
 	# ROM: 0x2F9E50
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A7964
-	.4byte lbl_800A5490
-	.4byte lbl_800A662C
-	.4byte lbl_80008290
+	.4byte GetRTI__Q26Script7ManagerCFv
+	.4byte __dt__Q26Script7ManagerFv
+	.4byte exec__Q26Script7ManagerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FDD88
-lbl_802FDD88:
+.global __vt__Q26Script6Thread
+__vt__Q26Script6Thread:
 
 	# ROM: 0x2F9E68
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A796C
-	.4byte lbl_800A712C
-	.4byte lbl_800A7504
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
+	.4byte GetRTI__Q26Script6ThreadCFv
+	.4byte __dt__Q26Script6ThreadFv
+	.4byte exec__Q26Script6ThreadFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
 
-.global lbl_802FDDAC
-lbl_802FDDAC:
+.global __vt__Q26Script4Base
+__vt__Q26Script4Base:
 
 	# ROM: 0x2F9E8C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800A7974
-	.4byte lbl_800A7028
-	.4byte lbl_800A7954
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
+	.4byte GetRTI__Q26Script4BaseCFv
+	.4byte __dt__Q26Script4BaseFv
+	.4byte exec__Q26Script4BaseFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
 
 .global lbl_802FDDD0
 lbl_802FDDD0:
@@ -4489,38 +4489,38 @@ lbl_802FDDD0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FDE90
-lbl_802FDE90:
+.global __vt__Q26SqPlus12ClassType_i_
+__vt__Q26SqPlus12ClassType_i_:
 
 	# ROM: 0x2F9F70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800AB8CC
-	.4byte lbl_800AB8D8
+	.4byte vgetCopyFunc__Q26SqPlus12ClassType_i_Fv
+	.4byte GetTypeName__Q26SqPlus12ClassType_i_Fv
 
-.global lbl_802FDEA0
-lbl_802FDEA0:
+.global _STRING_Get__6SqPlusFQ26SqPlus16TypeWrapper_PCc_P4SQVMi
+_STRING_Get__6SqPlusFQ26SqPlus16TypeWrapper_PCc_P4SQVMi:
 
 	# ROM: 0x2F9F80
 	.asciz "sq_get*() failed (type error)"
 	.balign 4
 
-.global lbl_802FDEC0
-lbl_802FDEC0:
+.global _STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_i_P4SQVMi
+_STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_i_P4SQVMi:
 
 	# ROM: 0x2F9FA0
 	.asciz "sq_get*() failed (type error)"
 	.balign 4
 
-.global lbl_802FDEE0
-lbl_802FDEE0:
+.global _STRING___ct__Q26SqPlus6VarRefFPvQ26SqPlus13ScriptVarTypePQ26SqPlus13ClassTypeBasePQ26SqPlus13ClassTypeBaseiQ26SqPlus13VarAccessType_0
+_STRING___ct__Q26SqPlus6VarRefFPvQ26SqPlus13ScriptVarTypePQ26SqPlus13ClassTypeBasePQ26SqPlus13ClassTypeBaseiQ26SqPlus13VarAccessType_0:
 
 	# ROM: 0x2F9FC0
 	.asciz "__SqTypes"
 	.balign 4
 
-.global lbl_802FDEEC
-lbl_802FDEEC:
+.global _STRING___ct__Q26SqPlus6VarRefFPvQ26SqPlus13ScriptVarTypePQ26SqPlus13ClassTypeBasePQ26SqPlus13ClassTypeBaseiQ26SqPlus13VarAccessType
+_STRING___ct__Q26SqPlus6VarRefFPvQ26SqPlus13ScriptVarTypePQ26SqPlus13ClassTypeBasePQ26SqPlus13ClassTypeBaseiQ26SqPlus13VarAccessType:
 
 	# ROM: 0x2F9FCC
 	.asciz "__SqTypes"
@@ -4608,166 +4608,166 @@ lbl_802FDF88:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FE018
-lbl_802FE018:
+.global __vt__Q26SqPlus12ClassType_f_
+__vt__Q26SqPlus12ClassType_f_:
 
 	# ROM: 0x2FA0F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800AF8F8
-	.4byte lbl_800AF904
+	.4byte vgetCopyFunc__Q26SqPlus12ClassType_f_Fv
+	.4byte GetTypeName__Q26SqPlus12ClassType_f_Fv
 
-.global lbl_802FE028
-lbl_802FE028:
+.global __vt__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_
+__vt__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_:
 
 	# ROM: 0x2FA108
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800AF90C
-	.4byte lbl_800AF918
+	.4byte vgetCopyFunc__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_Fv
+	.4byte GetTypeName__Q26SqPlus28ClassType_Q34nw4r4math4VEC3_Fv
 
-.global lbl_802FE038
-lbl_802FE038:
+.global _STRING_Push_Q34nw4r4math4VEC3___6SqPlusFP4SQVMRQ34nw4r4math4VEC3_v
+_STRING_Push_Q34nw4r4math4VEC3___6SqPlusFP4SQVMRQ34nw4r4math4VEC3_v:
 
 	# ROM: 0x2FA118
 	.asciz "Push(): could not create INSTANCE copy (check registration name)"
 	.balign 4
 
-.global lbl_802FE07C
-lbl_802FE07C:
+.global _STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_f_P4SQVMi
+_STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_f_P4SQVMi:
 
 	# ROM: 0x2FA15C
 	.asciz "sq_get*() failed (type error)"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FE0A0
-lbl_802FE0A0:
+.global __vt__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_
+__vt__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_:
 
 	# ROM: 0x2FA180
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B77A8
-	.4byte lbl_800B76FC
-	.4byte lbl_800B7748
-	.4byte lbl_800B776C
+	.4byte __dt__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_Fv
+	.4byte clone__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_CFv
+	.4byte clone__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_CFPv
+	.4byte __cl__Q43std3tr16detail61function_imp_PFPQ26Script6Thread_b_PFPQ26Script6Thread_b_0_1_FPQ26Script6Thread
 
-.global lbl_802FE0B8
-lbl_802FE0B8:
+.global __vt__Q26Script6MapObj
+__vt__Q26Script6MapObj:
 
 	# ROM: 0x2FA198
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B75AC
-	.4byte lbl_800B74C8
-	.4byte lbl_800B7440
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
+	.4byte GetRTI__Q26Script6MapObjCFv
+	.4byte __dt__Q26Script6MapObjFv
+	.4byte exec__Q26Script6MapObjFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
 
-.global lbl_802FE114
-lbl_802FE114:
+.global __vt__Q26Script6Effect
+__vt__Q26Script6Effect:
 
 	# ROM: 0x2FA1F4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B7698
-	.4byte lbl_800B75B4
-	.4byte lbl_800B2D2C
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
-	.4byte lbl_800B2C64
-	.4byte lbl_800B3240
+	.4byte GetRTI__Q26Script6EffectCFv
+	.4byte __dt__Q26Script6EffectFv
+	.4byte exec__Q26Script6EffectFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
+	.4byte SetLinkObject__Q26Script6EffectFi
+	.4byte exec_link__Q26Script6EffectFv
 
-.global lbl_802FE178
-lbl_802FE178:
+.global __vt__Q26Script6Object
+__vt__Q26Script6Object:
 
 	# ROM: 0x2FA258
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B76F4
-	.4byte lbl_800B2B68
-	.4byte lbl_800B76A0
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
+	.4byte GetRTI__Q26Script6ObjectCFv
+	.4byte __dt__Q26Script6ObjectFv
+	.4byte exec__Q26Script6ObjectFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
 
-.global lbl_802FE1D4
-lbl_802FE1D4:
+.global _STRING_allocate__Q23std53allocator_Q33std3tr130shared_ptr_Q28Resource6Holder__FUlPCv
+_STRING_allocate__Q23std53allocator_Q33std3tr130shared_ptr_Q28Resource6Holder__FUlPCv:
 
 	# ROM: 0x2FA2B4
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FE1F0
-lbl_802FE1F0:
+.global _STRING_allocate__Q23std47allocator_Q33std3tr124shared_ptr_Q24File4Base__FUlPCv
+_STRING_allocate__Q23std47allocator_Q33std3tr124shared_ptr_Q24File4Base__FUlPCv:
 
 	# ROM: 0x2FA2D0
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FE20C
-lbl_802FE20C:
+.global _STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi_1
+_STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi_1:
 
 	# ROM: 0x2FA2EC
 	.asciz "sq_get*() failed (type error)"
 	.balign 4
 
-.global lbl_802FE22C
-lbl_802FE22C:
+.global _STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi_0
+_STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi_0:
 
 	# ROM: 0x2FA30C
 	.asciz "sq_get*() failed (type error)"
 	.balign 4
 
-.global lbl_802FE24C
-lbl_802FE24C:
+.global _STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi
+_STRING_Get__6SqPlusFQ26SqPlus14TypeWrapper_b_P4SQVMi:
 
 	# ROM: 0x2FA32C
 	.asciz "sq_get*() failed (type error)"
@@ -4835,25 +4835,25 @@ lbl_802FE2E8:
 	.4byte lbl_800B8AF8
 	.4byte 0
 
-.global lbl_802FE328
-lbl_802FE328:
+.global __vt__Q27Message11CommonMenue
+__vt__Q27Message11CommonMenue:
 
 	# ROM: 0x2FA408
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B8D0C
-	.4byte lbl_800B7E38
-	.4byte lbl_800B8D08
-	.4byte lbl_80008290
+	.4byte GetRTI__Q27Message11CommonMenueCFv
+	.4byte __dt__Q27Message11CommonMenueFv
+	.4byte exec__Q27Message11CommonMenueFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FE340
-lbl_802FE340:
+.global __vt__Q43std3tr16detail90shared_ptr_deleter_Q24File10NowLoading_Q33std6detail35default_delete_Q24File10NowLoading__
+__vt__Q43std3tr16detail90shared_ptr_deleter_Q24File10NowLoading_Q33std6detail35default_delete_Q24File10NowLoading__:
 
 	# ROM: 0x2FA420
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800B9378
-	.4byte lbl_800B930C
+	.4byte __dt__Q43std3tr16detail90shared_ptr_deleter_Q24File10NowLoading_Q33std6detail35default_delete_Q24File10NowLoading__Fv
+	.4byte dispose__Q43std3tr16detail90shared_ptr_deleter_Q24File10NowLoading_Q33std6detail35default_delete_Q24File10NowLoading__Fv
 
 .global lbl_802FE350
 lbl_802FE350:
@@ -4973,16 +4973,16 @@ lbl_802FE480:
 	.4byte 0
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800BF810
+	.4byte ChangePointMsg_Score__Q24Game12cResultBoardFPQ35Scene6Layout3ObjPCQ44Game12cResultBoard12sInsideParam5sUser
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800BF9C4
+	.4byte ChangePointMsg_Time__Q24Game12cResultBoardFPQ35Scene6Layout3ObjPCQ44Game12cResultBoard12sInsideParam5sUser
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800BFC08
+	.4byte ChangePointMsg_Distance__Q24Game12cResultBoardFPQ35Scene6Layout3ObjPCQ44Game12cResultBoard12sInsideParam5sUser
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_800BFC08
+	.4byte ChangePointMsg_Distance__Q24Game12cResultBoardFPQ35Scene6Layout3ObjPCQ44Game12cResultBoard12sInsideParam5sUser
 
 .global lbl_802FE4C8
 lbl_802FE4C8:
@@ -5009,36 +5009,36 @@ lbl_802FE4C8:
 	.4byte func_800BAA24
 	.4byte 0
 
-.global lbl_802FE518
-lbl_802FE518:
+.global __vt__Q24Game12cResultBoard
+__vt__Q24Game12cResultBoard:
 
 	# ROM: 0x2FA5F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800C0D4C
-	.4byte lbl_800B9EF8
-	.4byte lbl_800B9FA0
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game12cResultBoardCFv
+	.4byte __dt__Q24Game12cResultBoardFv
+	.4byte exec__Q24Game12cResultBoardFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800C0E04
-	.4byte lbl_800C0D84
+	.4byte __dt__Q34Game5Hikey14FeedAPuffleKeyFv
+	.4byte Update__Q34Game5Hikey14FeedAPuffleKeyFv
 
-.global lbl_802FE560
-lbl_802FE560:
+.global __vt__Q24Dof27ScnDof2
+__vt__Q24Dof27ScnDof2:
 
 	# ROM: 0x2FA640
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800C0F70
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800C10D0
-	.4byte lbl_800C1114
+	.4byte __dt__Q24Dof27ScnDof2Fv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q24Dof27ScnDof2Fv
+	.4byte DrawXlu__Q24Dof27ScnDof2Fv
 
 .global lbl_802FE580
 lbl_802FE580:
@@ -5115,8 +5115,8 @@ lbl_802FE620:
 	.4byte lbl_800C3610
 	.4byte lbl_800C3618
 
-.global lbl_802FE648
-lbl_802FE648:
+.global default_setup__10ShowWindow
+default_setup__10ShowWindow:
 
 	# ROM: 0x2FA728
 	.4byte 0x00000100
@@ -5136,240 +5136,240 @@ lbl_802FE648:
 	.4byte 0x14288C80
 	.4byte 0xFAF0F080
 
-.global lbl_802FE688
-lbl_802FE688:
+.global __vt__Q210ShowWindow16ShowWindowCamera
+__vt__Q210ShowWindow16ShowWindowCamera:
 
 	# ROM: 0x2FA768
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800C3AF0
-	.4byte lbl_800C3814
+	.4byte __dt__Q210ShowWindow16ShowWindowCameraFv
+	.4byte update__Q210ShowWindow16ShowWindowCameraFv
 
-.global lbl_802FE698
-lbl_802FE698:
+.global _STRING_allocate__Q23std153allocator_Q33std128__list_deleter_Q310ShowWindow17ShowWindowManager11STEntryData_Q23std57allocator_Q310ShowWindow17ShowWindowManager11STEntryData__4node_FUlPCv
+_STRING_allocate__Q23std153allocator_Q33std128__list_deleter_Q310ShowWindow17ShowWindowManager11STEntryData_Q23std57allocator_Q310ShowWindow17ShowWindowManager11STEntryData__4node_FUlPCv:
 
 	# ROM: 0x2FA778
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FE6B8
-lbl_802FE6B8:
+.global __vt__Q26Script12ShakeRadMove
+__vt__Q26Script12ShakeRadMove:
 
 	# ROM: 0x2FA798
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CA1B8
-	.4byte lbl_800CAB18
-	.4byte lbl_800A7954
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800C9F08
-	.4byte lbl_800C9EB0
-	.4byte lbl_800C9E94
-	.4byte lbl_800C9E8C
-	.4byte lbl_800C9E78
-	.4byte lbl_800C9E64
+	.4byte GetRTI__Q26Script12ShakeRadMoveCFv
+	.4byte __dt__Q26Script12ShakeRadMoveFv
+	.4byte exec__Q26Script4BaseFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte Update__Q26Script12ShakeRadMoveFv
+	.4byte GetTrans__Q26Script12ShakeRadMoveFRQ34nw4r4math4VEC3RQ34nw4r4math4VEC3
+	.4byte IsEnd__Q26Script12ShakeRadMoveFv
+	.4byte GetMoveTime__Q26Script12ShakeRadMoveFv
+	.4byte GetSpeed__Q26Script10MoveObjectFv
+	.4byte GetAccel__Q26Script10MoveObjectFv
 
-.global lbl_802FE6F4
-lbl_802FE6F4:
+.global __vt__Q26Script12ShakePosMove
+__vt__Q26Script12ShakePosMove:
 
 	# ROM: 0x2FA7D4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CA4DC
-	.4byte lbl_800CAA90
-	.4byte lbl_800A7954
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800CA22C
-	.4byte lbl_800CA1E4
-	.4byte lbl_800CA1C8
-	.4byte lbl_800CA1C0
-	.4byte lbl_800C9E78
-	.4byte lbl_800C9E64
+	.4byte GetRTI__Q26Script12ShakePosMoveCFv
+	.4byte __dt__Q26Script12ShakePosMoveFv
+	.4byte exec__Q26Script4BaseFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte Update__Q26Script12ShakePosMoveFv
+	.4byte GetTrans__Q26Script12ShakePosMoveFRQ34nw4r4math4VEC3RQ34nw4r4math4VEC3
+	.4byte IsEnd__Q26Script12ShakePosMoveFv
+	.4byte GetMoveTime__Q26Script12ShakePosMoveFv
+	.4byte GetSpeed__Q26Script10MoveObjectFv
+	.4byte GetAccel__Q26Script10MoveObjectFv
 
-.global lbl_802FE730
-lbl_802FE730:
+.global __vt__Q26Script13UniAccRadMove
+__vt__Q26Script13UniAccRadMove:
 
 	# ROM: 0x2FA810
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CA6D0
-	.4byte lbl_800CAA08
-	.4byte lbl_800A7954
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800CA560
-	.4byte lbl_800CA508
-	.4byte lbl_800CA4EC
-	.4byte lbl_800CA4E4
-	.4byte lbl_800C9E78
-	.4byte lbl_800C9E64
+	.4byte GetRTI__Q26Script13UniAccRadMoveCFv
+	.4byte __dt__Q26Script13UniAccRadMoveFv
+	.4byte exec__Q26Script4BaseFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte Update__Q26Script13UniAccRadMoveFv
+	.4byte GetTrans__Q26Script13UniAccRadMoveFRQ34nw4r4math4VEC3RQ34nw4r4math4VEC3
+	.4byte IsEnd__Q26Script13UniAccRadMoveFv
+	.4byte GetMoveTime__Q26Script13UniAccRadMoveFv
+	.4byte GetSpeed__Q26Script10MoveObjectFv
+	.4byte GetAccel__Q26Script10MoveObjectFv
 
-.global lbl_802FE76C
-lbl_802FE76C:
+.global __vt__Q26Script10UniAccMove
+__vt__Q26Script10UniAccMove:
 
 	# ROM: 0x2FA84C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CA978
-	.4byte lbl_800CA980
-	.4byte lbl_800A7954
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800CA808
-	.4byte lbl_800CA7C0
-	.4byte lbl_800CA7A4
-	.4byte lbl_800CA79C
-	.4byte lbl_800CA6F4
-	.4byte lbl_800CA6D8
+	.4byte GetRTI__Q26Script10UniAccMoveCFv
+	.4byte __dt__Q26Script10UniAccMoveFv
+	.4byte exec__Q26Script4BaseFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte Update__Q26Script10UniAccMoveFv
+	.4byte GetTrans__Q26Script10UniAccMoveFRQ34nw4r4math4VEC3RQ34nw4r4math4VEC3
+	.4byte IsEnd__Q26Script10UniAccMoveFv
+	.4byte GetMoveTime__Q26Script10UniAccMoveFv
+	.4byte GetSpeed__Q26Script10UniAccMoveFv
+	.4byte GetAccel__Q26Script10UniAccMoveFv
 
-.global lbl_802FE7A8
-lbl_802FE7A8:
+.global _STRING_allocate__Q23std66allocator_Q33std42__list_deleter_PCv_Q23std14allocator_PCv__4node_FUlPCv
+_STRING_allocate__Q23std66allocator_Q33std42__list_deleter_PCv_Q23std14allocator_PCv__4node_FUlPCv:
 
 	# ROM: 0x2FA888
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FE7C8
-lbl_802FE7C8:
+.global __vt__Q26Script9BgmObject
+__vt__Q26Script9BgmObject:
 
 	# ROM: 0x2FA8A8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CDDE0
-	.4byte lbl_800CDCBC
-	.4byte lbl_800CDCB8
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
-	.4byte lbl_800CC374
-	.4byte lbl_800CD8DC
-	.4byte lbl_800CDA7C
+	.4byte GetRTI__Q26Script9BgmObjectCFv
+	.4byte __dt__Q26Script9BgmObjectFv
+	.4byte exec__Q26Script9BgmObjectFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
+	.4byte StopSound__Q26Script9BgmObjectFf
+	.4byte PauseSound__Q26Script9BgmObjectFbf
+	.4byte IsPauseSound__Q26Script9BgmObjectFv
 
-.global lbl_802FE830
-lbl_802FE830:
+.global __vt__Q26Script8SeObject
+__vt__Q26Script8SeObject:
 
 	# ROM: 0x2FA910
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CDF5C
-	.4byte lbl_800CDE74
-	.4byte lbl_800CDDF0
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
-	.4byte lbl_800CBB6C
-	.4byte lbl_800CBEF4
-	.4byte lbl_800CDDE8
+	.4byte GetRTI__Q26Script8SeObjectCFv
+	.4byte __dt__Q26Script8SeObjectFv
+	.4byte exec__Q26Script8SeObjectFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
+	.4byte StopSound__Q26Script8SeObjectFf
+	.4byte PauseSound__Q26Script8SeObjectFbf
+	.4byte IsPauseSound__Q26Script11SoundObjectFv
 
-.global lbl_802FE898
-lbl_802FE898:
+.global __vt__Q26Script16SoundGroupObject
+__vt__Q26Script16SoundGroupObject:
 
 	# ROM: 0x2FA978
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CE068
-	.4byte lbl_800CDF64
-	.4byte lbl_800B76A0
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
+	.4byte GetRTI__Q26Script16SoundGroupObjectCFv
+	.4byte __dt__Q26Script16SoundGroupObjectFv
+	.4byte exec__Q26Script6ObjectFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
 	.4byte 0
 
-.global lbl_802FE8F8
-lbl_802FE8F8:
+.global __vt__Q24Game13SoundListener
+__vt__Q24Game13SoundListener:
 
 	# ROM: 0x2FA9D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800CE4A8
-	.4byte lbl_800CE1CC
-	.4byte lbl_800CE434
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game13SoundListenerCFv
+	.4byte __dt__Q24Game13SoundListenerFv
+	.4byte exec__Q24Game13SoundListenerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FE910
-lbl_802FE910:
+.global _STRING_GetNodeFromPointer__Q34nw4r2ut42LinkList_Q34nw4r3snd15Sound3DListener_100_FPQ34nw4r3snd15Sound3DListener_0
+_STRING_GetNodeFromPointer__Q34nw4r2ut42LinkList_Q34nw4r3snd15Sound3DListener_100_FPQ34nw4r3snd15Sound3DListener_0:
 
 	# ROM: 0x2FA9F0
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_802FE934
-lbl_802FE934:
+.global _STRING_GetNodeFromPointer__Q34nw4r2ut42LinkList_Q34nw4r3snd15Sound3DListener_100_FPQ34nw4r3snd15Sound3DListener
+_STRING_GetNodeFromPointer__Q34nw4r2ut42LinkList_Q34nw4r3snd15Sound3DListener_100_FPQ34nw4r3snd15Sound3DListener:
 
 	# ROM: 0x2FAA14
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_802FE940
-lbl_802FE940:
+.global __vt__Q34Game10Disconnect7Control
+__vt__Q34Game10Disconnect7Control:
 
 	# ROM: 0x2FAA20
 	.4byte 0
 	.4byte 0
-	.4byte func_800CE540
+	.4byte __dt__Q34Game10Disconnect7ControlFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008EA4
-	.4byte lbl_800CE868
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Task4BaseCFv
+	.4byte _12___dt__Q34Game10Disconnect7ControlFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.4byte 0
 
 .global lbl_802FE968
@@ -5387,22 +5387,22 @@ lbl_802FE968:
 	.4byte lbl_800D1D24
 	.4byte lbl_800D1D40
 
-.global lbl_802FE990
-lbl_802FE990:
+.global _STRING_allocate__Q23std78allocator_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___FUlPCv
+_STRING_allocate__Q23std78allocator_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___FUlPCv:
 
 	# ROM: 0x2FAA70
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FE9AC
-lbl_802FE9AC:
+.global _STRING_allocate__Q23std415allocator_Q33std390__tree_deleter_Q23std77pair_CQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul__Q23std174__base_value_compare_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul_Q23std73less_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c_____Q23std96allocator_Q23std77pair_CQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul___4node_FUlPCv
+_STRING_allocate__Q23std415allocator_Q33std390__tree_deleter_Q23std77pair_CQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul__Q23std174__base_value_compare_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul_Q23std73less_Q23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c_____Q23std96allocator_Q23std77pair_CQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___Ul___4node_FUlPCv:
 
 	# ROM: 0x2FAA8C
 	.asciz "Memory allocation failure"
 	.balign 4
 
-.global lbl_802FE9C8
-lbl_802FE9C8:
+.global _STRING_allocate__Q23std149allocator_Q33std124__tree_deleter_Q23std11pair_Cl_Ul__Q23std41__base_value_compare_l_Ul_Q23std7less_l___Q23std30allocator_Q23std11pair_Cl_Ul___4node_FUlPCv
+_STRING_allocate__Q23std149allocator_Q33std124__tree_deleter_Q23std11pair_Cl_Ul__Q23std41__base_value_compare_l_Ul_Q23std7less_l___Q23std30allocator_Q23std11pair_Cl_Ul___4node_FUlPCv:
 
 	# ROM: 0x2FAAA8
 	.asciz "Memory allocation failure"
@@ -5410,12 +5410,12 @@ lbl_802FE9C8:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800D4174
-	.4byte lbl_800D4170
+	.4byte __dt__Q34Game5Hikey11JavaSackKeyFv
+	.4byte Update__Q34Game5Hikey11JavaSackKeyFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800D4590
-	.4byte lbl_800D41D4
+	.4byte __dt__Q34Game5Hikey15CrossCountryKeyFv
+	.4byte Update__Q34Game5Hikey15CrossCountryKeyFv
 
 .global lbl_802FEA08
 lbl_802FEA08:
@@ -5433,16 +5433,16 @@ lbl_802FEA14:
 	.4byte lbl_802DD80C
 	.4byte lbl_802DD828
 
-.global lbl_802FEA20
-lbl_802FEA20:
+.global __vt__Q24Game12GameDispHand
+__vt__Q24Game12GameDispHand:
 
 	# ROM: 0x2FAB00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800D4950
-	.4byte lbl_800D48D8
-	.4byte lbl_800D475C
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game12GameDispHandCFv
+	.4byte __dt__Q24Game12GameDispHandFv
+	.4byte exec__Q24Game12GameDispHandFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FEA38
 lbl_802FEA38:
@@ -5712,16 +5712,16 @@ lbl_802FED50:
 	.4byte lbl_800D5F74
 	.4byte lbl_800D5FAC
 
-.global lbl_802FED78
-lbl_802FED78:
+.global __vt__Q34Game11GameRecords9GmRecords
+__vt__Q34Game11GameRecords9GmRecords:
 
 	# ROM: 0x2FAE58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800D98E4
-	.4byte lbl_800D986C
-	.4byte lbl_800D50A4
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game11GameRecords9GmRecordsCFv
+	.4byte __dt__Q34Game11GameRecords9GmRecordsFv
+	.4byte exec__Q34Game11GameRecords9GmRecordsFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FED90
 lbl_802FED90:
@@ -5776,8 +5776,8 @@ lbl_802FED90:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FEE50
-lbl_802FEE50:
+.global DefaultSetup__Q29LensFlare7Manager
+DefaultSetup__Q29LensFlare7Manager:
 
 	# ROM: 0x2FAF30
 	.4byte 0
@@ -5789,38 +5789,38 @@ lbl_802FEE50:
 	.4byte 0x3F800000
 	.4byte 0x3F19999A
 
-.global lbl_802FEE70
-lbl_802FEE70:
+.global __vt__Q43std3tr16detail104shared_ptr_deleter_Q29LensFlare12ScnLensFlare_Q33std6detail42default_delete_Q29LensFlare12ScnLensFlare__
+__vt__Q43std3tr16detail104shared_ptr_deleter_Q29LensFlare12ScnLensFlare_Q33std6detail42default_delete_Q29LensFlare12ScnLensFlare__:
 
 	# ROM: 0x2FAF50
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DAA64
-	.4byte lbl_800DAA40
+	.4byte __dt__Q43std3tr16detail104shared_ptr_deleter_Q29LensFlare12ScnLensFlare_Q33std6detail42default_delete_Q29LensFlare12ScnLensFlare__Fv
+	.4byte dispose__Q43std3tr16detail104shared_ptr_deleter_Q29LensFlare12ScnLensFlare_Q33std6detail42default_delete_Q29LensFlare12ScnLensFlare__Fv
 
-.global lbl_802FEE80
-lbl_802FEE80:
+.global __vt__Q29LensFlare12ScnLensFlare
+__vt__Q29LensFlare12ScnLensFlare:
 
 	# ROM: 0x2FAF60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800D9E88
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800D9EE0
-	.4byte lbl_800D9F04
+	.4byte __dt__Q29LensFlare12ScnLensFlareFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q29LensFlare12ScnLensFlareFv
+	.4byte DrawXlu__Q29LensFlare12ScnLensFlareFv
 
-.global lbl_802FEEA0
-lbl_802FEEA0:
+.global __vt__Q29LensFlare7Manager
+__vt__Q29LensFlare7Manager:
 
 	# ROM: 0x2FAF80
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DAA38
-	.4byte lbl_800D9B04
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q29LensFlare7ManagerCFv
+	.4byte __dt__Q29LensFlare7ManagerFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FEEB8
 lbl_802FEEB8:
@@ -5855,71 +5855,71 @@ lbl_802FEEB8:
 	.4byte lbl_800DC654
 	.4byte 0
 
-.global lbl_802FEF28
-lbl_802FEF28:
+.global __vt__Q38SaveLoad9NowSaving7cAccess
+__vt__Q38SaveLoad9NowSaving7cAccess:
 
 	# ROM: 0x2FB008
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DCA08
-	.4byte lbl_800DB608
-	.4byte lbl_800DB798
-	.4byte lbl_80008290
+	.4byte GetRTI__Q38SaveLoad9NowSaving7cAccessCFv
+	.4byte __dt__Q38SaveLoad9NowSaving7cAccessFv
+	.4byte exec__Q38SaveLoad9NowSaving7cAccessFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FEF40
-lbl_802FEF40:
+.global __vt__Q38SaveLoad9NowSaving12HomeButtonUI
+__vt__Q38SaveLoad9NowSaving12HomeButtonUI:
 
 	# ROM: 0x2FB020
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DCA10
-	.4byte lbl_800DAFC4
-	.4byte lbl_800DB0C0
-	.4byte lbl_800DB08C
+	.4byte GetRTI__Q38SaveLoad9NowSaving12HomeButtonUICFv
+	.4byte __dt__Q38SaveLoad9NowSaving12HomeButtonUIFv
+	.4byte exec__Q38SaveLoad9NowSaving12HomeButtonUIFv
+	.4byte kill_callback__Q38SaveLoad9NowSaving12HomeButtonUIFv
 
-.global lbl_802FEF58
-lbl_802FEF58:
+.global __vt__Q38SaveLoad9NowSaving11NowSavingUI
+__vt__Q38SaveLoad9NowSaving11NowSavingUI:
 
 	# ROM: 0x2FB038
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DCA74
-	.4byte lbl_800DCA18
-	.4byte lbl_800DACEC
-	.4byte lbl_800DACB8
+	.4byte GetRTI__Q38SaveLoad9NowSaving11NowSavingUICFv
+	.4byte __dt__Q38SaveLoad9NowSaving11NowSavingUIFv
+	.4byte exec__Q38SaveLoad9NowSaving11NowSavingUIFv
+	.4byte kill_callback__Q38SaveLoad9NowSaving11NowSavingUIFv
 
-.global lbl_802FEF70
-lbl_802FEF70:
+.global __vt__Q43std3tr16detail100shared_ptr_deleter_Q35Scene5Front9cFrontScn_Q33std6detail40default_delete_Q35Scene5Front9cFrontScn__
+__vt__Q43std3tr16detail100shared_ptr_deleter_Q35Scene5Front9cFrontScn_Q33std6detail40default_delete_Q35Scene5Front9cFrontScn__:
 
 	# ROM: 0x2FB050
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DD8AC
-	.4byte lbl_800DD830
+	.4byte __dt__Q43std3tr16detail100shared_ptr_deleter_Q35Scene5Front9cFrontScn_Q33std6detail40default_delete_Q35Scene5Front9cFrontScn__Fv
+	.4byte dispose__Q43std3tr16detail100shared_ptr_deleter_Q35Scene5Front9cFrontScn_Q33std6detail40default_delete_Q35Scene5Front9cFrontScn__Fv
 
-.global lbl_802FEF80
-lbl_802FEF80:
+.global __vt__Q35Scene5Front13cFrontScnTask
+__vt__Q35Scene5Front13cFrontScnTask:
 
 	# ROM: 0x2FB060
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DD7D4
-	.4byte lbl_800DD698
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q35Scene5Front13cFrontScnTaskCFv
+	.4byte __dt__Q35Scene5Front13cFrontScnTaskFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FEF98
-lbl_802FEF98:
+.global __vt__Q35Scene5Front9cFrontScn
+__vt__Q35Scene5Front9cFrontScn:
 
 	# ROM: 0x2FB078
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DD854
-	.4byte lbl_80077AFC
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800DD7E0
-	.4byte lbl_800DD7DC
+	.4byte __dt__Q35Scene5Front9cFrontScnFv
+	.4byte Update__Q25Scene5Scn3DFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q35Scene5Front9cFrontScnFv
+	.4byte DrawXlu__Q35Scene5Front9cFrontScnFv
 
 .global lbl_802FEFB8
 lbl_802FEFB8:
@@ -5945,8 +5945,8 @@ lbl_802FEFE0:
 	.4byte lbl_802DFF00
 	.4byte lbl_802DFF18
 
-.global lbl_802FEFF0
-lbl_802FEFF0:
+.global __vt__Q44Game5Cheer24_unnamed_game_cheer_cpp_12cCheerEffect
+__vt__Q44Game5Cheer24_unnamed_game_cheer_cpp_12cCheerEffect:
 
 	# ROM: 0x2FB0D0
 	.4byte 0
@@ -5954,51 +5954,51 @@ lbl_802FEFF0:
 	.4byte lbl_800DEC8C
 	.4byte lbl_800DEC30
 	.4byte lbl_800DEB5C
-	.4byte lbl_80008290
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF008
-lbl_802FF008:
+.global __vt__Q34Game5Cheer6cCheer
+__vt__Q34Game5Cheer6cCheer:
 
 	# ROM: 0x2FB0E8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DEC94
-	.4byte lbl_800DE3A8
-	.4byte lbl_800DE40C
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game5Cheer6cCheerCFv
+	.4byte __dt__Q34Game5Cheer6cCheerFv
+	.4byte exec__Q34Game5Cheer6cCheerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF020
-lbl_802FF020:
+.global __vt__Q43std3tr16detail88shared_ptr_deleter_Q35Scene2pp6cppScn_Q33std6detail34default_delete_Q35Scene2pp6cppScn__
+__vt__Q43std3tr16detail88shared_ptr_deleter_Q35Scene2pp6cppScn_Q33std6detail34default_delete_Q35Scene2pp6cppScn__:
 
 	# ROM: 0x2FB100
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DF350
-	.4byte lbl_800DF2D0
+	.4byte __dt__Q43std3tr16detail88shared_ptr_deleter_Q35Scene2pp6cppScn_Q33std6detail34default_delete_Q35Scene2pp6cppScn__Fv
+	.4byte dispose__Q43std3tr16detail88shared_ptr_deleter_Q35Scene2pp6cppScn_Q33std6detail34default_delete_Q35Scene2pp6cppScn__Fv
 
-.global lbl_802FF030
-lbl_802FF030:
+.global __vt__Q35Scene2pp10cppScnTask
+__vt__Q35Scene2pp10cppScnTask:
 
 	# ROM: 0x2FB110
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DF2C0
-	.4byte lbl_800DF184
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q35Scene2pp10cppScnTaskCFv
+	.4byte __dt__Q35Scene2pp10cppScnTaskFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF048
-lbl_802FF048:
+.global __vt__Q35Scene2pp6cppScn
+__vt__Q35Scene2pp6cppScn:
 
 	# ROM: 0x2FB128
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DF2F4
-	.4byte lbl_800763B8
-	.4byte lbl_80011570
-	.4byte lbl_8001156C
-	.4byte lbl_800DF2CC
-	.4byte lbl_800DF2C8
+	.4byte __dt__Q35Scene2pp6cppScnFv
+	.4byte Update__Q25Scene9Scn3DBaseFRCQ24Task9Condition
+	.4byte DrawSet__Q25Scene3ScnFi
+	.4byte DrawSetEnd__Q25Scene3ScnFv
+	.4byte DrawOpa__Q35Scene2pp6cppScnFv
+	.4byte DrawXlu__Q35Scene2pp6cppScnFv
 
 .global lbl_802FF068
 lbl_802FF068:
@@ -6216,16 +6216,16 @@ lbl_802FF208:
 	.4byte lbl_802E0B28
 	.4byte lbl_802E0B38
 
-.global lbl_802FF3A0
-lbl_802FF3A0:
+.global __vt__Q34Game15GameInstruction11Instruction
+__vt__Q34Game15GameInstruction11Instruction:
 
 	# ROM: 0x2FB480
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800DFEA8
-	.4byte lbl_800DFE30
-	.4byte lbl_800DF848
-	.4byte lbl_80008290
+	.4byte GetRTI__Q34Game15GameInstruction11InstructionCFv
+	.4byte __dt__Q34Game15GameInstruction11InstructionFv
+	.4byte exec__Q34Game15GameInstruction11InstructionFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.asciz "Memory allocation failure"
@@ -6258,86 +6258,86 @@ lbl_802FF410:
 	.4byte lbl_802E0CB8
 	.4byte 0
 
-.global lbl_802FF420
-lbl_802FF420:
+.global __vt__Q27Message8WhiteBtn
+__vt__Q27Message8WhiteBtn:
 
 	# ROM: 0x2FB500
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E1124
-	.4byte lbl_800E01BC
-	.4byte lbl_800E0C20
-	.4byte lbl_80008290
+	.4byte GetRTI__Q27Message8WhiteBtnCFv
+	.4byte __dt__Q27Message8WhiteBtnFv
+	.4byte exec__Q27Message8WhiteBtnFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF438
-lbl_802FF438:
+.global __vt__Q27Message14WhiteBtnButton
+__vt__Q27Message14WhiteBtnButton:
 
 	# ROM: 0x2FB518
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E112C
-	.4byte lbl_800E11D4
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_80068734
-	.4byte lbl_800E1058
-	.4byte lbl_800E10B0
-	.4byte lbl_8002F3C8
-	.4byte lbl_8002F3C0
-	.4byte lbl_8006886C
-	.4byte lbl_8002F354
+	.4byte GetRTI__Q27Message14WhiteBtnButtonCFv
+	.4byte __dt__Q27Message14WhiteBtnButtonFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte FocusTest__Q35Scene6Layout8PaneBaseFRQ34nw4r4math4VEC2i
+	.4byte IsSelectAnmEnd__Q27Message14WhiteBtnButtonCFv
+	.4byte Update__Q27Message14WhiteBtnButtonFv
+	.4byte SetActive__Q35Scene6Layout8PaneBaseFb
+	.4byte SetFocus__Q35Scene6Layout8PaneBaseFb
+	.4byte SetSelect__Q35Scene6Layout8PaneBaseFbb
+	.4byte SetFrame__Q35Scene6Layout8PaneBaseFf
 	.4byte 0
 
-.global lbl_802FF470
-lbl_802FF470:
+.global __vt__Q27Message16WhiteBtnSelector
+__vt__Q27Message16WhiteBtnSelector:
 
 	# ROM: 0x2FB550
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E11CC
-	.4byte lbl_800E1134
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_8006A3C4
-	.4byte lbl_80068C74
-	.4byte lbl_8006A2EC
-	.4byte lbl_8006A14C
+	.4byte GetRTI__Q27Message16WhiteBtnSelectorCFv
+	.4byte __dt__Q27Message16WhiteBtnSelectorFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte Update__Q35Scene6Layout18PaneManagerPointerFPQ23Key14RemoconManager
+	.4byte HitTest__Q35Scene6Layout15PaneManagerBaseFRQ34nw4r4math4VEC2
+	.4byte UpdateIcon__Q35Scene6Layout18PaneManagerPointerFPQ23Key14RemoconManager
+	.4byte Init__Q35Scene6Layout18PaneManagerPointerFv
 
-.global lbl_802FF498
-lbl_802FF498:
+.global _STRING_allocate__Q23std48allocator_Q37Message8WhiteBtn16ST_SELECTOR_LINK_FUlPCv
+_STRING_allocate__Q23std48allocator_Q37Message8WhiteBtn16ST_SELECTOR_LINK_FUlPCv:
 
 	# ROM: 0x2FB578
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FF4B8
-lbl_802FF4B8:
+.global __vt__Q26Script6Layout
+__vt__Q26Script6Layout:
 
 	# ROM: 0x2FB598
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E60AC
-	.4byte lbl_800E5FA4
-	.4byte lbl_800E5F3C
-	.4byte lbl_800A6DE8
-	.4byte lbl_800A68D8
-	.4byte lbl_800A74F0
-	.4byte lbl_800A7958
-	.4byte lbl_800B7424
-	.4byte lbl_800B3208
-	.4byte lbl_800B3224
-	.4byte lbl_800B7408
-	.4byte lbl_800B7208
-	.4byte lbl_800B71EC
-	.4byte lbl_800B2C48
-	.4byte lbl_800B338C
-	.4byte lbl_800B73EC
-	.4byte lbl_800B73B4
-	.4byte lbl_800B73D0
-	.4byte lbl_800B7224
-	.4byte lbl_800B7148
-	.4byte lbl_800B2E88
+	.4byte GetRTI__Q26Script6LayoutCFv
+	.4byte __dt__Q26Script6LayoutFv
+	.4byte exec__Q26Script6LayoutFv
+	.4byte kill_callback__Q26Script4BaseFv
+	.4byte Pause__Q26Script4BaseFbi
+	.4byte IsPause__Q26Script4BaseFv
+	.4byte ResetPause__Q26Script4BaseFv
+	.4byte GetOldPos__Q26Script6ObjectFv
+	.4byte GetPos__Q26Script6ObjectFv
+	.4byte GetRot__Q26Script6ObjectFv
+	.4byte GetScl__Q26Script6ObjectFv
+	.4byte GetSpd__Q26Script6ObjectFv
+	.4byte GetAcl__Q26Script6ObjectFv
+	.4byte SetPos__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetRot__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetScl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetSpd__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte SetAcl__Q26Script6ObjectFQ34nw4r4math4VEC3
+	.4byte StopMove__Q26Script6ObjectFv
+	.4byte IsEndMove__Q26Script6ObjectFv
+	.4byte exec_move__Q26Script6ObjectFv
 	.4byte 0
 
 .global lbl_802FF518
@@ -6368,77 +6368,77 @@ lbl_802FF538:
 	.4byte 0
 	.4byte 0
 
-.global lbl_802FF560
-lbl_802FF560:
+.global __vt__Q24Game11EmojiChoice
+__vt__Q24Game11EmojiChoice:
 
 	# ROM: 0x2FB640
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E82C4
-	.4byte lbl_800E8334
-	.4byte lbl_800E7D14
-	.4byte lbl_80008290
-	.4byte lbl_800E8218
+	.4byte GetRTI__Q24Game11EmojiChoiceCFv
+	.4byte __dt__Q24Game11EmojiChoiceFv
+	.4byte exec__Q24Game11EmojiChoiceFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte SetDisp__Q24Game11EmojiChoiceFb
 
-.global lbl_802FF57C
-lbl_802FF57C:
+.global __vt__Q24Game12EmojiBalloon
+__vt__Q24Game12EmojiBalloon:
 
 	# ROM: 0x2FB65C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E82CC
-	.4byte lbl_800E82D4
-	.4byte lbl_800E77C0
-	.4byte lbl_80008290
-	.4byte lbl_800E78D8
+	.4byte GetRTI__Q24Game12EmojiBalloonCFv
+	.4byte __dt__Q24Game12EmojiBalloonFv
+	.4byte exec__Q24Game12EmojiBalloonFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte SetDisp__Q24Game12EmojiBalloonFb
 
-.global lbl_802FF598
-lbl_802FF598:
+.global __vt__Q28GoingOut10WpadMemory
+__vt__Q28GoingOut10WpadMemory:
 
 	# ROM: 0x2FB678
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E9BCC
-	.4byte lbl_800E9818
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q28GoingOut10WpadMemoryCFv
+	.4byte __dt__Q28GoingOut10WpadMemoryFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF5B0
-lbl_802FF5B0:
+.global __vt__Q28GoingOut13ComingInGuest
+__vt__Q28GoingOut13ComingInGuest:
 
 	# ROM: 0x2FB690
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E9BD4
-	.4byte lbl_800E8FC8
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q28GoingOut13ComingInGuestCFv
+	.4byte __dt__Q28GoingOut13ComingInGuestFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF5C8
-lbl_802FF5C8:
+.global __vt__Q28GoingOut15GoingOutPenguin
+__vt__Q28GoingOut15GoingOutPenguin:
 
 	# ROM: 0x2FB6A8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800E9BDC
-	.4byte lbl_800E84B8
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q28GoingOut15GoingOutPenguinCFv
+	.4byte __dt__Q28GoingOut15GoingOutPenguinFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF5E0
-lbl_802FF5E0:
+.global __vt__Q34Game7Achieve7Control
+__vt__Q34Game7Achieve7Control:
 
 	# ROM: 0x2FB6C0
 	.4byte 0
 	.4byte 0
-	.4byte func_800E9F38
+	.4byte __dt__Q34Game7Achieve7ControlFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80008EA4
-	.4byte lbl_800EA8E0
-	.4byte lbl_800EA8D8
-	.4byte lbl_80008290
-	.4byte func_800EA69C
+	.4byte GetRTI__Q24Task4BaseCFv
+	.4byte _12___dt__Q34Game7Achieve7ControlFv
+	.4byte _12_exec__Q34Game7Achieve7ControlFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte exec__Q34Game7Achieve7ControlFv
 
 .global lbl_802FF608
 lbl_802FF608:
@@ -6506,30 +6506,30 @@ lbl_802FF680:
 	.4byte lbl_800EC3EC
 	.4byte 0
 
-.global lbl_802FF6C0
-lbl_802FF6C0:
+.global __vt__Q28QuitGame12QuitGameTask
+__vt__Q28QuitGame12QuitGameTask:
 
 	# ROM: 0x2FB7A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EC580
-	.4byte lbl_800EAC10
-	.4byte lbl_800EB090
-	.4byte lbl_80008290
+	.4byte GetRTI__Q28QuitGame12QuitGameTaskCFv
+	.4byte __dt__Q28QuitGame12QuitGameTaskFv
+	.4byte exec__Q28QuitGame12QuitGameTaskFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_802FF6F8
-lbl_802FF6F8:
+.global __vt__Q27BadWord14BadWordManager
+__vt__Q27BadWord14BadWordManager:
 
 	# ROM: 0x2FB7D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800ED348
-	.4byte lbl_800ECD1C
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q27BadWord14BadWordManagerCFv
+	.4byte __dt__Q27BadWord14BadWordManagerFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FF710
 lbl_802FF710:
@@ -6542,16 +6542,16 @@ lbl_802FF710:
 	.4byte lbl_802E1888
 	.4byte 0
 
-.global lbl_802FF728
-lbl_802FF728:
+.global __vt__Q24Game9NamePlate
+__vt__Q24Game9NamePlate:
 
 	# ROM: 0x2FB808
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EDE40
-	.4byte lbl_800ED650
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game9NamePlateCFv
+	.4byte __dt__Q24Game9NamePlateFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FF740
 lbl_802FF740:
@@ -6579,51 +6579,51 @@ lbl_802FF758:
 	.4byte lbl_802E19F0
 	.4byte lbl_802E1A04
 
-.global lbl_802FF780
-lbl_802FF780:
+.global __vt__Q24Game9GameTimer
+__vt__Q24Game9GameTimer:
 
 	# ROM: 0x2FB860
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EE550
-	.4byte lbl_800EDFAC
-	.4byte lbl_800EE008
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game9GameTimerCFv
+	.4byte __dt__Q24Game9GameTimerFv
+	.4byte exec__Q24Game9GameTimerFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF798
-lbl_802FF798:
+.global __vt__Q27Message8B_Cancel
+__vt__Q27Message8B_Cancel:
 
 	# ROM: 0x2FB878
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EE9B8
-	.4byte lbl_800EE840
-	.4byte lbl_800EE8B8
-	.4byte lbl_80008290
+	.4byte GetRTI__Q27Message8B_CancelCFv
+	.4byte __dt__Q27Message8B_CancelFv
+	.4byte exec__Q27Message8B_CancelFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF7B0
-lbl_802FF7B0:
+.global __vt__Q24Game24PlayerCursorDrawCallback
+__vt__Q24Game24PlayerCursorDrawCallback:
 
 	# ROM: 0x2FB890
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EED8C
-	.4byte lbl_80041234
-	.4byte lbl_80041230
-	.4byte lbl_80041250
-	.4byte lbl_800EF200
-	.4byte lbl_80041228
+	.4byte __dt__Q24Game24PlayerCursorDrawCallbackFv
+	.4byte ExecCallback_CALC_WORLD__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_CALC_MAT__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_CALC_VIEW__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_DRAW_OPA__Q24Game24PlayerCursorDrawCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
+	.4byte ExecCallback_DRAW_XLU__Q34nw4r3g3d15IScnObjCallbackFQ44nw4r3g3d6ScnObj6TimingPQ34nw4r3g3d6ScnObjUlPv
 
-.global lbl_802FF7D0
-lbl_802FF7D0:
+.global __vt__Q24Game12PlayerCursor
+__vt__Q24Game12PlayerCursor:
 
 	# ROM: 0x2FB8B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800EF22C
-	.4byte lbl_800EECF0
-	.4byte lbl_800EF128
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game12PlayerCursorCFv
+	.4byte __dt__Q24Game12PlayerCursorFv
+	.4byte exec__Q24Game12PlayerCursorFv
+	.4byte kill_callback__Q24Task4BaseFv
 
 .global lbl_802FF7E8
 lbl_802FF7E8:
@@ -6665,38 +6665,38 @@ lbl_802FF810:
 	.4byte lbl_8041F1F8
 	.4byte lbl_8041F200
 
-.global lbl_802FF860
-lbl_802FF860:
+.global __vt__Q24Game8UICommon
+__vt__Q24Game8UICommon:
 
 	# ROM: 0x2FB940
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800F0E04
-	.4byte lbl_800F0C6C
-	.4byte lbl_800F0CF8
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game8UICommonCFv
+	.4byte __dt__Q24Game8UICommonFv
+	.4byte exec__Q24Game8UICommonFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF878
-lbl_802FF878:
+.global __vt__Q24Game7UIScore
+__vt__Q24Game7UIScore:
 
 	# ROM: 0x2FB958
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800F0E0C
-	.4byte lbl_800F0E94
-	.4byte lbl_80008908
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game7UIScoreCFv
+	.4byte __dt__Q24Game7UIScoreFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
 
-.global lbl_802FF890
-lbl_802FF890:
+.global __vt__Q24Game8UIPlayer
+__vt__Q24Game8UIPlayer:
 
 	# ROM: 0x2FB970
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800F0E14
-	.4byte lbl_800F0E1C
-	.4byte lbl_800EF7E8
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game8UIPlayerCFv
+	.4byte __dt__Q24Game8UIPlayerFv
+	.4byte exec__Q24Game8UIPlayerFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.asciz "Memory allocation failure"
@@ -6811,34 +6811,34 @@ lbl_802FFA1C:
 	.4byte func_800F140C
 	.4byte lbl_800F139C
 
-.global lbl_802FFA44
-lbl_802FFA44:
+.global __vt__Q24Game10NextButton
+__vt__Q24Game10NextButton:
 
 	# ROM: 0x2FBB24
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800F1EB4
-	.4byte lbl_800F1EC4
-	.4byte lbl_80008908
-	.4byte lbl_80008290
-	.4byte lbl_80068734
-	.4byte lbl_800687B0
-	.4byte lbl_800F1E1C
-	.4byte lbl_8002F3C8
-	.4byte lbl_8002F3C0
-	.4byte lbl_8006886C
-	.4byte lbl_8002F354
+	.4byte GetRTI__Q24Game10NextButtonCFv
+	.4byte __dt__Q24Game10NextButtonFv
+	.4byte exec__Q24Task4BaseFv
+	.4byte kill_callback__Q24Task4BaseFv
+	.4byte FocusTest__Q35Scene6Layout8PaneBaseFRQ34nw4r4math4VEC2i
+	.4byte IsSelectAnmEnd__Q35Scene6Layout8PaneBaseCFv
+	.4byte Update__Q24Game10NextButtonFv
+	.4byte SetActive__Q35Scene6Layout8PaneBaseFb
+	.4byte SetFocus__Q35Scene6Layout8PaneBaseFb
+	.4byte SetSelect__Q35Scene6Layout8PaneBaseFbb
+	.4byte SetFrame__Q35Scene6Layout8PaneBaseFf
 
-.global lbl_802FFA78
-lbl_802FFA78:
+.global __vt__Q24Game12EventsResult
+__vt__Q24Game12EventsResult:
 
 	# ROM: 0x2FBB58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800F1EBC
-	.4byte lbl_800F1CA0
-	.4byte lbl_800F1D14
-	.4byte lbl_80008290
+	.4byte GetRTI__Q24Game12EventsResultCFv
+	.4byte __dt__Q24Game12EventsResultFv
+	.4byte exec__Q24Game12EventsResultFv
+	.4byte kill_callback__Q24Task4BaseFv
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
@@ -6918,8 +6918,8 @@ lbl_802FFC30:
 	.4byte 0x00000097
 	.4byte 0x00000097
 
-.global lbl_802FFC40
-lbl_802FFC40:
+.global __AXCompressorDefaultTable
+__AXCompressorDefaultTable:
 
 	# ROM: 0x2FBD20
 	.4byte 0x7F637EC7
@@ -7991,8 +7991,8 @@ lbl_80300030:
 	.4byte 0x5472547C
 	.4byte 0x54875491
 
-.global lbl_80300C00
-lbl_80300C00:
+.global axDspSlave
+axDspSlave:
 
 	# ROM: 0x2FCCE0
 	.4byte 0
@@ -14991,8 +14991,8 @@ lbl_8030B5D4:
 	.4byte lbl_8013906C
 	.4byte lbl_80139074
 
-.global lbl_8030B628
-lbl_8030B628:
+.global GXNtsc480IntDf
+GXNtsc480IntDf:
 
 	# ROM: 0x307708
 	.4byte 0
@@ -15011,8 +15011,8 @@ lbl_8030B628:
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-.global lbl_8030B664
-lbl_8030B664:
+.global GXNtsc480Prog
+GXNtsc480Prog:
 
 	# ROM: 0x307744
 	.4byte 0x00000002
@@ -15031,8 +15031,8 @@ lbl_8030B664:
 	.4byte 0x15161500
 	.4byte 0
 
-.global lbl_8030B6A0
-lbl_8030B6A0:
+.global GXMpal480IntDf
+GXMpal480IntDf:
 
 	# ROM: 0x307780
 	.4byte 0x00000008
@@ -15051,8 +15051,8 @@ lbl_8030B6A0:
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-.global lbl_8030B6DC
-lbl_8030B6DC:
+.global GXPal528IntDf
+GXPal528IntDf:
 
 	# ROM: 0x3077BC
 	.4byte 0x00000004
@@ -15071,8 +15071,8 @@ lbl_8030B6DC:
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-.global lbl_8030B718
-lbl_8030B718:
+.global GXEurgb60Hz480IntDf
+GXEurgb60Hz480IntDf:
 
 	# ROM: 0x3077F8
 	.4byte 0x00000014
@@ -15091,8 +15091,8 @@ lbl_8030B718:
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-.global lbl_8030B754
-lbl_8030B754:
+.global GXEurgb60Hz480Prog
+GXEurgb60Hz480Prog:
 
 	# ROM: 0x307834
 	.4byte 0x00000016
@@ -15289,8 +15289,8 @@ lbl_8030B9B8:
 	.4byte 0xC108FFC0
 	.4byte 0xC108FF80
 
-.global lbl_8030BA08
-lbl_8030BA08:
+.global _LOCAL_GXSetTevOrder__F13_GXTevStageID13_GXTexCoordID11_GXTexMapID12_GXChannelID_c2r
+_LOCAL_GXSetTevOrder__F13_GXTevStageID13_GXTexCoordID11_GXTexMapID12_GXChannelID_c2r:
 
 	# ROM: 0x307AE8
 	.4byte 0
@@ -15304,8 +15304,8 @@ lbl_8030BA08:
 	.4byte 0x00000006
 	.4byte 0
 
-.global lbl_8030BA30
-lbl_8030BA30:
+.global _LOCAL_GXSetPixelFmt__F11_GXPixelFmt9_GXZFmt16_p2f
+_LOCAL_GXSetPixelFmt__F11_GXPixelFmt9_GXZFmt16_p2f:
 
 	# ROM: 0x307B10
 	.4byte 0
@@ -15385,15 +15385,15 @@ lbl_8030BAA8:
 	.4byte lbl_8013EE2C
 	.4byte 0
 
-.global lbl_8030BB38
-lbl_8030BB38:
+.global __vt__Q36nw4hbm2ut19TagProcessorBase_w_
+__vt__Q36nw4hbm2ut19TagProcessorBase_w_:
 
 	# ROM: 0x307C18
-	.4byte lbl_8030BB78
+	.4byte __RTTI__Q36nw4hbm2ut19TagProcessorBase_w_
 	.4byte 0
-	.4byte lbl_80140320
-	.4byte lbl_80140360
-	.4byte lbl_801404C0
+	.4byte __dt__Q36nw4hbm2ut19TagProcessorBase_w_Fv
+	.4byte Process__Q36nw4hbm2ut19TagProcessorBase_w_FUsPQ36nw4hbm2ut15PrintContext_w_
+	.4byte CalcRect__Q36nw4hbm2ut19TagProcessorBase_w_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_w_
 
 .global lbl_8030BB4C
 lbl_8030BB4C:
@@ -15403,22 +15403,22 @@ lbl_8030BB4C:
 	.balign 4
 	.4byte 0
 
-.global lbl_8030BB78
-lbl_8030BB78:
+.global __RTTI__Q36nw4hbm2ut19TagProcessorBase_w_
+__RTTI__Q36nw4hbm2ut19TagProcessorBase_w_:
 
 	# ROM: 0x307C58
 	.4byte lbl_8030BB4C
 	.4byte 0
 
-.global lbl_8030BB80
-lbl_8030BB80:
+.global __vt__Q36nw4hbm2ut19TagProcessorBase_c_
+__vt__Q36nw4hbm2ut19TagProcessorBase_c_:
 
 	# ROM: 0x307C60
-	.4byte lbl_8030BBB8
+	.4byte __RTTI__Q36nw4hbm2ut19TagProcessorBase_c_
 	.4byte 0
-	.4byte lbl_8013FDC0
-	.4byte lbl_8013FE00
-	.4byte lbl_8013FF60
+	.4byte __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv
+	.4byte Process__Q36nw4hbm2ut19TagProcessorBase_c_FUsPQ36nw4hbm2ut15PrintContext_c_
+	.4byte CalcRect__Q36nw4hbm2ut19TagProcessorBase_c_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_c_
 
 .global lbl_8030BB94
 lbl_8030BB94:
@@ -15427,21 +15427,21 @@ lbl_8030BB94:
 	.asciz "nw4hbm::ut::TagProcessorBase<char>"
 	.balign 4
 
-.global lbl_8030BBB8
-lbl_8030BBB8:
+.global __RTTI__Q36nw4hbm2ut19TagProcessorBase_c_
+__RTTI__Q36nw4hbm2ut19TagProcessorBase_c_:
 
 	# ROM: 0x307C98
 	.4byte lbl_8030BB94
 	.4byte 0
 
-.global lbl_8030BBC0
-lbl_8030BBC0:
+.global mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase_c_
+mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase_c_:
 
 	# ROM: 0x307CA0
 	.4byte 0x00000100
 
-.global lbl_8030BBC4
-lbl_8030BBC4:
+.global mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase_w_
+mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase_w_:
 
 	# ROM: 0x307CA4
 	.4byte 0x00000100
@@ -15521,8 +15521,8 @@ lbl_8030BCAC:
 	.4byte 0x007FFFFF
 	.4byte 0x007FFFFF
 
-.global lbl_8030BCD0
-lbl_8030BCD0:
+.global e_dir
+e_dir:
 
 	# ROM: 0x307DB0
 	.4byte 0x3F800000
@@ -30931,31 +30931,31 @@ lbl_8031B7A8:
 lbl_8031B7B8:
 
 	# ROM: 0x317898
-	.4byte lbl_8041C4DC
+	.4byte __ntd_ohci
 	.4byte 0
 	.4byte lbl_8041C4E4
 	.4byte 0x00000001
-	.4byte lbl_8041C4F0
+	.4byte p_hcisu_if
 	.4byte 0x00000002
-	.4byte lbl_8041C4F8
+	.4byte bte_target_mode
 	.4byte 0x00000003
 	.4byte lbl_8041C500
 	.4byte 0x00000004
-	.4byte lbl_8041C508
+	.4byte appl_trace_level
 	.4byte 0x00000005
 	.4byte lbl_8041C510
 	.4byte 0x00000006
 	.4byte lbl_8031B760
 	.4byte 0x00000007
-	.4byte lbl_8041C518
+	.4byte __DSP_rude_task_pending
 	.4byte 0x00000008
-	.4byte lbl_8041C520
+	.4byte __DSP_tmp_task
 	.4byte 0x00000009
-	.4byte lbl_8041C528
+	.4byte __DSP_first_task
 	.4byte 0x0000000A
 	.4byte lbl_8041C530
 	.4byte 0x0000000B
-	.4byte lbl_8041C538
+	.4byte __DVDThreadQueue
 	.4byte 0x0000000C
 	.4byte lbl_8041C540
 	.4byte 0x0000000D
@@ -30989,7 +30989,7 @@ lbl_8031B7B8:
 	.4byte 0x0000001B
 	.4byte lbl_8041C590
 	.4byte 0x0000001C
-	.4byte lbl_8041C598
+	.4byte __DVDLayoutFormat
 	.4byte 0x0000001D
 	.4byte lbl_8041C5A0
 	.4byte 0x0000001E
@@ -33572,8 +33572,8 @@ lbl_8031E7AC:
 	.balign 4
 	.4byte 0
 
-.global lbl_8031E7D8
-lbl_8031E7D8:
+.global __files
+__files:
 
 	# ROM: 0x31A8B8
 	.4byte 0
@@ -33591,9 +33591,9 @@ lbl_8031E7D8:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8019CEF8
-	.4byte lbl_801941C8
-	.4byte lbl_80194298
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_8031E828
 
@@ -33616,9 +33616,9 @@ lbl_8031E828:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8019CEF8
-	.4byte lbl_801941C8
-	.4byte lbl_80194298
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_8031E878
 
@@ -33641,9 +33641,9 @@ lbl_8031E878:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8019CEF8
-	.4byte lbl_801941C8
-	.4byte lbl_80194298
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_8031E8C8
 
@@ -33751,8 +33751,8 @@ lbl_8031E918:
 	.4byte lbl_80187FD0
 	.4byte 0
 
-.global lbl_8031EA40
-lbl_8031EA40:
+.global _LOCAL___dec2num__FPC7decimal_pow_10
+_LOCAL___dec2num__FPC7decimal_pow_10:
 
 	# ROM: 0x31AB20
 	.4byte 0x40240000
@@ -33772,8 +33772,8 @@ lbl_8031EA40:
 	.4byte 0x4197D784
 	.4byte 0
 
-.global lbl_8031EA80
-lbl_8031EA80:
+.global __lconv
+__lconv:
 
 	# ROM: 0x31AB60
 	.4byte lbl_8041F8C8
@@ -33791,23 +33791,23 @@ lbl_8031EA80:
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
 
-.global lbl_8031EAB8
-lbl_8031EAB8:
+.global _loc_ctyp_C
+_loc_ctyp_C:
 
 	# ROM: 0x31AB98
 	.4byte 0x43000000
 	.4byte 0
-	.4byte lbl_802E8BD0
-	.4byte lbl_802E8ED0
-	.4byte lbl_802E8DD0
-	.4byte lbl_802E9148
-	.4byte lbl_802E9548
-	.4byte lbl_802E9348
-	.4byte lbl_80189D94
-	.4byte lbl_80189DE0
+	.4byte __ctype_mapC
+	.4byte __upper_mapC
+	.4byte __lower_mapC
+	.4byte __wctype_mapC
+	.4byte __wupper_mapC
+	.4byte __wlower_mapC
+	.4byte __mbtowc_noconv
+	.4byte __wctomb_noconv
 
-.global lbl_8031EAE0
-lbl_8031EAE0:
+.global char_coll_tableC
+char_coll_tableC:
 
 	# ROM: 0x31ABC0
 	.4byte 0x00010002
@@ -33859,8 +33859,8 @@ lbl_8031EAE0:
 	.4byte 0x001E001F
 	.4byte 0x00200000
 
-.global lbl_8031EBA0
-lbl_8031EBA0:
+.global _loc_coll_C
+_loc_coll_C:
 
 	# ROM: 0x31AC80
 	.4byte 0x43000000
@@ -33868,11 +33868,11 @@ lbl_8031EBA0:
 	.4byte 0x00000020
 	.4byte 0x0000006E
 	.4byte 0
-	.4byte lbl_8031EAE0
+	.4byte char_coll_tableC
 	.4byte 0
 
-.global lbl_8031EBBC
-lbl_8031EBBC:
+.global _loc_mon_C
+_loc_mon_C:
 
 	# ROM: 0x31AC9C
 	.4byte 0x43000000
@@ -33889,8 +33889,8 @@ lbl_8031EBBC:
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
 
-.global lbl_8031EBF0
-lbl_8031EBF0:
+.global _loc_num_C
+_loc_num_C:
 
 	# ROM: 0x31ACD0
 	.4byte 0x43000000
@@ -33900,8 +33900,8 @@ lbl_8031EBF0:
 	.4byte lbl_8041F8CC
 	.4byte 0
 
-.global lbl_8031EC08
-lbl_8031EC08:
+.global _loc_tim_C
+_loc_tim_C:
 
 	# ROM: 0x31ACE8
 	.4byte 0x43000000
@@ -33915,8 +33915,8 @@ lbl_8031EC08:
 	.4byte lbl_802E9050
 	.4byte lbl_8041F8CC
 
-.global lbl_8031EC30
-lbl_8031EC30:
+.global _current_locale
+_current_locale:
 
 	# ROM: 0x31AD10
 	.4byte 0
@@ -33932,11 +33932,11 @@ lbl_8031EC30:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8031EBA0
-	.4byte lbl_8031EAB8
-	.4byte lbl_8031EBBC
-	.4byte lbl_8031EBF0
-	.4byte lbl_8031EC08
+	.4byte _loc_coll_C
+	.4byte _loc_ctyp_C
+	.4byte _loc_mon_C
+	.4byte _loc_num_C
+	.4byte _loc_tim_C
 
 .global lbl_8031EC78
 lbl_8031EC78:
@@ -34618,7 +34618,7 @@ lbl_8031F6A0:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8019E9C0
+	.4byte __dt__Q34nw4r3mcs10CommDeviceFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -34728,7 +34728,7 @@ lbl_8031FB58:
 	.4byte lbl_8041C708
 	.4byte lbl_8041C710
 	.4byte lbl_8041C718
-	.4byte lbl_8041C720
+	.4byte kp_stick_clamp_cross
 	.4byte lbl_8041C728
 	.4byte lbl_8041C730
 	.4byte lbl_8041C738
@@ -38182,269 +38182,269 @@ lbl_80322820:
 	.balign 4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A68F0
-	.4byte lbl_801A5FE0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A7260
-	.4byte lbl_801A4670
-	.4byte lbl_801A4420
+	.4byte init__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard6pctype18OnOffButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard6pctype7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard6pctype18OnOffButtonAnmPaneFv
+	.4byte getState__Q49textinput8keyboard6pctype7AnmPaneCFv
+	.4byte getKeyType__Q49textinput8keyboard6pctype7AnmPaneCFv
 
-.global lbl_803228D8
-lbl_803228D8:
+.global __vt__Q49textinput8keyboard6pctype19ToggleButtonAnmPane
+__vt__Q49textinput8keyboard6pctype19ToggleButtonAnmPane:
 
 	# ROM: 0x31E9B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A6740
-	.4byte lbl_801A5FE0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A72C0
-	.4byte lbl_801A4670
-	.4byte lbl_801A4420
+	.4byte init__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard6pctype19ToggleButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard6pctype7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard6pctype19ToggleButtonAnmPaneFv
+	.4byte getState__Q49textinput8keyboard6pctype7AnmPaneCFv
+	.4byte getKeyType__Q49textinput8keyboard6pctype7AnmPaneCFv
 
-.global lbl_80322904
-lbl_80322904:
+.global __vt__Q49textinput8keyboard6pctype16ShiftCapsAnmPane
+__vt__Q49textinput8keyboard6pctype16ShiftCapsAnmPane:
 
 	# ROM: 0x31E9E4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A6270
-	.4byte lbl_801A5FE0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A7320
-	.4byte lbl_801A4670
-	.4byte lbl_801A4420
+	.4byte init__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard6pctype16ShiftCapsAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard6pctype7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard6pctype16ShiftCapsAnmPaneFv
+	.4byte getState__Q49textinput8keyboard6pctype7AnmPaneCFv
+	.4byte getKeyType__Q49textinput8keyboard6pctype7AnmPaneCFv
 
-.global lbl_80322930
-lbl_80322930:
+.global __vt__Q49textinput8keyboard6pctype19NormalButtonAnmPane
+__vt__Q49textinput8keyboard6pctype19NormalButtonAnmPane:
 
 	# ROM: 0x31EA10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A6000
-	.4byte lbl_801A5FE0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A7380
-	.4byte lbl_801A4670
-	.4byte lbl_801A4420
+	.4byte init__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard6pctype19NormalButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard6pctype7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard6pctype19NormalButtonAnmPaneFv
+	.4byte getState__Q49textinput8keyboard6pctype7AnmPaneCFv
+	.4byte getKeyType__Q49textinput8keyboard6pctype7AnmPaneCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801A5FE0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A2900
-	.4byte lbl_801A4670
-	.4byte lbl_801A4420
+	.4byte init__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard6pctype7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard6pctype7AnmPaneFv
+	.4byte getState__Q49textinput8keyboard6pctype7AnmPaneCFv
+	.4byte getKeyType__Q49textinput8keyboard6pctype7AnmPaneCFv
 
-.global lbl_80322988
-lbl_80322988:
+.global __vt__Q49textinput8keyboard6pctype12LayoutByNW4R
+__vt__Q49textinput8keyboard6pctype12LayoutByNW4R:
 
 	# ROM: 0x31EA68
 	.4byte 0
 	.4byte 0
-	.4byte func_801A2040
-	.4byte lbl_801A22F0
-	.4byte func_801A2970
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801A4110
-	.4byte lbl_801A3A30
-	.4byte lbl_801A7200
-	.4byte lbl_801A40C0
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801A4190
-	.4byte lbl_801A38A0
-	.4byte lbl_801A71F0
-	.4byte lbl_801A5C80
-	.4byte lbl_801A04F0
-	.4byte lbl_801A1260
-	.4byte lbl_801A1490
-	.4byte lbl_801A71E0
-	.4byte lbl_801A71B0
-	.4byte lbl_801A0490
-	.4byte lbl_801A5330
-	.4byte lbl_801A4D50
-	.4byte lbl_801A4FE0
-	.4byte lbl_801A5200
-	.4byte lbl_801A7210
-	.4byte lbl_801A5930
-	.4byte lbl_801A0E80
-	.4byte lbl_801A0F20
-	.4byte lbl_801A4310
-	.4byte lbl_801A0DE0
-	.4byte lbl_801A0DF0
-	.4byte lbl_801A4880
-	.4byte lbl_801A4680
-	.4byte lbl_801A46E0
-	.4byte lbl_801A1160
+	.4byte __dt__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte create__Q49textinput8keyboard6pctype12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard6pctype12LayoutByNW4RFUlPv
+	.4byte onKey__Q49textinput8keyboard6pctype12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte inputCharCode__Q49textinput8keyboard6pctype12LayoutByNW4RFw
+	.4byte getState__Q49textinput8keyboard6pctype4BaseFv
+	.4byte isShiftOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isCapsOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isABC__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setABC__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte getABCInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getAIUInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getTranslateMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte setTranslateMode__Q49textinput8keyboard6pctype12LayoutByNW4RFQ59textinput8keyboard6pctype4Base13TranslateMode
+	.4byte onlyQwerty__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setLangKeyActive__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setInputModeJP__Q49textinput8keyboard6pctype12LayoutByNW4RFbUlUl
+	.4byte setInputModeCK__Q49textinput8keyboard6pctype12LayoutByNW4RFUl
+	.4byte refreshState__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte changeABCInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte changeAIUInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte onClose__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte getWCCode__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte getControlKey__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte sendInputWChar__Q49textinput8keyboard6pctype12LayoutByNW4RFwb
+	.4byte goSignInputMode__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte changePredictLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte updateFixMode__Q49textinput8keyboard6pctype4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A75F0
-	.4byte func_801C8DA0
-	.4byte lbl_801A7640
-	.4byte lbl_801C9060
-	.4byte lbl_801A7630
-	.4byte lbl_801A7620
-	.4byte lbl_801A7600
-	.4byte lbl_801A7610
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _68___dt__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _68_init__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _68_draw__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte _68_calc__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte _68_updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFiffUlUlUlPv
+	.4byte _68_updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7650
-	.4byte func_801A3890
-	.4byte func_801A3740
-	.4byte lbl_801A7240
-	.4byte lbl_801A7230
-	.4byte lbl_801A4BA0
-	.4byte lbl_801A4C10
-	.4byte lbl_801A4C30
-	.4byte func_801A55B0
-	.4byte func_801A57C0
-	.4byte lbl_801A57D0
-	.4byte lbl_801A4390
-	.4byte lbl_801A4440
-	.4byte lbl_801A4760
-	.4byte lbl_801A4A30
-	.4byte lbl_801A3140
-	.4byte func_801A5C90
+	.4byte _236_onEvent__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard6pctype5UIObjUlPv
+	.4byte draw__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte calc__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte setPredictLanguageDialog__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ39textinput11predictlang12LayoutByNW4R
+	.4byte setSignWindow__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard10signwindow12LayoutByNW4R
+	.4byte setLineFeedButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setPredictLanguageButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setSignWindowButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte changeAnimationAllToNormal__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte throwReleaseForAll__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte cancelStateFocusIn__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte updatePredictLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ39textinput15CommandReceiver17ChangePredictMode
+	.4byte updateDakuten__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte initLayout__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte onEvent__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard6pctype5UIObjUlPv
 
-.global lbl_80322AE4
-lbl_80322AE4:
+.global __vt__Q49textinput8keyboard6pctype11UIModePanel
+__vt__Q49textinput8keyboard6pctype11UIModePanel:
 
 	# ROM: 0x31EBC4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A2130
-	.4byte lbl_801A73E0
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801A70C0
+	.4byte __dt__Q49textinput8keyboard6pctype11UIModePanelFv
+	.4byte onEvent__Q49textinput8keyboard6pctype5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q49textinput8keyboard6pctype11UIModePanelFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 
-.global lbl_80322B00
-lbl_80322B00:
+.global __vt__Q49textinput8keyboard6pctype16UIModifierButton
+__vt__Q49textinput8keyboard6pctype16UIModifierButton:
 
 	# ROM: 0x31EBE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A21F0
-	.4byte lbl_801A73E0
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801A6BF0
+	.4byte __dt__Q49textinput8keyboard6pctype16UIModifierButtonFv
+	.4byte onEvent__Q49textinput8keyboard6pctype5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q49textinput8keyboard6pctype16UIModifierButtonFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A2170
-	.4byte lbl_801A73E0
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801A73F0
+	.4byte __dt__Q49textinput8keyboard6pctype5UIObjFv
+	.4byte onEvent__Q49textinput8keyboard6pctype5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q49textinput8keyboard6pctype5UIObjFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 
-.global lbl_80322B38
-lbl_80322B38:
+.global __vt__Q49textinput8keyboard6pctype12EventHandler
+__vt__Q49textinput8keyboard6pctype12EventHandler:
 
 	# ROM: 0x31EC18
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A22B0
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801A5CC0
-	.4byte lbl_801A7400
+	.4byte __dt__Q49textinput8keyboard6pctype12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q49textinput8keyboard6pctype12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_80322B58
-lbl_80322B58:
+.global __vt__Q49textinput8keyboard6pctype4Base
+__vt__Q49textinput8keyboard6pctype4Base:
 
 	# ROM: 0x31EC38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A2230
-	.4byte lbl_801A0500
-	.4byte lbl_801A0510
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte func_801A0B50
-	.4byte func_801A0690
-	.4byte lbl_801A7200
-	.4byte lbl_801A1150
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte func_801A0C10
-	.4byte lbl_801A0670
-	.4byte lbl_801A71F0
-	.4byte lbl_801A5C80
-	.4byte lbl_801A04F0
-	.4byte lbl_801A1260
-	.4byte lbl_801A1270
-	.4byte lbl_801A71E0
-	.4byte lbl_801A71B0
-	.4byte lbl_801A0490
-	.4byte func_801A12E0
-	.4byte lbl_801A1E30
-	.4byte lbl_801A1F20
-	.4byte lbl_801A7420
-	.4byte lbl_801A7410
-	.4byte lbl_801A18C0
-	.4byte lbl_801A0E80
-	.4byte lbl_801A0F20
-	.4byte lbl_801A0DD0
-	.4byte lbl_801A0DE0
-	.4byte lbl_801A0DF0
-	.4byte func_801A0FA0
-	.4byte lbl_801A0B30
-	.4byte lbl_801A0B40
-	.4byte lbl_801A1160
+	.4byte __dt__Q49textinput8keyboard6pctype4BaseFv
+	.4byte create__Q49textinput8keyboard6pctype4BaseFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard6pctype4BaseFUlPv
+	.4byte onKey__Q49textinput8keyboard6pctype4BaseFUlPv
+	.4byte getType__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard6pctype4BaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q49textinput8keyboard6pctype4BaseFv
+	.4byte inputCharCode__Q49textinput8keyboard6pctype4BaseFw
+	.4byte getState__Q49textinput8keyboard6pctype4BaseFv
+	.4byte isShiftOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isCapsOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isABC__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setABC__Q49textinput8keyboard6pctype4BaseFb
+	.4byte getABCInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getAIUInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getTranslateMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte setTranslateMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base13TranslateMode
+	.4byte onlyQwerty__Q49textinput8keyboard6pctype4BaseFb
+	.4byte setLangKeyActive__Q49textinput8keyboard6pctype4BaseFb
+	.4byte setInputModeJP__Q49textinput8keyboard6pctype4BaseFbUlUl
+	.4byte setInputModeCK__Q49textinput8keyboard6pctype4BaseFUl
+	.4byte refreshState__Q49textinput8keyboard6pctype4BaseFv
+	.4byte changeABCInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte changeAIUInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte onClose__Q49textinput8keyboard6pctype4BaseFv
+	.4byte getWCCode__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte getControlKey__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte sendInputWChar__Q49textinput8keyboard6pctype4BaseFwb
+	.4byte goSignInputMode__Q49textinput8keyboard6pctype4BaseFv
+	.4byte changePredictLanguage__Q49textinput8keyboard6pctype4BaseFv
+	.4byte updateFixMode__Q49textinput8keyboard6pctype4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A21B0
-	.4byte lbl_801A7430
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
+	.4byte __dt__Q39textinput3gui12EventHandlerFv
+	.4byte onEvent__Q39textinput3gui12EventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
 
-.global lbl_80322C08
-lbl_80322C08:
+.global _STRING___ct__Q39textinput11nw4rmanager7AnmPaneFPQ34nw4r3lyt4PanePQ39textinput11nw4rmanager11AnmObserver_0
+_STRING___ct__Q39textinput11nw4rmanager7AnmPaneFPQ34nw4r3lyt4PanePQ39textinput11nw4rmanager11AnmObserver_0:
 
 	# ROM: 0x31ECE8
 	.asciz "NW4R:Pointer must not be NULL (pPane)"
 	.balign 4
 
-.global lbl_80322C30
-lbl_80322C30:
+.global _STRING___ct__Q39textinput11nw4rmanager7AnmPaneFPQ34nw4r3lyt4PanePQ39textinput11nw4rmanager11AnmObserver
+_STRING___ct__Q39textinput11nw4rmanager7AnmPaneFPQ34nw4r3lyt4PanePQ39textinput11nw4rmanager11AnmObserver:
 
 	# ROM: 0x31ED10
 	.asciz "tiNw4rManager.h"
@@ -38453,15 +38453,15 @@ lbl_80322C30:
 	.asciz "material.h"
 	.balign 4
 
-.global lbl_80322C80
-lbl_80322C80:
+.global _STRING_SetTexture__Q34nw4r3lyt8MaterialFUcRCQ34nw4r3lyt6TexMap_0
+_STRING_SetTexture__Q34nw4r3lyt8MaterialFUcRCQ34nw4r3lyt6TexMap_0:
 
 	# ROM: 0x31ED60
 	.asciz "NW4R:Failed assertion texMapIdx < mGXMemNum.texMap"
 	.balign 4
 
-.global lbl_80322CB4
-lbl_80322CB4:
+.global _STRING_SetTexture__Q34nw4r3lyt8MaterialFUcRCQ34nw4r3lyt6TexMap
+_STRING_SetTexture__Q34nw4r3lyt8MaterialFUcRCQ34nw4r3lyt6TexMap:
 
 	# ROM: 0x31ED94
 	.asciz "material.h"
@@ -38477,8 +38477,8 @@ lbl_80322CC0:
 	.4byte lbl_8041C778
 	.4byte lbl_8041C780
 	.4byte lbl_8041C788
-	.4byte lbl_8041C790
-	.4byte lbl_8041C798
+	.4byte __OSInIPL
+	.4byte __OSIsGcam
 	.4byte lbl_8041C7A0
 	.4byte lbl_8041C7A8
 	.4byte lbl_8041C7B0
@@ -38962,173 +38962,173 @@ lbl_80323360:
 	.asciz "T_ChngTag_00"
 	.balign 4
 
-.global lbl_80323370
-lbl_80323370:
+.global __vt__Q49textinput8keyboard13cellphonetype12LayoutByNW4R
+__vt__Q49textinput8keyboard13cellphonetype12LayoutByNW4R:
 
 	# ROM: 0x31F450
 	.4byte 0
 	.4byte 0
-	.4byte func_801A8BA0
-	.4byte lbl_801A8D00
-	.4byte func_801A9380
-	.4byte lbl_801AC120
-	.4byte lbl_801A0650
-	.4byte lbl_801AA0C0
-	.4byte lbl_801A9DA0
-	.4byte lbl_801AC0F0
-	.4byte lbl_801AA890
-	.4byte lbl_801A0640
-	.4byte lbl_801A9D90
-	.4byte lbl_801A9F60
-	.4byte func_801A9C50
-	.4byte func_801A9C40
-	.4byte lbl_801A8270
-	.4byte lbl_801AC0E0
-	.4byte lbl_801AC0D0
-	.4byte lbl_801AC0C0
-	.4byte lbl_801AC0A0
-	.4byte lbl_801AAF00
-	.4byte lbl_801AA190
-	.4byte lbl_801AC090
-	.4byte lbl_801AB3A0
-	.4byte lbl_801AB510
-	.4byte lbl_801AB5D0
-	.4byte lbl_801AA070
-	.4byte lbl_801AAE90
-	.4byte lbl_801AABA0
-	.4byte lbl_801AAD80
-	.4byte lbl_801A8720
-	.4byte lbl_801A8790
-	.4byte lbl_801AC080
-	.4byte lbl_801A88D0
+	.4byte __dt__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte create__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFUlPv
+	.4byte onKey__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte onActive__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte calc__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte draw__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte getInputMode__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isLocked__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumeric__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumericWithDot__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isHoldingButton__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte doNumericMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte changeInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte isUpperCase__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte setUpperCaseJP__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setLangKeyActive__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte onClose__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte goSignInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte changePredictLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte setAbcMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte isZiActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte isAtokActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte doInput__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte updateFixMode__Q49textinput8keyboard13cellphonetype4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801AC250
-	.4byte func_801C8DA0
-	.4byte lbl_801AC2A0
-	.4byte lbl_801C9060
-	.4byte lbl_801AC290
-	.4byte lbl_801AC280
-	.4byte lbl_801AC260
-	.4byte lbl_801AC270
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte lbl_801AC110
-	.4byte lbl_801AC100
-	.4byte lbl_801AB1A0
-	.4byte lbl_801AB230
-	.4byte lbl_801AB260
-	.4byte lbl_801AB280
-	.4byte func_801AC070
-	.4byte func_801AB560
-	.4byte lbl_801AA6C0
-	.4byte lbl_801AA760
-	.4byte lbl_801AA800
-	.4byte lbl_801AAC20
-	.4byte lbl_801AA4D0
-	.4byte lbl_801AA5F0
+	.4byte _56___dt__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _56_init__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _56_draw__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte _56_calc__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte _56_updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFiffUlUlUlPv
+	.4byte _56_updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte setPredictLanguageDialog__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ39textinput11predictlang12LayoutByNW4R
+	.4byte setSignWindow__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ49textinput8keyboard10signwindow12LayoutByNW4R
+	.4byte doNumericWithDotMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setLineFeedButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setPredictLanguageButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setSignWindowButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getAnmPane__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte throwReleaseForAll__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte changeAnimationAllToNormal__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte updatePredictLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ39textinput15CommandReceiver17ChangePredictMode
+	.4byte changeKeyTop__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPCQ49textinput8keyboard13cellphonetype18PaneNameToCharCode
+	.4byte changeSpaceKeyTop__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPCQ49textinput8keyboard13cellphonetype18PaneNameToCharCode
 	.4byte 0
 
-.global lbl_803234B0
-lbl_803234B0:
+.global __vt__Q49textinput8keyboard13cellphonetype23CellPhoneControlAnmPane
+__vt__Q49textinput8keyboard13cellphonetype23CellPhoneControlAnmPane:
 
 	# ROM: 0x31F590
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A9310
-	.4byte lbl_801C9ED0
-	.4byte lbl_801AB9B0
-	.4byte lbl_801AB720
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801AC180
-	.4byte lbl_801AA7F0
+	.4byte init__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard13cellphonetype23CellPhoneControlAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard13cellphonetype23CellPhoneControlAnmPaneFv
+	.4byte getKeyType__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneCFv
 
-.global lbl_803234D8
-lbl_803234D8:
+.global __vt__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPane
+__vt__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPane:
 
 	# ROM: 0x31F5B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A9310
-	.4byte lbl_801C9ED0
-	.4byte lbl_801AB740
-	.4byte lbl_801AB720
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801A9320
-	.4byte lbl_801AA7F0
+	.4byte init__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneFv
+	.4byte getKeyType__Q49textinput8keyboard13cellphonetype16CellPhoneAnmPaneCFv
 
-.global lbl_80323500
-lbl_80323500:
+.global __vt__Q49textinput8keyboard13cellphonetype12EventHandler
+__vt__Q49textinput8keyboard13cellphonetype12EventHandler:
 
 	# ROM: 0x31F5E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A8CC0
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801ABBF0
-	.4byte lbl_801A7400
+	.4byte __dt__Q49textinput8keyboard13cellphonetype12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q49textinput8keyboard13cellphonetype12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_80323520
-lbl_80323520:
+.global __vt__Q49textinput8keyboard13cellphonetype4Base
+__vt__Q49textinput8keyboard13cellphonetype4Base:
 
 	# ROM: 0x31F600
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A8C80
-	.4byte lbl_801A7660
-	.4byte lbl_801A7710
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801A8440
-	.4byte func_801A77D0
-	.4byte lbl_801AC0F0
-	.4byte lbl_801AAB90
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801A84F0
-	.4byte lbl_801A77C0
-	.4byte lbl_801AC170
-	.4byte lbl_801A8270
-	.4byte lbl_801AC0E0
-	.4byte lbl_801AC0D0
-	.4byte lbl_801AC0C0
-	.4byte lbl_801AC0A0
-	.4byte lbl_801A8820
-	.4byte lbl_801A8600
-	.4byte lbl_801AC090
-	.4byte lbl_801A8B90
-	.4byte lbl_801AC160
-	.4byte lbl_801A8AC0
-	.4byte lbl_801A85F0
-	.4byte lbl_801A8420
-	.4byte lbl_801A8430
-	.4byte lbl_801A8800
-	.4byte lbl_801A8720
-	.4byte lbl_801A8790
-	.4byte lbl_801AC080
-	.4byte lbl_801A88D0
+	.4byte __dt__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte create__Q49textinput8keyboard13cellphonetype4BaseFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard13cellphonetype4BaseFUlPv
+	.4byte onKey__Q49textinput8keyboard13cellphonetype4BaseFUlPv
+	.4byte getType__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setLanguage__Q39textinput8keyboard12KeyboardBaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte calc__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte draw__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte getInputMode__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isLocked__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumeric__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumericWithDot__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isHoldingButton__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte doNumericMode__Q49textinput8keyboard13cellphonetype4BaseFb
+	.4byte changeInputMode__Q49textinput8keyboard13cellphonetype4BaseFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte isUpperCase__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setInputMode__Q49textinput8keyboard13cellphonetype4BaseFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte setUpperCaseJP__Q49textinput8keyboard13cellphonetype4BaseFb
+	.4byte setLangKeyActive__Q49textinput8keyboard13cellphonetype4BaseFb
+	.4byte onClose__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte goSignInputMode__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte changePredictLanguage__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setAbcMode__Q49textinput8keyboard13cellphonetype4BaseFb
+	.4byte isZiActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte isAtokActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte doInput__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte updateFixMode__Q49textinput8keyboard13cellphonetype4BaseFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39479,474 +39479,474 @@ lbl_80323A98:
 	.asciz "T_title_text"
 	.balign 4
 
-.global lbl_80323AFC
-lbl_80323AFC:
+.global __vt__Q39textinput9inputform19NormalButtonAnmPane
+__vt__Q39textinput9inputform19NormalButtonAnmPane:
 
 	# ROM: 0x31FBDC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801B9EB0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801B9AE0
-	.4byte lbl_801B9D50
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801B9EC0
-	.4byte lbl_801B9EA0
-	.4byte lbl_801B9AD0
+	.4byte init__Q39textinput9inputform7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput9inputform19NormalButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput9inputform7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput9inputform19NormalButtonAnmPaneFv
+	.4byte getKeyType__Q39textinput9inputform7AnmPaneCFv
+	.4byte getState__Q39textinput9inputform7AnmPaneFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801B9EB0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801B9D50
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801B7AC0
-	.4byte lbl_801B9EA0
-	.4byte lbl_801B9AD0
+	.4byte init__Q39textinput9inputform7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput9inputform7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput9inputform7AnmPaneFv
+	.4byte getKeyType__Q39textinput9inputform7AnmPaneCFv
+	.4byte getState__Q39textinput9inputform7AnmPaneFv
 	.4byte 0
 
-.global lbl_80323B58
-lbl_80323B58:
+.global __vt__Q39textinput9inputform12EventHandler
+__vt__Q39textinput9inputform12EventHandler:
 
 	# ROM: 0x31FC38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801B74D0
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte func_801B9420
-	.4byte lbl_801A7400
+	.4byte __dt__Q39textinput9inputform12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q39textinput9inputform12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_80323B78
-lbl_80323B78:
+.global __vt__Q39textinput9inputform12LayoutByNW4R
+__vt__Q39textinput9inputform12LayoutByNW4R:
 
 	# ROM: 0x31FC58
 	.4byte 0
 	.4byte 0
-	.4byte func_801B7390
-	.4byte func_801B9D60
-	.4byte func_801B7B20
-	.4byte lbl_801CF1F0
-	.4byte func_801B8BF0
-	.4byte lbl_801B9D90
+	.4byte __dt__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte init__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte clearSender__Q29textinput15CommandReceiverFv
+	.4byte onCommand__Q39textinput9inputform12LayoutByNW4RFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte addSender__Q29textinput15CommandReceiverFPQ29textinput13CommandSender
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA280
-	.4byte func_801C74A0
-	.4byte lbl_801BA270
-	.4byte func_801C6B40
-	.4byte func_801C6B20
-	.4byte lbl_801B9DD0
-	.4byte func_801C8350
-	.4byte lbl_801C85F0
-	.4byte lbl_801C7AF0
-	.4byte lbl_801BA260
-	.4byte lbl_801C82B0
-	.4byte lbl_801AF320
-	.4byte lbl_801BA250
-	.4byte lbl_800A3304
-	.4byte lbl_801BA240
-	.4byte lbl_801BA230
-	.4byte lbl_801BA220
-	.4byte lbl_801BA210
-	.4byte lbl_801BA200
-	.4byte func_801C7480
-	.4byte lbl_801C6C10
-	.4byte lbl_801BA1F0
-	.4byte lbl_801BA1E0
-	.4byte lbl_801BA1D0
-	.4byte lbl_801C7EC0
-	.4byte lbl_801B9DC0
-	.4byte lbl_801AFA50
-	.4byte lbl_801C6B80
-	.4byte lbl_801C6B90
-	.4byte lbl_801C6B50
-	.4byte lbl_801B9DB0
-	.4byte lbl_801B9DA0
-	.4byte lbl_801AFA40
-	.4byte lbl_801B05F0
-	.4byte lbl_801ACEF0
-	.4byte lbl_801ACF00
+	.4byte _16_create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte draw__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setDrawString__Q39textinput10textdrawer4BaseFPCwUlUl
+	.4byte setAspectRatio__Q39textinput10textdrawer4BaseFb
+	.4byte setVIWidth__Q39textinput10textdrawer4BaseFf
+	.4byte beginDraw__Q39textinput10textdrawer4BaseFRCQ34nw4r2ut4Rect
+	.4byte endDraw__Q39textinput10textdrawer4BaseFv
+	.4byte getLineHeight__Q39textinput10textdrawer4BaseFv
+	.4byte _16_setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte getWidth__Q39textinput10textdrawer4BaseFPCw
+	.4byte getLine__Q39textinput10textdrawer4BaseFv
+	.4byte _16_getScale__Q39textinput9inputform12LayoutByNW4RCFv
+	.4byte setSecretModeOn__Q39textinput10textdrawer4BaseFb
+	.4byte _16_doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_preDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte put__Q39textinput10textdrawer4BaseFw
+	.4byte procCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosl
+	.4byte _16_onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
+	.4byte _16_drawCursor__Q39textinput9inputform4BaseFff
+	.4byte calcRect__Q39textinput10textdrawer4BaseFRQ49textinput10textdrawer4Base8DrawInfo
+	.4byte getStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte getEndPos__Q39textinput10textdrawer4BaseCFv
+	.4byte setDrawModifyScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte setDrawCacheScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte modifyCursorCache__Q39textinput10textdrawer4BaseFlUlffff
+	.4byte isEnableCursorCache__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyStartLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyEndLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawCacheStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte dirtyDrawCache__Q39textinput10textdrawer4BaseFv
+	.4byte dirtyCursorCache__Q39textinput10textdrawer4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA300
-	.4byte func_801BA320
-	.4byte lbl_801B9DE0
-	.4byte func_801BA340
-	.4byte func_801BA360
-	.4byte func_801B7510
-	.4byte lbl_801AF410
-	.4byte lbl_801A0B00
-	.4byte lbl_801B9E90
-	.4byte lbl_801B9E70
-	.4byte lbl_801B23E0
-	.4byte func_801AFFC0
-	.4byte lbl_801ACF10
-	.4byte lbl_801ACF70
-	.4byte lbl_801AD0A0
-	.4byte lbl_801B9E60
-	.4byte lbl_801B9E30
-	.4byte lbl_801B9E20
-	.4byte lbl_801B9E10
-	.4byte lbl_801B8390
-	.4byte lbl_801AD1E0
-	.4byte lbl_801AD2C0
-	.4byte lbl_801B8FC0
-	.4byte lbl_801B00F0
-	.4byte lbl_801B9AA0
-	.4byte lbl_801B2E70
-	.4byte lbl_801B2EA0
-	.4byte lbl_801B9DF0
-	.4byte lbl_801ACEE0
-	.4byte lbl_801B3D60
-	.4byte lbl_801A0AC0
-	.4byte func_801AFFD0
-	.4byte func_801B7D90
-	.4byte func_801B8080
-	.4byte func_801B07E0
-	.4byte func_801B9D70
-	.4byte func_801B00E0
-	.4byte func_801B9D80
-	.4byte func_801B0E90
-	.4byte func_801B1150
-	.4byte lbl_801B0610
-	.4byte func_801B2470
-	.4byte lbl_801B2AF0
-	.4byte lbl_801B2C10
-	.4byte lbl_801B02B0
-	.4byte lbl_801AFA60
-	.4byte lbl_801B9380
-	.4byte lbl_801B0040
-	.4byte func_801B2570
-	.4byte lbl_801B2A90
-	.4byte func_801B8BA0
-	.4byte lbl_801B45C0
-	.4byte lbl_801B4720
-	.4byte lbl_801B48A0
-	.4byte lbl_801B4C50
-	.4byte lbl_801B4FF0
-	.4byte lbl_801B5220
-	.4byte func_801AF9F0
+	.4byte resetCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte addCandidate__Q39textinput12candidatebox18CandidateBoxCallerFPCw
+	.4byte setCandidateBox__Q39textinput12candidatebox18CandidateBoxCallerFPQ39textinput12candidatebox4Base
+	.4byte updateCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte makeEmptyCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte create__Q39textinput9inputform12LayoutByNW4RFP12MEMAllocatorPQ39textinput9inputform10EditBuffer
+	.4byte updateCandidateState___Q39textinput9inputform4BaseFv
+	.4byte getWCString__Q39textinput9inputform4BaseCFv
+	.4byte getAtokString__Q39textinput9inputform4BaseFv
+	.4byte getCandidate__Q39textinput9inputform4BaseCFv
+	.4byte getCursorPos__Q39textinput9inputform4BaseFv
+	.4byte setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte isEditMode__Q39textinput9inputform4BaseFv
+	.4byte checkHeadOfSentence__Q39textinput9inputform4BaseFb
+	.4byte setDestination__Q39textinput9inputform4BaseFQ29textinput11Destination
+	.4byte limitStringLength__Q39textinput9inputform4BaseFUl
+	.4byte limitRowNum__Q39textinput9inputform4BaseFUl
+	.4byte doWordWrap__Q39textinput9inputform4BaseFb
+	.4byte setLineDrawInfo__Q39textinput9inputform4BaseFbUl
+	.4byte setLanguage__Q39textinput9inputform12LayoutByNW4RFQ29textinput8Language
+	.4byte setPredictMode__Q39textinput9inputform4BaseFQ49textinput9inputform4Base11PredictMode
+	.4byte getPredictMode__Q39textinput9inputform4BaseFv
+	.4byte isOverRowLimit__Q39textinput9inputform4BaseFUlPCw
+	.4byte findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl
+	.4byte isInScroll__Q39textinput9inputform4BaseFv
+	.4byte setAtokDictionary__Q39textinput9inputform4BaseFPviPviPvi
+	.4byte closeAtokDictionary__Q39textinput9inputform4BaseFv
+	.4byte isAtokDictionaryOpened__Q39textinput9inputform4BaseFv
+	.4byte enableSpaceByRight__Q39textinput9inputform4BaseFb
+	.4byte onClose__Q39textinput9inputform4BaseFv
+	.4byte canConvert__Q39textinput9inputform4BaseFv
+	.4byte setString__Q39textinput9inputform4BaseFPCw
+	.4byte draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte calc__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte preDraw__Q39textinput9inputform4BaseFUl
+	.4byte finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte isOverLine__Q39textinput9inputform4BaseFRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte drawCursor__Q39textinput9inputform4BaseFff
+	.4byte doScroll__Q39textinput9inputform4BaseFPQ39textinput15CommandReceiver6Scroll
+	.4byte autoScroll__Q39textinput9inputform4BaseFv
+	.4byte doWordWrap__Q39textinput9inputform4BaseFPCwUlf
+	.4byte drawFixString__Q39textinput9inputform4BaseFUl
+	.4byte onSE__Q39textinput9inputform12LayoutByNW4RFQ39textinput5sound2SE
+	.4byte clear__Q39textinput9inputform4BaseFv
+	.4byte calcCursorPos__Q39textinput9inputform4BaseFff
+	.4byte getGlobalLeftTopPos__Q39textinput9inputform4BaseCFv
+	.4byte getScale__Q39textinput9inputform12LayoutByNW4RCFv
+	.4byte moveCursorUp__Q39textinput9inputform4BaseFv
+	.4byte moveCursorDown__Q39textinput9inputform4BaseFv
+	.4byte onPressUp__Q39textinput9inputform4BaseFv
+	.4byte onPressDown__Q39textinput9inputform4BaseFv
+	.4byte onPressLeft__Q39textinput9inputform4BaseFv
+	.4byte onPressRight__Q39textinput9inputform4BaseFv
+	.4byte makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA1C0
-	.4byte func_801C8DA0
-	.4byte lbl_801BA2F0
-	.4byte lbl_801C9060
-	.4byte lbl_801BA2E0
-	.4byte lbl_801BA2D0
-	.4byte lbl_801BA2B0
-	.4byte lbl_801BA2C0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte lbl_801BA2A0
-	.4byte lbl_801BA290
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte lbl_801B87A0
-	.4byte func_801B8800
-	.4byte func_801B8A70
-	.4byte lbl_801B9AB0
-	.4byte lbl_801B9AC0
-	.4byte func_801B93A0
-	.4byte func_801B93E0
-	.4byte lbl_801B7D80
+	.4byte _536___dt__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _536_init__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _536_draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_calc__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_updateInput__Q39textinput9inputform12LayoutByNW4RFiffUlUlUlPv
+	.4byte _536_updateInput__Q39textinput9inputform12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte _536_setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte updateInputCommon__Q39textinput9inputform12LayoutByNW4RFiUlUlUlPv
+	.4byte updateInput__Q39textinput9inputform12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q39textinput9inputform12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte isAbleToUp__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte isAbleToDown__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte visibleSeparator__Q39textinput9inputform12LayoutByNW4RFb
 
-.global lbl_80323DB8
-lbl_80323DB8:
+.global __vt__Q39textinput9inputform4Base
+__vt__Q39textinput9inputform4Base:
 
 	# ROM: 0x31FE98
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801ACB70
-	.4byte func_801B9D60
-	.4byte func_801ACBF0
-	.4byte lbl_801CF1F0
-	.4byte func_801AD300
-	.4byte lbl_801B9D90
+	.4byte __dt__Q39textinput9inputform4BaseFv
+	.4byte create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte init__Q39textinput9inputform4BaseFv
+	.4byte clearSender__Q29textinput15CommandReceiverFv
+	.4byte onCommand__Q39textinput9inputform4BaseFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte addSender__Q29textinput15CommandReceiverFPQ29textinput13CommandSender
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA280
-	.4byte func_801C74A0
-	.4byte lbl_801BA1B0
-	.4byte func_801C6B40
-	.4byte func_801C6B20
-	.4byte lbl_801B9DD0
-	.4byte func_801C8350
-	.4byte lbl_801C85F0
-	.4byte lbl_801C7AF0
-	.4byte lbl_801BA260
-	.4byte lbl_801C82B0
-	.4byte lbl_801AF320
-	.4byte lbl_801BA1A0
-	.4byte lbl_800A3304
-	.4byte lbl_801BA240
-	.4byte lbl_801BA230
-	.4byte lbl_801BA220
-	.4byte lbl_801BA210
-	.4byte lbl_801BA200
-	.4byte func_801C7480
-	.4byte lbl_801C6C10
-	.4byte lbl_801BA1F0
-	.4byte lbl_801BA1E0
-	.4byte lbl_801BA1D0
-	.4byte lbl_801C7EC0
-	.4byte lbl_801B9DC0
-	.4byte lbl_801AFA50
-	.4byte lbl_801C6B80
-	.4byte lbl_801C6B90
-	.4byte lbl_801C6B50
-	.4byte lbl_801B9DB0
-	.4byte lbl_801B9DA0
-	.4byte lbl_801AFA40
-	.4byte lbl_801B05F0
-	.4byte lbl_801ACEF0
-	.4byte lbl_801ACF00
+	.4byte _16_create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte draw__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_draw__Q39textinput9inputform4BaseFv
+	.4byte setDrawString__Q39textinput10textdrawer4BaseFPCwUlUl
+	.4byte setAspectRatio__Q39textinput10textdrawer4BaseFb
+	.4byte setVIWidth__Q39textinput10textdrawer4BaseFf
+	.4byte beginDraw__Q39textinput10textdrawer4BaseFRCQ34nw4r2ut4Rect
+	.4byte endDraw__Q39textinput10textdrawer4BaseFv
+	.4byte getLineHeight__Q39textinput10textdrawer4BaseFv
+	.4byte _16_setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte getWidth__Q39textinput10textdrawer4BaseFPCw
+	.4byte getLine__Q39textinput10textdrawer4BaseFv
+	.4byte _16_getScale__Q39textinput9inputform4BaseCFv
+	.4byte setSecretModeOn__Q39textinput10textdrawer4BaseFb
+	.4byte _16_doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_preDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte put__Q39textinput10textdrawer4BaseFw
+	.4byte procCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosl
+	.4byte _16_onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
+	.4byte _16_drawCursor__Q39textinput9inputform4BaseFff
+	.4byte calcRect__Q39textinput10textdrawer4BaseFRQ49textinput10textdrawer4Base8DrawInfo
+	.4byte getStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte getEndPos__Q39textinput10textdrawer4BaseCFv
+	.4byte setDrawModifyScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte setDrawCacheScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte modifyCursorCache__Q39textinput10textdrawer4BaseFlUlffff
+	.4byte isEnableCursorCache__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyStartLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyEndLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawCacheStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte dirtyDrawCache__Q39textinput10textdrawer4BaseFv
+	.4byte dirtyCursorCache__Q39textinput10textdrawer4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA300
-	.4byte func_801BA320
-	.4byte lbl_801B9DE0
-	.4byte func_801BA340
-	.4byte func_801BA360
-	.4byte lbl_801AF630
-	.4byte lbl_801AF410
-	.4byte lbl_801A0B00
-	.4byte lbl_801B9E90
-	.4byte lbl_801B9E70
-	.4byte lbl_801B23E0
-	.4byte func_801AFFC0
-	.4byte lbl_801ACF10
-	.4byte lbl_801ACF70
-	.4byte lbl_801AD0A0
-	.4byte lbl_801B9E60
-	.4byte lbl_801B9E30
-	.4byte lbl_801B9E20
-	.4byte lbl_801B9E10
-	.4byte func_801AD0B0
-	.4byte lbl_801AD1E0
-	.4byte lbl_801AD2C0
-	.4byte lbl_801B8FC0
-	.4byte lbl_801B00F0
-	.4byte lbl_801B9AA0
-	.4byte lbl_801B2E70
-	.4byte lbl_801B2EA0
-	.4byte lbl_801B9DF0
-	.4byte lbl_801ACEE0
-	.4byte lbl_801B3D60
-	.4byte lbl_801A0AC0
-	.4byte func_801AFFD0
-	.4byte func_801AF750
-	.4byte func_801AFC50
-	.4byte func_801B07E0
-	.4byte func_801B9D70
-	.4byte func_801B00E0
-	.4byte func_801B9D80
-	.4byte func_801B0E90
-	.4byte func_801B1150
-	.4byte lbl_801B0610
-	.4byte func_801B2470
-	.4byte lbl_801B2AF0
-	.4byte lbl_801B2C10
-	.4byte lbl_801B02B0
-	.4byte lbl_801AFA60
-	.4byte lbl_801AF280
-	.4byte lbl_801B0040
-	.4byte func_801B2570
-	.4byte lbl_801B2A90
-	.4byte func_801AF9D0
-	.4byte lbl_801B45C0
-	.4byte lbl_801B4720
-	.4byte lbl_801B48A0
-	.4byte lbl_801B4C50
-	.4byte lbl_801B4FF0
-	.4byte lbl_801B5220
-	.4byte func_801AF9F0
+	.4byte resetCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte addCandidate__Q39textinput12candidatebox18CandidateBoxCallerFPCw
+	.4byte setCandidateBox__Q39textinput12candidatebox18CandidateBoxCallerFPQ39textinput12candidatebox4Base
+	.4byte updateCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte makeEmptyCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte create__Q39textinput9inputform4BaseFP12MEMAllocatorPQ39textinput9inputform10EditBuffer
+	.4byte updateCandidateState___Q39textinput9inputform4BaseFv
+	.4byte getWCString__Q39textinput9inputform4BaseCFv
+	.4byte getAtokString__Q39textinput9inputform4BaseFv
+	.4byte getCandidate__Q39textinput9inputform4BaseCFv
+	.4byte getCursorPos__Q39textinput9inputform4BaseFv
+	.4byte setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte isEditMode__Q39textinput9inputform4BaseFv
+	.4byte checkHeadOfSentence__Q39textinput9inputform4BaseFb
+	.4byte setDestination__Q39textinput9inputform4BaseFQ29textinput11Destination
+	.4byte limitStringLength__Q39textinput9inputform4BaseFUl
+	.4byte limitRowNum__Q39textinput9inputform4BaseFUl
+	.4byte doWordWrap__Q39textinput9inputform4BaseFb
+	.4byte setLineDrawInfo__Q39textinput9inputform4BaseFbUl
+	.4byte setLanguage__Q39textinput9inputform4BaseFQ29textinput8Language
+	.4byte setPredictMode__Q39textinput9inputform4BaseFQ49textinput9inputform4Base11PredictMode
+	.4byte getPredictMode__Q39textinput9inputform4BaseFv
+	.4byte isOverRowLimit__Q39textinput9inputform4BaseFUlPCw
+	.4byte findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl
+	.4byte isInScroll__Q39textinput9inputform4BaseFv
+	.4byte setAtokDictionary__Q39textinput9inputform4BaseFPviPviPvi
+	.4byte closeAtokDictionary__Q39textinput9inputform4BaseFv
+	.4byte isAtokDictionaryOpened__Q39textinput9inputform4BaseFv
+	.4byte enableSpaceByRight__Q39textinput9inputform4BaseFb
+	.4byte onClose__Q39textinput9inputform4BaseFv
+	.4byte canConvert__Q39textinput9inputform4BaseFv
+	.4byte setString__Q39textinput9inputform4BaseFPCw
+	.4byte draw__Q39textinput9inputform4BaseFv
+	.4byte calc__Q39textinput9inputform4BaseFv
+	.4byte doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte preDraw__Q39textinput9inputform4BaseFUl
+	.4byte finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte isOverLine__Q39textinput9inputform4BaseFRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte drawCursor__Q39textinput9inputform4BaseFff
+	.4byte doScroll__Q39textinput9inputform4BaseFPQ39textinput15CommandReceiver6Scroll
+	.4byte autoScroll__Q39textinput9inputform4BaseFv
+	.4byte doWordWrap__Q39textinput9inputform4BaseFPCwUlf
+	.4byte drawFixString__Q39textinput9inputform4BaseFUl
+	.4byte onSE__Q39textinput9inputform4BaseFQ39textinput5sound2SE
+	.4byte clear__Q39textinput9inputform4BaseFv
+	.4byte calcCursorPos__Q39textinput9inputform4BaseFff
+	.4byte getGlobalLeftTopPos__Q39textinput9inputform4BaseCFv
+	.4byte getScale__Q39textinput9inputform4BaseCFv
+	.4byte moveCursorUp__Q39textinput9inputform4BaseFv
+	.4byte moveCursorDown__Q39textinput9inputform4BaseFv
+	.4byte onPressUp__Q39textinput9inputform4BaseFv
+	.4byte onPressDown__Q39textinput9inputform4BaseFv
+	.4byte onPressLeft__Q39textinput9inputform4BaseFv
+	.4byte onPressRight__Q39textinput9inputform4BaseFv
+	.4byte makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
 
-.global lbl_80323F60
-lbl_80323F60:
+.global __vt__Q39textinput9inputform10EditBuffer
+__vt__Q39textinput9inputform10EditBuffer:
 
 	# ROM: 0x320040
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801AC2B0
+	.4byte __dt__Q39textinput9inputform10EditBufferFv
 	.4byte 0
 
-.global lbl_80323F70
-lbl_80323F70:
+.global __vt__Q39textinput8tistring6WithZi
+__vt__Q39textinput8tistring6WithZi:
 
 	# ROM: 0x320050
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801AC470
-	.4byte lbl_801C5410
-	.4byte lbl_801B9FA0
-	.4byte lbl_801B9F90
-	.4byte lbl_801B0090
-	.4byte lbl_801AFC40
-	.4byte lbl_801C55A0
-	.4byte lbl_801C5670
-	.4byte lbl_801C57B0
-	.4byte lbl_801C58F0
-	.4byte lbl_801AFFF0
-	.4byte lbl_801C5A10
-	.4byte lbl_801C69E0
-	.4byte lbl_801A0B20
-	.4byte lbl_801B3410
-	.4byte lbl_801B23D0
-	.4byte lbl_801B33F0
-	.4byte lbl_801C5B00
-	.4byte lbl_801B3900
-	.4byte lbl_801C5E40
-	.4byte lbl_801B9F20
-	.4byte lbl_801B9F80
-	.4byte lbl_801B9F70
-	.4byte lbl_801B9F60
-	.4byte lbl_801B9F50
-	.4byte lbl_801C62D0
-	.4byte lbl_801C62F0
-	.4byte lbl_801C6310
-	.4byte lbl_801AF350
-	.4byte lbl_801AD090
-	.4byte lbl_801C6320
-	.4byte lbl_801C63C0
-	.4byte lbl_801C6420
-	.4byte lbl_801C64A0
-	.4byte lbl_801C64D0
-	.4byte lbl_801C6540
-	.4byte lbl_801C65B0
-	.4byte lbl_801C65F0
-	.4byte lbl_801C6650
-	.4byte lbl_801C6690
-	.4byte lbl_801C66F0
-	.4byte lbl_801C6750
-	.4byte lbl_801C6790
-	.4byte lbl_801C67F0
-	.4byte lbl_801C6960
-	.4byte lbl_801B23C0
-	.4byte lbl_801AF2C0
-	.4byte lbl_801C5DE0
-	.4byte lbl_801C5E00
-	.4byte lbl_801B9F30
-	.4byte lbl_801B9FB0
-	.4byte lbl_801B33E0
-	.4byte lbl_801AF620
-	.4byte lbl_801AF380
-	.4byte lbl_801ACF60
-	.4byte lbl_801B30F0
-	.4byte lbl_801B38E0
-	.4byte lbl_801AF400
-	.4byte lbl_801AF3C0
-	.4byte lbl_801B3100
-	.4byte lbl_801B9F40
-	.4byte lbl_801B38F0
+	.4byte __dt__Q39textinput8tistring6WithZiFv
+	.4byte create__Q39textinput8tistring10StringBaseFP12MEMAllocator
+	.4byte pushBack__Q39textinput8tistring6WithZiFw
+	.4byte popBack__Q39textinput8tistring6WithZiFv
+	.4byte clear__Q39textinput8tistring9DecolatedFv
+	.4byte getLength__Q39textinput8tistring10StringBaseCFv
+	.4byte append__Q39textinput8tistring10StringBaseFPCw
+	.4byte insert__Q39textinput8tistring10StringBaseFUsPCw
+	.4byte remove__Q39textinput8tistring10StringBaseFUsUs
+	.4byte replace__Q39textinput8tistring10StringBaseFUsUsPCw
+	.4byte set__Q39textinput8tistring9DecolatedFPCw
+	.4byte setAt__Q39textinput8tistring10StringBaseFUsw
+	.4byte setLength__Q39textinput8tistring9DecolatedFUs
+	.4byte getWCString__Q39textinput8tistring10StringBaseCFv
+	.4byte setCandidate__Q39textinput8tistring10StringBaseFw
+	.4byte getCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte hasCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte getLastWChar__Q39textinput8tistring10StringBaseFv
+	.4byte inputChar__Q39textinput8tistring6WithZiFw
+	.4byte inputString__Q39textinput8tistring9DecolatedFPCw
+	.4byte deleteChar__Q39textinput8tistring9DecolatedFv
+	.4byte backSpace__Q39textinput8tistring6WithZiFv
+	.4byte confirm__Q39textinput8tistring6WithZiFPCw
+	.4byte moveCursorRight__Q39textinput8tistring6WithZiFv
+	.4byte moveCursorLeft__Q39textinput8tistring6WithZiFv
+	.4byte setCursorPos__Q39textinput8tistring9DecolatedFUl
+	.4byte onSustain__Q39textinput8tistring9DecolatedFv
+	.4byte offSustain__Q39textinput8tistring9DecolatedFv
+	.4byte isOnSustain__Q39textinput8tistring9DecolatedFv
+	.4byte getCursorPos__Q39textinput8tistring9DecolatedCFv
+	.4byte getCursorPos__Q39textinput8tistring9DecolatedFPUlPUl
+	.4byte canBackSpace__Q39textinput8tistring9DecolatedFv
+	.4byte deleteForward__Q39textinput8tistring9DecolatedFv
+	.4byte getSelected__Q39textinput8tistring9DecolatedFRUlRUl
+	.4byte getWCharAtCursor__Q39textinput8tistring9DecolatedFv
+	.4byte replaceAtCursor__Q39textinput8tistring9DecolatedFw
+	.4byte isDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte converDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte isHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte converHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte convertAll__Q39textinput8tistring9DecolatedFv
+	.4byte isSmall__Q39textinput8tistring9DecolatedFv
+	.4byte converSmall__Q39textinput8tistring9DecolatedFv
+	.4byte atTheBeginningOfASentence__Q39textinput8tistring9DecolatedFv
+	.4byte initKanaConverter__Q39textinput8tistring9DecolatedFv
+	.4byte getKanaBuffer__Q39textinput8tistring9DecolatedFv
+	.4byte isKanaFix__Q39textinput8tistring9DecolatedCFv
+	.4byte confirmKana__Q39textinput8tistring9DecolatedFv
+	.4byte clearKana__Q39textinput8tistring9DecolatedFv
+	.4byte EnableKSXFilter__Q39textinput8tistring6WithZiFb
+	.4byte init__Q39textinput8tistring6WithZiFv
+	.4byte setInputting__Q39textinput8tistring6WithZiFw
+	.4byte getCurrentNumPredicted__Q39textinput8tistring6WithZiFv
+	.4byte getPredicted__Q39textinput8tistring6WithZiFiPw
+	.4byte isFix__Q39textinput8tistring6WithZiFv
+	.4byte getCurrentSelected__Q39textinput8tistring6WithZiFv
+	.4byte changeLetterMode__Q39textinput8tistring6WithZiFQ49textinput8tistring6WithZi10LetterMode
+	.4byte setPredictLaunguage__Q39textinput8tistring6WithZiFQ49textinput8tistring6WithZi15PredictLanguage
+	.4byte setSelectedCandidate__Q39textinput8tistring6WithZiFl
+	.4byte getInputStringLength__Q39textinput8tistring6WithZiFv
+	.4byte ChangeDictionaryLanguage__Q39textinput8tistring6WithZiFUc
+	.4byte setCellPhoneHoldingkey__Q39textinput8tistring6WithZiFPv
 
-.global lbl_80324070
-lbl_80324070:
+.global __vt__Q39textinput8tistring8WithAtok
+__vt__Q39textinput8tistring8WithAtok:
 
 	# ROM: 0x320150
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801AC410
-	.4byte lbl_801C5410
-	.4byte lbl_801BA050
-	.4byte lbl_801BA040
-	.4byte lbl_801B0090
-	.4byte lbl_801AFC40
-	.4byte lbl_801C55A0
-	.4byte lbl_801C5670
-	.4byte lbl_801C57B0
-	.4byte lbl_801C58F0
-	.4byte lbl_801AFFF0
-	.4byte lbl_801C5A10
-	.4byte lbl_801C69E0
-	.4byte lbl_801A0B20
-	.4byte lbl_801B3410
-	.4byte lbl_801B23D0
-	.4byte lbl_801B33F0
-	.4byte lbl_801C5B00
-	.4byte lbl_801BA030
-	.4byte lbl_801C5E40
-	.4byte lbl_801B9F20
-	.4byte lbl_801AF2B0
-	.4byte lbl_801AF360
-	.4byte lbl_801BA020
-	.4byte lbl_801BA010
-	.4byte lbl_801C62D0
-	.4byte lbl_801C62F0
-	.4byte lbl_801C6310
-	.4byte lbl_801AF350
-	.4byte lbl_801AD090
-	.4byte lbl_801B2460
-	.4byte lbl_801C63C0
-	.4byte lbl_801C6420
-	.4byte lbl_801C64A0
-	.4byte lbl_801C64D0
-	.4byte lbl_801C6540
-	.4byte lbl_801C65B0
-	.4byte lbl_801C65F0
-	.4byte lbl_801C6650
-	.4byte lbl_801C6690
-	.4byte lbl_801C66F0
-	.4byte lbl_801C6750
-	.4byte lbl_801C6790
-	.4byte lbl_801C67F0
-	.4byte lbl_801C6960
-	.4byte lbl_801B23C0
-	.4byte lbl_801AF2C0
-	.4byte lbl_801C5DE0
-	.4byte lbl_801C5E00
-	.4byte lbl_801B9FC0
-	.4byte lbl_801B3F90
-	.4byte lbl_801BA070
-	.4byte lbl_801BA060
-	.4byte lbl_801AF2A0
-	.4byte lbl_801AF3E0
-	.4byte lbl_801AF610
-	.4byte lbl_801AF370
-	.4byte lbl_801AF340
-	.4byte lbl_801AF3B0
-	.4byte lbl_801B30D0
-	.4byte lbl_801B30E0
-	.4byte lbl_801BA000
-	.4byte lbl_801B33C0
-	.4byte lbl_801B9FF0
-	.4byte lbl_801B2E90
-	.4byte lbl_801B2EC0
-	.4byte lbl_801AF600
-	.4byte lbl_801AF3F0
-	.4byte lbl_801B62E0
-	.4byte lbl_801AF3D0
-	.4byte lbl_801AF390
-	.4byte lbl_801B62D0
-	.4byte lbl_801B72C0
-	.4byte lbl_801AF3A0
-	.4byte lbl_801B9FE0
-	.4byte lbl_801B9FD0
-	.4byte lbl_801AF330
-	.4byte lbl_801B62C0
+	.4byte __dt__Q39textinput8tistring8WithAtokFv
+	.4byte create__Q39textinput8tistring10StringBaseFP12MEMAllocator
+	.4byte pushBack__Q39textinput8tistring8WithAtokFw
+	.4byte popBack__Q39textinput8tistring8WithAtokFv
+	.4byte clear__Q39textinput8tistring9DecolatedFv
+	.4byte getLength__Q39textinput8tistring10StringBaseCFv
+	.4byte append__Q39textinput8tistring10StringBaseFPCw
+	.4byte insert__Q39textinput8tistring10StringBaseFUsPCw
+	.4byte remove__Q39textinput8tistring10StringBaseFUsUs
+	.4byte replace__Q39textinput8tistring10StringBaseFUsUsPCw
+	.4byte set__Q39textinput8tistring9DecolatedFPCw
+	.4byte setAt__Q39textinput8tistring10StringBaseFUsw
+	.4byte setLength__Q39textinput8tistring9DecolatedFUs
+	.4byte getWCString__Q39textinput8tistring10StringBaseCFv
+	.4byte setCandidate__Q39textinput8tistring10StringBaseFw
+	.4byte getCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte hasCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte getLastWChar__Q39textinput8tistring10StringBaseFv
+	.4byte inputChar__Q39textinput8tistring8WithAtokFw
+	.4byte inputString__Q39textinput8tistring9DecolatedFPCw
+	.4byte deleteChar__Q39textinput8tistring9DecolatedFv
+	.4byte backSpace__Q39textinput8tistring8WithAtokFv
+	.4byte confirm__Q39textinput8tistring8WithAtokFPCw
+	.4byte moveCursorRight__Q39textinput8tistring8WithAtokFv
+	.4byte moveCursorLeft__Q39textinput8tistring8WithAtokFv
+	.4byte setCursorPos__Q39textinput8tistring9DecolatedFUl
+	.4byte onSustain__Q39textinput8tistring9DecolatedFv
+	.4byte offSustain__Q39textinput8tistring9DecolatedFv
+	.4byte isOnSustain__Q39textinput8tistring9DecolatedFv
+	.4byte getCursorPos__Q39textinput8tistring9DecolatedCFv
+	.4byte getCursorPos__Q39textinput8tistring8WithAtokFPUlPUl
+	.4byte canBackSpace__Q39textinput8tistring9DecolatedFv
+	.4byte deleteForward__Q39textinput8tistring9DecolatedFv
+	.4byte getSelected__Q39textinput8tistring9DecolatedFRUlRUl
+	.4byte getWCharAtCursor__Q39textinput8tistring9DecolatedFv
+	.4byte replaceAtCursor__Q39textinput8tistring9DecolatedFw
+	.4byte isDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte converDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte isHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte converHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte convertAll__Q39textinput8tistring9DecolatedFv
+	.4byte isSmall__Q39textinput8tistring9DecolatedFv
+	.4byte converSmall__Q39textinput8tistring9DecolatedFv
+	.4byte atTheBeginningOfASentence__Q39textinput8tistring9DecolatedFv
+	.4byte initKanaConverter__Q39textinput8tistring9DecolatedFv
+	.4byte getKanaBuffer__Q39textinput8tistring9DecolatedFv
+	.4byte isKanaFix__Q39textinput8tistring9DecolatedCFv
+	.4byte confirmKana__Q39textinput8tistring9DecolatedFv
+	.4byte clearKana__Q39textinput8tistring9DecolatedFv
+	.4byte EnableKSXFilter__Q39textinput8tistring9DecolatedFb
+	.4byte isFix__Q39textinput8tistring8WithAtokFv
+	.4byte setFix__Q39textinput8tistring8WithAtokFb
+	.4byte initConverting__Q39textinput8tistring8WithAtokFv
+	.4byte isConverting__Q39textinput8tistring8WithAtokFv
+	.4byte getConfirmedWCString__Q39textinput8tistring8WithAtokCFv
+	.4byte getCurrentNumPredicted__Q39textinput8tistring8WithAtokFv
+	.4byte getPredicted__Q39textinput8tistring8WithAtokFiPw
+	.4byte commitPredicted__Q39textinput8tistring8WithAtokFi
+	.4byte setSelectedCandidate__Q39textinput8tistring8WithAtokFl
+	.4byte isCandidateSelected__Q39textinput8tistring8WithAtokFv
+	.4byte getSelectedCandidate__Q39textinput8tistring8WithAtokFv
+	.4byte init__Q39textinput8tistring8WithAtokFv
+	.4byte setInputting__Q39textinput8tistring8WithAtokFw
+	.4byte getDrawString__Q39textinput8tistring8WithAtokFRQ49textinput8tistring8WithAtok8DrawInfo
+	.4byte openDictionary__Q39textinput8tistring8WithAtokFPviPviPvi
+	.4byte closeDictionary__Q39textinput8tistring8WithAtokFv
+	.4byte hasConfirmedString__Q39textinput8tistring8WithAtokFv
+	.4byte enableConfirmedString__Q39textinput8tistring8WithAtokFb
+	.4byte startConverting__Q39textinput8tistring8WithAtokFv
+	.4byte isDictionaryOpened__Q39textinput8tistring8WithAtokFv
+	.4byte changeKanaMode__Q39textinput8tistring8WithAtokFb
+	.4byte getInputStringLength__Q39textinput8tistring8WithAtokFv
+	.4byte resetRelation__Q39textinput8tistring8WithAtokFv
+	.4byte setFixMode__Q39textinput8tistring8WithAtokFb
+	.4byte setFixPrediction__Q39textinput8tistring8WithAtokFiPPCc
+	.4byte setDefaultPrediction__Q39textinput8tistring8WithAtokFiPPCc
+	.4byte getSelectedConverting__Q39textinput8tistring8WithAtokFv
+	.4byte getFixedPredictionNum__Q39textinput8tistring8WithAtokFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A2270
-	.4byte lbl_801BA080
-	.4byte lbl_801ACED0
+	.4byte __dt__Q29textinput4BaseFv
+	.4byte create__Q29textinput4BaseFP12MEMAllocator
+	.4byte init__Q29textinput4BaseFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39955,19 +39955,19 @@ lbl_80324070:
 	.4byte 0
 	.4byte 0
 
-.global lbl_803241E0
-lbl_803241E0:
+.global __vt__Q39textinput4util9Animation
+__vt__Q39textinput4util9Animation:
 
 	# ROM: 0x3202C0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801B2BC0
-	.4byte lbl_801AFF20
-	.4byte lbl_801AFF00
-	.4byte lbl_801AFEF0
-	.4byte lbl_801BA0B0
-	.4byte lbl_801BA0A0
-	.4byte lbl_801BA090
+	.4byte startAnm__Q39textinput4util9AnimationFfffPQ39textinput4util12AnimObserverPv
+	.4byte calc__Q39textinput4util9AnimationFv
+	.4byte getValue__Q39textinput4util9AnimationFv
+	.4byte isActive__Q39textinput4util9AnimationFv
+	.4byte setSEFlag__Q39textinput4util9AnimationFb
+	.4byte isSEFlag__Q39textinput4util9AnimationFv
+	.4byte stop__Q39textinput4util9AnimationFv
 	.asciz "OutOfLength\n"
 	.balign 4
 	.asciz "NW4R:Pointer must not be NULL (pPane)"
@@ -39995,29 +39995,29 @@ lbl_803241E0:
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_803243A4
-lbl_803243A4:
+.global _STRING_SetCursorX__Q34nw4r2ut10CharWriterFf_0
+_STRING_SetCursorX__Q34nw4r2ut10CharWriterFf_0:
 
 	# ROM: 0x320484
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_803243D8
-lbl_803243D8:
+.global _STRING_SetCursorX__Q34nw4r2ut10CharWriterFf
+_STRING_SetCursorX__Q34nw4r2ut10CharWriterFf:
 
 	# ROM: 0x3204B8
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_803243E8
-lbl_803243E8:
+.global _STRING_SetCursorY__Q34nw4r2ut10CharWriterFf_0
+_STRING_SetCursorY__Q34nw4r2ut10CharWriterFf_0:
 
 	# ROM: 0x3204C8
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_8032441C
-lbl_8032441C:
+.global _STRING_SetCursorY__Q34nw4r2ut10CharWriterFf
+_STRING_SetCursorY__Q34nw4r2ut10CharWriterFf:
 
 	# ROM: 0x3204FC
 	.asciz "CharWriter.h"
@@ -40771,258 +40771,258 @@ lbl_80324F24:
 	.balign 4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BB560
-	.4byte lbl_801C9ED0
-	.4byte lbl_801BDC80
-	.4byte lbl_801BD3B0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C0820
-	.4byte lbl_801BD3A0
-	.4byte lbl_801BD390
+	.4byte init__Q39textinput12candidatebox20CandidateTextAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput12candidatebox13PredictWindowFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput12candidatebox20CandidateTextAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput12candidatebox13PredictWindowFv
+	.4byte getState__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
+	.4byte getKeyType__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
 
-.global lbl_80324F84
-lbl_80324F84:
+.global __vt__Q39textinput12candidatebox12OnOffAnmPane
+__vt__Q39textinput12candidatebox12OnOffAnmPane:
 
 	# ROM: 0x321064
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BB560
-	.4byte lbl_801C9ED0
-	.4byte lbl_801BDB40
-	.4byte lbl_801BD3B0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C07C0
-	.4byte lbl_801BD3A0
-	.4byte lbl_801BD390
+	.4byte init__Q39textinput12candidatebox20CandidateTextAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput12candidatebox12OnOffAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput12candidatebox20CandidateTextAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput12candidatebox12OnOffAnmPaneFv
+	.4byte getState__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
+	.4byte getKeyType__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
 
-.global lbl_80324FB0
-lbl_80324FB0:
+.global __vt__Q39textinput12candidatebox22CandidateScrollAnmPane
+__vt__Q39textinput12candidatebox22CandidateScrollAnmPane:
 
 	# ROM: 0x321090
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BB560
-	.4byte lbl_801C9ED0
-	.4byte lbl_801BD920
-	.4byte lbl_801BD3B0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C0760
-	.4byte lbl_801BD3A0
-	.4byte lbl_801BD390
+	.4byte init__Q39textinput12candidatebox20CandidateTextAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput12candidatebox22CandidateScrollAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput12candidatebox20CandidateTextAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput12candidatebox22CandidateScrollAnmPaneFv
+	.4byte getState__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
+	.4byte getKeyType__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
 
-.global lbl_80324FDC
-lbl_80324FDC:
+.global __vt__Q39textinput12candidatebox20CandidateTextAnmPane
+__vt__Q39textinput12candidatebox20CandidateTextAnmPane:
 
 	# ROM: 0x3210BC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BB560
-	.4byte lbl_801C9ED0
-	.4byte lbl_801BD780
-	.4byte lbl_801BD3B0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801BB570
-	.4byte lbl_801BD3A0
-	.4byte lbl_801BD390
+	.4byte init__Q39textinput12candidatebox20CandidateTextAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput12candidatebox20CandidateTextAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput12candidatebox20CandidateTextAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput12candidatebox20CandidateTextAnmPaneFv
+	.4byte getState__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
+	.4byte getKeyType__Q39textinput12candidatebox20CandidateTextAnmPaneCFv
 
-.global lbl_80325008
-lbl_80325008:
+.global __vt__Q39textinput12candidatebox12LayoutByNW4R
+__vt__Q39textinput12candidatebox12LayoutByNW4R:
 
 	# ROM: 0x3210E8
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA840
-	.4byte lbl_801BAAE0
-	.4byte func_801BB5D0
-	.4byte lbl_801BA470
-	.4byte lbl_801A0650
-	.4byte lbl_801BA610
-	.4byte lbl_801BA4C0
-	.4byte lbl_801BA4E0
-	.4byte lbl_801BCBA0
-	.4byte func_801BBD20
-	.4byte lbl_801BC430
-	.4byte lbl_801BC4A0
-	.4byte lbl_801BC510
-	.4byte lbl_801BC420
-	.4byte lbl_801BD1C0
-	.4byte lbl_801BC980
-	.4byte lbl_801BD3C0
-	.4byte lbl_801B33D0
-	.4byte lbl_801BBEC0
+	.4byte __dt__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte create__Q39textinput12candidatebox12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q39textinput12candidatebox4BaseFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q39textinput12candidatebox4BaseFUlPv
+	.4byte resetCandidate__Q39textinput12candidatebox4BaseFv
+	.4byte addCandidate__Q39textinput12candidatebox4BaseFPCw
+	.4byte updateCandidate__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte draw__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte turnOn__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte turnOff__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte makeEmpty__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte isOn__Q39textinput12candidatebox4BaseCFv
+	.4byte onClose__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setOnOff__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte setInvalid__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte isInvalid__Q39textinput12candidatebox4BaseCFv
+	.4byte setLanguage__Q39textinput12candidatebox12LayoutByNW4RFQ29textinput8Language
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0920
-	.4byte func_801C8DA0
-	.4byte lbl_801C0970
-	.4byte lbl_801C9060
-	.4byte lbl_801C0960
-	.4byte lbl_801C0950
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte lbl_801C0940
-	.4byte lbl_801C0930
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _36___dt__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _36_init__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_draw__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte _36_calc__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte _36_setRootPaneScaleFor16x9__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte _36_setRootPaneScaleFor4x3__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0980
-	.4byte func_801BBDD0
-	.4byte lbl_801BCFD0
-	.4byte lbl_801BD030
-	.4byte lbl_801BD090
-	.4byte lbl_801BD130
-	.4byte lbl_801BC260
-	.4byte lbl_801BC5A0
-	.4byte lbl_801BC650
-	.4byte lbl_801BC6E0
-	.4byte lbl_801BCDB0
-	.4byte lbl_801C0700
-	.4byte lbl_801B4C40
-	.4byte lbl_801BD440
-	.4byte lbl_801A4FD0
-	.4byte lbl_801BC630
-	.4byte lbl_801BC640
-	.4byte lbl_801BD760
-	.4byte lbl_801BDD30
-	.4byte func_801BDCE0
-	.4byte func_801BDD50
-	.4byte lbl_801BD220
-	.4byte func_801BD4E0
+	.4byte _204_onEvent__Q39textinput12candidatebox12LayoutByNW4RFPQ39textinput12candidatebox5UIObjUlPv
+	.4byte calc__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onRightScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onLeftScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onRightPageScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onLeftPageScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onOnOffButton__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte changeSelectEmpty__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte changeSelectEmpty_compatible__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte changeSelect__Q39textinput12candidatebox12LayoutByNW4RFl
+	.4byte updateDisplay__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte getScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte isInScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setActive__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte isActive__Q39textinput12candidatebox12LayoutByNW4RCFv
+	.4byte setSelectedTextPane__Q39textinput12candidatebox12LayoutByNW4RFi
+	.4byte setFocusedTextPane__Q39textinput12candidatebox12LayoutByNW4RFi
+	.4byte getFocusedTextPane__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte SetScreenSize__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor16x9__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte cancelStateFocusIn__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onEvent__Q39textinput12candidatebox12LayoutByNW4RFPQ39textinput12candidatebox5UIObjUlPv
 
-.global lbl_80325138
-lbl_80325138:
+.global __vt__Q39textinput12candidatebox12UITextWindow
+__vt__Q39textinput12candidatebox12UITextWindow:
 
 	# ROM: 0x321218
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA960
-	.4byte lbl_801C0710
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C0720
+	.4byte __dt__Q39textinput12candidatebox12UITextWindowFv
+	.4byte onEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0910
-	.4byte func_801C0120
+	.4byte _20_onChangeAnmState__Q39textinput12candidatebox12UITextWindowFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte onChangeAnmState__Q39textinput12candidatebox12UITextWindowFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
 
-.global lbl_80325164
-lbl_80325164:
+.global __vt__Q39textinput12candidatebox13UIOnOffButton
+__vt__Q39textinput12candidatebox13UIOnOffButton:
 
 	# ROM: 0x321244
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA9E0
-	.4byte lbl_801C0710
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C0570
+	.4byte __dt__Q39textinput12candidatebox13UIOnOffButtonFv
+	.4byte onEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q39textinput12candidatebox13UIOnOffButtonFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0900
-	.4byte func_801C04D0
+	.4byte _20_onChangeAnmState__Q39textinput12candidatebox13UIOnOffButtonFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte onChangeAnmState__Q39textinput12candidatebox13UIOnOffButtonFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
 
-.global lbl_80325190
-lbl_80325190:
+.global __vt__Q39textinput12candidatebox8UIButton
+__vt__Q39textinput12candidatebox8UIButton:
 
 	# ROM: 0x321270
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BAA20
-	.4byte lbl_801C0710
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C0200
+	.4byte __dt__Q39textinput12candidatebox8UIButtonFv
+	.4byte onEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q39textinput12candidatebox8UIButtonFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 
-.global lbl_803251AC
-lbl_803251AC:
+.global __vt__Q39textinput12candidatebox10UITextArea
+__vt__Q39textinput12candidatebox10UITextArea:
 
 	# ROM: 0x32128C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BAA60
-	.4byte lbl_801C0710
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801BF9C0
+	.4byte __dt__Q39textinput12candidatebox10UITextAreaFv
+	.4byte onEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q39textinput12candidatebox10UITextAreaFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C08F0
-	.4byte func_801BF870
+	.4byte _20_onAnmEvent__Q39textinput12candidatebox10UITextAreaFQ49textinput4util12AnimObserver8AnmEventPv
+	.4byte onAnmEvent__Q39textinput12candidatebox10UITextAreaFQ49textinput4util12AnimObserver8AnmEventPv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA9A0
-	.4byte lbl_801C0710
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C0720
+	.4byte __dt__Q39textinput12candidatebox5UIObjFv
+	.4byte onEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onGUIEvent__Q39textinput12candidatebox5UIObjFRQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
 	.4byte 0
 
-.global lbl_803251F8
-lbl_803251F8:
+.global __vt__Q39textinput12candidatebox12EventHandler
+__vt__Q39textinput12candidatebox12EventHandler:
 
 	# ROM: 0x3212D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BAAA0
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801BD770
-	.4byte lbl_801A7400
+	.4byte __dt__Q39textinput12candidatebox12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q39textinput12candidatebox12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_80325218
-lbl_80325218:
+.global __vt__Q39textinput12candidatebox4Base
+__vt__Q39textinput12candidatebox4Base:
 
 	# ROM: 0x3212F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA390
-	.4byte lbl_801BA410
-	.4byte lbl_801BA4B0
-	.4byte lbl_801BA470
-	.4byte lbl_801A0650
-	.4byte lbl_801BA610
-	.4byte lbl_801BA4C0
-	.4byte lbl_801BA4E0
-	.4byte lbl_801BA540
-	.4byte lbl_801C0750
-	.4byte lbl_801C0740
-	.4byte lbl_801C0730
-	.4byte lbl_801BA380
-	.4byte lbl_801BC420
-	.4byte lbl_801BD210
-	.4byte lbl_801BA5A0
-	.4byte lbl_801BA690
-	.4byte lbl_801B33D0
-	.4byte lbl_801BC250
+	.4byte __dt__Q39textinput12candidatebox4BaseFv
+	.4byte create__Q39textinput12candidatebox4BaseFP12MEMAllocator
+	.4byte init__Q39textinput12candidatebox4BaseFv
+	.4byte setCommandReceiver__Q39textinput12candidatebox4BaseFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q39textinput12candidatebox4BaseFUlPv
+	.4byte resetCandidate__Q39textinput12candidatebox4BaseFv
+	.4byte addCandidate__Q39textinput12candidatebox4BaseFPCw
+	.4byte updateCandidate__Q39textinput12candidatebox4BaseFv
+	.4byte draw__Q39textinput12candidatebox4BaseFv
+	.4byte turnOn__Q39textinput12candidatebox4BaseFv
+	.4byte turnOff__Q39textinput12candidatebox4BaseFv
+	.4byte makeEmpty__Q39textinput12candidatebox4BaseFv
+	.4byte isOn__Q39textinput12candidatebox4BaseCFv
+	.4byte onClose__Q39textinput12candidatebox4BaseFv
+	.4byte setOnOff__Q39textinput12candidatebox4BaseFb
+	.4byte setInvalid__Q39textinput12candidatebox4BaseFb
+	.4byte isInvalid__Q39textinput12candidatebox4BaseCFv
+	.4byte setLanguage__Q39textinput12candidatebox4BaseFQ29textinput8Language
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA300
-	.4byte func_801BA320
-	.4byte lbl_801B9DE0
-	.4byte func_801BA340
-	.4byte func_801BA360
+	.4byte resetCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte addCandidate__Q39textinput12candidatebox18CandidateBoxCallerFPCw
+	.4byte setCandidateBox__Q39textinput12candidatebox18CandidateBoxCallerFPQ39textinput12candidatebox4Base
+	.4byte updateCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte makeEmptyCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -41193,131 +41193,131 @@ lbl_80325520:
 	.asciz "P_kyChng_QWERTY"
 	.asciz "P_keyChange"
 
-.global lbl_8032553C
-lbl_8032553C:
+.global __vt__Q39textinput7toolbar19ToggleButtonAnmPane
+__vt__Q39textinput7toolbar19ToggleButtonAnmPane:
 
 	# ROM: 0x32161C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C1EE0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C1A70
-	.4byte lbl_801C12F0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C1EF0
-	.4byte lbl_801C1300
-	.4byte lbl_801C12E0
+	.4byte init__Q39textinput7toolbar7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput7toolbar19ToggleButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput7toolbar7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput7toolbar19ToggleButtonAnmPaneFv
+	.4byte getKeyType__Q39textinput7toolbar7AnmPaneCFv
+	.4byte getState__Q39textinput7toolbar7AnmPaneFv
 
-.global lbl_80325568
-lbl_80325568:
+.global __vt__Q39textinput7toolbar19NormalButtonAnmPane
+__vt__Q39textinput7toolbar19NormalButtonAnmPane:
 
 	# ROM: 0x321648
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C1EE0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C18E0
-	.4byte lbl_801C12F0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C1F50
-	.4byte lbl_801C1300
-	.4byte lbl_801C12E0
+	.4byte init__Q39textinput7toolbar7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput7toolbar19NormalButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput7toolbar7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput7toolbar19NormalButtonAnmPaneFv
+	.4byte getKeyType__Q39textinput7toolbar7AnmPaneCFv
+	.4byte getState__Q39textinput7toolbar7AnmPaneFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C1EE0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801C12F0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C0E80
-	.4byte lbl_801C1300
-	.4byte lbl_801C12E0
+	.4byte init__Q39textinput7toolbar7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput7toolbar7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput7toolbar7AnmPaneFv
+	.4byte getKeyType__Q39textinput7toolbar7AnmPaneCFv
+	.4byte getState__Q39textinput7toolbar7AnmPaneFv
 
-.global lbl_803255C0
-lbl_803255C0:
+.global __vt__Q39textinput7toolbar12EventHandler
+__vt__Q39textinput7toolbar12EventHandler:
 
 	# ROM: 0x3216A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0B50
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C1C40
-	.4byte lbl_801A7400
+	.4byte __dt__Q39textinput7toolbar12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q39textinput7toolbar12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_803255E0
-lbl_803255E0:
+.global __vt__Q39textinput7toolbar12LayoutByNW4R
+__vt__Q39textinput7toolbar12LayoutByNW4R:
 
 	# ROM: 0x3216C0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0B90
-	.4byte func_801C0F60
-	.4byte lbl_801A0470
-	.4byte lbl_801C15E0
-	.4byte lbl_801C1510
-	.4byte lbl_801C0A60
+	.4byte create__Q39textinput7toolbar12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte isQwerty__Q39textinput7toolbar4BaseCFv
+	.4byte setQwerty__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setLanguage__Q39textinput7toolbar12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput7toolbar4BaseCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C1FD0
-	.4byte func_801C8DA0
-	.4byte lbl_801C1FF0
-	.4byte lbl_801C9060
-	.4byte lbl_801C1FE0
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte func_801C0A70
-	.4byte func_801C1ED0
-	.4byte lbl_801C1310
-	.4byte lbl_801C1410
-	.4byte lbl_801C1540
-	.4byte lbl_801AB5B0
-	.4byte lbl_801C17F0
-	.4byte lbl_801C18A0
-	.4byte lbl_801C18C0
-	.4byte lbl_801C0EE0
-	.4byte lbl_801C0F00
-	.4byte lbl_801C0F20
-	.4byte lbl_801C0F40
-	.4byte lbl_801C1190
+	.4byte _20___dt__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _20_init__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _20_draw__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte __dt__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte draw__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte onOK__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte onCancel__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte setQwertyWithSE__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte isEnableKeytopChange__Q39textinput7toolbar12LayoutByNW4RCFv
+	.4byte enableKeytopChange__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte getUpArea__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte getDownArea__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte setOKButtonVisible__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setCancelButtonVisible__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setOKButtonCaption__Q39textinput7toolbar12LayoutByNW4RFPCw
+	.4byte setCancelButtonCaption__Q39textinput7toolbar12LayoutByNW4RFPCw
+	.4byte cancelStateFocusIn__Q39textinput7toolbar12LayoutByNW4RFv
 
-.global lbl_803256B0
-lbl_803256B0:
+.global __vt__Q39textinput7toolbar4Base
+__vt__Q39textinput7toolbar4Base:
 
 	# ROM: 0x321790
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0E70
-	.4byte lbl_801C1180
-	.4byte lbl_801A0470
-	.4byte lbl_801C0990
-	.4byte lbl_801C1530
-	.4byte lbl_801C0A60
+	.4byte create__Q39textinput7toolbar4BaseFP12MEMAllocator
+	.4byte init__Q39textinput7toolbar4BaseFv
+	.4byte isQwerty__Q39textinput7toolbar4BaseCFv
+	.4byte setQwerty__Q39textinput7toolbar4BaseFb
+	.4byte setLanguage__Q39textinput7toolbar4BaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput7toolbar4BaseCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -41651,134 +41651,134 @@ lbl_80325BB4:
 	.4byte lbl_801C2EC8
 	.4byte 0
 
-.global lbl_80325BE0
-lbl_80325BE0:
+.global __vt__Q39textinput11predictlang19ChangeButtonAnmPane
+__vt__Q39textinput11predictlang19ChangeButtonAnmPane:
 
 	# ROM: 0x321CC0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C34F0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C32D0
-	.4byte lbl_801C3150
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C3500
-	.4byte lbl_801C34E0
+	.4byte init__Q39textinput11predictlang7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11predictlang19ChangeButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput11predictlang7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput11predictlang19ChangeButtonAnmPaneFv
+	.4byte getKeyType__Q39textinput11predictlang7AnmPaneCFv
 
-.global lbl_80325C08
-lbl_80325C08:
+.global __vt__Q39textinput11predictlang19NormalButtonAnmPane
+__vt__Q39textinput11predictlang19NormalButtonAnmPane:
 
 	# ROM: 0x321CE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C34F0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C3160
-	.4byte lbl_801C3150
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C3560
-	.4byte lbl_801C34E0
+	.4byte init__Q39textinput11predictlang7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11predictlang19NormalButtonAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput11predictlang7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput11predictlang19NormalButtonAnmPaneFv
+	.4byte getKeyType__Q39textinput11predictlang7AnmPaneCFv
 
-.global lbl_80325C30
-lbl_80325C30:
+.global __vt__Q39textinput11predictlang12WholeAnmPane
+__vt__Q39textinput11predictlang12WholeAnmPane:
 
 	# ROM: 0x321D10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C34F0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C3120
-	.4byte lbl_801C3150
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C35C0
-	.4byte lbl_801C34E0
+	.4byte init__Q39textinput11predictlang7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11predictlang12WholeAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput11predictlang7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput11predictlang12WholeAnmPaneFv
+	.4byte getKeyType__Q39textinput11predictlang7AnmPaneCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C34F0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801C3150
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C24F0
-	.4byte lbl_801C34E0
+	.4byte init__Q39textinput11predictlang7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput11predictlang7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput11predictlang7AnmPaneFv
+	.4byte getKeyType__Q39textinput11predictlang7AnmPaneCFv
 
-.global lbl_80325C80
-lbl_80325C80:
+.global __vt__Q39textinput11predictlang12EventHandler
+__vt__Q39textinput11predictlang12EventHandler:
 
 	# ROM: 0x321D60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C2130
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C2F00
-	.4byte lbl_801A7400
+	.4byte __dt__Q39textinput11predictlang12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q39textinput11predictlang12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_80325CA0
-lbl_80325CA0:
+.global __vt__Q39textinput11predictlang12LayoutByNW4R
+__vt__Q39textinput11predictlang12LayoutByNW4R:
 
 	# ROM: 0x321D80
 	.4byte 0
 	.4byte 0
-	.4byte func_801C2000
-	.4byte lbl_801C2170
-	.4byte func_801C2550
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801C26F0
+	.4byte __dt__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte create__Q39textinput11predictlang12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte setPredictMode__Q39textinput11predictlang4BaseFQ49textinput9inputform4Base11PredictMode
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C36C0
-	.4byte func_801C8DA0
-	.4byte lbl_801C36E0
-	.4byte lbl_801C9060
-	.4byte lbl_801C36D0
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _28___dt__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _28_init__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _28_draw__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C36F0
-	.4byte func_801C34B0
-	.4byte lbl_801C2600
-	.4byte lbl_801C2700
-	.4byte lbl_801C2720
-	.4byte lbl_801C2780
-	.4byte lbl_801C34D0
-	.4byte lbl_801C3110
-	.4byte func_801C2A40
-	.4byte lbl_801C2B20
-	.4byte lbl_801C2BD0
-	.4byte lbl_801C34C0
-	.4byte lbl_801C2CD0
-	.4byte lbl_801C2830
-	.4byte lbl_801C2C70
+	.4byte _196_onChangeAnmState__Q39textinput11predictlang12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte draw__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte open__Q39textinput11predictlang12LayoutByNW4RFQ49textinput9inputform4Base11PredictModePQ39textinput8keyboard12KeyboardBase
+	.4byte endToOpen__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte startToClose__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte endToClose__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte isActive__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte canBeInputed__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte onChangeAnmState__Q39textinput11predictlang12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte setAllButtonToggleOffWithout__Q39textinput11predictlang12LayoutByNW4RFPCc
+	.4byte setAllButtonNormal__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte setDestination__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11Destination
+	.4byte setLanguage__Q39textinput11predictlang12LayoutByNW4RFQ29textinput8Language
+	.4byte changeDestination__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11Destination
+	.4byte getTargetAnmPane__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11DestinationQ49textinput9inputform4Base11PredictMode
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -42328,171 +42328,171 @@ lbl_803265D8:
 	.balign 4
 	.4byte 0
 
-.global lbl_803265F0
-lbl_803265F0:
+.global __vt__Q49textinput8keyboard10signwindow23CellPhoneSignButtonPane
+__vt__Q49textinput8keyboard10signwindow23CellPhoneSignButtonPane:
 
 	# ROM: 0x3226D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C5250
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C4FC0
-	.4byte lbl_801C4EF0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C51F0
-	.4byte lbl_801C4720
+	.4byte init__Q49textinput8keyboard10signwindow23CellPhoneSignButtonPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard10signwindow23CellPhoneSignButtonPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard10signwindow7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard10signwindow23CellPhoneSignButtonPaneFv
+	.4byte getKeyType__Q49textinput8keyboard10signwindow7AnmPaneCFv
 
-.global lbl_80326618
-lbl_80326618:
+.global __vt__Q49textinput8keyboard10signwindow26CellPhoneSignScrollAnmPane
+__vt__Q49textinput8keyboard10signwindow26CellPhoneSignScrollAnmPane:
 
 	# ROM: 0x3226F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C5260
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C4F00
-	.4byte lbl_801C4EF0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C52E0
-	.4byte lbl_801C4720
+	.4byte init__Q49textinput8keyboard10signwindow26CellPhoneSignScrollAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard10signwindow26CellPhoneSignScrollAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard10signwindow7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard10signwindow26CellPhoneSignScrollAnmPaneFv
+	.4byte getKeyType__Q49textinput8keyboard10signwindow7AnmPaneCFv
 
-.global lbl_80326640
-lbl_80326640:
+.global __vt__Q49textinput8keyboard10signwindow23CellPhoneSignAllAnmPane
+__vt__Q49textinput8keyboard10signwindow23CellPhoneSignAllAnmPane:
 
 	# ROM: 0x322720
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C52D0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801C4E50
-	.4byte lbl_801C4EF0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C5270
-	.4byte lbl_801C4720
+	.4byte init__Q49textinput8keyboard10signwindow23CellPhoneSignAllAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput8keyboard10signwindow23CellPhoneSignAllAnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard10signwindow7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard10signwindow23CellPhoneSignAllAnmPaneFv
+	.4byte getKeyType__Q49textinput8keyboard10signwindow7AnmPaneCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C47B0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801C4EF0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801C3F40
-	.4byte lbl_801C4720
+	.4byte init__Q49textinput8keyboard10signwindow7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput8keyboard10signwindow7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput8keyboard10signwindow7AnmPaneFv
+	.4byte getKeyType__Q49textinput8keyboard10signwindow7AnmPaneCFv
 
-.global lbl_80326690
-lbl_80326690:
+.global __vt__Q49textinput8keyboard10signwindow12EventHandler
+__vt__Q49textinput8keyboard10signwindow12EventHandler:
 
 	# ROM: 0x322770
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C3B30
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801C4C90
-	.4byte lbl_801A7400
+	.4byte __dt__Q49textinput8keyboard10signwindow12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q49textinput8keyboard10signwindow12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_803266B0
-lbl_803266B0:
+.global __vt__Q49textinput8keyboard10signwindow12LayoutByNW4R
+__vt__Q49textinput8keyboard10signwindow12LayoutByNW4R:
 
 	# ROM: 0x322790
 	.4byte 0
 	.4byte 0
-	.4byte func_801C3A00
-	.4byte lbl_801C3B70
-	.4byte func_801C3FA0
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801C4110
-	.4byte lbl_801C51D0
-	.4byte lbl_801C51B0
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801C5160
-	.4byte lbl_801C4E40
-	.4byte lbl_801C5180
-	.4byte lbl_801C5170
-	.4byte lbl_801C4A30
-	.4byte lbl_801C4AF0
-	.4byte lbl_801C43C0
+	.4byte __dt__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte create__Q49textinput8keyboard10signwindow12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte onKey__Q49textinput8keyboard10signwindow12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard10signwindow4BaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte isLocked__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setPage__Q49textinput8keyboard10signwindow4BaseFUc
+	.4byte getPage__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte movePrevSignPage__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte moveNextSignPage__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte close__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C53B0
-	.4byte func_801C8DA0
-	.4byte lbl_801C53F0
-	.4byte lbl_801C9060
-	.4byte lbl_801C53E0
-	.4byte func_801C9340
-	.4byte lbl_801C53C0
-	.4byte lbl_801C53D0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _36___dt__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _36_init__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_draw__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFiffUlUlUlPv
+	.4byte _36_updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C5400
-	.4byte func_801C5150
-	.4byte lbl_801C4260
-	.4byte lbl_801C51E0
-	.4byte func_801C4550
-	.4byte func_801C4C50
-	.4byte func_801C4C70
-	.4byte lbl_801C4690
-	.4byte lbl_801C4730
-	.4byte lbl_801C47C0
-	.4byte lbl_801C49B0
-	.4byte lbl_801C4470
-	.4byte lbl_801C44E0
-	.4byte lbl_801C4BB0
-	.4byte lbl_801C4C00
+	.4byte _204_onChangeAnmState__Q49textinput8keyboard10signwindow12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte draw__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte open__Q49textinput8keyboard10signwindow12LayoutByNW4RFPQ39textinput8keyboard12KeyboardBaseb
+	.4byte isActive__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte onChangeAnmState__Q49textinput8keyboard10signwindow12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte throwReleaseForAll__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte resetAnmSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte setSignKeyTop__Q49textinput8keyboard10signwindow12LayoutByNW4RFUsUs
+	.4byte setPageNumber__Q49textinput8keyboard10signwindow12LayoutByNW4RFUs
+	.4byte endToClose__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte startToInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte movePrevSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte moveNextSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
 	.4byte 0
 
-.global lbl_803267C0
-lbl_803267C0:
+.global __vt__Q49textinput8keyboard10signwindow4Base
+__vt__Q49textinput8keyboard10signwindow4Base:
 
 	# ROM: 0x3228A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C3AF0
-	.4byte lbl_801C3700
-	.4byte lbl_801C3760
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte func_801C37C0
-	.4byte lbl_801C51D0
-	.4byte lbl_801C51B0
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801C5160
-	.4byte lbl_801C4E40
-	.4byte lbl_801C5180
-	.4byte lbl_801C5170
-	.4byte lbl_801C39A0
-	.4byte lbl_801C39D0
-	.4byte lbl_801C3990
+	.4byte __dt__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte create__Q49textinput8keyboard10signwindow4BaseFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte onKey__Q49textinput8keyboard10signwindow4BaseFUlPv
+	.4byte getType__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard10signwindow4BaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte isLocked__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setPage__Q49textinput8keyboard10signwindow4BaseFUc
+	.4byte getPage__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte movePrevSignPage__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte moveNextSignPage__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte close__Q49textinput8keyboard10signwindow4BaseFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -42514,154 +42514,154 @@ lbl_80326860:
 	.asciz "NW4R:Pointer must not be NULL (nLen)"
 	.balign 4
 
-.global lbl_803268C0
-lbl_803268C0:
+.global __vt__Q39textinput8tistring9Decolated
+__vt__Q39textinput8tistring9Decolated:
 
 	# ROM: 0x3229A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801AC3B0
-	.4byte lbl_801C5410
-	.4byte lbl_801C5510
-	.4byte lbl_801C5570
-	.4byte lbl_801B0090
-	.4byte lbl_801AFC40
-	.4byte lbl_801C55A0
-	.4byte lbl_801C5670
-	.4byte lbl_801C57B0
-	.4byte lbl_801C58F0
-	.4byte lbl_801AFFF0
-	.4byte lbl_801C5A10
-	.4byte lbl_801C69E0
-	.4byte lbl_801A0B20
-	.4byte lbl_801B3410
-	.4byte lbl_801B23D0
-	.4byte lbl_801B33F0
-	.4byte lbl_801C5B00
-	.4byte lbl_801C5B30
-	.4byte lbl_801C5E40
-	.4byte lbl_801B9F20
-	.4byte lbl_801C5FF0
-	.4byte lbl_801C61A0
-	.4byte lbl_801C6210
-	.4byte lbl_801C6290
-	.4byte lbl_801C62D0
-	.4byte lbl_801C62F0
-	.4byte lbl_801C6310
-	.4byte lbl_801AF350
-	.4byte lbl_801AD090
-	.4byte lbl_801C6320
-	.4byte lbl_801C63C0
-	.4byte lbl_801C6420
-	.4byte lbl_801C64A0
-	.4byte lbl_801C64D0
-	.4byte lbl_801C6540
-	.4byte lbl_801C65B0
-	.4byte lbl_801C65F0
-	.4byte lbl_801C6650
-	.4byte lbl_801C6690
-	.4byte lbl_801C66F0
-	.4byte lbl_801C6750
-	.4byte lbl_801C6790
-	.4byte lbl_801C67F0
-	.4byte lbl_801C6960
-	.4byte lbl_801B23C0
-	.4byte lbl_801AF2C0
-	.4byte lbl_801C5DE0
-	.4byte lbl_801C5E00
-	.4byte lbl_801B9FC0
+	.4byte __dt__Q39textinput8tistring9DecolatedFv
+	.4byte create__Q39textinput8tistring10StringBaseFP12MEMAllocator
+	.4byte pushBack__Q39textinput8tistring10StringBaseFw
+	.4byte popBack__Q39textinput8tistring10StringBaseFv
+	.4byte clear__Q39textinput8tistring9DecolatedFv
+	.4byte getLength__Q39textinput8tistring10StringBaseCFv
+	.4byte append__Q39textinput8tistring10StringBaseFPCw
+	.4byte insert__Q39textinput8tistring10StringBaseFUsPCw
+	.4byte remove__Q39textinput8tistring10StringBaseFUsUs
+	.4byte replace__Q39textinput8tistring10StringBaseFUsUsPCw
+	.4byte set__Q39textinput8tistring9DecolatedFPCw
+	.4byte setAt__Q39textinput8tistring10StringBaseFUsw
+	.4byte setLength__Q39textinput8tistring9DecolatedFUs
+	.4byte getWCString__Q39textinput8tistring10StringBaseCFv
+	.4byte setCandidate__Q39textinput8tistring10StringBaseFw
+	.4byte getCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte hasCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte getLastWChar__Q39textinput8tistring10StringBaseFv
+	.4byte inputChar__Q39textinput8tistring9DecolatedFw
+	.4byte inputString__Q39textinput8tistring9DecolatedFPCw
+	.4byte deleteChar__Q39textinput8tistring9DecolatedFv
+	.4byte backSpace__Q39textinput8tistring9DecolatedFv
+	.4byte confirm__Q39textinput8tistring9DecolatedFPCw
+	.4byte moveCursorRight__Q39textinput8tistring9DecolatedFv
+	.4byte moveCursorLeft__Q39textinput8tistring9DecolatedFv
+	.4byte setCursorPos__Q39textinput8tistring9DecolatedFUl
+	.4byte onSustain__Q39textinput8tistring9DecolatedFv
+	.4byte offSustain__Q39textinput8tistring9DecolatedFv
+	.4byte isOnSustain__Q39textinput8tistring9DecolatedFv
+	.4byte getCursorPos__Q39textinput8tistring9DecolatedCFv
+	.4byte getCursorPos__Q39textinput8tistring9DecolatedFPUlPUl
+	.4byte canBackSpace__Q39textinput8tistring9DecolatedFv
+	.4byte deleteForward__Q39textinput8tistring9DecolatedFv
+	.4byte getSelected__Q39textinput8tistring9DecolatedFRUlRUl
+	.4byte getWCharAtCursor__Q39textinput8tistring9DecolatedFv
+	.4byte replaceAtCursor__Q39textinput8tistring9DecolatedFw
+	.4byte isDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte converDakuten__Q39textinput8tistring9DecolatedFv
+	.4byte isHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte converHandaku__Q39textinput8tistring9DecolatedFv
+	.4byte convertAll__Q39textinput8tistring9DecolatedFv
+	.4byte isSmall__Q39textinput8tistring9DecolatedFv
+	.4byte converSmall__Q39textinput8tistring9DecolatedFv
+	.4byte atTheBeginningOfASentence__Q39textinput8tistring9DecolatedFv
+	.4byte initKanaConverter__Q39textinput8tistring9DecolatedFv
+	.4byte getKanaBuffer__Q39textinput8tistring9DecolatedFv
+	.4byte isKanaFix__Q39textinput8tistring9DecolatedCFv
+	.4byte confirmKana__Q39textinput8tistring9DecolatedFv
+	.4byte clearKana__Q39textinput8tistring9DecolatedFv
+	.4byte EnableKSXFilter__Q39textinput8tistring9DecolatedFb
 
-.global lbl_80326990
-lbl_80326990:
+.global __vt__Q39textinput8tistring10StringBase
+__vt__Q39textinput8tistring10StringBase:
 
 	# ROM: 0x322A70
 	.4byte 0
 	.4byte 0
-	.4byte func_801C5490
-	.4byte lbl_801C5410
-	.4byte lbl_801C5510
-	.4byte lbl_801C5570
-	.4byte func_801C5AB0
-	.4byte lbl_801AFC40
-	.4byte lbl_801C55A0
-	.4byte lbl_801C5670
-	.4byte lbl_801C57B0
-	.4byte lbl_801C58F0
-	.4byte func_801C59B0
-	.4byte lbl_801C5A10
-	.4byte lbl_801C5A30
-	.4byte lbl_801A0B20
-	.4byte lbl_801B3410
-	.4byte lbl_801B23D0
-	.4byte lbl_801B33F0
-	.4byte lbl_801C5B00
+	.4byte __dt__Q39textinput8tistring10StringBaseFv
+	.4byte create__Q39textinput8tistring10StringBaseFP12MEMAllocator
+	.4byte pushBack__Q39textinput8tistring10StringBaseFw
+	.4byte popBack__Q39textinput8tistring10StringBaseFv
+	.4byte clear__Q39textinput8tistring10StringBaseFv
+	.4byte getLength__Q39textinput8tistring10StringBaseCFv
+	.4byte append__Q39textinput8tistring10StringBaseFPCw
+	.4byte insert__Q39textinput8tistring10StringBaseFUsPCw
+	.4byte remove__Q39textinput8tistring10StringBaseFUsUs
+	.4byte replace__Q39textinput8tistring10StringBaseFUsUsPCw
+	.4byte set__Q39textinput8tistring10StringBaseFPCw
+	.4byte setAt__Q39textinput8tistring10StringBaseFUsw
+	.4byte setLength__Q39textinput8tistring10StringBaseFUs
+	.4byte getWCString__Q39textinput8tistring10StringBaseCFv
+	.4byte setCandidate__Q39textinput8tistring10StringBaseFw
+	.4byte getCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte hasCandidate__Q39textinput8tistring10StringBaseCFv
+	.4byte getLastWChar__Q39textinput8tistring10StringBaseFv
 
-.global lbl_803269E0
-lbl_803269E0:
+.global __vt__Q39textinput10textdrawer4Base
+__vt__Q39textinput10textdrawer4Base:
 
 	# ROM: 0x322AC0
 	.4byte 0
 	.4byte 0
-	.4byte func_801C6A70
-	.4byte func_801C74A0
-	.4byte lbl_801C8860
-	.4byte func_801C6B40
-	.4byte func_801C6B20
-	.4byte lbl_801B9DD0
-	.4byte func_801C8350
-	.4byte lbl_801C85F0
-	.4byte lbl_801C7AF0
-	.4byte func_801C7B90
-	.4byte lbl_801C82B0
-	.4byte lbl_801AF320
+	.4byte create__Q39textinput10textdrawer4BaseFP12MEMAllocator
+	.4byte draw__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte draw__Q39textinput10textdrawer4BaseFv
+	.4byte setDrawString__Q39textinput10textdrawer4BaseFPCwUlUl
+	.4byte setAspectRatio__Q39textinput10textdrawer4BaseFb
+	.4byte setVIWidth__Q39textinput10textdrawer4BaseFf
+	.4byte beginDraw__Q39textinput10textdrawer4BaseFRCQ34nw4r2ut4Rect
+	.4byte endDraw__Q39textinput10textdrawer4BaseFv
+	.4byte getLineHeight__Q39textinput10textdrawer4BaseFv
+	.4byte setFont__Q39textinput10textdrawer4BaseFRCQ34nw4r2ut4Font
+	.4byte getWidth__Q39textinput10textdrawer4BaseFPCw
+	.4byte getLine__Q39textinput10textdrawer4BaseFv
 	.4byte 0
-	.4byte lbl_800A3304
-	.4byte lbl_801C7450
-	.4byte lbl_801C7470
-	.4byte lbl_801C7AD0
-	.4byte lbl_801C7AE0
-	.4byte lbl_801C7460
-	.4byte func_801C7480
-	.4byte lbl_801C6C10
-	.4byte lbl_801C6F20
-	.4byte func_801C6F30
-	.4byte lbl_801C8850
-	.4byte lbl_801C7EC0
-	.4byte lbl_801B9DC0
-	.4byte lbl_801AFA50
-	.4byte lbl_801C6B80
-	.4byte lbl_801C6B90
-	.4byte lbl_801C6B50
-	.4byte lbl_801B9DB0
-	.4byte lbl_801B9DA0
-	.4byte lbl_801AFA40
-	.4byte lbl_801B05F0
-	.4byte lbl_801ACEF0
-	.4byte lbl_801ACF00
+	.4byte setSecretModeOn__Q39textinput10textdrawer4BaseFb
+	.4byte doBeforeDrawProcess__Q39textinput10textdrawer4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte doAfterDrawProcess__Q39textinput10textdrawer4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte preDraw__Q39textinput10textdrawer4BaseFUl
+	.4byte finishDraw__Q39textinput10textdrawer4BaseFUl
+	.4byte doLineFeed__Q39textinput10textdrawer4BaseFv
+	.4byte put__Q39textinput10textdrawer4BaseFw
+	.4byte procCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosl
+	.4byte onCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte makeUpCursorPos__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
+	.4byte drawCursor__Q39textinput10textdrawer4BaseFff
+	.4byte calcRect__Q39textinput10textdrawer4BaseFRQ49textinput10textdrawer4Base8DrawInfo
+	.4byte getStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte getEndPos__Q39textinput10textdrawer4BaseCFv
+	.4byte setDrawModifyScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte setDrawCacheScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte modifyCursorCache__Q39textinput10textdrawer4BaseFlUlffff
+	.4byte isEnableCursorCache__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyStartLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyEndLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawCacheStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte dirtyDrawCache__Q39textinput10textdrawer4BaseFv
+	.4byte dirtyCursorCache__Q39textinput10textdrawer4BaseFv
 
-.global lbl_80326A78
-lbl_80326A78:
+.global _STRING_IsWidthFixed__Q34nw4r2ut10CharWriterCFv_0
+_STRING_IsWidthFixed__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x322B58
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_80326AAC
-lbl_80326AAC:
+.global _STRING_IsWidthFixed__Q34nw4r2ut10CharWriterCFv
+_STRING_IsWidthFixed__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x322B8C
 	.asciz "CharWriter.h"
 	.balign 4
 
-.global lbl_80326ABC
-lbl_80326ABC:
+.global _STRING_GetFixedWidth__Q34nw4r2ut10CharWriterCFv_0
+_STRING_GetFixedWidth__Q34nw4r2ut10CharWriterCFv_0:
 
 	# ROM: 0x322B9C
 	.asciz "NW4R:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-.global lbl_80326AF0
-lbl_80326AF0:
+.global _STRING_GetFixedWidth__Q34nw4r2ut10CharWriterCFv
+_STRING_GetFixedWidth__Q34nw4r2ut10CharWriterCFv:
 
 	# ROM: 0x322BD0
 	.asciz "CharWriter.h"
@@ -42675,73 +42675,73 @@ lbl_80326B00:
 	.balign 4
 	.4byte 0
 
-.global lbl_80326B18
-lbl_80326B18:
+.global __vt__Q39textinput11nw4rmanager6Layout
+__vt__Q39textinput11nw4rmanager6Layout:
 
 	# ROM: 0x322BF8
 	.4byte 0
 	.4byte 0
-	.4byte func_801C8C70
-	.4byte func_801C8DA0
-	.4byte func_801C9050
-	.4byte lbl_801C9060
-	.4byte func_801C9080
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte __dt__Q39textinput11nw4rmanager6LayoutFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte init__Q39textinput11nw4rmanager6LayoutFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte draw__Q39textinput11nw4rmanager6LayoutFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 
-.global lbl_80326B90
-lbl_80326B90:
+.global __vt__Q39textinput11nw4rmanager8PaneFifo
+__vt__Q39textinput11nw4rmanager8PaneFifo:
 
 	# ROM: 0x322C70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A4370
-	.4byte lbl_801A4980
-	.4byte lbl_801C9320
-	.4byte lbl_801A4930
-	.4byte lbl_801C9330
+	.4byte init__Q39textinput11nw4rmanager8PaneFifoFv
+	.4byte push__Q39textinput11nw4rmanager8PaneFifoFPQ34nw4r3lyt4Pane
+	.4byte get__Q39textinput11nw4rmanager8PaneFifoFi
+	.4byte getLast__Q39textinput11nw4rmanager8PaneFifoFv
+	.4byte getSize__Q39textinput11nw4rmanager8PaneFifoFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CA290
-	.4byte lbl_801CA280
-	.4byte lbl_801C8AB0
-	.4byte lbl_801CA270
-	.4byte lbl_801C8B20
+	.4byte create__Q39textinput11nw4rmanager13AnimPaneGroupFv
+	.4byte init__Q39textinput11nw4rmanager13AnimPaneGroupFv
+	.4byte calc__Q39textinput11nw4rmanager13AnimPaneGroupFv
+	.4byte addAnimPane__Q39textinput11nw4rmanager13AnimPaneGroupFPQ39textinput11nw4rmanager7AnmPane
+	.4byte changeAnimation__Q39textinput11nw4rmanager13AnimPaneGroupFUl
 
-.global lbl_80326BC8
-lbl_80326BC8:
+.global __vt__Q39textinput11nw4rmanager7AnmPane
+__vt__Q39textinput11nw4rmanager7AnmPane:
 
 	# ROM: 0x322CA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CA2A0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte func_801C9DD0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte func_801C9C20
+	.4byte init__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q39textinput11nw4rmanager7AnmPaneFv
 	.4byte 0
 
 .global lbl_80326BF0
@@ -42827,674 +42827,674 @@ lbl_80326D00:
 	.balign 4
 	.4byte 0
 
-.global lbl_80326D30
-lbl_80326D30:
+.global __vt__Q29textinput7Manager
+__vt__Q29textinput7Manager:
 
 	# ROM: 0x322E10
 	.4byte 0
 	.4byte 0
-	.4byte func_801CA350
-	.4byte lbl_801CA580
-	.4byte func_801CA800
-	.4byte lbl_801CABC0
-	.4byte lbl_801CACD0
-	.4byte lbl_801CADF0
-	.4byte lbl_801CB130
-	.4byte func_801CC110
-	.4byte lbl_801CB340
-	.4byte lbl_801CB3B0
-	.4byte lbl_801CB420
-	.4byte lbl_801A04E0
-	.4byte lbl_801CB430
-	.4byte lbl_801CB440
-	.4byte lbl_801CB460
-	.4byte lbl_801CB480
-	.4byte lbl_801CB560
-	.4byte lbl_800A32EC
-	.4byte lbl_801CC440
-	.4byte lbl_801CAB50
-	.4byte lbl_801CB590
-	.4byte lbl_801CC430
-	.4byte lbl_801CC420
-	.4byte lbl_800A312C
-	.4byte lbl_801CC0F0
-	.4byte lbl_801B72B0
-	.4byte lbl_801A0460
-	.4byte lbl_801AB5C0
-	.4byte lbl_801A04D0
-	.4byte lbl_801AF290
-	.4byte lbl_801CC100
-	.4byte lbl_801CC400
-	.4byte lbl_801CC410
-	.4byte lbl_801A1480
-	.4byte lbl_801B3FA0
-	.4byte lbl_801A1250
-	.4byte lbl_801A0480
-	.4byte lbl_801CC3E0
-	.4byte lbl_801CC3F0
-	.4byte lbl_801CB7E0
-	.4byte lbl_801CB830
-	.4byte lbl_801CB880
-	.4byte lbl_801CB9D0
-	.4byte lbl_801CBA70
-	.4byte lbl_801CBB00
-	.4byte lbl_801CBCA0
-	.4byte lbl_801CBD50
-	.4byte lbl_801CBE20
-	.4byte lbl_801CB660
-	.4byte lbl_801CB720
+	.4byte __dt__Q29textinput7ManagerFv
+	.4byte create__Q29textinput7ManagerFP12MEMAllocator
+	.4byte init__Q29textinput7ManagerFv
+	.4byte calc__Q29textinput7ManagerFv
+	.4byte draw__Q29textinput7ManagerFv
+	.4byte updateInput__Q29textinput7ManagerFiffUlUlUl
+	.4byte updateInput__Q29textinput7ManagerFRQ39textinput5input10HKBManager
+	.4byte SetFont__Q29textinput7ManagerFPQ34nw4r3lyt11FontRefLink
+	.4byte getWCString__Q29textinput7ManagerCFv
+	.4byte setWCString__Q29textinput7ManagerFPCw
+	.4byte setLanguage__Q29textinput7ManagerFQ29textinput8Language
+	.4byte getLanguage__Q29textinput7ManagerCFv
+	.4byte setDestination__Q29textinput7ManagerFQ29textinput11Destination
+	.4byte limitStringLength__Q29textinput7ManagerFUl
+	.4byte limitRowNum__Q29textinput7ManagerFUl
+	.4byte setAnimationOn__Q29textinput7ManagerFb
+	.4byte setAspectRatio__Q29textinput7ManagerFb
+	.4byte setSecretInputMode__Q29textinput7ManagerFb
+	.4byte setDefaultPredictionJP__Q29textinput7ManagerFiPPCc
+	.4byte setFixedPredictionJP__Q29textinput7ManagerFiPPCc
+	.4byte setTitleText__Q29textinput7ManagerFPw
+	.4byte start__Q29textinput7ManagerFv
+	.4byte end__Q29textinput7ManagerFv
+	.4byte getInputForm__Q29textinput7ManagerFv
+	.4byte getInputForm__Q29textinput7ManagerCFv
+	.4byte getHWKeyboard__Q29textinput7ManagerFv
+	.4byte getHWKeyboard__Q29textinput7ManagerCFv
+	.4byte getPCKeyboard__Q29textinput7ManagerFv
+	.4byte getPCKeyboard__Q29textinput7ManagerCFv
+	.4byte getCellPhoneKeyboard__Q29textinput7ManagerFv
+	.4byte getCellPhoneKeyboard__Q29textinput7ManagerCFv
+	.4byte getSignKeyboard__Q29textinput7ManagerFv
+	.4byte getSignKeyboard__Q29textinput7ManagerCFv
+	.4byte getCandidateBox__Q29textinput7ManagerFv
+	.4byte getCandidateBox__Q29textinput7ManagerCFv
+	.4byte getToolBar__Q29textinput7ManagerFv
+	.4byte getToolBar__Q29textinput7ManagerCFv
+	.4byte getPredictLanguageSelectDialog__Q29textinput7ManagerFv
+	.4byte getPredictLanguageSelectDialog__Q29textinput7ManagerCFv
+	.4byte createEditBuffer__Q29textinput7ManagerFv
+	.4byte createHWKeyboard__Q29textinput7ManagerFv
+	.4byte createPCTypeKeyboard__Q29textinput7ManagerFv
+	.4byte createCellPhoneTypeKeyboard__Q29textinput7ManagerFv
+	.4byte createInputForm__Q29textinput7ManagerFv
+	.4byte createCandidateBox__Q29textinput7ManagerFv
+	.4byte createToolBar__Q29textinput7ManagerFv
+	.4byte createPredictLanguageDialog__Q29textinput7ManagerFv
+	.4byte createSignWindow__Q29textinput7ManagerFv
+	.4byte setLayoutScaleFor16x9__Q29textinput7ManagerFv
+	.4byte setLayoutScaleFor4x3__Q29textinput7ManagerFv
 
-.global lbl_80326E00
-lbl_80326E00:
+.global __vt__Q49textinput8keyboard10signwindow6Sample
+__vt__Q49textinput8keyboard10signwindow6Sample:
 
 	# ROM: 0x322EE0
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC710
-	.4byte lbl_801C3B70
-	.4byte func_801C3FA0
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801C4110
-	.4byte lbl_801C51D0
-	.4byte lbl_801C51B0
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801C5160
-	.4byte lbl_801C4E40
-	.4byte lbl_801C5180
-	.4byte lbl_801C5170
-	.4byte lbl_801C4A30
-	.4byte lbl_801C4AF0
-	.4byte lbl_801C43C0
+	.4byte __dt__Q49textinput8keyboard10signwindow6SampleFv
+	.4byte create__Q49textinput8keyboard10signwindow12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte onKey__Q49textinput8keyboard10signwindow12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard10signwindow4BaseFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte isLocked__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte setPage__Q49textinput8keyboard10signwindow4BaseFUc
+	.4byte getPage__Q49textinput8keyboard10signwindow4BaseFv
+	.4byte movePrevSignPage__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte moveNextSignPage__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte close__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC7E0
-	.4byte func_801C8DA0
-	.4byte lbl_801C53F0
-	.4byte lbl_801C9060
-	.4byte lbl_801C53E0
-	.4byte func_801C9340
-	.4byte lbl_801C53C0
-	.4byte lbl_801C53D0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _36___dt__Q49textinput8keyboard10signwindow6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _36_init__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_draw__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFiffUlUlUlPv
+	.4byte _36_updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C5400
-	.4byte func_801C5150
-	.4byte lbl_801C4260
-	.4byte lbl_801C51E0
-	.4byte func_801C4550
-	.4byte func_801C4C50
-	.4byte func_801C4C70
-	.4byte lbl_801C4690
-	.4byte lbl_801C4730
-	.4byte lbl_801C47C0
-	.4byte lbl_801C49B0
-	.4byte lbl_801C4470
-	.4byte lbl_801C44E0
-	.4byte lbl_801C4BB0
-	.4byte lbl_801C4C00
+	.4byte _204_onChangeAnmState__Q49textinput8keyboard10signwindow12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte draw__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte open__Q49textinput8keyboard10signwindow12LayoutByNW4RFPQ39textinput8keyboard12KeyboardBaseb
+	.4byte isActive__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte onChangeAnmState__Q49textinput8keyboard10signwindow12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte throwReleaseForAll__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte resetAnmSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte setSignKeyTop__Q49textinput8keyboard10signwindow12LayoutByNW4RFUsUs
+	.4byte setPageNumber__Q49textinput8keyboard10signwindow12LayoutByNW4RFUs
+	.4byte endToClose__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte startToInput__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte movePrevSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
+	.4byte moveNextSignWindow__Q49textinput8keyboard10signwindow12LayoutByNW4RFv
 	.4byte 0
 
-.global lbl_80326F10
-lbl_80326F10:
+.global __vt__Q39textinput11predictlang6Sample
+__vt__Q39textinput11predictlang6Sample:
 
 	# ROM: 0x322FF0
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC6B0
-	.4byte lbl_801C2170
-	.4byte func_801C2550
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801C26F0
+	.4byte __dt__Q39textinput11predictlang6SampleFv
+	.4byte create__Q39textinput11predictlang12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte setPredictMode__Q39textinput11predictlang4BaseFQ49textinput9inputform4Base11PredictMode
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC7D0
-	.4byte func_801C8DA0
-	.4byte lbl_801C36E0
-	.4byte lbl_801C9060
-	.4byte lbl_801C36D0
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _28___dt__Q39textinput11predictlang6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _28_init__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _28_draw__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C36F0
-	.4byte func_801C34B0
-	.4byte lbl_801C2600
-	.4byte lbl_801C2700
-	.4byte lbl_801C2720
-	.4byte lbl_801C2780
-	.4byte lbl_801C34D0
-	.4byte lbl_801C3110
-	.4byte func_801C2A40
-	.4byte lbl_801C2B20
-	.4byte lbl_801C2BD0
-	.4byte lbl_801C34C0
-	.4byte lbl_801C2CD0
-	.4byte lbl_801C2830
-	.4byte lbl_801C2C70
+	.4byte _196_onChangeAnmState__Q39textinput11predictlang12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte draw__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte open__Q39textinput11predictlang12LayoutByNW4RFQ49textinput9inputform4Base11PredictModePQ39textinput8keyboard12KeyboardBase
+	.4byte endToOpen__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte startToClose__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte endToClose__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte isActive__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte canBeInputed__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte onChangeAnmState__Q39textinput11predictlang12LayoutByNW4RFQ49textinput11nw4rmanager11AnmObserver8AnmEventPQ39textinput11nw4rmanager7AnmPanePQ39textinput11nw4rmanager4Anim
+	.4byte setAllButtonToggleOffWithout__Q39textinput11predictlang12LayoutByNW4RFPCc
+	.4byte setAllButtonNormal__Q39textinput11predictlang12LayoutByNW4RFv
+	.4byte setDestination__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11Destination
+	.4byte setLanguage__Q39textinput11predictlang12LayoutByNW4RFQ29textinput8Language
+	.4byte changeDestination__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11Destination
+	.4byte getTargetAnmPane__Q39textinput11predictlang12LayoutByNW4RFQ29textinput11DestinationQ49textinput9inputform4Base11PredictMode
 
-.global lbl_80326FF0
-lbl_80326FF0:
+.global __vt__Q39textinput11predictlang4Base
+__vt__Q39textinput11predictlang4Base:
 
 	# ROM: 0x3230D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C20F0
-	.4byte lbl_801CC4C0
-	.4byte lbl_801CC4B0
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801C26F0
+	.4byte __dt__Q39textinput11predictlang4BaseFv
+	.4byte create__Q39textinput11predictlang4BaseFP12MEMAllocator
+	.4byte init__Q39textinput11predictlang4BaseFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte setPredictMode__Q39textinput11predictlang4BaseFQ49textinput9inputform4Base11PredictMode
 	.4byte 0
 
-.global lbl_80327018
-lbl_80327018:
+.global __vt__Q39textinput7toolbar6Sample
+__vt__Q39textinput7toolbar6Sample:
 
 	# ROM: 0x3230F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0B90
-	.4byte func_801C0F60
-	.4byte lbl_801A0470
-	.4byte lbl_801C15E0
-	.4byte lbl_801C1510
-	.4byte lbl_801C0A60
+	.4byte create__Q39textinput7toolbar12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte isQwerty__Q39textinput7toolbar4BaseCFv
+	.4byte setQwerty__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setLanguage__Q39textinput7toolbar12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput7toolbar4BaseCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC7C0
-	.4byte func_801C8DA0
-	.4byte lbl_801C1FF0
-	.4byte lbl_801C9060
-	.4byte lbl_801C1FE0
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte func_801CC650
-	.4byte func_801C1ED0
-	.4byte lbl_801C1310
-	.4byte lbl_801C1410
-	.4byte lbl_801C1540
-	.4byte lbl_801AB5B0
-	.4byte lbl_801C17F0
-	.4byte lbl_801C18A0
-	.4byte lbl_801C18C0
-	.4byte lbl_801C0EE0
-	.4byte lbl_801C0F00
-	.4byte lbl_801C0F20
-	.4byte lbl_801C0F40
-	.4byte lbl_801C1190
+	.4byte _20___dt__Q39textinput7toolbar6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _20_init__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _20_draw__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte __dt__Q39textinput7toolbar6SampleFv
+	.4byte draw__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte onOK__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte onCancel__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte setQwertyWithSE__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte isEnableKeytopChange__Q39textinput7toolbar12LayoutByNW4RCFv
+	.4byte enableKeytopChange__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte getUpArea__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte getDownArea__Q39textinput7toolbar12LayoutByNW4RFv
+	.4byte setOKButtonVisible__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setCancelButtonVisible__Q39textinput7toolbar12LayoutByNW4RFb
+	.4byte setOKButtonCaption__Q39textinput7toolbar12LayoutByNW4RFPCw
+	.4byte setCancelButtonCaption__Q39textinput7toolbar12LayoutByNW4RFPCw
+	.4byte cancelStateFocusIn__Q39textinput7toolbar12LayoutByNW4RFv
 
-.global lbl_803270E8
-lbl_803270E8:
+.global __vt__Q39textinput9inputform6Sample
+__vt__Q39textinput9inputform6Sample:
 
 	# ROM: 0x3231C8
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC5F0
-	.4byte func_801B9D60
-	.4byte func_801B7B20
-	.4byte lbl_801CF1F0
-	.4byte func_801B8BF0
-	.4byte lbl_801B9D90
+	.4byte __dt__Q39textinput9inputform6SampleFv
+	.4byte create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte init__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte clearSender__Q29textinput15CommandReceiverFv
+	.4byte onCommand__Q39textinput9inputform12LayoutByNW4RFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte addSender__Q29textinput15CommandReceiverFPQ29textinput13CommandSender
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA280
-	.4byte func_801C74A0
-	.4byte lbl_801BA270
-	.4byte func_801C6B40
-	.4byte func_801C6B20
-	.4byte lbl_801B9DD0
-	.4byte func_801C8350
-	.4byte lbl_801C85F0
-	.4byte lbl_801C7AF0
-	.4byte lbl_801BA260
-	.4byte lbl_801C82B0
-	.4byte lbl_801AF320
-	.4byte lbl_801BA250
-	.4byte lbl_800A3304
-	.4byte lbl_801BA240
-	.4byte lbl_801BA230
-	.4byte lbl_801BA220
-	.4byte lbl_801BA210
-	.4byte lbl_801BA200
-	.4byte func_801C7480
-	.4byte lbl_801C6C10
-	.4byte lbl_801BA1F0
-	.4byte lbl_801BA1E0
-	.4byte lbl_801BA1D0
-	.4byte lbl_801C7EC0
-	.4byte lbl_801B9DC0
-	.4byte lbl_801AFA50
-	.4byte lbl_801C6B80
-	.4byte lbl_801C6B90
-	.4byte lbl_801C6B50
-	.4byte lbl_801B9DB0
-	.4byte lbl_801B9DA0
-	.4byte lbl_801AFA40
-	.4byte lbl_801B05F0
-	.4byte lbl_801ACEF0
-	.4byte lbl_801ACF00
+	.4byte _16_create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte draw__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setDrawString__Q39textinput10textdrawer4BaseFPCwUlUl
+	.4byte setAspectRatio__Q39textinput10textdrawer4BaseFb
+	.4byte setVIWidth__Q39textinput10textdrawer4BaseFf
+	.4byte beginDraw__Q39textinput10textdrawer4BaseFRCQ34nw4r2ut4Rect
+	.4byte endDraw__Q39textinput10textdrawer4BaseFv
+	.4byte getLineHeight__Q39textinput10textdrawer4BaseFv
+	.4byte _16_setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte getWidth__Q39textinput10textdrawer4BaseFPCw
+	.4byte getLine__Q39textinput10textdrawer4BaseFv
+	.4byte _16_getScale__Q39textinput9inputform12LayoutByNW4RCFv
+	.4byte setSecretModeOn__Q39textinput10textdrawer4BaseFb
+	.4byte _16_doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_preDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte _16_doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte put__Q39textinput10textdrawer4BaseFw
+	.4byte procCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosl
+	.4byte _16_onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
+	.4byte _16_drawCursor__Q39textinput9inputform4BaseFff
+	.4byte calcRect__Q39textinput10textdrawer4BaseFRQ49textinput10textdrawer4Base8DrawInfo
+	.4byte getStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte getEndPos__Q39textinput10textdrawer4BaseCFv
+	.4byte setDrawModifyScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte setDrawCacheScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte modifyCursorCache__Q39textinput10textdrawer4BaseFlUlffff
+	.4byte isEnableCursorCache__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyStartLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyEndLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawCacheStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte dirtyDrawCache__Q39textinput10textdrawer4BaseFv
+	.4byte dirtyCursorCache__Q39textinput10textdrawer4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA300
-	.4byte func_801BA320
-	.4byte lbl_801B9DE0
-	.4byte func_801BA340
-	.4byte func_801BA360
-	.4byte func_801B7510
-	.4byte lbl_801AF410
-	.4byte lbl_801A0B00
-	.4byte lbl_801B9E90
-	.4byte lbl_801B9E70
-	.4byte lbl_801B23E0
-	.4byte func_801AFFC0
-	.4byte lbl_801ACF10
-	.4byte lbl_801ACF70
-	.4byte lbl_801AD0A0
-	.4byte lbl_801B9E60
-	.4byte lbl_801B9E30
-	.4byte lbl_801B9E20
-	.4byte lbl_801B9E10
-	.4byte lbl_801B8390
-	.4byte lbl_801AD1E0
-	.4byte lbl_801AD2C0
-	.4byte lbl_801B8FC0
-	.4byte lbl_801B00F0
-	.4byte lbl_801B9AA0
-	.4byte lbl_801B2E70
-	.4byte lbl_801B2EA0
-	.4byte lbl_801B9DF0
-	.4byte lbl_801ACEE0
-	.4byte lbl_801B3D60
-	.4byte lbl_801A0AC0
-	.4byte func_801AFFD0
-	.4byte func_801B7D90
-	.4byte func_801B8080
-	.4byte func_801B07E0
-	.4byte func_801B9D70
-	.4byte func_801B00E0
-	.4byte func_801B9D80
-	.4byte func_801B0E90
-	.4byte func_801B1150
-	.4byte lbl_801B0610
-	.4byte func_801B2470
-	.4byte lbl_801B2AF0
-	.4byte lbl_801B2C10
-	.4byte lbl_801B02B0
-	.4byte lbl_801AFA60
-	.4byte lbl_801B9380
-	.4byte lbl_801B0040
-	.4byte func_801B2570
-	.4byte lbl_801B2A90
-	.4byte func_801B8BA0
-	.4byte lbl_801B45C0
-	.4byte lbl_801B4720
-	.4byte lbl_801B48A0
-	.4byte lbl_801B4C50
-	.4byte lbl_801B4FF0
-	.4byte lbl_801B5220
-	.4byte func_801AF9F0
+	.4byte resetCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte addCandidate__Q39textinput12candidatebox18CandidateBoxCallerFPCw
+	.4byte setCandidateBox__Q39textinput12candidatebox18CandidateBoxCallerFPQ39textinput12candidatebox4Base
+	.4byte updateCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte makeEmptyCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte create__Q39textinput9inputform12LayoutByNW4RFP12MEMAllocatorPQ39textinput9inputform10EditBuffer
+	.4byte updateCandidateState___Q39textinput9inputform4BaseFv
+	.4byte getWCString__Q39textinput9inputform4BaseCFv
+	.4byte getAtokString__Q39textinput9inputform4BaseFv
+	.4byte getCandidate__Q39textinput9inputform4BaseCFv
+	.4byte getCursorPos__Q39textinput9inputform4BaseFv
+	.4byte setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte isEditMode__Q39textinput9inputform4BaseFv
+	.4byte checkHeadOfSentence__Q39textinput9inputform4BaseFb
+	.4byte setDestination__Q39textinput9inputform4BaseFQ29textinput11Destination
+	.4byte limitStringLength__Q39textinput9inputform4BaseFUl
+	.4byte limitRowNum__Q39textinput9inputform4BaseFUl
+	.4byte doWordWrap__Q39textinput9inputform4BaseFb
+	.4byte setLineDrawInfo__Q39textinput9inputform4BaseFbUl
+	.4byte setLanguage__Q39textinput9inputform12LayoutByNW4RFQ29textinput8Language
+	.4byte setPredictMode__Q39textinput9inputform4BaseFQ49textinput9inputform4Base11PredictMode
+	.4byte getPredictMode__Q39textinput9inputform4BaseFv
+	.4byte isOverRowLimit__Q39textinput9inputform4BaseFUlPCw
+	.4byte findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl
+	.4byte isInScroll__Q39textinput9inputform4BaseFv
+	.4byte setAtokDictionary__Q39textinput9inputform4BaseFPviPviPvi
+	.4byte closeAtokDictionary__Q39textinput9inputform4BaseFv
+	.4byte isAtokDictionaryOpened__Q39textinput9inputform4BaseFv
+	.4byte enableSpaceByRight__Q39textinput9inputform4BaseFb
+	.4byte onClose__Q39textinput9inputform4BaseFv
+	.4byte canConvert__Q39textinput9inputform4BaseFv
+	.4byte setString__Q39textinput9inputform4BaseFPCw
+	.4byte draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte calc__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte preDraw__Q39textinput9inputform4BaseFUl
+	.4byte finishDraw__Q39textinput9inputform4BaseFUl
+	.4byte doLineFeed__Q39textinput9inputform4BaseFv
+	.4byte onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte isOverLine__Q39textinput9inputform4BaseFRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte drawCursor__Q39textinput9inputform4BaseFff
+	.4byte doScroll__Q39textinput9inputform4BaseFPQ39textinput15CommandReceiver6Scroll
+	.4byte autoScroll__Q39textinput9inputform4BaseFv
+	.4byte doWordWrap__Q39textinput9inputform4BaseFPCwUlf
+	.4byte drawFixString__Q39textinput9inputform4BaseFUl
+	.4byte onSE__Q39textinput9inputform12LayoutByNW4RFQ39textinput5sound2SE
+	.4byte clear__Q39textinput9inputform4BaseFv
+	.4byte calcCursorPos__Q39textinput9inputform4BaseFff
+	.4byte getGlobalLeftTopPos__Q39textinput9inputform4BaseCFv
+	.4byte getScale__Q39textinput9inputform12LayoutByNW4RCFv
+	.4byte moveCursorUp__Q39textinput9inputform4BaseFv
+	.4byte moveCursorDown__Q39textinput9inputform4BaseFv
+	.4byte onPressUp__Q39textinput9inputform4BaseFv
+	.4byte onPressDown__Q39textinput9inputform4BaseFv
+	.4byte onPressLeft__Q39textinput9inputform4BaseFv
+	.4byte onPressRight__Q39textinput9inputform4BaseFv
+	.4byte makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC7B0
-	.4byte func_801C8DA0
-	.4byte lbl_801BA2F0
-	.4byte lbl_801C9060
-	.4byte lbl_801BA2E0
-	.4byte lbl_801BA2D0
-	.4byte lbl_801BA2B0
-	.4byte lbl_801BA2C0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte lbl_801BA2A0
-	.4byte lbl_801BA290
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte lbl_801B87A0
-	.4byte func_801B8800
-	.4byte func_801B8A70
-	.4byte lbl_801B9AB0
-	.4byte lbl_801B9AC0
-	.4byte func_801B93A0
-	.4byte func_801B93E0
-	.4byte lbl_801B7D80
+	.4byte _536___dt__Q39textinput9inputform6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _536_init__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _536_draw__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_calc__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_updateInput__Q39textinput9inputform12LayoutByNW4RFiffUlUlUlPv
+	.4byte _536_updateInput__Q39textinput9inputform12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte _536_setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte updateInputCommon__Q39textinput9inputform12LayoutByNW4RFiUlUlUlPv
+	.4byte updateInput__Q39textinput9inputform12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q39textinput9inputform12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte isAbleToUp__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte isAbleToDown__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte visibleSeparator__Q39textinput9inputform12LayoutByNW4RFb
 
-.global lbl_80327328
-lbl_80327328:
+.global __vt__Q39textinput12candidatebox6Sample
+__vt__Q39textinput12candidatebox6Sample:
 
 	# ROM: 0x323408
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC590
-	.4byte lbl_801BAAE0
-	.4byte func_801BB5D0
-	.4byte lbl_801BA470
-	.4byte lbl_801A0650
-	.4byte lbl_801BA610
-	.4byte lbl_801BA4C0
-	.4byte lbl_801BA4E0
-	.4byte lbl_801BCBA0
-	.4byte func_801BBD20
-	.4byte lbl_801BC430
-	.4byte lbl_801BC4A0
-	.4byte lbl_801BC510
-	.4byte lbl_801BC420
-	.4byte lbl_801BD1C0
-	.4byte lbl_801BC980
-	.4byte lbl_801BD3C0
-	.4byte lbl_801B33D0
-	.4byte lbl_801BBEC0
+	.4byte __dt__Q39textinput12candidatebox6SampleFv
+	.4byte create__Q39textinput12candidatebox12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q39textinput12candidatebox4BaseFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q39textinput12candidatebox4BaseFUlPv
+	.4byte resetCandidate__Q39textinput12candidatebox4BaseFv
+	.4byte addCandidate__Q39textinput12candidatebox4BaseFPCw
+	.4byte updateCandidate__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte draw__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte turnOn__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte turnOff__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte makeEmpty__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte isOn__Q39textinput12candidatebox4BaseCFv
+	.4byte onClose__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setOnOff__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte setInvalid__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte isInvalid__Q39textinput12candidatebox4BaseCFv
+	.4byte setLanguage__Q39textinput12candidatebox12LayoutByNW4RFQ29textinput8Language
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC7A0
-	.4byte func_801C8DA0
-	.4byte lbl_801C0970
-	.4byte lbl_801C9060
-	.4byte lbl_801C0960
-	.4byte lbl_801C0950
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte lbl_801C0940
-	.4byte lbl_801C0930
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _36___dt__Q39textinput12candidatebox6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _36_init__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _36_draw__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte _36_calc__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte _36_setRootPaneScaleFor16x9__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte _36_setRootPaneScaleFor4x3__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C0980
-	.4byte func_801BBDD0
-	.4byte lbl_801BCFD0
-	.4byte lbl_801BD030
-	.4byte lbl_801BD090
-	.4byte lbl_801BD130
-	.4byte lbl_801BC260
-	.4byte lbl_801BC5A0
-	.4byte lbl_801BC650
-	.4byte lbl_801BC6E0
-	.4byte lbl_801BCDB0
-	.4byte lbl_801C0700
-	.4byte lbl_801B4C40
-	.4byte lbl_801BD440
-	.4byte lbl_801A4FD0
-	.4byte lbl_801BC630
-	.4byte lbl_801BC640
-	.4byte lbl_801BD760
-	.4byte lbl_801BDD30
-	.4byte func_801BDCE0
-	.4byte func_801BDD50
-	.4byte lbl_801BD220
-	.4byte func_801BD4E0
+	.4byte _204_onEvent__Q39textinput12candidatebox12LayoutByNW4RFPQ39textinput12candidatebox5UIObjUlPv
+	.4byte calc__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onRightScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onLeftScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onRightPageScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onLeftPageScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onOnOffButton__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte changeSelectEmpty__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte changeSelectEmpty_compatible__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte changeSelect__Q39textinput12candidatebox12LayoutByNW4RFl
+	.4byte updateDisplay__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte getScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte isInScroll__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setActive__Q39textinput12candidatebox12LayoutByNW4RFb
+	.4byte isActive__Q39textinput12candidatebox12LayoutByNW4RCFv
+	.4byte setSelectedTextPane__Q39textinput12candidatebox12LayoutByNW4RFi
+	.4byte setFocusedTextPane__Q39textinput12candidatebox12LayoutByNW4RFi
+	.4byte getFocusedTextPane__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte SetScreenSize__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor16x9__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte cancelStateFocusIn__Q39textinput12candidatebox12LayoutByNW4RFv
+	.4byte onEvent__Q39textinput12candidatebox12LayoutByNW4RFPQ39textinput12candidatebox5UIObjUlPv
 
-.global lbl_80327458
-lbl_80327458:
+.global __vt__Q49textinput8keyboard13cellphonetype6Sample
+__vt__Q49textinput8keyboard13cellphonetype6Sample:
 
 	# ROM: 0x323538
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC530
-	.4byte lbl_801A8D00
-	.4byte func_801A9380
-	.4byte lbl_801AC120
-	.4byte lbl_801A0650
-	.4byte lbl_801AA0C0
-	.4byte lbl_801A9DA0
-	.4byte lbl_801AC0F0
-	.4byte lbl_801AA890
-	.4byte lbl_801A0640
-	.4byte lbl_801A9D90
-	.4byte lbl_801A9F60
-	.4byte func_801A9C50
-	.4byte func_801A9C40
-	.4byte lbl_801A8270
-	.4byte lbl_801AC0E0
-	.4byte lbl_801AC0D0
-	.4byte lbl_801AC0C0
-	.4byte lbl_801AC0A0
-	.4byte lbl_801AAF00
-	.4byte lbl_801AA190
-	.4byte lbl_801AC090
-	.4byte lbl_801AB3A0
-	.4byte lbl_801AB510
-	.4byte lbl_801AB5D0
-	.4byte lbl_801AA070
-	.4byte lbl_801AAE90
-	.4byte lbl_801AABA0
-	.4byte lbl_801AAD80
-	.4byte lbl_801A8720
-	.4byte lbl_801A8790
-	.4byte lbl_801AC080
-	.4byte lbl_801A88D0
+	.4byte __dt__Q49textinput8keyboard13cellphonetype6SampleFv
+	.4byte create__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFUlPv
+	.4byte onKey__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte onActive__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte calc__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte draw__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte getInputMode__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isLocked__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumeric__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isNumericWithDot__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte isHoldingButton__Q49textinput8keyboard13cellphonetype4BaseCFv
+	.4byte doNumericMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte changeInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte isUpperCase__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte setInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte setUpperCaseJP__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setLangKeyActive__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte onClose__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte goSignInputMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte changePredictLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte setAbcMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte isZiActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte isAtokActive__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte doInput__Q49textinput8keyboard13cellphonetype4BaseFv
+	.4byte updateFixMode__Q49textinput8keyboard13cellphonetype4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC790
-	.4byte func_801C8DA0
-	.4byte lbl_801AC2A0
-	.4byte lbl_801C9060
-	.4byte lbl_801AC290
-	.4byte lbl_801AC280
-	.4byte lbl_801AC260
-	.4byte lbl_801AC270
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte lbl_801AC110
-	.4byte lbl_801AC100
-	.4byte lbl_801AB1A0
-	.4byte lbl_801AB230
-	.4byte lbl_801AB260
-	.4byte lbl_801AB280
-	.4byte func_801AC070
-	.4byte func_801AB560
-	.4byte lbl_801AA6C0
-	.4byte lbl_801AA760
-	.4byte lbl_801AA800
-	.4byte lbl_801AAC20
-	.4byte lbl_801AA4D0
-	.4byte lbl_801AA5F0
+	.4byte _56___dt__Q49textinput8keyboard13cellphonetype6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _56_init__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _56_draw__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte _56_calc__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte _56_updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFiffUlUlUlPv
+	.4byte _56_updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte setPredictLanguageDialog__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ39textinput11predictlang12LayoutByNW4R
+	.4byte setSignWindow__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ49textinput8keyboard10signwindow12LayoutByNW4R
+	.4byte doNumericWithDotMode__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setLineFeedButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setPredictLanguageButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte setSignWindowButton__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFb
+	.4byte updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getAnmPane__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFQ59textinput8keyboard13cellphonetype4Base9InputMode
+	.4byte throwReleaseForAll__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte changeAnimationAllToNormal__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFv
+	.4byte updatePredictLanguage__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPQ39textinput15CommandReceiver17ChangePredictMode
+	.4byte changeKeyTop__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPCQ49textinput8keyboard13cellphonetype18PaneNameToCharCode
+	.4byte changeSpaceKeyTop__Q49textinput8keyboard13cellphonetype12LayoutByNW4RFPCQ49textinput8keyboard13cellphonetype18PaneNameToCharCode
 
-.global lbl_80327594
-lbl_80327594:
+.global __vt__Q49textinput8keyboard6pctype6Sample
+__vt__Q49textinput8keyboard6pctype6Sample:
 
 	# ROM: 0x323674
 	.4byte 0
 	.4byte 0
-	.4byte func_801CC4D0
-	.4byte lbl_801A22F0
-	.4byte func_801A2970
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801A4110
-	.4byte lbl_801A3A30
-	.4byte lbl_801A7200
-	.4byte lbl_801A40C0
-	.4byte lbl_801A0640
-	.4byte lbl_801A70D0
-	.4byte lbl_801A4190
-	.4byte lbl_801A38A0
-	.4byte lbl_801A71F0
-	.4byte lbl_801A5C80
-	.4byte lbl_801A04F0
-	.4byte lbl_801A1260
-	.4byte lbl_801A1490
-	.4byte lbl_801A71E0
-	.4byte lbl_801A71B0
-	.4byte lbl_801A0490
-	.4byte lbl_801A5330
-	.4byte lbl_801A4D50
-	.4byte lbl_801A4FE0
-	.4byte lbl_801A5200
-	.4byte lbl_801A7210
-	.4byte lbl_801A5930
-	.4byte lbl_801A0E80
-	.4byte lbl_801A0F20
-	.4byte lbl_801A4310
-	.4byte lbl_801A0DE0
-	.4byte lbl_801A0DF0
-	.4byte lbl_801A4880
-	.4byte lbl_801A4680
-	.4byte lbl_801A46E0
-	.4byte lbl_801A1160
+	.4byte __dt__Q49textinput8keyboard6pctype6SampleFv
+	.4byte create__Q49textinput8keyboard6pctype12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q49textinput8keyboard6pctype12LayoutByNW4RFUlPv
+	.4byte onKey__Q49textinput8keyboard6pctype12LayoutByNW4RFUlPv
+	.4byte getType__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFQ29textinput8Language
+	.4byte getLanguage__Q39textinput8keyboard12KeyboardBaseCFv
+	.4byte update__Q39textinput8keyboard12KeyboardBaseFv
+	.4byte onActive__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte inputCharCode__Q49textinput8keyboard6pctype12LayoutByNW4RFw
+	.4byte getState__Q49textinput8keyboard6pctype4BaseFv
+	.4byte isShiftOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isCapsOn__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte isABC__Q49textinput8keyboard6pctype4BaseFv
+	.4byte setABC__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte getABCInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getAIUInputMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte getTranslateMode__Q49textinput8keyboard6pctype4BaseCFv
+	.4byte setTranslateMode__Q49textinput8keyboard6pctype12LayoutByNW4RFQ59textinput8keyboard6pctype4Base13TranslateMode
+	.4byte onlyQwerty__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setLangKeyActive__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setInputModeJP__Q49textinput8keyboard6pctype12LayoutByNW4RFbUlUl
+	.4byte setInputModeCK__Q49textinput8keyboard6pctype12LayoutByNW4RFUl
+	.4byte refreshState__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte changeABCInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte changeAIUInputMode__Q49textinput8keyboard6pctype4BaseFQ59textinput8keyboard6pctype4Base9InputMode
+	.4byte onClose__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte getWCCode__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte getControlKey__Q49textinput8keyboard6pctype4BaseFPc
+	.4byte sendInputWChar__Q49textinput8keyboard6pctype12LayoutByNW4RFwb
+	.4byte goSignInputMode__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte changePredictLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte updateFixMode__Q49textinput8keyboard6pctype4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CC780
-	.4byte func_801C8DA0
-	.4byte lbl_801A7640
-	.4byte lbl_801C9060
-	.4byte lbl_801A7630
-	.4byte lbl_801A7620
-	.4byte lbl_801A7600
-	.4byte lbl_801A7610
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
+	.4byte _68___dt__Q49textinput8keyboard6pctype6SampleFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _68_init__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _68_draw__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte _68_calc__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte _68_updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFiffUlUlUlPv
+	.4byte _68_updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801A7650
-	.4byte func_801A3890
-	.4byte func_801A3740
-	.4byte lbl_801A7240
-	.4byte lbl_801A7230
-	.4byte lbl_801A4BA0
-	.4byte lbl_801A4C10
-	.4byte lbl_801A4C30
-	.4byte func_801A55B0
-	.4byte func_801A57C0
-	.4byte lbl_801A57D0
-	.4byte lbl_801A4390
-	.4byte lbl_801A4440
-	.4byte lbl_801A4760
-	.4byte lbl_801A4A30
-	.4byte lbl_801A3140
-	.4byte func_801A5C90
+	.4byte _236_onEvent__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard6pctype5UIObjUlPv
+	.4byte draw__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte calc__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte setPredictLanguageDialog__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ39textinput11predictlang12LayoutByNW4R
+	.4byte setSignWindow__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard10signwindow12LayoutByNW4R
+	.4byte setLineFeedButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setPredictLanguageButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte setSignWindowButton__Q49textinput8keyboard6pctype12LayoutByNW4RFb
+	.4byte updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFiffUlUlUlPv
+	.4byte updateInput__Q49textinput8keyboard6pctype12LayoutByNW4RFRQ39textinput5input10HKBManager
+	.4byte changeAnimationAllToNormal__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte throwReleaseForAll__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte cancelStateFocusIn__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte updatePredictLanguage__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ39textinput15CommandReceiver17ChangePredictMode
+	.4byte updateDakuten__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte initLayout__Q49textinput8keyboard6pctype12LayoutByNW4RFv
+	.4byte onEvent__Q49textinput8keyboard6pctype12LayoutByNW4RFPQ49textinput8keyboard6pctype5UIObjUlPv
 
 .global lbl_803276F0
 lbl_803276F0:
@@ -47899,8 +47899,8 @@ lbl_8032B5B4:
 	.4byte lbl_8032B5A8
 	.4byte lbl_8032B5B4
 
-.global lbl_8032B660
-lbl_8032B660:
+.global csSignKeyJP__Q39textinput8keyboard10signwindow
+csSignKeyJP__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x327740
 	.4byte 0
@@ -48104,8 +48104,8 @@ lbl_8032B660:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032B980
-lbl_8032B980:
+.global csSignKeyUS__Q39textinput8keyboard10signwindow
+csSignKeyUS__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x327A60
 	.4byte 0
@@ -48309,8 +48309,8 @@ lbl_8032B980:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032BCA0
-lbl_8032BCA0:
+.global csSignKeyUK__Q39textinput8keyboard10signwindow
+csSignKeyUK__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x327D80
 	.4byte 0
@@ -48514,8 +48514,8 @@ lbl_8032BCA0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032BFC0
-lbl_8032BFC0:
+.global csSignKeyDE__Q39textinput8keyboard10signwindow
+csSignKeyDE__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x3280A0
 	.4byte 0
@@ -48719,8 +48719,8 @@ lbl_8032BFC0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032C2E0
-lbl_8032C2E0:
+.global csSignKeyFR__Q39textinput8keyboard10signwindow
+csSignKeyFR__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x3283C0
 	.4byte 0
@@ -48924,8 +48924,8 @@ lbl_8032C2E0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032C600
-lbl_8032C600:
+.global csSignKeyIT__Q39textinput8keyboard10signwindow
+csSignKeyIT__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x3286E0
 	.4byte 0
@@ -49129,8 +49129,8 @@ lbl_8032C600:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032C920
-lbl_8032C920:
+.global csSignKeySP__Q39textinput8keyboard10signwindow
+csSignKeySP__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x328A00
 	.4byte 0
@@ -49334,8 +49334,8 @@ lbl_8032C920:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032CC40
-lbl_8032CC40:
+.global csSignKeyNL__Q39textinput8keyboard10signwindow
+csSignKeyNL__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x328D20
 	.4byte 0
@@ -49539,8 +49539,8 @@ lbl_8032CC40:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032CF60
-lbl_8032CF60:
+.global csSignKeyCN__Q39textinput8keyboard10signwindow
+csSignKeyCN__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x329040
 	.4byte 0
@@ -49744,8 +49744,8 @@ lbl_8032CF60:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032D280
-lbl_8032D280:
+.global csSignKeyKR__Q39textinput8keyboard10signwindow
+csSignKeyKR__Q39textinput8keyboard10signwindow:
 
 	# ROM: 0x329360
 	.4byte 0
@@ -50388,8 +50388,8 @@ lbl_8032D82C:
 	.4byte lbl_8032D82C
 	.4byte 0
 
-.global lbl_8032D918
-lbl_8032D918:
+.global csUSKeyboard__Q39textinput8keyboard6pctype
+csUSKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x3299F8
 	.4byte 0
@@ -50543,8 +50543,8 @@ lbl_8032D918:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032DB70
-lbl_8032DB70:
+.global csJPKeyboard__Q39textinput8keyboard6pctype
+csJPKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x329C50
 	.4byte 0
@@ -50698,8 +50698,8 @@ lbl_8032DB70:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032DDC8
-lbl_8032DDC8:
+.global csUKKeyboard__Q39textinput8keyboard6pctype
+csUKKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x329EA8
 	.4byte 0
@@ -50853,8 +50853,8 @@ lbl_8032DDC8:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032E020
-lbl_8032E020:
+.global csFRKeyboard__Q39textinput8keyboard6pctype
+csFRKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32A100
 	.4byte 0
@@ -51008,8 +51008,8 @@ lbl_8032E020:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032E278
-lbl_8032E278:
+.global csDEKeyboard__Q39textinput8keyboard6pctype
+csDEKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32A358
 	.4byte 0
@@ -51163,8 +51163,8 @@ lbl_8032E278:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032E4D0
-lbl_8032E4D0:
+.global csITKeyboard__Q39textinput8keyboard6pctype
+csITKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32A5B0
 	.4byte 0
@@ -51318,8 +51318,8 @@ lbl_8032E4D0:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032E728
-lbl_8032E728:
+.global csESKeyboard__Q39textinput8keyboard6pctype
+csESKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32A808
 	.4byte 0
@@ -51473,8 +51473,8 @@ lbl_8032E728:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032E980
-lbl_8032E980:
+.global csNLKeyboard__Q39textinput8keyboard6pctype
+csNLKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32AA60
 	.4byte 0
@@ -51628,8 +51628,8 @@ lbl_8032E980:
 	.4byte 0x00400040
 	.4byte 0x007C007C
 
-.global lbl_8032EBD8
-lbl_8032EBD8:
+.global csCNKeyboard__Q39textinput8keyboard6pctype
+csCNKeyboard__Q39textinput8keyboard6pctype:
 
 	# ROM: 0x32ACB8
 	.4byte 0
@@ -52043,8 +52043,8 @@ lbl_8032F000:
 	.4byte 0x00700065
 	.4byte 0x006E0000
 
-.global lbl_8032F010
-lbl_8032F010:
+.global cLanguageIndependentString__Q29textinput15langindependent
+cLanguageIndependentString__Q29textinput15langindependent:
 
 	# ROM: 0x32B0F0
 	.4byte lbl_8041C860
@@ -52088,25 +52088,25 @@ lbl_8032F010:
 	.4byte lbl_8041C894
 	.4byte lbl_8041C890
 	.4byte lbl_8041C89C
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8A8
-	.4byte lbl_8041C8A4
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
-	.4byte lbl_8041C8B0
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireCallback
+	.4byte __OSExpireSetExpiredFlag
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
+	.4byte __OSExpireTime
 	.4byte lbl_8041C8B8
 	.4byte lbl_8032EF68
 	.4byte lbl_8032EF68
@@ -52115,7 +52115,7 @@ lbl_8032F010:
 	.4byte lbl_8032EF98
 	.4byte lbl_8032EFA8
 	.4byte lbl_8032EFB8
-	.4byte lbl_8041C8C0
+	.4byte __PADSpec
 	.4byte lbl_8041C8C8
 	.4byte lbl_8041C8D0
 	.4byte lbl_8032EFC8
@@ -52137,7 +52137,7 @@ lbl_8032F010:
 	.4byte lbl_8032EFD4
 	.4byte lbl_8032EFD4
 	.4byte lbl_8032EFD4
-	.4byte lbl_8041C900
+	.4byte _LOCAL_SCGetProductCode__Fv_buf
 	.4byte lbl_8032EFE0
 	.4byte lbl_8032EFE0
 	.4byte lbl_8032EF74
@@ -52146,20 +52146,20 @@ lbl_8032F010:
 	.4byte lbl_8032EFA8
 	.4byte lbl_8032F000
 	.4byte lbl_8041C908
-	.4byte lbl_8041C910
+	.4byte _LOCAL_SIGetType__Fl_cmdTypeAndStatus
 
-.global lbl_8032F1A0
-lbl_8032F1A0:
+.global __vt__Q29textinput15CommandReceiver
+__vt__Q29textinput15CommandReceiver:
 
 	# ROM: 0x32B280
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801ACB30
-	.4byte lbl_801BA080
-	.4byte lbl_801ACED0
-	.4byte lbl_801CF1F0
-	.4byte func_801CF160
-	.4byte lbl_801B9D90
+	.4byte __dt__Q29textinput15CommandReceiverFv
+	.4byte create__Q29textinput4BaseFP12MEMAllocator
+	.4byte init__Q29textinput4BaseFv
+	.4byte clearSender__Q29textinput15CommandReceiverFv
+	.4byte onCommand__Q29textinput15CommandReceiverFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte addSender__Q29textinput15CommandReceiverFPQ29textinput13CommandSender
 
 .global lbl_8032F1C0
 lbl_8032F1C0:
@@ -52213,108 +52213,105 @@ lbl_8032F2DC:
 	.asciz "NW4R:Pointer must not be NULL (pFontLink)"
 	.balign 4
 
-.global lbl_8032F308
-lbl_8032F308:
+.global __vt__Q49textinput6extend2bg4Base
+__vt__Q49textinput6extend2bg4Base:
 
 	# ROM: 0x32B3E8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D3C70
-	.4byte lbl_801D3C60
+	.4byte create__Q49textinput6extend2bg4BaseFP12MEMAllocator
+	.4byte init__Q49textinput6extend2bg4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF300
-	.4byte lbl_801D3C90
-	.4byte lbl_801D1940
-	.4byte lbl_801D1950
-	.4byte lbl_801D2030
-	.4byte lbl_801D2220
-	.4byte lbl_801D3660
-	.4byte lbl_801D22B0
-	.4byte lbl_801D22C0
-	.4byte lbl_801D3BB0
-	.4byte lbl_801D3C80
-	.4byte lbl_801D1150
-	.4byte lbl_801D2DC0
-	.4byte lbl_801D18B0
-	.4byte lbl_801D18D0
-	.4byte lbl_801D25B0
-	.4byte lbl_801D18F0
-	.4byte lbl_801D1910
-	.4byte lbl_801D2590
-	.4byte lbl_801D1930
+	.4byte __dt__Q49textinput6extend4memo18DisappearMemoStateFv
+	.4byte getStateType__Q49textinput6extend4memo18DisappearMemoStateFv
+	.4byte create__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte init__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte draw__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte memoDraw__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte calc__Q49textinput6extend4memo18DisappearMemoStateFv
+	.4byte updateInput__Q49textinput6extend4memo15AppearMemoStateFiffUlUlUl
+	.4byte updateInput__Q49textinput6extend4memo15AppearMemoStateFRQ39textinput5input10HKBManager
+	.4byte start__Q49textinput6extend4memo18DisappearMemoStateFv
+	.4byte end__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte InputForm__Q49textinput6extend4memo5StateFv
+	.4byte HWKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte PCKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CellPhoneKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte SignKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CandidateBox__Q49textinput6extend4memo5StateFv
+	.4byte ToolBar__Q49textinput6extend4memo5StateFv
+	.4byte PredictLanguageSelectDialog__Q49textinput6extend4memo5StateFv
+	.4byte BG__Q49textinput6extend4memo5StateFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF280
-	.4byte lbl_801D3CB0
-	.4byte lbl_801D2340
-	.4byte lbl_801D2350
-	.4byte lbl_801D25D0
-	.4byte lbl_801D2850
-	.4byte lbl_801D2360
-	.4byte lbl_801D28E0
-	.4byte lbl_801D2DE0
-	.4byte lbl_801D3050
-	.4byte lbl_801D3CA0
-	.4byte lbl_801D1150
-	.4byte lbl_801D2DC0
-	.4byte lbl_801D18B0
-	.4byte lbl_801D18D0
-	.4byte lbl_801D25B0
-	.4byte lbl_801D18F0
-	.4byte lbl_801D1910
-	.4byte lbl_801D2590
-	.4byte lbl_801D1930
+	.4byte __dt__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte getStateType__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte create__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte init__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte draw__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte memoDraw__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte calc__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte updateInput__Q49textinput6extend4memo13EditMemoStateFiffUlUlUl
+	.4byte updateInput__Q49textinput6extend4memo13EditMemoStateFRQ39textinput5input10HKBManager
+	.4byte start__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte end__Q49textinput6extend4memo13EditMemoStateFv
+	.4byte InputForm__Q49textinput6extend4memo5StateFv
+	.4byte HWKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte PCKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CellPhoneKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte SignKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CandidateBox__Q49textinput6extend4memo5StateFv
+	.4byte ToolBar__Q49textinput6extend4memo5StateFv
+	.4byte PredictLanguageSelectDialog__Q49textinput6extend4memo5StateFv
+	.4byte BG__Q49textinput6extend4memo5StateFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF2C0
-	.4byte lbl_801D3CC0
-	.4byte lbl_801D1940
-	.4byte lbl_801D1950
-	.4byte lbl_801D2030
-	.4byte lbl_801D2220
-	.4byte lbl_801D1960
-	.4byte lbl_801D22B0
-	.4byte lbl_801D22C0
-	.4byte lbl_801D22D0
-	.4byte lbl_801D3C80
-	.4byte lbl_801D1150
-	.4byte lbl_801D2DC0
-	.4byte lbl_801D18B0
-	.4byte lbl_801D18D0
-	.4byte lbl_801D25B0
-	.4byte lbl_801D18F0
-	.4byte lbl_801D1910
-	.4byte lbl_801D2590
-	.4byte lbl_801D1930
+	.4byte __dt__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte getStateType__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte create__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte init__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte draw__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte memoDraw__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte calc__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte updateInput__Q49textinput6extend4memo15AppearMemoStateFiffUlUlUl
+	.4byte updateInput__Q49textinput6extend4memo15AppearMemoStateFRQ39textinput5input10HKBManager
+	.4byte start__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte end__Q49textinput6extend4memo15AppearMemoStateFv
+	.4byte InputForm__Q49textinput6extend4memo5StateFv
+	.4byte HWKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte PCKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CellPhoneKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte SignKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CandidateBox__Q49textinput6extend4memo5StateFv
+	.4byte ToolBar__Q49textinput6extend4memo5StateFv
+	.4byte PredictLanguageSelectDialog__Q49textinput6extend4memo5StateFv
+	.4byte BG__Q49textinput6extend4memo5StateFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF200
-	.4byte lbl_801D3CE0
-	.4byte lbl_801D10A0
-	.4byte lbl_801D10B0
-	.4byte lbl_801D1170
-	.4byte lbl_801D1180
-	.4byte lbl_801D10E0
-	.4byte lbl_801D1210
-	.4byte lbl_801D1300
-	.4byte lbl_801D13A0
-	.4byte lbl_801D3CD0
-	.4byte lbl_801D1150
-	.4byte lbl_801D2DC0
-	.4byte lbl_801D18B0
-	.4byte lbl_801D18D0
-	.4byte lbl_801D25B0
-	.4byte lbl_801D18F0
-	.4byte lbl_801D1910
-	.4byte lbl_801D2590
-	.4byte lbl_801D1930
+	.4byte __dt__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte getStateType__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte create__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte init__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte draw__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte memoDraw__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte calc__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte updateInput__Q49textinput6extend4memo13DispMemoStateFiffUlUlUl
+	.4byte updateInput__Q49textinput6extend4memo13DispMemoStateFRQ39textinput5input10HKBManager
+	.4byte start__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte end__Q49textinput6extend4memo13DispMemoStateFv
+	.4byte InputForm__Q49textinput6extend4memo5StateFv
+	.4byte HWKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte PCKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CellPhoneKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte SignKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CandidateBox__Q49textinput6extend4memo5StateFv
+	.4byte ToolBar__Q49textinput6extend4memo5StateFv
+	.4byte PredictLanguageSelectDialog__Q49textinput6extend4memo5StateFv
+	.4byte BG__Q49textinput6extend4memo5StateFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF240
-	.4byte 0
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q49textinput6extend4memo5StateFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -52322,100 +52319,103 @@ lbl_8032F308:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D1150
-	.4byte lbl_801D2DC0
-	.4byte lbl_801D18B0
-	.4byte lbl_801D18D0
-	.4byte lbl_801D25B0
-	.4byte lbl_801D18F0
-	.4byte lbl_801D1910
-	.4byte lbl_801D2590
-	.4byte lbl_801D1930
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte InputForm__Q49textinput6extend4memo5StateFv
+	.4byte HWKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte PCKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CellPhoneKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte SignKeyboard__Q49textinput6extend4memo5StateFv
+	.4byte CandidateBox__Q49textinput6extend4memo5StateFv
+	.4byte ToolBar__Q49textinput6extend4memo5StateFv
+	.4byte PredictLanguageSelectDialog__Q49textinput6extend4memo5StateFv
+	.4byte BG__Q49textinput6extend4memo5StateFv
 
-.global lbl_8032F4D0
-lbl_8032F4D0:
+.global __vt__Q49textinput6extend4memo7Manager
+__vt__Q49textinput6extend4memo7Manager:
 
 	# ROM: 0x32B5B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CF340
-	.4byte lbl_801CF610
-	.4byte lbl_801CF890
-	.4byte lbl_801CFA00
-	.4byte lbl_801CFA20
-	.4byte lbl_801CFA60
-	.4byte lbl_801CFA80
-	.4byte lbl_801D0A70
-	.4byte lbl_801CB340
-	.4byte lbl_801CB3B0
-	.4byte lbl_801CB420
-	.4byte lbl_801A04E0
-	.4byte lbl_801CB430
-	.4byte lbl_801CB440
-	.4byte lbl_801CB460
-	.4byte lbl_801CB480
-	.4byte lbl_801CB560
-	.4byte lbl_800A32EC
-	.4byte lbl_801CC440
-	.4byte lbl_801CAB50
-	.4byte lbl_801CB590
-	.4byte lbl_801D0510
-	.4byte lbl_801D0540
-	.4byte lbl_800A312C
-	.4byte lbl_801CC0F0
-	.4byte lbl_801B72B0
-	.4byte lbl_801A0460
-	.4byte lbl_801AB5C0
-	.4byte lbl_801A04D0
-	.4byte lbl_801AF290
-	.4byte lbl_801CC100
-	.4byte lbl_801CC400
-	.4byte lbl_801CC410
-	.4byte lbl_801A1480
-	.4byte lbl_801B3FA0
-	.4byte lbl_801A1250
-	.4byte lbl_801A0480
-	.4byte lbl_801CC3E0
-	.4byte lbl_801CC3F0
-	.4byte lbl_801CB7E0
-	.4byte lbl_801CB830
-	.4byte lbl_801CB880
-	.4byte lbl_801CB9D0
-	.4byte lbl_801CFF10
-	.4byte lbl_801CBB00
-	.4byte lbl_801CBCA0
-	.4byte lbl_801CBD50
-	.4byte lbl_801CBE20
-	.4byte lbl_801CB660
-	.4byte lbl_801CB720
-	.4byte lbl_801CFA40
-	.4byte lbl_801D3D30
-	.4byte lbl_801D3D60
-	.4byte lbl_801D3CF0
-	.4byte lbl_801CFAA0
-	.4byte lbl_801CFAF0
-	.4byte lbl_800A3A64
-	.4byte lbl_801CFB50
-	.4byte lbl_801D10D0
-	.4byte lbl_801D0760
-	.4byte lbl_801D0570
-	.4byte lbl_801D0060
-	.4byte lbl_801D00A0
-	.4byte lbl_801D00C0
-	.4byte lbl_801D00D0
-	.4byte lbl_801D00E0
-	.4byte lbl_801D00F0
-	.4byte lbl_801D0100
-	.4byte lbl_801D0110
-	.4byte lbl_801D00B0
-	.4byte lbl_801D0120
-	.4byte lbl_801D0130
-	.4byte lbl_801D0140
-	.4byte lbl_801D0150
-	.4byte lbl_801CFCB0
-	.4byte lbl_801CFDE0
-	.4byte lbl_801CFF70
-	.4byte lbl_801CFFD0
+	.4byte __dt__Q49textinput6extend4memo7ManagerFv
+	.4byte create__Q49textinput6extend4memo7ManagerFP12MEMAllocator
+	.4byte init__Q49textinput6extend4memo7ManagerFv
+	.4byte calc__Q49textinput6extend4memo7ManagerFv
+	.4byte draw__Q49textinput6extend4memo7ManagerFv
+	.4byte updateInput__Q49textinput6extend4memo7ManagerFiffUlUlUl
+	.4byte updateInput__Q49textinput6extend4memo7ManagerFRQ39textinput5input10HKBManager
+	.4byte SetFont__Q49textinput6extend4memo7ManagerFPQ34nw4r3lyt11FontRefLink
+	.4byte getWCString__Q29textinput7ManagerCFv
+	.4byte setWCString__Q29textinput7ManagerFPCw
+	.4byte setLanguage__Q29textinput7ManagerFQ29textinput8Language
+	.4byte getLanguage__Q29textinput7ManagerCFv
+	.4byte setDestination__Q29textinput7ManagerFQ29textinput11Destination
+	.4byte limitStringLength__Q29textinput7ManagerFUl
+	.4byte limitRowNum__Q29textinput7ManagerFUl
+	.4byte setAnimationOn__Q29textinput7ManagerFb
+	.4byte setAspectRatio__Q29textinput7ManagerFb
+	.4byte setSecretInputMode__Q29textinput7ManagerFb
+	.4byte setDefaultPredictionJP__Q29textinput7ManagerFiPPCc
+	.4byte setFixedPredictionJP__Q29textinput7ManagerFiPPCc
+	.4byte setTitleText__Q29textinput7ManagerFPw
+	.4byte start__Q49textinput6extend4memo7ManagerFv
+	.4byte end__Q49textinput6extend4memo7ManagerFv
+	.4byte getInputForm__Q29textinput7ManagerFv
+	.4byte getInputForm__Q29textinput7ManagerCFv
+	.4byte getHWKeyboard__Q29textinput7ManagerFv
+	.4byte getHWKeyboard__Q29textinput7ManagerCFv
+	.4byte getPCKeyboard__Q29textinput7ManagerFv
+	.4byte getPCKeyboard__Q29textinput7ManagerCFv
+	.4byte getCellPhoneKeyboard__Q29textinput7ManagerFv
+	.4byte getCellPhoneKeyboard__Q29textinput7ManagerCFv
+	.4byte getSignKeyboard__Q29textinput7ManagerFv
+	.4byte getSignKeyboard__Q29textinput7ManagerCFv
+	.4byte getCandidateBox__Q29textinput7ManagerFv
+	.4byte getCandidateBox__Q29textinput7ManagerCFv
+	.4byte getToolBar__Q29textinput7ManagerFv
+	.4byte getToolBar__Q29textinput7ManagerCFv
+	.4byte getPredictLanguageSelectDialog__Q29textinput7ManagerFv
+	.4byte getPredictLanguageSelectDialog__Q29textinput7ManagerCFv
+	.4byte createEditBuffer__Q29textinput7ManagerFv
+	.4byte createHWKeyboard__Q29textinput7ManagerFv
+	.4byte createPCTypeKeyboard__Q29textinput7ManagerFv
+	.4byte createCellPhoneTypeKeyboard__Q29textinput7ManagerFv
+	.4byte createInputForm__Q49textinput6extend4memo7ManagerFv
+	.4byte createCandidateBox__Q29textinput7ManagerFv
+	.4byte createToolBar__Q29textinput7ManagerFv
+	.4byte createPredictLanguageDialog__Q29textinput7ManagerFv
+	.4byte createSignWindow__Q29textinput7ManagerFv
+	.4byte setLayoutScaleFor16x9__Q29textinput7ManagerFv
+	.4byte setLayoutScaleFor4x3__Q29textinput7ManagerFv
+	.4byte memoDraw__Q49textinput6extend4memo7ManagerFv
+	.4byte setSaveData__Q49textinput6extend4memo7ManagerFQ49textinput6extend8savedata11MemoSetting
+	.4byte setSaveData__Q49textinput6extend4memo7ManagerFv
+	.4byte getSaveData__Q49textinput6extend4memo7ManagerFv
+	.4byte isDownButton__Q49textinput6extend4memo7ManagerFv
+	.4byte changeState__Q49textinput6extend4memo7ManagerFQ59textinput6extend4memo7Manager13StateTimeLine
+	.4byte getState__Q49textinput6extend4memo7ManagerFv
+	.4byte setState__Q49textinput6extend4memo7ManagerFQ59textinput6extend4memo7Manager9StateType
+	.4byte getConfigType__Q49textinput6extend4memo7ManagerFv
+	.4byte reflectSaveData__Q49textinput6extend4memo7ManagerFv
+	.4byte updateSaveData__Q49textinput6extend4memo7ManagerFv
+	.4byte configDefault__Q49textinput6extend4memo7ManagerFv
+	.4byte configNumeric__Q49textinput6extend4memo7ManagerFv
+	.4byte configNormalWithoutLineFeed__Q49textinput6extend4memo7ManagerFv
+	.4byte configNormalBigTextWithoutLineFeed__Q49textinput6extend4memo7ManagerFv
+	.4byte configOnlyQwertyWithoutLineFeedAndSign__Q49textinput6extend4memo7ManagerFv
+	.4byte configOnlyQwertyBigTextWithoutLineFeedAndSign__Q49textinput6extend4memo7ManagerFv
+	.4byte configNumericWithDot__Q49textinput6extend4memo7ManagerFv
+	.4byte configNumericBigTextWithDot__Q49textinput6extend4memo7ManagerFv
+	.4byte configNumericWithSeparator__Q49textinput6extend4memo7ManagerFv
+	.4byte configNormalBigTextWithoutLineFeedWithSign__Q49textinput6extend4memo7ManagerFv
+	.4byte configNormalWithoutLineFeedWithSign__Q49textinput6extend4memo7ManagerFv
+	.4byte configPredictWithoutLineFeed__Q49textinput6extend4memo7ManagerFv
+	.4byte configPredictBigTextWithoutLineFeed__Q49textinput6extend4memo7ManagerFv
+	.4byte createMemoInputForm__Q49textinput6extend4memo7ManagerFv
+	.4byte createLetterInputForm__Q49textinput6extend4memo7ManagerFv
+	.4byte createBigTextInputForm__Q49textinput6extend4memo7ManagerFv
+	.4byte createBG__Q49textinput6extend4memo7ManagerFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -52654,272 +52654,272 @@ lbl_8032F8D0:
 	.asciz "B_Nigaoe"
 	.balign 4
 
-.global lbl_8032F8DC
-lbl_8032F8DC:
+.global __vt__Q49textinput6extend4memo13SimpleAnmPane
+__vt__Q49textinput6extend4memo13SimpleAnmPane:
 
 	# ROM: 0x32B9BC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D7790
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801D7780
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801D7930
+	.4byte init__Q49textinput6extend4memo13SimpleAnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput6extend4memo13SimpleAnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput6extend4memo13SimpleAnmPaneFv
 
-.global lbl_8032F900
-lbl_8032F900:
+.global __vt__Q49textinput6extend4memo12ScrollButton
+__vt__Q49textinput6extend4memo12ScrollButton:
 
 	# ROM: 0x32B9E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D4C80
-	.4byte lbl_801D77A0
-	.4byte lbl_801D4F70
-	.4byte lbl_801D4FD0
+	.4byte create__Q49textinput6extend4memo12ScrollButtonFP12MEMAllocatorPQ34nw4r3lyt24MultiArcResourceAccessor
+	.4byte init__Q49textinput6extend4memo12ScrollButtonFv
+	.4byte calc__Q49textinput6extend4memo12ScrollButtonFv
+	.4byte changeAnimation__Q49textinput6extend4memo12ScrollButtonFbUl
 
-.global lbl_8032F918
-lbl_8032F918:
+.global __vt__Q49textinput6extend4memo10NigaoePane
+__vt__Q49textinput6extend4memo10NigaoePane:
 
 	# ROM: 0x32B9F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D77E0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801D7850
-	.4byte lbl_801D77C0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801D77F0
-	.4byte lbl_801D77D0
-	.4byte lbl_801D77B0
+	.4byte init__Q49textinput6extend4memo7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput6extend4memo10NigaoePaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput6extend4memo7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput6extend4memo10NigaoePaneFv
+	.4byte getKeyType__Q49textinput6extend4memo7AnmPaneCFv
+	.4byte getState__Q49textinput6extend4memo7AnmPaneFv
 
-.global lbl_8032F944
-lbl_8032F944:
+.global __vt__Q49textinput6extend4memo9WholePane
+__vt__Q49textinput6extend4memo9WholePane:
 
 	# ROM: 0x32BA24
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D77E0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801D7570
-	.4byte lbl_801D77C0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801D7860
-	.4byte lbl_801D77D0
-	.4byte lbl_801D77B0
+	.4byte init__Q49textinput6extend4memo7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q49textinput6extend4memo9WholePaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput6extend4memo7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput6extend4memo9WholePaneFv
+	.4byte getKeyType__Q49textinput6extend4memo7AnmPaneCFv
+	.4byte getState__Q49textinput6extend4memo7AnmPaneFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D77E0
-	.4byte lbl_801C9ED0
-	.4byte lbl_801A4430
-	.4byte lbl_801D77C0
-	.4byte lbl_801A7170
-	.4byte lbl_801A7100
-	.4byte lbl_801D4C20
-	.4byte lbl_801D77D0
-	.4byte lbl_801D77B0
+	.4byte init__Q49textinput6extend4memo7AnmPaneFv
+	.4byte calc__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte onAnmEvent__Q39textinput11nw4rmanager7AnmPaneFQ49textinput11nw4rmanager7AnmPane12AnmPaneEvent
+	.4byte changeAnimation__Q49textinput6extend4memo7AnmPaneFUl
+	.4byte isInAnimation__Q39textinput11nw4rmanager7AnmPaneFv
+	.4byte searchAnimation__Q39textinput11nw4rmanager7AnmPaneFUl
+	.4byte __dt__Q49textinput6extend4memo7AnmPaneFv
+	.4byte getKeyType__Q49textinput6extend4memo7AnmPaneCFv
+	.4byte getState__Q49textinput6extend4memo7AnmPaneFv
 	.4byte 0
 
-.global lbl_8032F9A0
-lbl_8032F9A0:
+.global __vt__Q49textinput6extend4memo12EventHandler
+__vt__Q49textinput6extend4memo12EventHandler:
 
 	# ROM: 0x32BA80
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D78F0
-	.4byte lbl_801C8870
-	.4byte lbl_801A71A0
-	.4byte lbl_801A7190
-	.4byte lbl_801D7580
-	.4byte lbl_801A7400
+	.4byte __dt__Q49textinput6extend4memo12EventHandlerFv
+	.4byte onEvent__Q39textinput11nw4rmanager14TiEventHandlerFRQ39textinput3gui12GUIComponentUlPv
+	.4byte setLatestEventCtrlNo__Q39textinput3gui12EventHandlerFi
+	.4byte getLatestEventCtrlNo__Q39textinput3gui12EventHandlerFv
+	.4byte onTiEvent__Q49textinput6extend4memo12EventHandlerFPQ39textinput3gui13PaneComponentUlPQ49textinput11nw4rmanager14TiEventHandler5Input
+	.4byte setEventObserver__Q39textinput11nw4rmanager14TiEventHandlerFPQ29textinput13EventObserver
 
-.global lbl_8032F9C0
-lbl_8032F9C0:
+.global __vt__Q49textinput6extend4memo9InputForm
+__vt__Q49textinput6extend4memo9InputForm:
 
 	# ROM: 0x32BAA0
 	.4byte 0
 	.4byte 0
-	.4byte func_801D3DF0
-	.4byte func_801B9D60
-	.4byte func_801D5840
-	.4byte lbl_801CF1F0
-	.4byte lbl_801D42D0
-	.4byte lbl_801B9D90
+	.4byte __dt__Q49textinput6extend4memo9InputFormFv
+	.4byte create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte init__Q49textinput6extend4memo9InputFormFv
+	.4byte clearSender__Q29textinput15CommandReceiverFv
+	.4byte onCommand__Q49textinput6extend4memo9InputFormFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte addSender__Q29textinput15CommandReceiverFPQ29textinput13CommandSender
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801BA280
-	.4byte func_801C74A0
-	.4byte lbl_801D7A00
-	.4byte func_801C6B40
-	.4byte func_801C6B20
-	.4byte lbl_801B9DD0
-	.4byte lbl_801D79F0
-	.4byte lbl_801C85F0
-	.4byte lbl_801C7AF0
-	.4byte lbl_801BA260
-	.4byte lbl_801C82B0
-	.4byte lbl_801AF320
-	.4byte lbl_801D79E0
-	.4byte lbl_800A3304
-	.4byte lbl_801BA240
-	.4byte lbl_801BA230
-	.4byte lbl_801D79D0
-	.4byte lbl_801D79C0
-	.4byte lbl_801D79B0
-	.4byte lbl_801D79A0
-	.4byte lbl_801C6C10
-	.4byte lbl_801BA1F0
-	.4byte lbl_801BA1E0
-	.4byte lbl_801D7990
-	.4byte lbl_801C7EC0
-	.4byte lbl_801B9DC0
-	.4byte lbl_801AFA50
-	.4byte lbl_801C6B80
-	.4byte lbl_801C6B90
-	.4byte lbl_801C6B50
-	.4byte lbl_801B9DB0
-	.4byte lbl_801B9DA0
-	.4byte lbl_801AFA40
-	.4byte lbl_801B05F0
-	.4byte lbl_801ACEF0
-	.4byte lbl_801ACF00
+	.4byte _16_create__Q39textinput9inputform4BaseFP12MEMAllocator
+	.4byte draw__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_draw__Q49textinput6extend4memo9InputFormFv
+	.4byte setDrawString__Q39textinput10textdrawer4BaseFPCwUlUl
+	.4byte setAspectRatio__Q39textinput10textdrawer4BaseFb
+	.4byte setVIWidth__Q39textinput10textdrawer4BaseFf
+	.4byte _16_beginDraw__Q49textinput6extend4memo9InputFormFRCQ34nw4r2ut4Rect
+	.4byte endDraw__Q39textinput10textdrawer4BaseFv
+	.4byte getLineHeight__Q39textinput10textdrawer4BaseFv
+	.4byte _16_setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte getWidth__Q39textinput10textdrawer4BaseFPCw
+	.4byte getLine__Q39textinput10textdrawer4BaseFv
+	.4byte _16_getScale__Q49textinput6extend4memo9InputFormCFv
+	.4byte setSecretModeOn__Q39textinput10textdrawer4BaseFb
+	.4byte _16_doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte _16_preDraw__Q49textinput6extend4memo9InputFormFUl
+	.4byte _16_finishDraw__Q49textinput6extend4memo9InputFormFUl
+	.4byte _16_doLineFeed__Q49textinput6extend4memo9InputFormFv
+	.4byte _16_put__Q49textinput6extend4memo9InputFormFw
+	.4byte procCursor__Q39textinput10textdrawer4BaseFPQ49textinput10textdrawer4Base9CursorPosl
+	.4byte _16_onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte _16_makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
+	.4byte _16_drawCursor__Q49textinput6extend4memo9InputFormFff
+	.4byte calcRect__Q39textinput10textdrawer4BaseFRQ49textinput10textdrawer4Base8DrawInfo
+	.4byte getStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte getEndPos__Q39textinput10textdrawer4BaseCFv
+	.4byte setDrawModifyScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte setDrawCacheScopeLine__Q39textinput10textdrawer4BaseFll
+	.4byte modifyCursorCache__Q39textinput10textdrawer4BaseFlUlffff
+	.4byte isEnableCursorCache__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyStartLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawModifyEndLine__Q39textinput10textdrawer4BaseCFv
+	.4byte getDrawCacheStartPos__Q39textinput10textdrawer4BaseCFv
+	.4byte dirtyDrawCache__Q39textinput10textdrawer4BaseFv
+	.4byte dirtyCursorCache__Q39textinput10textdrawer4BaseFv
 	.4byte 0
 	.4byte 0
-	.4byte func_801BA300
-	.4byte func_801BA320
-	.4byte lbl_801B9DE0
-	.4byte func_801BA340
-	.4byte func_801BA360
-	.4byte lbl_801D4630
-	.4byte lbl_801AF410
-	.4byte lbl_801A0B00
-	.4byte lbl_801B9E90
-	.4byte lbl_801B9E70
-	.4byte lbl_801B23E0
-	.4byte func_801AFFC0
-	.4byte lbl_801ACF10
-	.4byte lbl_801ACF70
-	.4byte lbl_801AD0A0
-	.4byte lbl_801B9E60
-	.4byte lbl_801B9E30
-	.4byte lbl_801B9E20
-	.4byte lbl_801B9E10
-	.4byte lbl_801B8390
-	.4byte lbl_801AD1E0
-	.4byte lbl_801AD2C0
-	.4byte lbl_801B8FC0
-	.4byte lbl_801B00F0
-	.4byte lbl_801D78C0
-	.4byte lbl_801B2E70
-	.4byte lbl_801B2EA0
-	.4byte lbl_801B9DF0
-	.4byte lbl_801ACEE0
-	.4byte lbl_801B3D60
-	.4byte lbl_801A0AC0
-	.4byte func_801AFFD0
-	.4byte func_801D5970
-	.4byte func_801D5B40
-	.4byte func_801B07E0
-	.4byte func_801B9D70
-	.4byte func_801D7420
-	.4byte func_801D7540
-	.4byte func_801D7480
-	.4byte func_801B1150
-	.4byte lbl_801B0610
-	.4byte func_801D68E0
-	.4byte lbl_801D67C0
-	.4byte lbl_801B2C10
-	.4byte lbl_801B02B0
-	.4byte lbl_801AFA60
-	.4byte lbl_801B9380
-	.4byte lbl_801B0040
-	.4byte lbl_801D67D0
-	.4byte lbl_801B2A90
-	.4byte func_801D6900
-	.4byte lbl_801D3FD0
-	.4byte lbl_801D4100
-	.4byte lbl_801B48A0
-	.4byte lbl_801B4C50
-	.4byte lbl_801B4FF0
-	.4byte lbl_801B5220
-	.4byte func_801AF9F0
+	.4byte resetCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte addCandidate__Q39textinput12candidatebox18CandidateBoxCallerFPCw
+	.4byte setCandidateBox__Q39textinput12candidatebox18CandidateBoxCallerFPQ39textinput12candidatebox4Base
+	.4byte updateCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte makeEmptyCandidate__Q39textinput12candidatebox18CandidateBoxCallerFv
+	.4byte create__Q49textinput6extend4memo9InputFormFP12MEMAllocatorPQ39textinput9inputform10EditBuffer
+	.4byte updateCandidateState___Q39textinput9inputform4BaseFv
+	.4byte getWCString__Q39textinput9inputform4BaseCFv
+	.4byte getAtokString__Q39textinput9inputform4BaseFv
+	.4byte getCandidate__Q39textinput9inputform4BaseCFv
+	.4byte getCursorPos__Q39textinput9inputform4BaseFv
+	.4byte setFont__Q39textinput9inputform4BaseFRCQ34nw4r2ut4Font
+	.4byte isEditMode__Q39textinput9inputform4BaseFv
+	.4byte checkHeadOfSentence__Q39textinput9inputform4BaseFb
+	.4byte setDestination__Q39textinput9inputform4BaseFQ29textinput11Destination
+	.4byte limitStringLength__Q39textinput9inputform4BaseFUl
+	.4byte limitRowNum__Q39textinput9inputform4BaseFUl
+	.4byte doWordWrap__Q39textinput9inputform4BaseFb
+	.4byte setLineDrawInfo__Q39textinput9inputform4BaseFbUl
+	.4byte setLanguage__Q39textinput9inputform12LayoutByNW4RFQ29textinput8Language
+	.4byte setPredictMode__Q39textinput9inputform4BaseFQ49textinput9inputform4Base11PredictMode
+	.4byte getPredictMode__Q39textinput9inputform4BaseFv
+	.4byte isOverRowLimit__Q39textinput9inputform4BaseFUlPCw
+	.4byte findURL__Q39textinput9inputform4BaseFPUlPUlPCwUlUl
+	.4byte isInScroll__Q49textinput6extend4memo9InputFormFv
+	.4byte setAtokDictionary__Q39textinput9inputform4BaseFPviPviPvi
+	.4byte closeAtokDictionary__Q39textinput9inputform4BaseFv
+	.4byte isAtokDictionaryOpened__Q39textinput9inputform4BaseFv
+	.4byte enableSpaceByRight__Q39textinput9inputform4BaseFb
+	.4byte onClose__Q39textinput9inputform4BaseFv
+	.4byte canConvert__Q39textinput9inputform4BaseFv
+	.4byte setString__Q39textinput9inputform4BaseFPCw
+	.4byte draw__Q49textinput6extend4memo9InputFormFv
+	.4byte calc__Q49textinput6extend4memo9InputFormFv
+	.4byte doBeforeDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte doAfterDrawProcess__Q39textinput9inputform4BaseFPCwUlRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte preDraw__Q49textinput6extend4memo9InputFormFUl
+	.4byte finishDraw__Q49textinput6extend4memo9InputFormFUl
+	.4byte doLineFeed__Q49textinput6extend4memo9InputFormFv
+	.4byte onCursor__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPos
+	.4byte isOverLine__Q39textinput9inputform4BaseFRCQ49textinput10textdrawer4Base8DrawInfo
+	.4byte drawCursor__Q49textinput6extend4memo9InputFormFff
+	.4byte doScroll__Q49textinput6extend4memo9InputFormFPQ39textinput15CommandReceiver6Scroll
+	.4byte autoScroll__Q39textinput9inputform4BaseFv
+	.4byte doWordWrap__Q39textinput9inputform4BaseFPCwUlf
+	.4byte drawFixString__Q39textinput9inputform4BaseFUl
+	.4byte onSE__Q39textinput9inputform12LayoutByNW4RFQ39textinput5sound2SE
+	.4byte clear__Q39textinput9inputform4BaseFv
+	.4byte calcCursorPos__Q49textinput6extend4memo9InputFormFff
+	.4byte getGlobalLeftTopPos__Q39textinput9inputform4BaseCFv
+	.4byte getScale__Q49textinput6extend4memo9InputFormCFv
+	.4byte moveCursorUp__Q49textinput6extend4memo9InputFormFv
+	.4byte moveCursorDown__Q49textinput6extend4memo9InputFormFv
+	.4byte onPressUp__Q39textinput9inputform4BaseFv
+	.4byte onPressDown__Q39textinput9inputform4BaseFv
+	.4byte onPressLeft__Q39textinput9inputform4BaseFv
+	.4byte onPressRight__Q39textinput9inputform4BaseFv
+	.4byte makeUpCursorPos__Q39textinput9inputform4BaseFPQ49textinput10textdrawer4Base9CursorPosUlll
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D7A60
-	.4byte func_801C8DA0
-	.4byte lbl_801D7A50
-	.4byte lbl_801C9060
-	.4byte lbl_801D7A40
-	.4byte lbl_801D7A30
-	.4byte lbl_801D7A10
-	.4byte lbl_801D7A20
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte lbl_801BA2A0
-	.4byte lbl_801BA290
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte lbl_801B87A0
-	.4byte func_801D5500
-	.4byte func_801D5830
-	.4byte lbl_801B9AB0
-	.4byte lbl_801B9AC0
-	.4byte func_801B93A0
-	.4byte func_801B93E0
-	.4byte lbl_801B7D80
-	.4byte lbl_801D5B10
-	.4byte lbl_801D3EA0
-	.4byte lbl_801D78E0
-	.4byte lbl_801D2010
-	.4byte lbl_801D2020
-	.4byte lbl_801D6C40
-	.4byte lbl_801D6D40
-	.4byte lbl_801D6E30
-	.4byte lbl_801D6E70
-	.4byte lbl_801D6EE0
-	.4byte lbl_801D6F50
-	.4byte lbl_801D70F0
-	.4byte lbl_801D7160
-	.4byte lbl_801D71F0
-	.4byte lbl_801D7270
-	.4byte lbl_801D5180
-	.4byte lbl_801D51F0
-	.4byte lbl_801D5220
-	.4byte lbl_801D5290
-	.4byte lbl_801D52C0
-	.4byte lbl_801D53E0
-	.4byte lbl_801D78D0
-	.4byte lbl_801D6FD0
-	.4byte lbl_801D6FF0
-	.4byte lbl_801D7090
-	.4byte lbl_801D7040
-	.4byte lbl_801D7050
-	.4byte func_801D6770
-	.4byte func_801D74E0
-	.4byte lbl_801D49F0
-	.4byte lbl_801D6940
-	.4byte lbl_801D6A00
-	.4byte lbl_801D6B40
-	.4byte lbl_801D4440
-	.4byte lbl_801D4330
-	.4byte lbl_801D6510
+	.4byte _536___dt__Q49textinput6extend4memo9InputFormFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _536_init__Q49textinput6extend4memo9InputFormFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _536_draw__Q49textinput6extend4memo9InputFormFv
+	.4byte _536_calc__Q49textinput6extend4memo9InputFormFv
+	.4byte _536_updateInput__Q49textinput6extend4memo9InputFormFiffUlUlUlPv
+	.4byte _536_updateInput__Q49textinput6extend4memo9InputFormFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte _536_setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte _536_setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte updateInputCommon__Q39textinput9inputform12LayoutByNW4RFiUlUlUlPv
+	.4byte updateInput__Q49textinput6extend4memo9InputFormFiffUlUlUlPv
+	.4byte updateInput__Q49textinput6extend4memo9InputFormFRQ39textinput5input10HKBManager
+	.4byte isAbleToUp__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte isAbleToDown__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor16x9__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput9inputform12LayoutByNW4RFv
+	.4byte visibleSeparator__Q39textinput9inputform12LayoutByNW4RFb
+	.4byte setScroll__Q49textinput6extend4memo9InputFormFf
+	.4byte setAddScroll__Q49textinput6extend4memo9InputFormFfbb
+	.4byte getScroll__Q49textinput6extend4memo9InputFormFv
+	.4byte getScrollFrom__Q49textinput6extend4memo9InputFormFv
+	.4byte getScrollTo__Q49textinput6extend4memo9InputFormFv
+	.4byte open__Q49textinput6extend4memo9InputFormFv
+	.4byte close__Q49textinput6extend4memo9InputFormFv
+	.4byte isWholePaneInAnimation__Q49textinput6extend4memo9InputFormFv
+	.4byte setHeaderCaption__Q49textinput6extend4memo9InputFormFPCw
+	.4byte setMiiName__Q49textinput6extend4memo9InputFormFPCw
+	.4byte setTouchLetterCaption__Q49textinput6extend4memo9InputFormFPCw
+	.4byte onNigaoeButtonTrig__Q49textinput6extend4memo9InputFormFv
+	.4byte onNigaoeButtonPoint__Q49textinput6extend4memo9InputFormFv
+	.4byte onNigaoeButtonLeft__Q49textinput6extend4memo9InputFormFv
+	.4byte setDefaultNigaoe__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowRPoint__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowRLeft__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowLPoint__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowLLeft__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowRTrig__Q49textinput6extend4memo9InputFormFv
+	.4byte onArrowLTrig__Q49textinput6extend4memo9InputFormFv
+	.4byte setNigaoeEventObserver__Q49textinput6extend4memo9InputFormFPQ49textinput6extend4memo19NigaoeEventObserver
+	.4byte getNigaoePane__Q49textinput6extend4memo9InputFormFv
+	.4byte getNigaoePaneMaterial__Q49textinput6extend4memo9InputFormFv
+	.4byte getDrawBoxHeight__Q49textinput6extend4memo9InputFormFv
+	.4byte getScrollMin__Q49textinput6extend4memo9InputFormFv
+	.4byte getScrollMax__Q49textinput6extend4memo9InputFormFv
+	.4byte beginDraw__Q49textinput6extend4memo9InputFormFRCQ34nw4r2ut4Rect
+	.4byte put__Q49textinput6extend4memo9InputFormFw
+	.4byte createAnimation__Q49textinput6extend4memo9InputFormFP12MEMAllocator
+	.4byte drawHeader__Q49textinput6extend4memo9InputFormFv
+	.4byte drawBody__Q49textinput6extend4memo9InputFormFv
+	.4byte drawFooter__Q49textinput6extend4memo9InputFormFv
+	.4byte onCommandOnDispMode__Q49textinput6extend4memo9InputFormFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte onCommandOnEditMode__Q49textinput6extend4memo9InputFormFQ39textinput15CommandReceiver13INPUT_COMMANDPv
+	.4byte doAutoScroll__Q49textinput6extend4memo9InputFormFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -52927,15 +52927,15 @@ lbl_8032F9C0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8032FCA8
-lbl_8032FCA8:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut39LinkList_Q44nw4r3lyt6detail8PaneLink_0_FPQ34nw4r2ut12LinkListNode_0
+_STRING_GetPointerFromNode__Q34nw4r2ut39LinkList_Q44nw4r3lyt6detail8PaneLink_0_FPQ34nw4r2ut12LinkListNode_0:
 
 	# ROM: 0x32BD88
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_8032FCCC
-lbl_8032FCCC:
+.global _STRING_GetPointerFromNode__Q34nw4r2ut39LinkList_Q44nw4r3lyt6detail8PaneLink_0_FPQ34nw4r2ut12LinkListNode
+_STRING_GetPointerFromNode__Q34nw4r2ut39LinkList_Q44nw4r3lyt6detail8PaneLink_0_FPQ34nw4r2ut12LinkListNode:
 
 	# ROM: 0x32BDAC
 	.asciz "LinkList.h"
@@ -52952,46 +52952,46 @@ lbl_8032FCCC:
 	.asciz "material.h"
 	.balign 4
 
-.global lbl_8032FD90
-lbl_8032FD90:
+.global __vt__Q49textinput6extend2bg12LayoutByNW4R
+__vt__Q49textinput6extend2bg12LayoutByNW4R:
 
 	# ROM: 0x32BE70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D7A70
-	.4byte func_801D7AC0
+	.4byte create__Q49textinput6extend2bg12LayoutByNW4RFP12MEMAllocator
+	.4byte init__Q49textinput6extend2bg12LayoutByNW4RFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D7B40
-	.4byte func_801C8DA0
-	.4byte lbl_801D7B30
-	.4byte lbl_801C9060
-	.4byte lbl_801D7B20
-	.4byte func_801C9340
-	.4byte func_801C93C0
-	.4byte func_801C93E0
-	.4byte lbl_801A2960
-	.4byte lbl_801C9600
-	.4byte lbl_801C9680
-	.4byte lbl_801C9700
-	.4byte lbl_801A70F0
-	.4byte lbl_801C97B0
-	.4byte func_801C9840
-	.4byte func_801C9940
-	.4byte lbl_801C99B0
-	.4byte lbl_801A4970
-	.4byte lbl_801A4360
-	.4byte lbl_801C93F0
-	.4byte lbl_801C94C0
-	.4byte lbl_801C9530
-	.4byte lbl_801C88E0
-	.4byte lbl_801C8970
-	.4byte lbl_801A70E0
-	.4byte lbl_801A6BD0
-	.4byte lbl_801C9B70
-	.4byte lbl_801C8FB0
-	.4byte func_801CF5B0
-	.4byte func_801D2210
+	.4byte _4___dt__Q49textinput6extend2bg12LayoutByNW4RFv
+	.4byte createWithEventHandler__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte _4_init__Q49textinput6extend2bg12LayoutByNW4RFv
+	.4byte initPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte _4_draw__Q49textinput6extend2bg12LayoutByNW4RFv
+	.4byte calc__Q39textinput11nw4rmanager6LayoutFv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFiffUlUlUlPv
+	.4byte updateInput__Q39textinput11nw4rmanager6LayoutFRQ39textinput5input10HKBManager
+	.4byte getLayout__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte getPane__Q39textinput11nw4rmanager6LayoutCFPCc
+	.4byte getFlightDuration__Q39textinput11nw4rmanager6LayoutFiPCc
+	.4byte setAnimOn__Q39textinput11nw4rmanager6LayoutFb
+	.4byte drawPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte setRootPaneScaleFor16x9__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setRootPaneScaleFor4x3__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setProjectionMtx__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFPQ34nw4r3lyt4Pane
+	.4byte initPaneLastDrawReceived__Q39textinput11nw4rmanager6LayoutFv
+	.4byte setVisible__Q39textinput11nw4rmanager6LayoutFPCcb
+	.4byte isVisible__Q39textinput11nw4rmanager6LayoutCFPCcPb
+	.4byte setString__Q39textinput11nw4rmanager6LayoutFPCcPCw
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFPCc
+	.4byte searchAnmPane__Q39textinput11nw4rmanager6LayoutFw
+	.4byte getAnmPaneList__Q39textinput11nw4rmanager6LayoutFv
+	.4byte getPaneManager__Q39textinput11nw4rmanager6LayoutFv
+	.4byte AdjustPaneMtx__Q39textinput11nw4rmanager6LayoutFRA3_A4_fRCQ34nw4r3lyt8DrawInfoRCQ34nw4r4math5MTX34
+	.4byte createPaneManager__Q39textinput11nw4rmanager6LayoutFP12MEMAllocatorPQ39textinput11nw4rmanager14TiEventHandler
+	.4byte __dt__Q49textinput6extend2bg12LayoutByNW4RFv
+	.4byte draw__Q49textinput6extend2bg12LayoutByNW4RFv
 
 .global lbl_8032FE20
 lbl_8032FE20:
@@ -53007,129 +53007,129 @@ lbl_8032FE34:
 	.asciz "NW4R:Pointer must not be NULL (pManager)"
 	.balign 4
 
-.global lbl_8032FE60
-lbl_8032FE60:
+.global __vt__Q39textinput3gui13PaneComponent
+__vt__Q39textinput3gui13PaneComponent:
 
 	# ROM: 0x32BF40
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D8F30
-	.4byte lbl_801BB160
-	.4byte lbl_801B82B0
-	.4byte lbl_801CA2D0
-	.4byte lbl_801CA2B0
-	.4byte lbl_801D9B00
-	.4byte lbl_801D87A0
-	.4byte lbl_801D8530
-	.4byte lbl_801A5FD0
-	.4byte lbl_801D8560
-	.4byte lbl_801D8570
-	.4byte lbl_801D8590
-	.4byte lbl_801D85B0
-	.4byte lbl_801D8540
-	.4byte lbl_801D8BE0
-	.4byte lbl_801D8E10
-	.4byte lbl_801D9D00
-	.4byte lbl_801D8AD0
-	.4byte lbl_801D8BD0
-	.4byte lbl_801A6BE0
-	.4byte lbl_801D9CC0
-	.4byte lbl_801C0470
-	.4byte lbl_801AC060
-	.4byte lbl_801D99C0
-	.4byte lbl_801D9760
+	.4byte __dt__Q39textinput3gui13PaneComponentFv
+	.4byte create__Q39textinput3gui12GUIInterfaceFv
+	.4byte init__Q39textinput3gui12GUIComponentFv
+	.4byte calc__Q39textinput3gui12GUIInterfaceFv
+	.4byte draw__Q39textinput3gui12GUIInterfaceFRA3_A4_f
+	.4byte draw__Q39textinput3gui13PaneComponentFv
+	.4byte getID__Q39textinput3gui12GUIComponentFv
+	.4byte isPointed__Q39textinput3gui12GUIComponentFi
+	.4byte isDragging__Q39textinput3gui12GUIComponentFi
+	.4byte setPointed__Q39textinput3gui12GUIComponentFib
+	.4byte onPointIn__Q39textinput3gui12GUIComponentFi
+	.4byte onPointOut__Q39textinput3gui12GUIComponentFi
+	.4byte onDrag__Q39textinput3gui12GUIComponentFff
+	.4byte onMove__Q39textinput3gui12GUIComponentFiff
+	.4byte onTrig__Q39textinput3gui12GUIComponentFiUlR3Vec
+	.4byte setDraggingButton__Q39textinput3gui12GUIComponentFUl
+	.4byte updatePointer__Q39textinput3gui12GUIComponentFRCQ39textinput3gui10GUIPointer
+	.4byte updatePointer__Q39textinput3gui12GUIComponentFiffUlUlUl
+	.4byte isTriggerTarget__Q39textinput3gui12GUIComponentFv
+	.4byte setTriggerTarget__Q39textinput3gui12GUIComponentFb
+	.4byte isVisible__Q39textinput3gui13PaneComponentFv
+	.4byte getFlightDuration__Q39textinput3gui12GUIComponentFi
+	.4byte setFlightDuration__Q39textinput3gui12GUIComponentFiUs
+	.4byte contain__Q39textinput3gui13PaneComponentFff
+	.4byte setPane__Q39textinput3gui13PaneComponentFPQ34nw4r3lyt4Pane
 
-.global lbl_8032FECC
-lbl_8032FECC:
+.global __vt__Q39textinput3gui11PaneManager
+__vt__Q39textinput3gui11PaneManager:
 
 	# ROM: 0x32BFAC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D8E20
-	.4byte lbl_801BB160
-	.4byte lbl_801D8680
-	.4byte lbl_801D8C30
-	.4byte lbl_801CA2B0
-	.4byte lbl_801D8CA0
-	.4byte lbl_801D86F0
-	.4byte lbl_801D87B0
-	.4byte lbl_801D87E0
-	.4byte lbl_801D9D20
-	.4byte lbl_801D8810
-	.4byte lbl_801D8B10
-	.4byte lbl_801D8D10
-	.4byte lbl_801D9D10
-	.4byte lbl_801D49E0
-	.4byte lbl_801D8D90
-	.4byte lbl_801D8FB0
-	.4byte lbl_801D9820
-	.4byte lbl_801D9AF0
-	.4byte lbl_801C8FA0
-	.4byte lbl_801D98C0
+	.4byte __dt__Q39textinput3gui11PaneManagerFv
+	.4byte create__Q39textinput3gui12GUIInterfaceFv
+	.4byte init__Q39textinput3gui10GUIManagerFv
+	.4byte calc__Q39textinput3gui10GUIManagerFv
+	.4byte draw__Q39textinput3gui12GUIInterfaceFRA3_A4_f
+	.4byte draw__Q39textinput3gui10GUIManagerFv
+	.4byte addComponent__Q39textinput3gui10GUIManagerFPQ39textinput3gui12GUIComponent
+	.4byte getComponent__Q39textinput3gui10GUIManagerFUl
+	.4byte getComponent__Q39textinput3gui10GUIManagerCFUl
+	.4byte update__Q39textinput3gui10GUIManagerFiPC10KPADStatusffPv
+	.4byte update__Q39textinput3gui10GUIManagerFiffUlUlUlPv
+	.4byte onEvent__Q39textinput3gui10GUIManagerFRQ39textinput3gui12GUIComponentUliPv
+	.4byte setAllComponentTriggerTarget__Q39textinput3gui10GUIManagerFb
+	.4byte setEventHandler__Q39textinput3gui10GUIManagerFPQ39textinput3gui12EventHandler
+	.4byte changeEventHandler__Q39textinput3gui10GUIManagerFPQ39textinput3gui12EventHandler
+	.4byte setDraggingButton__Q39textinput3gui10GUIManagerFUl
+	.4byte createLayoutScene__Q39textinput3gui11PaneManagerFRCQ34nw4r3lyt6Layout
+	.4byte getPaneComponentByPane__Q39textinput3gui11PaneManagerFPQ34nw4r3lyt4Pane
+	.4byte getDrawInfo__Q39textinput3gui11PaneManagerFv
+	.4byte setDrawInfo__Q39textinput3gui11PaneManagerFPCQ34nw4r3lyt8DrawInfo
+	.4byte setAllBoundingBoxComponentTriggerTarget__Q39textinput3gui11PaneManagerFb
 
-.global lbl_8032FF28
-lbl_8032FF28:
+.global __vt__Q39textinput3gui10GUIManager
+__vt__Q39textinput3gui10GUIManager:
 
 	# ROM: 0x32C008
 	.4byte 0
 	.4byte 0
-	.4byte func_801D85C0
-	.4byte lbl_801BB160
-	.4byte lbl_801D8680
-	.4byte lbl_801D8C30
-	.4byte lbl_801CA2B0
-	.4byte lbl_801D8CA0
-	.4byte lbl_801D86F0
-	.4byte lbl_801D87B0
-	.4byte lbl_801D87E0
-	.4byte lbl_801D9D20
-	.4byte lbl_801D8810
-	.4byte lbl_801D8B10
-	.4byte lbl_801D8D10
-	.4byte lbl_801D9D10
-	.4byte lbl_801D49E0
-	.4byte lbl_801D8D90
+	.4byte __dt__Q39textinput3gui10GUIManagerFv
+	.4byte create__Q39textinput3gui12GUIInterfaceFv
+	.4byte init__Q39textinput3gui10GUIManagerFv
+	.4byte calc__Q39textinput3gui10GUIManagerFv
+	.4byte draw__Q39textinput3gui12GUIInterfaceFRA3_A4_f
+	.4byte draw__Q39textinput3gui10GUIManagerFv
+	.4byte addComponent__Q39textinput3gui10GUIManagerFPQ39textinput3gui12GUIComponent
+	.4byte getComponent__Q39textinput3gui10GUIManagerFUl
+	.4byte getComponent__Q39textinput3gui10GUIManagerCFUl
+	.4byte update__Q39textinput3gui10GUIManagerFiPC10KPADStatusffPv
+	.4byte update__Q39textinput3gui10GUIManagerFiffUlUlUlPv
+	.4byte onEvent__Q39textinput3gui10GUIManagerFRQ39textinput3gui12GUIComponentUliPv
+	.4byte setAllComponentTriggerTarget__Q39textinput3gui10GUIManagerFb
+	.4byte setEventHandler__Q39textinput3gui10GUIManagerFPQ39textinput3gui12EventHandler
+	.4byte changeEventHandler__Q39textinput3gui10GUIManagerFPQ39textinput3gui12EventHandler
+	.4byte setDraggingButton__Q39textinput3gui10GUIManagerFUl
 
-.global lbl_8032FF70
-lbl_8032FF70:
+.global __vt__Q39textinput3gui12GUIComponent
+__vt__Q39textinput3gui12GUIComponent:
 
 	# ROM: 0x32C050
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801D8F70
-	.4byte lbl_801BB160
-	.4byte lbl_801B82B0
-	.4byte lbl_801CA2D0
-	.4byte lbl_801CA2B0
-	.4byte lbl_801CA2C0
-	.4byte lbl_801D87A0
-	.4byte lbl_801D8530
-	.4byte lbl_801A5FD0
-	.4byte lbl_801D8560
-	.4byte lbl_801D8570
-	.4byte lbl_801D8590
-	.4byte lbl_801D85B0
-	.4byte lbl_801D8540
-	.4byte lbl_801D8BE0
-	.4byte lbl_801D8E10
-	.4byte lbl_801D9D00
-	.4byte lbl_801D8AD0
-	.4byte lbl_801D8BD0
-	.4byte lbl_801A6BE0
-	.4byte lbl_801D8520
-	.4byte lbl_801C0470
-	.4byte lbl_801AC060
+	.4byte __dt__Q39textinput3gui12GUIComponentFv
+	.4byte create__Q39textinput3gui12GUIInterfaceFv
+	.4byte init__Q39textinput3gui12GUIComponentFv
+	.4byte calc__Q39textinput3gui12GUIInterfaceFv
+	.4byte draw__Q39textinput3gui12GUIInterfaceFRA3_A4_f
+	.4byte draw__Q39textinput3gui12GUIInterfaceFv
+	.4byte getID__Q39textinput3gui12GUIComponentFv
+	.4byte isPointed__Q39textinput3gui12GUIComponentFi
+	.4byte isDragging__Q39textinput3gui12GUIComponentFi
+	.4byte setPointed__Q39textinput3gui12GUIComponentFib
+	.4byte onPointIn__Q39textinput3gui12GUIComponentFi
+	.4byte onPointOut__Q39textinput3gui12GUIComponentFi
+	.4byte onDrag__Q39textinput3gui12GUIComponentFff
+	.4byte onMove__Q39textinput3gui12GUIComponentFiff
+	.4byte onTrig__Q39textinput3gui12GUIComponentFiUlR3Vec
+	.4byte setDraggingButton__Q39textinput3gui12GUIComponentFUl
+	.4byte updatePointer__Q39textinput3gui12GUIComponentFRCQ39textinput3gui10GUIPointer
+	.4byte updatePointer__Q39textinput3gui12GUIComponentFiffUlUlUl
+	.4byte isTriggerTarget__Q39textinput3gui12GUIComponentFv
+	.4byte setTriggerTarget__Q39textinput3gui12GUIComponentFb
+	.4byte isVisible__Q39textinput3gui12GUIComponentFv
+	.4byte getFlightDuration__Q39textinput3gui12GUIComponentFi
+	.4byte setFlightDuration__Q39textinput3gui12GUIComponentFiUs
 	.4byte 0
 
-.global lbl_8032FFD8
-lbl_8032FFD8:
+.global _STRING_List_GetSize__Q24nw4r2utFPCQ34nw4r2ut4List_0
+_STRING_List_GetSize__Q24nw4r2utFPCQ34nw4r2ut4List_0:
 
 	# ROM: 0x32C0B8
 	.asciz "NW4R:Pointer must not be NULL (list)"
 	.balign 4
 
-.global lbl_80330000
-lbl_80330000:
+.global __vt__Q39textinput5input11KBDListener
+__vt__Q39textinput5input11KBDListener:
 
 	# ROM: 0x32C0E0
 	.4byte 0
@@ -53144,24 +53144,24 @@ lbl_80330004:
 lbl_80330008:
 
 	# ROM: 0x32C0E8
-	.4byte lbl_801D9D30
-	.4byte lbl_801D9D70
-	.4byte lbl_801D9D80
-	.4byte lbl_801D9D90
+	.4byte __dt__Q39textinput5input11KBDListenerFv
+	.4byte OnAttach__Q39textinput5input11KBDListenerFP11KBDDevEvent
+	.4byte OnDetach__Q39textinput5input11KBDListenerFP11KBDDevEvent
+	.4byte OnKeyEvent__Q39textinput5input11KBDListenerFP12_KBDKeyEvent
 
-.global lbl_80330018
-lbl_80330018:
+.global __vt__Q49textinput8keyboard5hwkey10HWKeyboard
+__vt__Q49textinput8keyboard5hwkey10HWKeyboard:
 
 	# ROM: 0x32C0F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801CA540
-	.4byte lbl_801BA080
-	.4byte lbl_801D9E00
-	.4byte func_801CF140
-	.4byte lbl_801A0650
-	.4byte lbl_801C34A0
-	.4byte lbl_801DA010
+	.4byte __dt__Q49textinput8keyboard5hwkey10HWKeyboardFv
+	.4byte create__Q29textinput4BaseFP12MEMAllocator
+	.4byte init__Q49textinput8keyboard5hwkey10HWKeyboardFv
+	.4byte setCommandReceiver__Q29textinput13CommandSenderFPQ29textinput15CommandReceiver
+	.4byte sendCommand__Q29textinput13CommandSenderFUlPv
+	.4byte updateFromReceiver__Q29textinput13CommandSenderFUlPv
+	.4byte updateInput__Q49textinput8keyboard5hwkey10HWKeyboardFRQ39textinput5input10HKBManager
 	.4byte 0
 
 .global lbl_80330040
@@ -53192,78 +53192,78 @@ lbl_80330120:
 	.balign 4
 	.4byte 0
 
-.global lbl_80330158
-lbl_80330158:
+.global __vt__Q29textinput8TiLayout
+__vt__Q29textinput8TiLayout:
 
 	# ROM: 0x32C238
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801C8D40
-	.4byte lbl_802864B0
-	.4byte lbl_80286800
-	.4byte lbl_801DA970
-	.4byte lbl_802868E0
-	.4byte lbl_80286970
-	.4byte lbl_802869A0
-	.4byte lbl_802869D0
-	.4byte lbl_802869F0
-	.4byte lbl_80286C90
-	.4byte lbl_80286CC0
-	.4byte lbl_80286CE0
-	.4byte lbl_80286D00
-	.4byte lbl_80286D60
+	.4byte __dt__Q29textinput8TiLayoutFv
+	.4byte Build__Q34nw4r3lyt6LayoutFPCvPQ34nw4r3lyt16ResourceAccessor
+	.4byte CreateAnimTransform__Q34nw4r3lyt6LayoutFv
+	.4byte CreateAnimTransform__Q29textinput8TiLayoutFPCvPQ34nw4r3lyt16ResourceAccessor
+	.4byte CreateAnimTransform__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt12AnimResourcePQ34nw4r3lyt16ResourceAccessor
+	.4byte BindAnimation__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAnimation__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAllAnimation__Q34nw4r3lyt6LayoutFv
+	.4byte BindAnimationAuto__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt12AnimResourcePQ34nw4r3lyt16ResourceAccessor
+	.4byte SetAnimationEnable__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransformb
+	.4byte CalculateMtx__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt6LayoutFUl
+	.4byte SetTagProcessor__Q34nw4r3lyt6LayoutFPQ34nw4r2ut19TagProcessorBase_w_
 
-.global lbl_80330198
-lbl_80330198:
+.global __vt__Q29textinput17AnimTransformPane
+__vt__Q29textinput17AnimTransformPane:
 
 	# ROM: 0x32C278
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801DAED0
-	.4byte lbl_801DA120
-	.4byte lbl_8028EDC0
-	.4byte lbl_801DA4C0
-	.4byte lbl_801DA7B0
-	.4byte lbl_8028F220
-	.4byte lbl_8028F400
+	.4byte __dt__Q29textinput17AnimTransformPaneFv
+	.4byte SetResource__Q29textinput17AnimTransformPaneFPCQ44nw4r3lyt3res14AnimationBlockPQ34nw4r3lyt16ResourceAccessor
+	.4byte SetResource__Q34nw4r3lyt18AnimTransformBasicFPCQ44nw4r3lyt3res14AnimationBlockPQ34nw4r3lyt16ResourceAccessorUs
+	.4byte Bind__Q29textinput17AnimTransformPaneFPQ34nw4r3lyt4Panebb
+	.4byte Bind__Q29textinput17AnimTransformPaneFPQ34nw4r3lyt8Materialb
+	.4byte Animate__Q34nw4r3lyt18AnimTransformBasicFUlPQ34nw4r3lyt4Pane
+	.4byte Animate__Q34nw4r3lyt18AnimTransformBasicFUlPQ34nw4r3lyt8Material
 
-.global lbl_803301BC
-lbl_803301BC:
+.global _STRING_GetBack__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv_0
+_STRING_GetBack__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv_0:
 
 	# ROM: 0x32C29C
 	.asciz "NW4R:Failed assertion !IsEmpty()"
 	.balign 4
 
-.global lbl_803301E0
-lbl_803301E0:
+.global _STRING_GetBack__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv
+_STRING_GetBack__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv:
 
 	# ROM: 0x32C2C0
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_803301EC
-lbl_803301EC:
+.global _STRING_GetFront__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv_0
+_STRING_GetFront__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv_0:
 
 	# ROM: 0x32C2CC
 	.asciz "NW4R:Failed assertion !IsEmpty()"
 	.balign 4
 
-.global lbl_80330210
-lbl_80330210:
+.global _STRING_GetFront__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv
+_STRING_GetFront__Q34nw4r2ut28LinkList_Q34nw4r3lyt4Pane_4_Fv:
 
 	# ROM: 0x32C2F0
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_8033021C
-lbl_8033021C:
+.global _STRING_GetNodeFromPointer__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimTransform_4_FPQ34nw4r3lyt13AnimTransform_0
+_STRING_GetNodeFromPointer__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimTransform_4_FPQ34nw4r3lyt13AnimTransform_0:
 
 	# ROM: 0x32C2FC
 	.asciz "NW4R:Pointer must not be NULL (p)"
 	.balign 4
 
-.global lbl_80330240
-lbl_80330240:
+.global _STRING_GetNodeFromPointer__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimTransform_4_FPQ34nw4r3lyt13AnimTransform
+_STRING_GetNodeFromPointer__Q34nw4r2ut38LinkList_Q34nw4r3lyt13AnimTransform_4_FPQ34nw4r3lyt13AnimTransform:
 
 	# ROM: 0x32C320
 	.asciz "LinkList.h"
@@ -53277,28 +53277,28 @@ lbl_80330240:
 	.asciz "LinkList.h"
 	.balign 4
 
-.global lbl_803302AC
-lbl_803302AC:
+.global _STRING_AllocMemory__Q34nw4r3lyt6LayoutFUl_0
+_STRING_AllocMemory__Q34nw4r3lyt6LayoutFUl_0:
 
 	# ROM: 0x32C38C
 	.asciz "can't alloc memory."
 
-.global lbl_803302C0
-lbl_803302C0:
+.global _STRING_AllocMemory__Q34nw4r3lyt6LayoutFUl
+_STRING_AllocMemory__Q34nw4r3lyt6LayoutFUl:
 
 	# ROM: 0x32C3A0
 	.asciz "layout.h"
 	.balign 4
 	.4byte 0
 
-.global lbl_803302D0
-lbl_803302D0:
+.global _STRING_TestFileVersion__Q34nw4r3lyt6detailFRCQ44nw4r3lyt3res16BinaryFileHeader_0
+_STRING_TestFileVersion__Q34nw4r3lyt6detailFRCQ44nw4r3lyt3res16BinaryFileHeader_0:
 
 	# ROM: 0x32C3B0
 	.asciz "Version check failed. library ver. '%d.%d', file ver. '%d.%d')."
 
-.global lbl_80330310
-lbl_80330310:
+.global _STRING_TestFileVersion__Q34nw4r3lyt6detailFRCQ44nw4r3lyt3res16BinaryFileHeader
+_STRING_TestFileVersion__Q34nw4r3lyt6detailFRCQ44nw4r3lyt3res16BinaryFileHeader:
 
 	# ROM: 0x32C3F0
 	.asciz "common.h"
@@ -53565,153 +53565,153 @@ lbl_80330658:
 	.4byte 0
 	.4byte 0
 
-.global lbl_803306B8
-lbl_803306B8:
+.global _STRING___ct__11SQObjectPtrFP7SQTable_0
+_STRING___ct__11SQObjectPtrFP7SQTable_0:
 
 	# ROM: 0x32C798
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803306C4
-lbl_803306C4:
+.global _STRING___ct__11SQObjectPtrFP7SQTable
+_STRING___ct__11SQObjectPtrFP7SQTable:
 
 	# ROM: 0x32C7A4
 	.asciz "_unVal.pTable"
 	.balign 4
 
-.global lbl_803306D4
-lbl_803306D4:
+.global _STRING___ct__11SQObjectPtrFP7SQClass_0
+_STRING___ct__11SQObjectPtrFP7SQClass_0:
 
 	# ROM: 0x32C7B4
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803306E0
-lbl_803306E0:
+.global _STRING___ct__11SQObjectPtrFP7SQClass
+_STRING___ct__11SQObjectPtrFP7SQClass:
 
 	# ROM: 0x32C7C0
 	.asciz "_unVal.pClass"
 	.balign 4
 
-.global lbl_803306F0
-lbl_803306F0:
+.global _STRING___ct__11SQObjectPtrFP10SQInstance_0
+_STRING___ct__11SQObjectPtrFP10SQInstance_0:
 
 	# ROM: 0x32C7D0
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803306FC
-lbl_803306FC:
+.global _STRING___ct__11SQObjectPtrFP10SQInstance
+_STRING___ct__11SQObjectPtrFP10SQInstance:
 
 	# ROM: 0x32C7DC
 	.asciz "_unVal.pInstance"
 	.balign 4
 
-.global lbl_80330710
-lbl_80330710:
+.global _STRING___ct__11SQObjectPtrFP7SQArray_0
+_STRING___ct__11SQObjectPtrFP7SQArray_0:
 
 	# ROM: 0x32C7F0
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_8033071C
-lbl_8033071C:
+.global _STRING___ct__11SQObjectPtrFP7SQArray
+_STRING___ct__11SQObjectPtrFP7SQArray:
 
 	# ROM: 0x32C7FC
 	.asciz "_unVal.pArray"
 	.balign 4
 
-.global lbl_8033072C
-lbl_8033072C:
+.global _STRING___ct__11SQObjectPtrFP9SQClosure_0
+_STRING___ct__11SQObjectPtrFP9SQClosure_0:
 
 	# ROM: 0x32C80C
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_80330738
-lbl_80330738:
+.global _STRING___ct__11SQObjectPtrFP9SQClosure
+_STRING___ct__11SQObjectPtrFP9SQClosure:
 
 	# ROM: 0x32C818
 	.asciz "_unVal.pClosure"
 
-.global lbl_80330748
-lbl_80330748:
+.global _STRING___ct__11SQObjectPtrFP15SQNativeClosure_0
+_STRING___ct__11SQObjectPtrFP15SQNativeClosure_0:
 
 	# ROM: 0x32C828
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_80330754
-lbl_80330754:
+.global _STRING___ct__11SQObjectPtrFP15SQNativeClosure
+_STRING___ct__11SQObjectPtrFP15SQNativeClosure:
 
 	# ROM: 0x32C834
 	.asciz "_unVal.pNativeClosure"
 	.balign 4
 
-.global lbl_8033076C
-lbl_8033076C:
+.global _STRING___ct__11SQObjectPtrFP8SQString_0
+_STRING___ct__11SQObjectPtrFP8SQString_0:
 
 	# ROM: 0x32C84C
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_80330778
-lbl_80330778:
+.global _STRING___ct__11SQObjectPtrFP8SQString
+_STRING___ct__11SQObjectPtrFP8SQString:
 
 	# ROM: 0x32C858
 	.asciz "_unVal.pString"
 	.balign 4
 
-.global lbl_80330788
-lbl_80330788:
+.global _STRING___ct__11SQObjectPtrFP10SQUserData_0
+_STRING___ct__11SQObjectPtrFP10SQUserData_0:
 
 	# ROM: 0x32C868
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_80330794
-lbl_80330794:
+.global _STRING___ct__11SQObjectPtrFP10SQUserData
+_STRING___ct__11SQObjectPtrFP10SQUserData:
 
 	# ROM: 0x32C874
 	.asciz "_unVal.pUserData"
 	.balign 4
 
-.global lbl_803307A8
-lbl_803307A8:
+.global _STRING___ct__11SQObjectPtrFP4SQVM_0
+_STRING___ct__11SQObjectPtrFP4SQVM_0:
 
 	# ROM: 0x32C888
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803307B4
-lbl_803307B4:
+.global _STRING___ct__11SQObjectPtrFP4SQVM
+_STRING___ct__11SQObjectPtrFP4SQVM:
 
 	# ROM: 0x32C894
 	.asciz "_unVal.pThread"
 	.balign 4
 
-.global lbl_803307C4
-lbl_803307C4:
+.global _STRING___ct__11SQObjectPtrFP9SQWeakRef_0
+_STRING___ct__11SQObjectPtrFP9SQWeakRef_0:
 
 	# ROM: 0x32C8A4
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803307D0
-lbl_803307D0:
+.global _STRING___ct__11SQObjectPtrFP9SQWeakRef
+_STRING___ct__11SQObjectPtrFP9SQWeakRef:
 
 	# ROM: 0x32C8B0
 	.asciz "_unVal.pWeakRef"
 
-.global lbl_803307E0
-lbl_803307E0:
+.global _STRING___ct__11SQObjectPtrFP15SQFunctionProto_0
+_STRING___ct__11SQObjectPtrFP15SQFunctionProto_0:
 
 	# ROM: 0x32C8C0
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_803307EC
-lbl_803307EC:
+.global _STRING___ct__11SQObjectPtrFP15SQFunctionProto
+_STRING___ct__11SQObjectPtrFP15SQFunctionProto:
 
 	# ROM: 0x32C8CC
 	.asciz "_unVal.pFunctionProto"
@@ -53795,8 +53795,8 @@ lbl_80330808:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330928
-lbl_80330928:
+.global _table_default_delegate_funcz__13SQSharedState
+_table_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CA08
 	.4byte lbl_804200D0
@@ -53836,8 +53836,8 @@ lbl_80330928:
 	.4byte 0
 	.4byte 0
 
-.global lbl_803309B8
-lbl_803309B8:
+.global _array_default_delegate_funcz__13SQSharedState
+_array_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CA98
 	.4byte lbl_804200D0
@@ -53905,8 +53905,8 @@ lbl_803309B8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330AB8
-lbl_80330AB8:
+.global _string_default_delegate_funcz__13SQSharedState
+_string_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CB98
 	.4byte lbl_804200D0
@@ -53950,8 +53950,8 @@ lbl_80330AB8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330B58
-lbl_80330B58:
+.global _number_default_delegate_funcz__13SQSharedState
+_number_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CC38
 	.4byte lbl_802EFC8C
@@ -53979,8 +53979,8 @@ lbl_80330B58:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330BB8
-lbl_80330BB8:
+.global _closure_default_delegate_funcz__13SQSharedState
+_closure_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CC98
 	.4byte lbl_804201AC
@@ -54020,8 +54020,8 @@ lbl_80330BB8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330C48
-lbl_80330C48:
+.global _generator_default_delegate_funcz__13SQSharedState
+_generator_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CD28
 	.4byte lbl_802EFCA4
@@ -54041,8 +54041,8 @@ lbl_80330C48:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330C88
-lbl_80330C88:
+.global _thread_default_delegate_funcz__13SQSharedState
+_thread_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CD68
 	.4byte lbl_804201AC
@@ -54070,8 +54070,8 @@ lbl_80330C88:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330CE8
-lbl_80330CE8:
+.global _class_default_delegate_funcz__13SQSharedState
+_class_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CDC8
 	.4byte lbl_802EFCB0
@@ -54103,8 +54103,8 @@ lbl_80330CE8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330D58
-lbl_80330D58:
+.global _instance_default_delegate_funcz__13SQSharedState
+_instance_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CE38
 	.4byte lbl_802EFCDC
@@ -54128,8 +54128,8 @@ lbl_80330D58:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330DA8
-lbl_80330DA8:
+.global _weakref_default_delegate_funcz__13SQSharedState
+_weakref_default_delegate_funcz__13SQSharedState:
 
 	# ROM: 0x32CE88
 	.4byte lbl_80420208
@@ -54149,29 +54149,29 @@ lbl_80330DA8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80330DE8
-lbl_80330DE8:
+.global __vt__10SQInstance
+__vt__10SQInstance:
 
 	# ROM: 0x32CEC8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801EF1F8
-	.4byte lbl_801EF388
-	.4byte lbl_8020F4A8
-	.4byte lbl_801EF100
-	.4byte lbl_801EF2C0
+	.4byte __dt__10SQInstanceFv
+	.4byte Release__10SQInstanceFv
+	.4byte Mark__10SQInstanceFPP13SQCollectable
+	.4byte Finalize__10SQInstanceFv
+	.4byte GetMetaMethod__10SQInstanceFP4SQVM12SQMetaMethodR11SQObjectPtr
 	.4byte 0
 
-.global lbl_80330E08
-lbl_80330E08:
+.global __vt__7SQClass
+__vt__7SQClass:
 
 	# ROM: 0x32CEE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801EDE84
-	.4byte lbl_801EDE1C
-	.4byte lbl_8020F33C
-	.4byte lbl_801ED848
+	.4byte __dt__7SQClassFv
+	.4byte Release__7SQClassFv
+	.4byte Mark__7SQClassFPP13SQCollectable
+	.4byte Finalize__7SQClassFv
 
 .global lbl_80330E20
 lbl_80330E20:
@@ -54179,277 +54179,277 @@ lbl_80330E20:
 	# ROM: 0x32CF00
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F6570
+	.4byte CompExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F5850
+	.4byte BitwiseAndExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F4A98
+	.4byte BitwiseXorExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F6570
+	.4byte CompExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F5850
+	.4byte BitwiseAndExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F4A98
+	.4byte BitwiseXorExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte func_801F3C48
+	.4byte BitwiseOrExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F6570
+	.4byte CompExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F5850
+	.4byte BitwiseAndExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F4A98
+	.4byte BitwiseXorExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F6570
+	.4byte CompExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F5850
+	.4byte BitwiseAndExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F6570
+	.4byte CompExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F71F8
+	.4byte ShiftExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F7B14
+	.4byte PlusExp__10SQCompilerFv
 
 .global lbl_80331264
 lbl_80331264:
@@ -54457,7 +54457,7 @@ lbl_80331264:
 	# ROM: 0x32D344
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 
 .global lbl_80331270
 lbl_80331270:
@@ -54465,7 +54465,7 @@ lbl_80331270:
 	# ROM: 0x32D350
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8274
+	.4byte MultExp__10SQCompilerFv
 
 .global lbl_8033127C
 lbl_8033127C:
@@ -54473,216 +54473,216 @@ lbl_8033127C:
 	# ROM: 0x32D35C
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801F8934
+	.4byte PrefixedExpr__10SQCompilerFv
 
-.global lbl_80331288
-lbl_80331288:
+.global _STRING_Expect__10SQCompilerFi_4
+_STRING_Expect__10SQCompilerFi_4:
 
 	# ROM: 0x32D368
 	.asciz "expected '%c'"
 	.balign 4
 
-.global lbl_80331298
-lbl_80331298:
+.global _STRING_Expect__10SQCompilerFi_3
+_STRING_Expect__10SQCompilerFi_3:
 
 	# ROM: 0x32D378
 	.asciz "expected '%s'"
 	.balign 4
 
-.global lbl_803312A8
-lbl_803312A8:
+.global _STRING_Expect__10SQCompilerFi_0
+_STRING_Expect__10SQCompilerFi_0:
 
 	# ROM: 0x32D388
 	.asciz "STRING_LITERAL"
 	.balign 4
 
-.global lbl_803312B8
-lbl_803312B8:
+.global _STRING_Expect__10SQCompilerFi
+_STRING_Expect__10SQCompilerFi:
 
 	# ROM: 0x32D398
 	.asciz "IDENTIFIER"
 	.balign 4
 
-.global lbl_803312C4
-lbl_803312C4:
+.global _STRING_OptionalSemicolon__10SQCompilerFv
+_STRING_OptionalSemicolon__10SQCompilerFv:
 
 	# ROM: 0x32D3A4
 	.asciz "end of statement expected (; or lf)"
 
-.global lbl_803312E8
-lbl_803312E8:
+.global _STRING_Statement__10SQCompilerFv_0
+_STRING_Statement__10SQCompilerFv_0:
 
 	# ROM: 0x32D3C8
 	.asciz "'continue' has to be in a loop block"
 	.balign 4
 
-.global lbl_80331310
-lbl_80331310:
+.global _STRING_Statement__10SQCompilerFv
+_STRING_Statement__10SQCompilerFv:
 
 	# ROM: 0x32D3F0
 	.asciz "'break' has to be in a loop block"
 	.balign 4
 
-.global lbl_80331334
-lbl_80331334:
+.global _STRING_EmitCompoundArith__10SQCompilerFib_0
+_STRING_EmitCompoundArith__10SQCompilerFib_0:
 
 	# ROM: 0x32D414
 	.asciz "sqcompiler.cpp"
 	.balign 4
 
-.global lbl_80331344
-lbl_80331344:
+.global _STRING_Expression__10SQCompilerFb_2
+_STRING_Expression__10SQCompilerFb_2:
 
 	# ROM: 0x32D424
 	.asciz "free variables cannot be modified"
 	.balign 4
 
-.global lbl_80331368
-lbl_80331368:
+.global _STRING_Expression__10SQCompilerFb_1
+_STRING_Expression__10SQCompilerFb_1:
 
 	# ROM: 0x32D448
 	.asciz "can't 'create' a local slot"
 
-.global lbl_80331384
-lbl_80331384:
+.global _STRING_Expression__10SQCompilerFb_0
+_STRING_Expression__10SQCompilerFb_0:
 
 	# ROM: 0x32D464
 	.asciz "free variables cannot be modified"
 	.balign 4
 
-.global lbl_803313A8
-lbl_803313A8:
+.global _STRING_Expression__10SQCompilerFb
+_STRING_Expression__10SQCompilerFb:
 
 	# ROM: 0x32D488
 	.asciz "can't assign expression"
 
-.global lbl_803313C0
-lbl_803313C0:
+.global _STRING_PrefixedExpr__10SQCompilerFv_0
+_STRING_PrefixedExpr__10SQCompilerFv_0:
 
 	# ROM: 0x32D4A0
 	.asciz "cannot brake deref/or comma needed after [exp]=exp slot declaration"
 
-.global lbl_80331404
-lbl_80331404:
+.global _STRING_PrefixedExpr__10SQCompilerFv
+_STRING_PrefixedExpr__10SQCompilerFv:
 
 	# ROM: 0x32D4E4
 	.asciz "parent cannot be set"
 	.balign 4
 
-.global lbl_8033141C
-lbl_8033141C:
+.global _STRING_Factor__10SQCompilerFv_2
+_STRING_Factor__10SQCompilerFv_2:
 
 	# ROM: 0x32D4FC
 	.asciz "expression expected"
 
-.global lbl_80331430
-lbl_80331430:
+.global _STRING_Factor__10SQCompilerFv_1
+_STRING_Factor__10SQCompilerFv_1:
 
 	# ROM: 0x32D510
 	.asciz "invalid constant [%s.%s]"
 	.balign 4
 
-.global lbl_8033144C
-lbl_8033144C:
+.global _STRING_Factor__10SQCompilerFv_0
+_STRING_Factor__10SQCompilerFv_0:
 
 	# ROM: 0x32D52C
 	.asciz "constructor"
 
-.global lbl_80331458
-lbl_80331458:
+.global _STRING_FunctionCallArgs__10SQCompilerFv
+_STRING_FunctionCallArgs__10SQCompilerFv:
 
 	# ROM: 0x32D538
 	.asciz "expression expected, found ')'"
 	.balign 4
 
-.global lbl_80331478
-lbl_80331478:
+.global _STRING_ParseTableOrClass__10SQCompilerFii_1
+_STRING_ParseTableOrClass__10SQCompilerFii_1:
 
 	# ROM: 0x32D558
 	.asciz "sqcompiler.cpp"
 	.balign 4
 
-.global lbl_80331488
-lbl_80331488:
+.global _STRING_ParseTableOrClass__10SQCompilerFii_0
+_STRING_ParseTableOrClass__10SQCompilerFii_0:
 
 	# ROM: 0x32D568
 	.asciz "hasattrs && attrs == key-1 || !hasattrs"
 
-.global lbl_803314B0
-lbl_803314B0:
+.global _STRING_ParseTableOrClass__10SQCompilerFii
+_STRING_ParseTableOrClass__10SQCompilerFii:
 
 	# ROM: 0x32D590
 	.asciz "constructor"
 
-.global lbl_803314BC
-lbl_803314BC:
+.global _STRING_ForEachStatement__10SQCompilerFv_0
+_STRING_ForEachStatement__10SQCompilerFv_0:
 
 	# ROM: 0x32D59C
 	.asciz "@ITERATOR@"
 	.balign 4
 
-.global lbl_803314C8
-lbl_803314C8:
+.global _STRING_ClassStatement__10SQCompilerFv_0
+_STRING_ClassStatement__10SQCompilerFv_0:
 
 	# ROM: 0x32D5A8
 	.asciz "cannot create a class in a local with the syntax(class <local>)"
 
-.global lbl_80331508
-lbl_80331508:
+.global _STRING_ClassStatement__10SQCompilerFv
+_STRING_ClassStatement__10SQCompilerFv:
 
 	# ROM: 0x32D5E8
 	.asciz "invalid class name"
 	.balign 4
 
-.global lbl_8033151C
-lbl_8033151C:
+.global _STRING_ExpectScalar__10SQCompilerFv
+_STRING_ExpectScalar__10SQCompilerFv:
 
 	# ROM: 0x32D5FC
 	.asciz "scalar expected : integer,float or string"
 	.balign 4
 
-.global lbl_80331548
-lbl_80331548:
+.global _STRING_DeleteExpr__10SQCompilerFv_0
+_STRING_DeleteExpr__10SQCompilerFv_0:
 
 	# ROM: 0x32D628
 	.asciz "cannot delete a local"
 	.balign 4
 
-.global lbl_80331560
-lbl_80331560:
+.global _STRING_DeleteExpr__10SQCompilerFv
+_STRING_DeleteExpr__10SQCompilerFv:
 
 	# ROM: 0x32D640
 	.asciz "can't delete an expression"
 	.balign 4
 
-.global lbl_8033157C
-lbl_8033157C:
+.global _STRING_CreateFunction__10SQCompilerFR11tagSQObject_4
+_STRING_CreateFunction__10SQCompilerFR11tagSQObject_4:
 
 	# ROM: 0x32D65C
 	.asciz "expected ')' or ','"
 
-.global lbl_80331590
-lbl_80331590:
+.global _STRING_CreateFunction__10SQCompilerFR11tagSQObject_3
+_STRING_CreateFunction__10SQCompilerFR11tagSQObject_3:
 
 	# ROM: 0x32D670
 	.asciz "expected ')' or ','"
 
-.global lbl_803315A4
-lbl_803315A4:
+.global _STRING_CreateFunction__10SQCompilerFR11tagSQObject_2
+_STRING_CreateFunction__10SQCompilerFR11tagSQObject_2:
 
 	# ROM: 0x32D684
 	.asciz "expected '='"
 	.balign 4
 
-.global lbl_803315B4
-lbl_803315B4:
+.global _STRING_CreateFunction__10SQCompilerFR11tagSQObject_1
+_STRING_CreateFunction__10SQCompilerFR11tagSQObject_1:
 
 	# ROM: 0x32D694
 	.asciz "expected ')'"
 	.balign 4
 
-.global lbl_803315C4
-lbl_803315C4:
+.global _STRING_CreateFunction__10SQCompilerFR11tagSQObject_0
+_STRING_CreateFunction__10SQCompilerFR11tagSQObject_0:
 
 	# ROM: 0x32D6A4
 	.asciz "function with default parameters cannot have variable number of parameters"
@@ -54735,14 +54735,14 @@ lbl_80331650:
 	.4byte lbl_802080B4
 	.4byte 0
 
-.global lbl_803316D8
-lbl_803316D8:
+.global __vt__15SQFunctionProto
+__vt__15SQFunctionProto:
 
 	# ROM: 0x32D7B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80209464
-	.4byte lbl_80209538
+	.4byte __dt__15SQFunctionProtoFv
+	.4byte Release__15SQFunctionProtoFv
 
 .global lbl_803316E8
 lbl_803316E8:
@@ -54877,80 +54877,80 @@ lbl_803316E8:
 	.4byte lbl_8020B528
 	.4byte 0
 
-.global lbl_803318E8
-lbl_803318E8:
+.global __vt__15SQNativeClosure
+__vt__15SQNativeClosure:
 
 	# ROM: 0x32D9C8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8020F960
-	.4byte lbl_8020F918
-	.4byte lbl_8020F6FC
-	.4byte lbl_8020F834
+	.4byte __dt__15SQNativeClosureFv
+	.4byte Release__15SQNativeClosureFv
+	.4byte Mark__15SQNativeClosureFPP13SQCollectable
+	.4byte Finalize__15SQNativeClosureFv
 
-.global lbl_80331900
-lbl_80331900:
+.global __vt__11SQGenerator
+__vt__11SQGenerator:
 
 	# ROM: 0x32D9E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8020FCB8
-	.4byte lbl_8020FC70
-	.4byte lbl_8020F548
-	.4byte lbl_8020FB34
+	.4byte __dt__11SQGeneratorFv
+	.4byte Release__11SQGeneratorFv
+	.4byte Mark__11SQGeneratorFPP13SQCollectable
+	.4byte Finalize__11SQGeneratorFv
 
-.global lbl_80331918
-lbl_80331918:
+.global __vt__9SQClosure
+__vt__9SQClosure:
 
 	# ROM: 0x32D9F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8020FFFC
-	.4byte lbl_80210234
-	.4byte lbl_8020F628
-	.4byte lbl_8020FF18
+	.4byte __dt__9SQClosureFv
+	.4byte Release__9SQClosureFv
+	.4byte Mark__9SQClosureFPP13SQCollectable
+	.4byte Finalize__9SQClosureFv
 
-.global lbl_80331930
-lbl_80331930:
+.global __vt__10SQUserData
+__vt__10SQUserData:
 
 	# ROM: 0x32DA10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802102F0
-	.4byte lbl_8021027C
-	.4byte lbl_8020F7A0
-	.4byte lbl_802103A8
-	.4byte lbl_8020E1B8
+	.4byte __dt__10SQUserDataFv
+	.4byte Release__10SQUserDataFv
+	.4byte Mark__10SQUserDataFPP13SQCollectable
+	.4byte Finalize__10SQUserDataFv
+	.4byte GetMetaMethod__11SQDelegableFP4SQVM12SQMetaMethodR11SQObjectPtr
 	.4byte 0
 
-.global lbl_80331950
-lbl_80331950:
+.global __vt__7SQArray
+__vt__7SQArray:
 
 	# ROM: 0x32DA30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802103F8
-	.4byte lbl_802103B0
-	.4byte lbl_8020F1F0
-	.4byte lbl_80210534
+	.4byte __dt__7SQArrayFv
+	.4byte Release__7SQArrayFv
+	.4byte Mark__7SQArrayFPP13SQCollectable
+	.4byte Finalize__7SQArrayFv
 
-.global lbl_80331968
-lbl_80331968:
+.global __vt__8SQString
+__vt__8SQString:
 
 	# ROM: 0x32DA48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80210618
-	.4byte lbl_8020DE3C
+	.4byte __dt__8SQStringFv
+	.4byte Release__8SQStringFv
 
-.global lbl_80331978
-lbl_80331978:
+.global __vt__9SQWeakRef
+__vt__9SQWeakRef:
 
 	# ROM: 0x32DA58
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8020E14C
-	.4byte lbl_8020E0E8
+	.4byte __dt__9SQWeakRefFv
+	.4byte Release__9SQWeakRefFv
 
 .global lbl_80331988
 lbl_80331988:
@@ -55047,17 +55047,17 @@ lbl_80331988:
 	.4byte lbl_80210818
 	.4byte lbl_80210820
 
-.global lbl_80331AF0
-lbl_80331AF0:
+.global __vt__7SQTable
+__vt__7SQTable:
 
 	# ROM: 0x32DBD0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801EDCDC
-	.4byte lbl_801EDC94
-	.4byte lbl_8020F27C
-	.4byte lbl_80214CA4
-	.4byte lbl_8020E1B8
+	.4byte __dt__7SQTableFv
+	.4byte Release__7SQTableFv
+	.4byte Mark__7SQTableFPP13SQCollectable
+	.4byte Finalize__7SQTableFv
+	.4byte GetMetaMethod__11SQDelegableFP4SQVM12SQMetaMethodR11SQObjectPtr
 	.4byte 0
 
 .global lbl_80331B10
@@ -55127,38 +55127,38 @@ lbl_80331B10:
 	.4byte lbl_8021CBE4
 	.4byte 0
 
-.global lbl_80331C08
-lbl_80331C08:
+.global __vt__4SQVM
+__vt__4SQVM:
 
 	# ROM: 0x32DCE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802159EC
-	.4byte lbl_802222D0
-	.4byte lbl_8020F0B0
-	.4byte lbl_80215684
+	.4byte __dt__4SQVMFv
+	.4byte Release__4SQVMFv
+	.4byte Mark__4SQVMFPP13SQCollectable
+	.4byte Finalize__4SQVMFv
 
-.global lbl_80331C20
-lbl_80331C20:
+.global _STRING___ct__11SQObjectPtrFP11SQGenerator_0
+_STRING___ct__11SQObjectPtrFP11SQGenerator_0:
 
 	# ROM: 0x32DD00
 	.asciz "sqobject.h"
 	.balign 4
 
-.global lbl_80331C2C
-lbl_80331C2C:
+.global _STRING___ct__11SQObjectPtrFP11SQGenerator
+_STRING___ct__11SQObjectPtrFP11SQGenerator:
 
 	# ROM: 0x32DD0C
 	.asciz "_unVal.pGenerator"
 	.balign 4
 
-.global lbl_80331C40
-lbl_80331C40:
+.global __vt__14SquirrelObject
+__vt__14SquirrelObject:
 
 	# ROM: 0x32DD20
 	.4byte lbl_8041CA08
 	.4byte 0
-	.4byte func_80222534
+	.4byte __dt__14SquirrelObjectFv
 	.4byte 0
 
 .global lbl_80331C50
@@ -55622,29 +55622,29 @@ lbl_803326E8:
 	.asciz "%s:%d Warning:"
 	.balign 4
 
-.global lbl_803326F8
-lbl_803326F8:
+.global __vt__Q34nw4r2ef9DrawOrder
+__vt__Q34nw4r2ef9DrawOrder:
 
 	# ROM: 0x32E7D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802339C0
-	.4byte lbl_80233A40
-	.4byte lbl_80233930
+	.4byte Add__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectPQ34nw4r2ef15ParticleManager
+	.4byte Remove__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectPQ34nw4r2ef15ParticleManager
+	.4byte Draw__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectRCQ34nw4r2ef8DrawInfo
 	.4byte 0
 
-.global lbl_80332710
-lbl_80332710:
+.global __vt__Q34nw4r2ef6Effect
+__vt__Q34nw4r2ef6Effect:
 
 	# ROM: 0x32E7F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80233C60
-	.4byte lbl_80233C70
-	.4byte lbl_80233B20
-	.4byte lbl_80234770
-	.4byte lbl_80234080
-	.4byte lbl_802344B0
+	.4byte SendClosing__Q34nw4r2ef6EffectFv
+	.4byte DestroyFunc__Q34nw4r2ef6EffectFv
+	.4byte Initialize__Q34nw4r2ef6EffectFPQ34nw4r2ef12EffectSystemPQ34nw4r2ef15EmitterResourceUs
+	.4byte CreateEmitter__Q34nw4r2ef6EffectFQ34nw4r2ef10ResEmitterUcUs
+	.4byte Calc__Q34nw4r2ef6EffectFQ34nw4r2ef10CalcOption
+	.4byte Draw__Q34nw4r2ef6EffectFRCQ34nw4r2ef8DrawInfo
 
 .global lbl_80332730
 lbl_80332730:
@@ -55653,20 +55653,20 @@ lbl_80332730:
 	.asciz "<< NW4R    - EF \tfinal   build: Dec 22 2009 02:19:36 (0x4302_158) >>"
 	.balign 4
 
-.global lbl_80332778
-lbl_80332778:
+.global __vt__Q34nw4r2ef7Emitter
+__vt__Q34nw4r2ef7Emitter:
 
 	# ROM: 0x32E858
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802352B0
-	.4byte lbl_802352C0
-	.4byte lbl_80235810
-	.4byte lbl_80235980
-	.4byte lbl_80236930
-	.4byte lbl_80236AF0
-	.4byte lbl_80236B80
-	.4byte lbl_80236CA0
+	.4byte SendClosing__Q34nw4r2ef7EmitterFv
+	.4byte DestroyFunc__Q34nw4r2ef7EmitterFv
+	.4byte Initialize__Q34nw4r2ef7EmitterFPQ34nw4r2ef6EffectPQ34nw4r2ef15EmitterResourceUc
+	.4byte CreateEmitter__Q34nw4r2ef7EmitterFPQ34nw4r2ef15EmitterResourcePQ34nw4r2ef21EmitterInheritSettingPQ34nw4r2ef8ParticleUsPQ34nw4r4math4VEC3
+	.4byte CalcEmitter__Q34nw4r2ef7EmitterFv
+	.4byte CalcParticle__Q34nw4r2ef7EmitterFv
+	.4byte CalcEmission__Q34nw4r2ef7EmitterFv
+	.4byte CalcBillboard__Q34nw4r2ef7EmitterFv
 
 .global lbl_803327A0
 lbl_803327A0:
@@ -55806,15 +55806,15 @@ lbl_803328A0:
 	.4byte 0x80808080
 	.4byte 0x80808080
 
-.global lbl_803329A0
-lbl_803329A0:
+.global __vt__Q34nw4r2ef8Particle
+__vt__Q34nw4r2ef8Particle:
 
 	# ROM: 0x32EA80
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8023FA50
-	.4byte lbl_8023FA60
-	.4byte lbl_8023FD90
+	.4byte SendClosing__Q34nw4r2ef8ParticleFv
+	.4byte DestroyFunc__Q34nw4r2ef8ParticleFv
+	.4byte Initialize__Q34nw4r2ef8ParticleFUsQ34nw4r4math4VEC3Q34nw4r4math4VEC3PQ34nw4r2ef15ParticleManagerPCQ34nw4r4math5MTX34fPCQ34nw4r2ef21EmitterInheritSettingPQ34nw4r2ef8Particle
 	.4byte 0
 
 .global lbl_803329B8
@@ -55832,194 +55832,194 @@ lbl_803329B8:
 	.4byte lbl_80241B48
 	.4byte 0
 
-.global lbl_803329E0
-lbl_803329E0:
+.global __vt__Q34nw4r2ef15ParticleManager
+__vt__Q34nw4r2ef15ParticleManager:
 
 	# ROM: 0x32EAC0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80240860
-	.4byte lbl_80240870
-	.4byte lbl_802409E0
-	.4byte lbl_80240B70
-	.4byte lbl_80240CA0
-	.4byte lbl_802421F0
+	.4byte SendClosing__Q34nw4r2ef15ParticleManagerFv
+	.4byte DestroyFunc__Q34nw4r2ef15ParticleManagerFv
+	.4byte Initialize__Q34nw4r2ef15ParticleManagerFPQ34nw4r2ef7EmitterPQ34nw4r2ef15EmitterResource
+	.4byte CreateParticle__Q34nw4r2ef15ParticleManagerFUsQ34nw4r4math4VEC3Q34nw4r4math4VEC3PCQ34nw4r4math5MTX34fPCQ34nw4r2ef21EmitterInheritSettingPQ34nw4r2ef8ParticleUs
+	.4byte Calc__Q34nw4r2ef15ParticleManagerFv
+	.4byte Draw__Q34nw4r2ef15ParticleManagerFRCQ34nw4r2ef8DrawInfo
 
-.global lbl_80332A00
-lbl_80332A00:
+.global __vt__Q34nw4r2ef15EmitFormBuilder
+__vt__Q34nw4r2ef15EmitFormBuilder:
 
 	# ROM: 0x32EAE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80245130
+	.4byte Create__Q34nw4r2ef15EmitFormBuilderFQ34nw4r2ef12EmitFormType
 	.4byte 0
 
-.global lbl_80332A10
-lbl_80332A10:
+.global __vt__Q34nw4r2ef16EmitterFormPoint
+__vt__Q34nw4r2ef16EmitterFormPoint:
 
 	# ROM: 0x32EAF0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80245210
+	.4byte Emission__Q34nw4r2ef16EmitterFormPointFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A20
-lbl_80332A20:
+.global __vt__Q34nw4r2ef15EmitterFormLine
+__vt__Q34nw4r2ef15EmitterFormLine:
 
 	# ROM: 0x32EB00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80245560
+	.4byte Emission__Q34nw4r2ef15EmitterFormLineFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A30
-lbl_80332A30:
+.global __vt__Q34nw4r2ef15EmitterFormDisc
+__vt__Q34nw4r2ef15EmitterFormDisc:
 
 	# ROM: 0x32EB10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802458A0
+	.4byte Emission__Q34nw4r2ef15EmitterFormDiscFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A40
-lbl_80332A40:
+.global __vt__Q34nw4r2ef17EmitterFormSphere
+__vt__Q34nw4r2ef17EmitterFormSphere:
 
 	# ROM: 0x32EB20
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80245DE0
+	.4byte Emission__Q34nw4r2ef17EmitterFormSphereFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A50
-lbl_80332A50:
+.global __vt__Q34nw4r2ef19EmitterFormCylinder
+__vt__Q34nw4r2ef19EmitterFormCylinder:
 
 	# ROM: 0x32EB30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80246AA0
+	.4byte Emission__Q34nw4r2ef19EmitterFormCylinderFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A60
-lbl_80332A60:
+.global __vt__Q34nw4r2ef16EmitterFormTorus
+__vt__Q34nw4r2ef16EmitterFormTorus:
 
 	# ROM: 0x32EB40
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80246DF0
+	.4byte Emission__Q34nw4r2ef16EmitterFormTorusFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A70
-lbl_80332A70:
+.global __vt__Q34nw4r2ef15EmitterFormCube
+__vt__Q34nw4r2ef15EmitterFormCube:
 
 	# ROM: 0x32EB50
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80247760
+	.4byte Emission__Q34nw4r2ef15EmitterFormCubeFPQ34nw4r2ef7EmitterPQ34nw4r2ef15ParticleManageriUlPfUsfPCQ34nw4r4math5MTX34
 	.4byte 0
 
-.global lbl_80332A80
-lbl_80332A80:
+.global __vt__Q34nw4r2ef19DrawStrategyBuilder
+__vt__Q34nw4r2ef19DrawStrategyBuilder:
 
 	# ROM: 0x32EB60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80249010
+	.4byte Create__Q34nw4r2ef19DrawStrategyBuilderFUl
 	.4byte 0
 
-.global lbl_80332A90
-lbl_80332A90:
+.global __vt__Q34nw4r2ef16DrawStrategyImpl
+__vt__Q34nw4r2ef16DrawStrategyImpl:
 
 	# ROM: 0x32EB70
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8024B110
+	.4byte __dt__Q34nw4r2ef16DrawStrategyImplFv
 	.4byte 0
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
 
-.global lbl_80332AA8
-lbl_80332AA8:
+.global __vt__Q34nw4r2ef21DrawBillboardStrategy
+__vt__Q34nw4r2ef21DrawBillboardStrategy:
 
 	# ROM: 0x32EB88
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8024D340
-	.4byte lbl_8024B220
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
-	.4byte lbl_8024CD60
+	.4byte __dt__Q34nw4r2ef21DrawBillboardStrategyFv
+	.4byte Draw__Q34nw4r2ef21DrawBillboardStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetCalcAheadFunc__Q34nw4r2ef21DrawBillboardStrategyFPQ34nw4r2ef15ParticleManager
 	.4byte 0
 
-.global lbl_80332AC8
-lbl_80332AC8:
+.global __vt__Q34nw4r2ef23DrawDirectionalStrategy
+__vt__Q34nw4r2ef23DrawDirectionalStrategy:
 
 	# ROM: 0x32EBA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8024F750
-	.4byte lbl_8024D6F0
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
-	.4byte lbl_8024F680
+	.4byte __dt__Q34nw4r2ef23DrawDirectionalStrategyFv
+	.4byte Draw__Q34nw4r2ef23DrawDirectionalStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetCalcAheadFunc__Q34nw4r2ef23DrawDirectionalStrategyFPQ34nw4r2ef15ParticleManager
 	.4byte 0
 
-.global lbl_80332AE8
-lbl_80332AE8:
+.global __vt__Q34nw4r2ef16DrawFreeStrategy
+__vt__Q34nw4r2ef16DrawFreeStrategy:
 
 	# ROM: 0x32EBC8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80250180
-	.4byte lbl_8024F910
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
+	.4byte __dt__Q34nw4r2ef16DrawFreeStrategyFv
+	.4byte Draw__Q34nw4r2ef16DrawFreeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
 
-.global lbl_80332B00
-lbl_80332B00:
+.global __vt__Q34nw4r2ef16DrawLineStrategy
+__vt__Q34nw4r2ef16DrawLineStrategy:
 
 	# ROM: 0x32EBE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802507B0
-	.4byte lbl_80250200
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
+	.4byte __dt__Q34nw4r2ef16DrawLineStrategyFv
+	.4byte Draw__Q34nw4r2ef16DrawLineStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
 
-.global lbl_80332B18
-lbl_80332B18:
+.global __vt__Q34nw4r2ef17DrawPointStrategy
+__vt__Q34nw4r2ef17DrawPointStrategy:
 
 	# ROM: 0x32EBF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80250C50
-	.4byte lbl_80250830
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
+	.4byte __dt__Q34nw4r2ef17DrawPointStrategyFv
+	.4byte Draw__Q34nw4r2ef17DrawPointStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
 
-.global lbl_80332B30
-lbl_80332B30:
+.global __vt__Q34nw4r2ef18DrawStripeStrategy
+__vt__Q34nw4r2ef18DrawStripeStrategy:
 
 	# ROM: 0x32EC10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80254350
-	.4byte lbl_80252E70
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
-	.4byte lbl_802539D0
+	.4byte __dt__Q34nw4r2ef18DrawStripeStrategyFv
+	.4byte Draw__Q34nw4r2ef18DrawStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetCalcAheadFunc__Q34nw4r2ef18DrawStripeStrategyFPQ34nw4r2ef15ParticleManager
 	.4byte 0
 
-.global lbl_80332B50
-lbl_80332B50:
+.global __vt__Q34nw4r2ef24DrawSmoothStripeStrategy
+__vt__Q34nw4r2ef24DrawSmoothStripeStrategy:
 
 	# ROM: 0x32EC30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80259400
-	.4byte lbl_80257DB0
-	.4byte lbl_8024ADA0
-	.4byte lbl_8024ADC0
-	.4byte lbl_80258A80
+	.4byte __dt__Q34nw4r2ef24DrawSmoothStripeStrategyFv
+	.4byte Draw__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ34nw4r2ef8DrawInfoPQ34nw4r2ef15ParticleManager
+	.4byte GetGetFirstDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetGetNextDrawParticleFunc__Q34nw4r2ef16DrawStrategyImplFi
+	.4byte GetCalcAheadFunc__Q34nw4r2ef24DrawSmoothStripeStrategyFPQ34nw4r2ef15ParticleManager
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -56141,8 +56141,8 @@ lbl_80332CA0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80332CE0
-lbl_80332CE0:
+.global _LOCAL_GXSetTevOrder__Q34nw4r3g3d6ResTevF13_GXTevStageID13_GXTexCoordID11_GXTexMapID12_GXChannelID_c2r
+_LOCAL_GXSetTevOrder__Q34nw4r3g3d6ResTevF13_GXTevStageID13_GXTexCoordID11_GXTexMapID12_GXChannelID_c2r:
 
 	# ROM: 0x32EDC0
 	.4byte 0x00010001
@@ -56238,455 +56238,455 @@ lbl_80332DE0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80332E00
-lbl_80332E00:
+.global __vt__Q34nw4r3g3d12AnmObjVisRes
+__vt__Q34nw4r3g3d12AnmObjVisRes:
 
 	# ROM: 0x32EEE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266190
-	.4byte lbl_80265BF0
-	.4byte lbl_80266290
-	.4byte lbl_80266280
-	.4byte lbl_80266250
-	.4byte lbl_80265DC0
-	.4byte lbl_80265E30
-	.4byte lbl_80265E60
-	.4byte lbl_80265E40
-	.4byte lbl_80265E50
-	.4byte lbl_80265EF0
-	.4byte lbl_80265B90
-	.4byte lbl_80266000
-	.4byte lbl_80265BD0
-	.4byte lbl_80265BE0
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjVisResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d9AnmObjVisFUlUlPv
+	.4byte __dt__Q34nw4r3g3d12AnmObjVisResFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjVisResCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjVisResCFv
+	.4byte SetFrame__Q34nw4r3g3d12AnmObjVisResFf
+	.4byte GetFrame__Q34nw4r3g3d12AnmObjVisResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d12AnmObjVisResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d12AnmObjVisResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d12AnmObjVisResCFv
+	.4byte Bind__Q34nw4r3g3d12AnmObjVisResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d9AnmObjVisFv
+	.4byte GetResult__Q34nw4r3g3d12AnmObjVisResFUl
+	.4byte Attach__Q34nw4r3g3d9AnmObjVisFiPQ34nw4r3g3d12AnmObjVisRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjVisFi
 
-.global lbl_80332E44
-lbl_80332E44:
+.global __vt__Q34nw4r3g3d9AnmObjVis
+__vt__Q34nw4r3g3d9AnmObjVis:
 
 	# ROM: 0x32EF24
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266200
-	.4byte lbl_80265BF0
-	.4byte lbl_80265C30
-	.4byte lbl_80266310
-	.4byte lbl_802662E0
+	.4byte IsDerivedFrom__Q34nw4r3g3d9AnmObjVisCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d9AnmObjVisFUlUlPv
+	.4byte __dt__Q34nw4r3g3d9AnmObjVisFv
+	.4byte GetTypeObj__Q34nw4r3g3d9AnmObjVisCFv
+	.4byte GetTypeName__Q34nw4r3g3d9AnmObjVisCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80265B90
+	.4byte Release__Q34nw4r3g3d9AnmObjVisFv
 	.4byte 0
-	.4byte lbl_80265BD0
-	.4byte lbl_80265BE0
+	.4byte Attach__Q34nw4r3g3d9AnmObjVisFiPQ34nw4r3g3d12AnmObjVisRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjVisFi
 
-.global lbl_80332E88
-lbl_80332E88:
+.global __vt__Q34nw4r3g3d15AnmObjMatClrRes
+__vt__Q34nw4r3g3d15AnmObjMatClrRes:
 
 	# ROM: 0x32EF68
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266E10
-	.4byte lbl_802669E0
-	.4byte lbl_80266F10
-	.4byte lbl_80266F00
-	.4byte lbl_80266ED0
-	.4byte lbl_802665E0
-	.4byte lbl_802666A0
-	.4byte lbl_80266780
-	.4byte lbl_802666B0
-	.4byte lbl_80266770
-	.4byte lbl_80266860
-	.4byte lbl_80266340
-	.4byte lbl_80266960
-	.4byte lbl_80266380
-	.4byte lbl_80266390
-	.4byte lbl_802663A0
+	.4byte IsDerivedFrom__Q34nw4r3g3d15AnmObjMatClrResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d15AnmObjMatClrResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d15AnmObjMatClrResFv
+	.4byte GetTypeObj__Q34nw4r3g3d15AnmObjMatClrResCFv
+	.4byte GetTypeName__Q34nw4r3g3d15AnmObjMatClrResCFv
+	.4byte SetFrame__Q34nw4r3g3d15AnmObjMatClrResFf
+	.4byte GetFrame__Q34nw4r3g3d15AnmObjMatClrResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d15AnmObjMatClrResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d15AnmObjMatClrResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d15AnmObjMatClrResCFv
+	.4byte Bind__Q34nw4r3g3d15AnmObjMatClrResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d12AnmObjMatClrFv
+	.4byte GetResult__Q34nw4r3g3d15AnmObjMatClrResFPQ34nw4r3g3d12ClrAnmResultUl
+	.4byte Attach__Q34nw4r3g3d12AnmObjMatClrFiPQ34nw4r3g3d15AnmObjMatClrRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjMatClrFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjMatClrFv
 
-.global lbl_80332ED0
-lbl_80332ED0:
+.global __vt__Q34nw4r3g3d12AnmObjMatClr
+__vt__Q34nw4r3g3d12AnmObjMatClr:
 
 	# ROM: 0x32EFB0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266E80
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjMatClrCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_802663B0
-	.4byte lbl_80266F90
-	.4byte lbl_80266F60
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d12AnmObjMatClrFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjMatClrCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjMatClrCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266340
 	.4byte 0
-	.4byte lbl_80266380
-	.4byte lbl_80266390
-	.4byte lbl_802663A0
+	.4byte 0
+	.4byte Release__Q34nw4r3g3d12AnmObjMatClrFv
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d12AnmObjMatClrFiPQ34nw4r3g3d15AnmObjMatClrRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjMatClrFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjMatClrFv
 
-.global lbl_80332F18
-lbl_80332F18:
+.global __vt__Q34nw4r3g3d15AnmObjTexPatRes
+__vt__Q34nw4r3g3d15AnmObjTexPatRes:
 
 	# ROM: 0x32EFF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802678B0
-	.4byte lbl_80267660
-	.4byte lbl_802679B0
-	.4byte lbl_802679A0
-	.4byte lbl_80267970
-	.4byte lbl_80267260
-	.4byte lbl_80267320
-	.4byte lbl_80267400
-	.4byte lbl_80267330
-	.4byte lbl_802673F0
-	.4byte lbl_802674E0
-	.4byte lbl_80266FC0
-	.4byte lbl_802675E0
-	.4byte lbl_80267000
-	.4byte lbl_80267010
-	.4byte lbl_80267020
+	.4byte IsDerivedFrom__Q34nw4r3g3d15AnmObjTexPatResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d15AnmObjTexPatResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d15AnmObjTexPatResFv
+	.4byte GetTypeObj__Q34nw4r3g3d15AnmObjTexPatResCFv
+	.4byte GetTypeName__Q34nw4r3g3d15AnmObjTexPatResCFv
+	.4byte SetFrame__Q34nw4r3g3d15AnmObjTexPatResFf
+	.4byte GetFrame__Q34nw4r3g3d15AnmObjTexPatResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d15AnmObjTexPatResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d15AnmObjTexPatResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d15AnmObjTexPatResCFv
+	.4byte Bind__Q34nw4r3g3d15AnmObjTexPatResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d12AnmObjTexPatFv
+	.4byte GetResult__Q34nw4r3g3d15AnmObjTexPatResFPQ34nw4r3g3d15TexPatAnmResultUl
+	.4byte Attach__Q34nw4r3g3d12AnmObjTexPatFiPQ34nw4r3g3d15AnmObjTexPatRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjTexPatFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjTexPatFv
 
-.global lbl_80332F60
-lbl_80332F60:
+.global __vt__Q34nw4r3g3d12AnmObjTexPat
+__vt__Q34nw4r3g3d12AnmObjTexPat:
 
 	# ROM: 0x32F040
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80267920
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjTexPatCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_80267030
-	.4byte lbl_80267A30
-	.4byte lbl_80267A00
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d12AnmObjTexPatFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjTexPatCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjTexPatCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80266FC0
 	.4byte 0
-	.4byte lbl_80267000
-	.4byte lbl_80267010
-	.4byte lbl_80267020
+	.4byte 0
+	.4byte Release__Q34nw4r3g3d12AnmObjTexPatFv
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d12AnmObjTexPatFiPQ34nw4r3g3d15AnmObjTexPatRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjTexPatFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjTexPatFv
 
-.global lbl_80332FA8
-lbl_80332FA8:
+.global __vt__Q34nw4r3g3d15AnmObjTexSrtRes
+__vt__Q34nw4r3g3d15AnmObjTexSrtRes:
 
 	# ROM: 0x32F088
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802683A0
-	.4byte lbl_80268100
-	.4byte lbl_802684A0
-	.4byte lbl_80268490
-	.4byte lbl_80268460
-	.4byte lbl_80267D00
-	.4byte lbl_80267DC0
-	.4byte lbl_80267EA0
-	.4byte lbl_80267DD0
-	.4byte lbl_80267E90
-	.4byte lbl_80267F80
-	.4byte lbl_80267A60
-	.4byte lbl_80268080
-	.4byte lbl_80267AA0
-	.4byte lbl_80267AB0
-	.4byte lbl_80267AC0
+	.4byte IsDerivedFrom__Q34nw4r3g3d15AnmObjTexSrtResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d15AnmObjTexSrtResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d15AnmObjTexSrtResFv
+	.4byte GetTypeObj__Q34nw4r3g3d15AnmObjTexSrtResCFv
+	.4byte GetTypeName__Q34nw4r3g3d15AnmObjTexSrtResCFv
+	.4byte SetFrame__Q34nw4r3g3d15AnmObjTexSrtResFf
+	.4byte GetFrame__Q34nw4r3g3d15AnmObjTexSrtResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d15AnmObjTexSrtResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d15AnmObjTexSrtResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d15AnmObjTexSrtResCFv
+	.4byte Bind__Q34nw4r3g3d15AnmObjTexSrtResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d12AnmObjTexSrtFv
+	.4byte GetResult__Q34nw4r3g3d15AnmObjTexSrtResFPQ34nw4r3g3d15TexSrtAnmResultUl
+	.4byte Attach__Q34nw4r3g3d12AnmObjTexSrtFiPQ34nw4r3g3d15AnmObjTexSrtRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjTexSrtFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjTexSrtFv
 
-.global lbl_80332FF0
-lbl_80332FF0:
+.global __vt__Q34nw4r3g3d12AnmObjTexSrt
+__vt__Q34nw4r3g3d12AnmObjTexSrt:
 
 	# ROM: 0x32F0D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80268410
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjTexSrtCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_80267AD0
-	.4byte lbl_80268520
-	.4byte lbl_802684F0
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d12AnmObjTexSrtFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjTexSrtCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjTexSrtCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80267A60
 	.4byte 0
-	.4byte lbl_80267AA0
-	.4byte lbl_80267AB0
-	.4byte lbl_80267AC0
+	.4byte 0
+	.4byte Release__Q34nw4r3g3d12AnmObjTexSrtFv
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d12AnmObjTexSrtFiPQ34nw4r3g3d15AnmObjTexSrtRes
+	.4byte Detach__Q34nw4r3g3d12AnmObjTexSrtFi
+	.4byte DetachAll__Q34nw4r3g3d12AnmObjTexSrtFv
 
-.global lbl_80333038
-lbl_80333038:
+.global __vt__Q34nw4r3g3d12AnmObjChrRes
+__vt__Q34nw4r3g3d12AnmObjChrRes:
 
 	# ROM: 0x32F118
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026A1E0
-	.4byte lbl_8026A190
-	.4byte lbl_8026A2E0
-	.4byte lbl_8026A2D0
-	.4byte lbl_8026A2A0
-	.4byte lbl_802699B0
-	.4byte lbl_80269A70
-	.4byte lbl_80269B50
-	.4byte lbl_80269A80
-	.4byte lbl_80269B40
-	.4byte lbl_80269C30
-	.4byte lbl_80268530
-	.4byte lbl_8026A110
-	.4byte lbl_80268570
-	.4byte lbl_80268580
-	.4byte lbl_802685B0
-	.4byte lbl_80268590
-	.4byte lbl_802685A0
-	.4byte lbl_80269D40
-	.4byte lbl_80269F40
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjChrResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d12AnmObjChrResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d12AnmObjChrResFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjChrResCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjChrResCFv
+	.4byte SetFrame__Q34nw4r3g3d12AnmObjChrResFf
+	.4byte GetFrame__Q34nw4r3g3d12AnmObjChrResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d12AnmObjChrResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d12AnmObjChrResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d12AnmObjChrResCFv
+	.4byte Bind__Q34nw4r3g3d12AnmObjChrResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d9AnmObjChrFv
+	.4byte GetResult__Q34nw4r3g3d12AnmObjChrResFPQ34nw4r3g3d12ChrAnmResultUl
+	.4byte Attach__Q34nw4r3g3d9AnmObjChrFiPQ34nw4r3g3d12AnmObjChrRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjChrFi
+	.4byte DetachAll__Q34nw4r3g3d9AnmObjChrFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjChrFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjChrCFi
+	.4byte Bind__Q34nw4r3g3d12AnmObjChrResFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
+	.4byte Release__Q34nw4r3g3d12AnmObjChrResFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
 
-.global lbl_80333090
-lbl_80333090:
+.global __vt__Q34nw4r3g3d14AnmObjChrBlend
+__vt__Q34nw4r3g3d14AnmObjChrBlend:
 
 	# ROM: 0x32F170
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026A330
-	.4byte lbl_80268F60
-	.4byte lbl_8026A460
-	.4byte lbl_8026A450
-	.4byte lbl_8026A420
-	.4byte lbl_80268960
-	.4byte lbl_802689F0
-	.4byte lbl_802688E0
-	.4byte lbl_80268A50
-	.4byte lbl_80268AE0
-	.4byte lbl_80268B40
-	.4byte lbl_80268D50
-	.4byte lbl_80269160
-	.4byte lbl_80268670
-	.4byte lbl_80268760
-	.4byte lbl_80268880
-	.4byte lbl_802697A0
-	.4byte lbl_802697B0
-	.4byte lbl_80268C40
-	.4byte lbl_80268E10
+	.4byte IsDerivedFrom__Q34nw4r3g3d14AnmObjChrBlendCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d13AnmObjChrNodeFUlUlPv
+	.4byte __dt__Q34nw4r3g3d14AnmObjChrBlendFv
+	.4byte GetTypeObj__Q34nw4r3g3d14AnmObjChrBlendCFv
+	.4byte GetTypeName__Q34nw4r3g3d14AnmObjChrBlendCFv
+	.4byte SetFrame__Q34nw4r3g3d13AnmObjChrNodeFf
+	.4byte GetFrame__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte UpdateFrame__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte SetUpdateRate__Q34nw4r3g3d13AnmObjChrNodeFf
+	.4byte GetUpdateRate__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte Bind__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte GetResult__Q34nw4r3g3d14AnmObjChrBlendFPQ34nw4r3g3d12ChrAnmResultUl
+	.4byte Attach__Q34nw4r3g3d13AnmObjChrNodeFiPQ34nw4r3g3d12AnmObjChrRes
+	.4byte Detach__Q34nw4r3g3d13AnmObjChrNodeFi
+	.4byte DetachAll__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte SetWeight__Q34nw4r3g3d14AnmObjChrBlendFif
+	.4byte GetWeight__Q34nw4r3g3d14AnmObjChrBlendCFi
+	.4byte Bind__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
+	.4byte Release__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
 
-.global lbl_803330E8
-lbl_803330E8:
+.global __vt__Q34nw4r3g3d13AnmObjChrNode
+__vt__Q34nw4r3g3d13AnmObjChrNode:
 
 	# ROM: 0x32F1C8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026A3B0
-	.4byte lbl_80268F60
-	.4byte lbl_80268600
-	.4byte lbl_8026A500
-	.4byte lbl_8026A4D0
-	.4byte lbl_80268960
-	.4byte lbl_802689F0
-	.4byte lbl_802688E0
-	.4byte lbl_80268A50
-	.4byte lbl_80268AE0
-	.4byte lbl_80268B40
-	.4byte lbl_80268D50
+	.4byte IsDerivedFrom__Q34nw4r3g3d13AnmObjChrNodeCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d13AnmObjChrNodeFUlUlPv
+	.4byte __dt__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte GetTypeObj__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte GetTypeName__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte SetFrame__Q34nw4r3g3d13AnmObjChrNodeFf
+	.4byte GetFrame__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte UpdateFrame__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte SetUpdateRate__Q34nw4r3g3d13AnmObjChrNodeFf
+	.4byte GetUpdateRate__Q34nw4r3g3d13AnmObjChrNodeCFv
+	.4byte Bind__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d13AnmObjChrNodeFv
 	.4byte 0
-	.4byte lbl_80268670
-	.4byte lbl_80268760
-	.4byte lbl_80268880
-	.4byte lbl_80268590
-	.4byte lbl_802685A0
-	.4byte lbl_80268C40
-	.4byte lbl_80268E10
+	.4byte Attach__Q34nw4r3g3d13AnmObjChrNodeFiPQ34nw4r3g3d12AnmObjChrRes
+	.4byte Detach__Q34nw4r3g3d13AnmObjChrNodeFi
+	.4byte DetachAll__Q34nw4r3g3d13AnmObjChrNodeFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjChrFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjChrCFi
+	.4byte Bind__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
+	.4byte Release__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption
 
-.global lbl_80333140
-lbl_80333140:
+.global __vt__Q34nw4r3g3d9AnmObjChr
+__vt__Q34nw4r3g3d9AnmObjChr:
 
 	# ROM: 0x32F220
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026A250
+	.4byte IsDerivedFrom__Q34nw4r3g3d9AnmObjChrCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_802685C0
-	.4byte lbl_8026A540
-	.4byte lbl_8026A510
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d9AnmObjChrFv
+	.4byte GetTypeObj__Q34nw4r3g3d9AnmObjChrCFv
+	.4byte GetTypeName__Q34nw4r3g3d9AnmObjChrCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80268530
 	.4byte 0
-	.4byte lbl_80268570
-	.4byte lbl_80268580
-	.4byte lbl_802685B0
-	.4byte lbl_80268590
-	.4byte lbl_802685A0
+	.4byte 0
+	.4byte Release__Q34nw4r3g3d9AnmObjChrFv
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d9AnmObjChrFiPQ34nw4r3g3d12AnmObjChrRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjChrFi
+	.4byte DetachAll__Q34nw4r3g3d9AnmObjChrFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjChrFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjChrCFi
 	.4byte 0
 	.4byte 0
 
-.global lbl_80333198
-lbl_80333198:
+.global __vt__Q34nw4r3g3d12AnmObjShpRes
+__vt__Q34nw4r3g3d12AnmObjShpRes:
 
 	# ROM: 0x32F278
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026B9D0
-	.4byte lbl_8026B980
-	.4byte lbl_8026BAD0
-	.4byte lbl_8026BAC0
-	.4byte lbl_8026BA90
-	.4byte lbl_8026B4A0
-	.4byte lbl_8026B570
-	.4byte lbl_8026B650
-	.4byte lbl_8026B580
-	.4byte lbl_8026B640
-	.4byte lbl_8026B740
-	.4byte lbl_8026A570
-	.4byte lbl_8026B900
-	.4byte lbl_8026A5B0
-	.4byte lbl_8026A5C0
-	.4byte lbl_8026A5F0
-	.4byte lbl_8026A5D0
-	.4byte lbl_8026A5E0
+	.4byte IsDerivedFrom__Q34nw4r3g3d12AnmObjShpResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d12AnmObjShpResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d12AnmObjShpResFv
+	.4byte GetTypeObj__Q34nw4r3g3d12AnmObjShpResCFv
+	.4byte GetTypeName__Q34nw4r3g3d12AnmObjShpResCFv
+	.4byte SetFrame__Q34nw4r3g3d12AnmObjShpResFf
+	.4byte GetFrame__Q34nw4r3g3d12AnmObjShpResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d12AnmObjShpResFv
+	.4byte SetUpdateRate__Q34nw4r3g3d12AnmObjShpResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d12AnmObjShpResCFv
+	.4byte Bind__Q34nw4r3g3d12AnmObjShpResFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d9AnmObjShpFv
+	.4byte GetResult__Q34nw4r3g3d12AnmObjShpResFPQ34nw4r3g3d12ShpAnmResultUl
+	.4byte Attach__Q34nw4r3g3d9AnmObjShpFiPQ34nw4r3g3d12AnmObjShpRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjShpFi
+	.4byte DetachAll__Q34nw4r3g3d9AnmObjShpFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjShpFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjShpCFi
 
-.global lbl_803331E8
-lbl_803331E8:
+.global __vt__Q34nw4r3g3d14AnmObjShpBlend
+__vt__Q34nw4r3g3d14AnmObjShpBlend:
 
 	# ROM: 0x32F2C8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026BB20
-	.4byte lbl_8026AD40
-	.4byte lbl_8026BC50
-	.4byte lbl_8026BC40
-	.4byte lbl_8026BC10
-	.4byte lbl_8026A9A0
-	.4byte lbl_8026AA30
-	.4byte lbl_8026A920
-	.4byte lbl_8026AA90
-	.4byte lbl_8026AB20
-	.4byte lbl_8026AB80
-	.4byte lbl_8026AC80
-	.4byte lbl_8026AF40
-	.4byte lbl_8026A6B0
-	.4byte lbl_8026A7A0
-	.4byte lbl_8026A8C0
-	.4byte lbl_8026B240
-	.4byte lbl_8026B250
+	.4byte IsDerivedFrom__Q34nw4r3g3d14AnmObjShpBlendCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d13AnmObjShpNodeFUlUlPv
+	.4byte __dt__Q34nw4r3g3d14AnmObjShpBlendFv
+	.4byte GetTypeObj__Q34nw4r3g3d14AnmObjShpBlendCFv
+	.4byte GetTypeName__Q34nw4r3g3d14AnmObjShpBlendCFv
+	.4byte SetFrame__Q34nw4r3g3d13AnmObjShpNodeFf
+	.4byte GetFrame__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte UpdateFrame__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte SetUpdateRate__Q34nw4r3g3d13AnmObjShpNodeFf
+	.4byte GetUpdateRate__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte Bind__Q34nw4r3g3d13AnmObjShpNodeFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte GetResult__Q34nw4r3g3d14AnmObjShpBlendFPQ34nw4r3g3d12ShpAnmResultUl
+	.4byte Attach__Q34nw4r3g3d13AnmObjShpNodeFiPQ34nw4r3g3d12AnmObjShpRes
+	.4byte Detach__Q34nw4r3g3d13AnmObjShpNodeFi
+	.4byte DetachAll__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte SetWeight__Q34nw4r3g3d14AnmObjShpBlendFif
+	.4byte GetWeight__Q34nw4r3g3d14AnmObjShpBlendCFi
 
-.global lbl_80333238
-lbl_80333238:
+.global __vt__Q34nw4r3g3d13AnmObjShpNode
+__vt__Q34nw4r3g3d13AnmObjShpNode:
 
 	# ROM: 0x32F318
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026BBA0
-	.4byte lbl_8026AD40
-	.4byte lbl_8026A640
-	.4byte lbl_8026BCF0
-	.4byte lbl_8026BCC0
-	.4byte lbl_8026A9A0
-	.4byte lbl_8026AA30
-	.4byte lbl_8026A920
-	.4byte lbl_8026AA90
-	.4byte lbl_8026AB20
-	.4byte lbl_8026AB80
-	.4byte lbl_8026AC80
+	.4byte IsDerivedFrom__Q34nw4r3g3d13AnmObjShpNodeCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d13AnmObjShpNodeFUlUlPv
+	.4byte __dt__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte GetTypeObj__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte GetTypeName__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte SetFrame__Q34nw4r3g3d13AnmObjShpNodeFf
+	.4byte GetFrame__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte UpdateFrame__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte SetUpdateRate__Q34nw4r3g3d13AnmObjShpNodeFf
+	.4byte GetUpdateRate__Q34nw4r3g3d13AnmObjShpNodeCFv
+	.4byte Bind__Q34nw4r3g3d13AnmObjShpNodeFQ34nw4r3g3d6ResMdl
+	.4byte Release__Q34nw4r3g3d13AnmObjShpNodeFv
 	.4byte 0
-	.4byte lbl_8026A6B0
-	.4byte lbl_8026A7A0
-	.4byte lbl_8026A8C0
-	.4byte lbl_8026A5D0
-	.4byte lbl_8026A5E0
+	.4byte Attach__Q34nw4r3g3d13AnmObjShpNodeFiPQ34nw4r3g3d12AnmObjShpRes
+	.4byte Detach__Q34nw4r3g3d13AnmObjShpNodeFi
+	.4byte DetachAll__Q34nw4r3g3d13AnmObjShpNodeFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjShpFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjShpCFi
 
-.global lbl_80333288
-lbl_80333288:
+.global __vt__Q34nw4r3g3d9AnmObjShp
+__vt__Q34nw4r3g3d9AnmObjShp:
 
 	# ROM: 0x32F368
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026BA40
+	.4byte IsDerivedFrom__Q34nw4r3g3d9AnmObjShpCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_8026A600
-	.4byte lbl_8026BD30
-	.4byte lbl_8026BD00
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d9AnmObjShpFv
+	.4byte GetTypeObj__Q34nw4r3g3d9AnmObjShpCFv
+	.4byte GetTypeName__Q34nw4r3g3d9AnmObjShpCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026A570
 	.4byte 0
-	.4byte lbl_8026A5B0
-	.4byte lbl_8026A5C0
-	.4byte lbl_8026A5F0
-	.4byte lbl_8026A5D0
-	.4byte lbl_8026A5E0
+	.4byte 0
+	.4byte Release__Q34nw4r3g3d9AnmObjShpFv
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d9AnmObjShpFiPQ34nw4r3g3d12AnmObjShpRes
+	.4byte Detach__Q34nw4r3g3d9AnmObjShpFi
+	.4byte DetachAll__Q34nw4r3g3d9AnmObjShpFv
+	.4byte SetWeight__Q34nw4r3g3d9AnmObjShpFif
+	.4byte GetWeight__Q34nw4r3g3d9AnmObjShpCFi
 
-.global lbl_803332D8
-lbl_803332D8:
+.global __vt__Q34nw4r3g3d9AnmScnRes
+__vt__Q34nw4r3g3d9AnmScnRes:
 
 	# ROM: 0x32F3B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026D1A0
-	.4byte lbl_8026C7B0
-	.4byte lbl_8026C640
-	.4byte lbl_8026D260
-	.4byte lbl_8026D230
-	.4byte lbl_8026C680
-	.4byte lbl_8026C6E0
-	.4byte lbl_8026C6F0
-	.4byte lbl_8026C720
-	.4byte lbl_8026C730
-	.4byte lbl_8026C2B0
-	.4byte lbl_8026C2C0
-	.4byte lbl_8026C310
-	.4byte lbl_8026C320
-	.4byte lbl_8026C330
-	.4byte lbl_8026C340
-	.4byte lbl_8006B5C4
-	.4byte lbl_8026C350
-	.4byte lbl_8026C360
-	.4byte lbl_8026C370
-	.4byte lbl_8026C380
-	.4byte lbl_8006B560
-	.4byte lbl_8026C390
-	.4byte lbl_8026C800
-	.4byte lbl_8026C940
-	.4byte lbl_8026C9B0
-	.4byte lbl_8026CB30
-	.4byte lbl_8026CBE0
-	.4byte lbl_8026CF90
-	.4byte lbl_8026CFD0
-	.4byte lbl_8026CD40
-	.4byte lbl_8026CDE0
-	.4byte lbl_8026CE70
-	.4byte lbl_8026CF00
+	.4byte IsDerivedFrom__Q34nw4r3g3d9AnmScnResCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d9AnmScnResFUlUlPv
+	.4byte __dt__Q34nw4r3g3d9AnmScnResFv
+	.4byte GetTypeObj__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetTypeName__Q34nw4r3g3d9AnmScnResCFv
+	.4byte SetFrame__Q34nw4r3g3d9AnmScnResFf
+	.4byte GetFrame__Q34nw4r3g3d9AnmScnResCFv
+	.4byte SetUpdateRate__Q34nw4r3g3d9AnmScnResFf
+	.4byte GetUpdateRate__Q34nw4r3g3d9AnmScnResCFv
+	.4byte UpdateFrame__Q34nw4r3g3d9AnmScnResFv
+	.4byte Attach__Q34nw4r3g3d6AnmScnFiPQ34nw4r3g3d9AnmScnRes
+	.4byte Detach__Q34nw4r3g3d6AnmScnFi
+	.4byte GetNumLightSet__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetNumAmbLight__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetNumDiffuseLight__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetNumSpecularLight__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetNumFog__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetNumCamera__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetLightSetMaxRefNumber__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetAmbLightMaxRefNumber__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetDiffuseLightMaxRefNumber__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetFogMaxRefNumber__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetCameraMaxRefNumber__Q34nw4r3g3d9AnmScnResCFv
+	.4byte GetLightSet__Q34nw4r3g3d9AnmScnResFQ34nw4r3g3d8LightSetUl
+	.4byte GetAmbLightColor__Q34nw4r3g3d9AnmScnResFUl
+	.4byte GetLight__Q34nw4r3g3d9AnmScnResFPQ34nw4r3g3d8LightObjPQ34nw4r3g3d8LightObjUl
+	.4byte GetFog__Q34nw4r3g3d9AnmScnResFQ34nw4r3g3d3FogUl
+	.4byte GetCamera__Q34nw4r3g3d9AnmScnResFQ34nw4r3g3d6CameraUl
+	.4byte GetSpecularLightID__Q34nw4r3g3d9AnmScnResCFUl
+	.4byte HasSpecularLight__Q34nw4r3g3d9AnmScnResCFUl
+	.4byte GetAmbLightResult__Q34nw4r3g3d9AnmScnResFPQ34nw4r3g3d17AmbLightAnmResultUl
+	.4byte GetLightResult__Q34nw4r3g3d9AnmScnResFPQ34nw4r3g3d14LightAnmResultUl
+	.4byte GetFogResult__Q34nw4r3g3d9AnmScnResFPQ34nw4r3g3d12FogAnmResultUl
+	.4byte GetCameraResult__Q34nw4r3g3d9AnmScnResFPQ34nw4r3g3d15CameraAnmResultUl
 
-.global lbl_80333368
-lbl_80333368:
+.global __vt__Q34nw4r3g3d6AnmScn
+__vt__Q34nw4r3g3d6AnmScn:
 
 	# ROM: 0x32F448
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026D1F0
+	.4byte IsDerivedFrom__Q34nw4r3g3d6AnmScnCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_8026C2D0
-	.4byte lbl_8026D2A0
-	.4byte lbl_8026D270
-	.4byte 0
-	.4byte 0
+	.4byte __dt__Q34nw4r3g3d6AnmScnFv
+	.4byte GetTypeObj__Q34nw4r3g3d6AnmScnCFv
+	.4byte GetTypeName__Q34nw4r3g3d6AnmScnCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8026C2B0
-	.4byte lbl_8026C2C0
+	.4byte 0
+	.4byte 0
+	.4byte Attach__Q34nw4r3g3d6AnmScnFiPQ34nw4r3g3d9AnmScnRes
+	.4byte Detach__Q34nw4r3g3d6AnmScnFi
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -56710,29 +56710,29 @@ lbl_80333368:
 	.4byte 0
 	.4byte 0
 
-.global lbl_803333F8
-lbl_803333F8:
+.global __vt__Q34nw4r3g3d6G3dObj
+__vt__Q34nw4r3g3d6G3dObj:
 
 	# ROM: 0x32F4D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80037BB0
+	.4byte IsDerivedFrom__Q34nw4r3g3d6G3dObjCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte func_8026D2B0
-	.4byte lbl_80040EF8
-	.4byte lbl_80040EC8
+	.4byte __dt__Q34nw4r3g3d6G3dObjFv
+	.4byte GetTypeObj__Q34nw4r3g3d6G3dObjCFv
+	.4byte GetTypeName__Q34nw4r3g3d6G3dObjCFv
 	.4byte 0
 
-.global lbl_80333418
-lbl_80333418:
+.global __vt__Q44nw4r3g3d8G3DState11IndMtxOpStd
+__vt__Q44nw4r3g3d8G3DState11IndMtxOpStd:
 
 	# ROM: 0x32F4F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80270E00
-	.4byte lbl_802706D0
-	.4byte lbl_80270DB0
-	.4byte lbl_80270C50
+	.4byte __cl__Q44nw4r3g3d8G3DState11IndMtxOpStdFPQ44nw4r3g3d8G3DState13IndTexMtxInfo
+	.4byte __dt__Q44nw4r3g3d8G3DState11IndMtxOpStdFv
+	.4byte Reset__Q44nw4r3g3d8G3DState11IndMtxOpStdFv
+	.4byte SetNrmMapMtx__Q44nw4r3g3d8G3DState11IndMtxOpStdF14_GXIndTexMtxIDPCQ34nw4r4math4VEC3PCQ34nw4r4math5MTX34Q44nw4r3g3d14ResMatMiscData14IndirectMethod
 
 .global lbl_80333430
 lbl_80333430:
@@ -56772,100 +56772,100 @@ lbl_80333468:
 	.4byte lbl_8027A960
 	.4byte lbl_8027A970
 
-.global lbl_80333490
-lbl_80333490:
+.global __vt__Q34nw4r3g3d8ScnGroup
+__vt__Q34nw4r3g3d8ScnGroup:
 
 	# ROM: 0x32F570
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027BD10
-	.4byte lbl_8027B450
-	.4byte func_8027BC50
-	.4byte lbl_8027BDD0
-	.4byte lbl_8027BDA0
-	.4byte lbl_8027B1F0
-	.4byte func_8027A720
-	.4byte func_8027A8C0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027A4E0
-	.4byte func_8027B900
-	.4byte func_8027BA90
-	.4byte lbl_8027BB50
+	.4byte IsDerivedFrom__Q34nw4r3g3d8ScnGroupCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d8ScnGroupFUlUlPv
+	.4byte __dt__Q34nw4r3g3d8ScnGroupFv
+	.4byte GetTypeObj__Q34nw4r3g3d8ScnGroupCFv
+	.4byte GetTypeName__Q34nw4r3g3d8ScnGroupCFv
+	.4byte ForEach__Q34nw4r3g3d8ScnGroupFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d6ScnObjFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d6ScnObjCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34PUl
+	.4byte Insert__Q34nw4r3g3d8ScnGroupFUlPQ34nw4r3g3d6ScnObj
+	.4byte Remove__Q34nw4r3g3d8ScnGroupFUl
+	.4byte Remove__Q34nw4r3g3d8ScnGroupFPQ34nw4r3g3d6ScnObj
 
-.global lbl_803334D0
-lbl_803334D0:
+.global __vt__Q34nw4r3g3d7ScnLeaf
+__vt__Q34nw4r3g3d7ScnLeaf:
 
 	# ROM: 0x32F5B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027BDE0
+	.4byte IsDerivedFrom__Q34nw4r3g3d7ScnLeafCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte lbl_8027BE70
-	.4byte lbl_8027BE60
-	.4byte lbl_8027BE30
-	.4byte lbl_8027AC40
-	.4byte func_8027AC80
-	.4byte func_8027ACC0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027AD10
+	.4byte __dt__Q34nw4r3g3d7ScnLeafFv
+	.4byte GetTypeObj__Q34nw4r3g3d7ScnLeafCFv
+	.4byte GetTypeName__Q34nw4r3g3d7ScnLeafCFv
+	.4byte ForEach__Q34nw4r3g3d7ScnLeafFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d7ScnLeafFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d7ScnLeafCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d7ScnLeafFPCQ34nw4r4math5MTX34PUl
 
-.global lbl_80333504
-lbl_80333504:
+.global __vt__Q34nw4r3g3d6ScnObj
+__vt__Q34nw4r3g3d6ScnObj:
 
 	# ROM: 0x32F5E4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027BD60
+	.4byte IsDerivedFrom__Q34nw4r3g3d6ScnObjCFQ44nw4r3g3d6G3dObj7TypeObj
 	.4byte 0
-	.4byte func_8027A6A0
-	.4byte lbl_8027BF30
-	.4byte lbl_8027BF00
+	.4byte __dt__Q34nw4r3g3d6ScnObjFv
+	.4byte GetTypeObj__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetTypeName__Q34nw4r3g3d6ScnObjCFv
 	.4byte 0
-	.4byte func_8027A720
-	.4byte func_8027A8C0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027A4E0
+	.4byte SetScnObjOption__Q34nw4r3g3d6ScnObjFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d6ScnObjCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34PUl
 
-.global lbl_80333538
-lbl_80333538:
+.global __vt__Q34nw4r3g3d12ScnObjGather
+__vt__Q34nw4r3g3d12ScnObjGather:
 
 	# ROM: 0x32F618
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027D910
-	.4byte lbl_8027CBE0
-	.4byte lbl_8027D900
-	.4byte lbl_8027CD00
-	.4byte lbl_8027D5E0
-	.4byte lbl_8027D760
-	.4byte lbl_8027D7D0
-	.4byte lbl_8027D860
-	.4byte lbl_8027D8F0
+	.4byte __dt__Q34nw4r3g3d12ScnObjGatherFv
+	.4byte Add__Q34nw4r3g3d12ScnObjGatherFPQ34nw4r3g3d6ScnObjbb
+	.4byte Clear__Q34nw4r3g3d12ScnObjGatherFv
+	.4byte ZSort__Q34nw4r3g3d12ScnObjGatherFv
+	.4byte Sort__Q34nw4r3g3d12ScnObjGatherFv
+	.4byte Sort__Q34nw4r3g3d12ScnObjGatherFPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_bPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b
+	.4byte DrawOpa__Q34nw4r3g3d12ScnObjGatherFPQ34nw4r3g3d14ResMdlDrawMode
+	.4byte DrawXlu__Q34nw4r3g3d12ScnObjGatherFPQ34nw4r3g3d14ResMdlDrawMode
+	.4byte CheckScnObj__Q34nw4r3g3d12ScnObjGatherFPQ34nw4r3g3d6ScnObj
 	.4byte 0
 
-.global lbl_80333568
-lbl_80333568:
+.global __vt__Q34nw4r3g3d7ScnRoot
+__vt__Q34nw4r3g3d7ScnRoot:
 
 	# ROM: 0x32F648
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027D950
-	.4byte lbl_8027C080
-	.4byte lbl_8027CB60
-	.4byte lbl_8027D9F0
-	.4byte lbl_8027D9C0
-	.4byte lbl_8027B1F0
-	.4byte func_8027A720
-	.4byte func_8027A8C0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027A4E0
-	.4byte func_8027B900
-	.4byte func_8027BA90
-	.4byte lbl_8027BB50
+	.4byte IsDerivedFrom__Q34nw4r3g3d7ScnRootCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d7ScnRootFUlUlPv
+	.4byte __dt__Q34nw4r3g3d7ScnRootFv
+	.4byte GetTypeObj__Q34nw4r3g3d7ScnRootCFv
+	.4byte GetTypeName__Q34nw4r3g3d7ScnRootCFv
+	.4byte ForEach__Q34nw4r3g3d8ScnGroupFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d6ScnObjFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d6ScnObjCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34PUl
+	.4byte Insert__Q34nw4r3g3d8ScnGroupFUlPQ34nw4r3g3d6ScnObj
+	.4byte Remove__Q34nw4r3g3d8ScnGroupFUl
+	.4byte Remove__Q34nw4r3g3d8ScnGroupFPQ34nw4r3g3d6ScnObj
 
 .global lbl_803335A8
 lbl_803335A8:
@@ -56875,72 +56875,72 @@ lbl_803335A8:
 	.balign 4
 	.4byte 0
 
-.global lbl_803335B8
-lbl_803335B8:
+.global __vt__Q34nw4r3g3d12ScnMdlSimple
+__vt__Q34nw4r3g3d12ScnMdlSimple:
 
 	# ROM: 0x32F698
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8027F9E0
-	.4byte lbl_8027E190
-	.4byte func_8027F8C0
-	.4byte lbl_8027FA80
-	.4byte lbl_8027FA50
-	.4byte lbl_8027AC40
-	.4byte func_8027EA20
-	.4byte func_8027EA60
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027AD10
-	.4byte func_8027EB80
-	.4byte func_8027F190
-	.4byte func_8027F310
-	.4byte func_8027F3F0
-	.4byte func_8027F450
+	.4byte IsDerivedFrom__Q34nw4r3g3d12ScnMdlSimpleCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d12ScnMdlSimpleFUlUlPv
+	.4byte __dt__Q34nw4r3g3d12ScnMdlSimpleFv
+	.4byte GetTypeObj__Q34nw4r3g3d12ScnMdlSimpleCFv
+	.4byte GetTypeName__Q34nw4r3g3d12ScnMdlSimpleCFv
+	.4byte ForEach__Q34nw4r3g3d7ScnLeafFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d12ScnMdlSimpleFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d12ScnMdlSimpleCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d7ScnLeafFPCQ34nw4r4math5MTX34PUl
+	.4byte SetAnmObj__Q34nw4r3g3d12ScnMdlSimpleFPQ34nw4r3g3d6AnmObjQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte RemoveAnmObj__Q34nw4r3g3d12ScnMdlSimpleFPQ34nw4r3g3d6AnmObj
+	.4byte RemoveAnmObj__Q34nw4r3g3d12ScnMdlSimpleFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte GetAnmObj__Q34nw4r3g3d12ScnMdlSimpleFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte GetAnmObj__Q34nw4r3g3d12ScnMdlSimpleCFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
 
-.global lbl_80333600
-lbl_80333600:
+.global __vt__Q34nw4r3g3d6ScnMdl
+__vt__Q34nw4r3g3d6ScnMdl:
 
 	# ROM: 0x32F6E0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802824A0
-	.4byte lbl_80281420
-	.4byte lbl_80282430
-	.4byte lbl_80282550
-	.4byte lbl_80282520
-	.4byte lbl_8027AC40
-	.4byte lbl_802818D0
-	.4byte lbl_80281910
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027AD10
-	.4byte lbl_80282030
-	.4byte lbl_802821A0
-	.4byte lbl_802823A0
-	.4byte lbl_802823F0
-	.4byte lbl_80282410
+	.4byte IsDerivedFrom__Q34nw4r3g3d6ScnMdlCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d6ScnMdlFUlUlPv
+	.4byte __dt__Q34nw4r3g3d6ScnMdlFv
+	.4byte GetTypeObj__Q34nw4r3g3d6ScnMdlCFv
+	.4byte GetTypeName__Q34nw4r3g3d6ScnMdlCFv
+	.4byte ForEach__Q34nw4r3g3d7ScnLeafFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d6ScnMdlFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d6ScnMdlCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d7ScnLeafFPCQ34nw4r4math5MTX34PUl
+	.4byte SetAnmObj__Q34nw4r3g3d6ScnMdlFPQ34nw4r3g3d6AnmObjQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte RemoveAnmObj__Q34nw4r3g3d6ScnMdlFPQ34nw4r3g3d6AnmObj
+	.4byte RemoveAnmObj__Q34nw4r3g3d6ScnMdlFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte GetAnmObj__Q34nw4r3g3d6ScnMdlFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
+	.4byte GetAnmObj__Q34nw4r3g3d6ScnMdlCFQ44nw4r3g3d12ScnMdlSimple10AnmObjType
 
-.global lbl_80333648
-lbl_80333648:
+.global __vt__Q34nw4r3g3d12ScnMdlExpand
+__vt__Q34nw4r3g3d12ScnMdlExpand:
 
 	# ROM: 0x32F728
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80283070
-	.4byte lbl_80282D10
-	.4byte lbl_80282FF0
-	.4byte lbl_80283110
-	.4byte lbl_802830E0
-	.4byte lbl_8027B1F0
-	.4byte func_8027A720
-	.4byte func_8027A8C0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027A4E0
-	.4byte lbl_802829F0
-	.4byte lbl_80282B40
-	.4byte lbl_80282C80
+	.4byte IsDerivedFrom__Q34nw4r3g3d12ScnMdlExpandCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d12ScnMdlExpandFUlUlPv
+	.4byte __dt__Q34nw4r3g3d12ScnMdlExpandFv
+	.4byte GetTypeObj__Q34nw4r3g3d12ScnMdlExpandCFv
+	.4byte GetTypeName__Q34nw4r3g3d12ScnMdlExpandCFv
+	.4byte ForEach__Q34nw4r3g3d8ScnGroupFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d6ScnObjFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d6ScnObjCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34PUl
+	.4byte Insert__Q34nw4r3g3d12ScnMdlExpandFUlPQ34nw4r3g3d6ScnObj
+	.4byte Remove__Q34nw4r3g3d12ScnMdlExpandFUl
+	.4byte Remove__Q34nw4r3g3d12ScnMdlExpandFPQ34nw4r3g3d6ScnObj
 
 .global lbl_80333688
 lbl_80333688:
@@ -56949,166 +56949,166 @@ lbl_80333688:
 	.asciz "<< NW4R    - G3D \tfinal   build: Dec 22 2009 02:11:33 (0x4302_158) >>"
 	.balign 4
 
-.global lbl_803336D0
-lbl_803336D0:
+.global __vt__Q34nw4r3g3d7ScnProc
+__vt__Q34nw4r3g3d7ScnProc:
 
 	# ROM: 0x32F7B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80283670
-	.4byte lbl_80283570
-	.4byte lbl_80283720
-	.4byte lbl_80283710
-	.4byte lbl_802836E0
-	.4byte lbl_8027AC40
-	.4byte func_8027AC80
-	.4byte func_8027ACC0
-	.4byte lbl_8027AA70
-	.4byte lbl_8027AA80
-	.4byte lbl_8027AD10
+	.4byte IsDerivedFrom__Q34nw4r3g3d7ScnProcCFQ44nw4r3g3d6G3dObj7TypeObj
+	.4byte G3dProc__Q34nw4r3g3d7ScnProcFUlUlPv
+	.4byte __dt__Q34nw4r3g3d7ScnProcFv
+	.4byte GetTypeObj__Q34nw4r3g3d7ScnProcCFv
+	.4byte GetTypeName__Q34nw4r3g3d7ScnProcCFv
+	.4byte ForEach__Q34nw4r3g3d7ScnLeafFPFPQ34nw4r3g3d6ScnObjPv_Q44nw4r3g3d6ScnObj13ForEachResultPvb
+	.4byte SetScnObjOption__Q34nw4r3g3d7ScnLeafFUlUl
+	.4byte GetScnObjOption__Q34nw4r3g3d7ScnLeafCFUlPUl
+	.4byte GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv
+	.4byte GetValueForSortXlu__Q34nw4r3g3d6ScnObjCFv
+	.4byte CalcWorldMtx__Q34nw4r3g3d7ScnLeafFPCQ34nw4r4math5MTX34PUl
 	.4byte 0
 
-.global lbl_80333708
-lbl_80333708:
+.global __vt__Q34nw4r3lyt4Pane
+__vt__Q34nw4r3lyt4Pane:
 
 	# ROM: 0x32F7E8
 	.4byte 0
 	.4byte 0
-	.4byte func_80284D40
-	.4byte lbl_8002F228
-	.4byte lbl_80285340
-	.4byte lbl_80285640
-	.4byte lbl_802856D0
-	.4byte lbl_802856E0
-	.4byte func_80285770
-	.4byte lbl_80285130
-	.4byte lbl_80285140
-	.4byte lbl_80285150
-	.4byte lbl_80285180
-	.4byte lbl_802851B0
-	.4byte lbl_802851C0
-	.4byte lbl_802851D0
-	.4byte lbl_80285280
-	.4byte lbl_80285830
-	.4byte lbl_80285850
-	.4byte lbl_802858E0
-	.4byte func_80285900
-	.4byte lbl_802859A0
-	.4byte lbl_802859B0
-	.4byte lbl_802859C0
-	.4byte lbl_80285AC0
-	.4byte lbl_80285CF0
-	.4byte lbl_80285D10
-	.4byte lbl_80285D20
-	.4byte lbl_80285BC0
+	.4byte __dt__Q34nw4r3lyt4PaneFv
+	.4byte GetRuntimeTypeInfo__Q34nw4r3lyt4PaneCFv
+	.4byte CalculateMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte DrawSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt4PaneFUl
+	.4byte AnimateSelf__Q34nw4r3lyt4PaneFUl
+	.4byte GetVtxColor__Q34nw4r3lyt4PaneCFUl
+	.4byte SetVtxColor__Q34nw4r3lyt4PaneFUlQ34nw4r2ut5Color
+	.4byte GetColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetVtxColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte FindPaneByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte BindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte UnbindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q34nw4r3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResourcebb
+	.4byte GetMaterialNum__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFUl
+	.4byte LoadMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
 	.4byte 0
 
-.global lbl_80333780
-lbl_80333780:
+.global __vt__Q34nw4r3lyt5Group
+__vt__Q34nw4r3lyt5Group:
 
 	# ROM: 0x32F860
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80285E70
+	.4byte __dt__Q34nw4r3lyt5GroupFv
 	.4byte 0
 
-.global lbl_80333790
-lbl_80333790:
+.global __vt__Q34nw4r3lyt6Layout
+__vt__Q34nw4r3lyt6Layout:
 
 	# ROM: 0x32F870
 	.4byte 0
 	.4byte 0
-	.4byte func_80286380
-	.4byte lbl_802864B0
-	.4byte lbl_80286800
-	.4byte lbl_80286880
-	.4byte lbl_802868E0
-	.4byte lbl_80286970
-	.4byte lbl_802869A0
-	.4byte lbl_802869D0
-	.4byte lbl_802869F0
-	.4byte lbl_80286C90
-	.4byte lbl_80286CC0
-	.4byte lbl_80286CE0
-	.4byte lbl_80286D00
-	.4byte lbl_80286D60
+	.4byte __dt__Q34nw4r3lyt6LayoutFv
+	.4byte Build__Q34nw4r3lyt6LayoutFPCvPQ34nw4r3lyt16ResourceAccessor
+	.4byte CreateAnimTransform__Q34nw4r3lyt6LayoutFv
+	.4byte CreateAnimTransform__Q34nw4r3lyt6LayoutFPCvPQ34nw4r3lyt16ResourceAccessor
+	.4byte CreateAnimTransform__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt12AnimResourcePQ34nw4r3lyt16ResourceAccessor
+	.4byte BindAnimation__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAnimation__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAllAnimation__Q34nw4r3lyt6LayoutFv
+	.4byte BindAnimationAuto__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt12AnimResourcePQ34nw4r3lyt16ResourceAccessor
+	.4byte SetAnimationEnable__Q34nw4r3lyt6LayoutFPQ34nw4r3lyt13AnimTransformb
+	.4byte CalculateMtx__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt6LayoutFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt6LayoutFUl
+	.4byte SetTagProcessor__Q34nw4r3lyt6LayoutFPQ34nw4r2ut19TagProcessorBase_w_
 
-.global lbl_803337D0
-lbl_803337D0:
+.global __vt__Q34nw4r3lyt7Picture
+__vt__Q34nw4r3lyt7Picture:
 
 	# ROM: 0x32F8B0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80287360
-	.4byte lbl_80287790
-	.4byte lbl_80285340
-	.4byte lbl_80285640
-	.4byte lbl_802876B0
-	.4byte lbl_802856E0
-	.4byte func_80285770
-	.4byte lbl_80287620
-	.4byte lbl_80287640
-	.4byte lbl_80285150
-	.4byte lbl_80285180
-	.4byte lbl_80287670
-	.4byte lbl_80287690
-	.4byte lbl_802851D0
-	.4byte lbl_80285280
-	.4byte lbl_80285830
-	.4byte lbl_80285850
-	.4byte lbl_802858E0
-	.4byte func_80285900
-	.4byte lbl_802859A0
-	.4byte lbl_802859B0
-	.4byte lbl_802859C0
-	.4byte lbl_80285AC0
-	.4byte lbl_80285CF0
-	.4byte lbl_80285D10
-	.4byte lbl_80285D20
-	.4byte lbl_80285BC0
-	.4byte lbl_80287440
+	.4byte __dt__Q34nw4r3lyt7PictureFv
+	.4byte GetRuntimeTypeInfo__Q34nw4r3lyt7PictureCFv
+	.4byte CalculateMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte DrawSelf__Q34nw4r3lyt7PictureFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt4PaneFUl
+	.4byte AnimateSelf__Q34nw4r3lyt4PaneFUl
+	.4byte GetVtxColor__Q34nw4r3lyt7PictureCFUl
+	.4byte SetVtxColor__Q34nw4r3lyt7PictureFUlQ34nw4r2ut5Color
+	.4byte GetColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q34nw4r3lyt7PictureCFUl
+	.4byte SetVtxColorElement__Q34nw4r3lyt7PictureFUlUc
+	.4byte FindPaneByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte BindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte UnbindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q34nw4r3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResourcebb
+	.4byte GetMaterialNum__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFUl
+	.4byte LoadMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Append__Q34nw4r3lyt7PictureFRCQ34nw4r3lyt6TexMap
 
-.global lbl_80333848
-lbl_80333848:
+.global __vt__Q34nw4r3lyt7TextBox
+__vt__Q34nw4r3lyt7TextBox:
 
 	# ROM: 0x32F928
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80287AA0
-	.4byte lbl_80289060
-	.4byte lbl_80285340
-	.4byte lbl_80285640
-	.4byte lbl_80287D40
-	.4byte lbl_802856E0
-	.4byte func_80285770
-	.4byte lbl_80287C40
-	.4byte lbl_80287C60
-	.4byte lbl_80285150
-	.4byte lbl_80285180
-	.4byte lbl_80287CA0
-	.4byte lbl_80287CC0
-	.4byte lbl_802851D0
-	.4byte lbl_80285280
-	.4byte lbl_80285830
-	.4byte lbl_80285850
-	.4byte lbl_802858E0
-	.4byte func_80285900
-	.4byte lbl_802859A0
-	.4byte lbl_802859B0
-	.4byte lbl_802859C0
-	.4byte lbl_80285AC0
-	.4byte lbl_80285CF0
-	.4byte lbl_80285D10
-	.4byte lbl_80285D20
-	.4byte lbl_80288B40
-	.4byte lbl_802886F0
-	.4byte lbl_802887C0
-	.4byte lbl_80288810
-	.4byte lbl_802888F0
+	.4byte __dt__Q34nw4r3lyt7TextBoxFv
+	.4byte GetRuntimeTypeInfo__Q34nw4r3lyt7TextBoxCFv
+	.4byte CalculateMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte DrawSelf__Q34nw4r3lyt7TextBoxFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt4PaneFUl
+	.4byte AnimateSelf__Q34nw4r3lyt4PaneFUl
+	.4byte GetVtxColor__Q34nw4r3lyt7TextBoxCFUl
+	.4byte SetVtxColor__Q34nw4r3lyt7TextBoxFUlQ34nw4r2ut5Color
+	.4byte GetColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q34nw4r3lyt7TextBoxCFUl
+	.4byte SetVtxColorElement__Q34nw4r3lyt7TextBoxFUlUc
+	.4byte FindPaneByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte BindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte UnbindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q34nw4r3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResourcebb
+	.4byte GetMaterialNum__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFUl
+	.4byte LoadMtx__Q34nw4r3lyt7TextBoxFRCQ34nw4r3lyt8DrawInfo
+	.4byte AllocStringBuffer__Q34nw4r3lyt7TextBoxFUs
+	.4byte FreeStringBuffer__Q34nw4r3lyt7TextBoxFv
+	.4byte SetString__Q34nw4r3lyt7TextBoxFPCwUs
+	.4byte SetString__Q34nw4r3lyt7TextBoxFPCwUsUs
 	.4byte 0
 
-.global lbl_803338D0
-lbl_803338D0:
+.global _LOCAL_GetTexutreFlipInfo__Q34nw4r3lyt24_unnamed_lyt_window_cpp_FUc_flipInfos
+_LOCAL_GetTexutreFlipInfo__Q34nw4r3lyt24_unnamed_lyt_window_cpp_FUc_flipInfos:
 
 	# ROM: 0x32F9B0
 	.4byte 0x00000100
@@ -57127,83 +57127,83 @@ lbl_803338D0:
 	.4byte 0x01010000
 	.4byte 0x00010100
 
-.global lbl_8033390C
-lbl_8033390C:
+.global __vt__Q34nw4r3lyt6Window
+__vt__Q34nw4r3lyt6Window:
 
 	# ROM: 0x32F9EC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80289310
-	.4byte lbl_8028B600
-	.4byte lbl_80285340
-	.4byte lbl_80285640
-	.4byte lbl_802895F0
-	.4byte lbl_802856E0
-	.4byte lbl_802897D0
-	.4byte lbl_80289560
-	.4byte lbl_80289580
-	.4byte lbl_80285150
-	.4byte lbl_80285180
-	.4byte lbl_802895B0
-	.4byte lbl_802895D0
-	.4byte lbl_802851D0
-	.4byte lbl_80289460
-	.4byte lbl_80285830
-	.4byte lbl_80285850
-	.4byte lbl_802858E0
-	.4byte lbl_80289860
-	.4byte lbl_802859A0
-	.4byte lbl_802859B0
-	.4byte lbl_802859C0
-	.4byte lbl_80285AC0
-	.4byte lbl_8028B580
-	.4byte lbl_80285D10
-	.4byte lbl_8028B590
-	.4byte lbl_80285BC0
-	.4byte lbl_8028B5F0
-	.4byte lbl_8028B5C0
-	.4byte lbl_802898F0
-	.4byte lbl_80289A00
-	.4byte lbl_8028A010
-	.4byte lbl_8028A750
+	.4byte __dt__Q34nw4r3lyt6WindowFv
+	.4byte GetRuntimeTypeInfo__Q34nw4r3lyt6WindowCFv
+	.4byte CalculateMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte DrawSelf__Q34nw4r3lyt6WindowFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt4PaneFUl
+	.4byte AnimateSelf__Q34nw4r3lyt6WindowFUl
+	.4byte GetVtxColor__Q34nw4r3lyt6WindowCFUl
+	.4byte SetVtxColor__Q34nw4r3lyt6WindowFUlQ34nw4r2ut5Color
+	.4byte GetColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q34nw4r3lyt6WindowCFUl
+	.4byte SetVtxColorElement__Q34nw4r3lyt6WindowFUlUc
+	.4byte FindPaneByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q34nw4r3lyt6WindowFPCcb
+	.4byte BindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte UnbindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q34nw4r3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q34nw4r3lyt6WindowFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResourcebb
+	.4byte GetMaterialNum__Q34nw4r3lyt6WindowCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt6WindowCFUl
+	.4byte LoadMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte GetContentMaterial__Q34nw4r3lyt6WindowCFv
+	.4byte GetFrameMaterial__Q34nw4r3lyt6WindowCFUl
+	.4byte DrawContent__Q34nw4r3lyt6WindowFRCQ34nw4r4math4VEC2RCQ34nw4r3lyt15WindowFrameSizeUc
+	.4byte DrawFrame__Q34nw4r3lyt6WindowFRCQ34nw4r4math4VEC2RCQ44nw4r3lyt6Window5FrameRCQ34nw4r3lyt15WindowFrameSizeUc
+	.4byte DrawFrame4__Q34nw4r3lyt6WindowFRCQ34nw4r4math4VEC2PCQ44nw4r3lyt6Window5FrameRCQ34nw4r3lyt15WindowFrameSizeUc
+	.4byte DrawFrame8__Q34nw4r3lyt6WindowFRCQ34nw4r4math4VEC2PCQ44nw4r3lyt6Window5FrameRCQ34nw4r3lyt15WindowFrameSizeUc
 
-.global lbl_80333998
-lbl_80333998:
+.global __vt__Q34nw4r3lyt8Bounding
+__vt__Q34nw4r3lyt8Bounding:
 
 	# ROM: 0x32FA78
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8028B660
-	.4byte lbl_8028B6D0
-	.4byte lbl_80285340
-	.4byte lbl_80285640
-	.4byte lbl_8028B6C0
-	.4byte lbl_802856E0
-	.4byte func_80285770
-	.4byte lbl_80285130
-	.4byte lbl_80285140
-	.4byte lbl_80285150
-	.4byte lbl_80285180
-	.4byte lbl_802851B0
-	.4byte lbl_802851C0
-	.4byte lbl_802851D0
-	.4byte lbl_80285280
-	.4byte lbl_80285830
-	.4byte lbl_80285850
-	.4byte lbl_802858E0
-	.4byte func_80285900
-	.4byte lbl_802859A0
-	.4byte lbl_802859B0
-	.4byte lbl_802859C0
-	.4byte lbl_80285AC0
-	.4byte lbl_80285CF0
-	.4byte lbl_80285D10
-	.4byte lbl_80285D20
-	.4byte lbl_80285BC0
+	.4byte __dt__Q34nw4r3lyt8BoundingFv
+	.4byte GetRuntimeTypeInfo__Q34nw4r3lyt8BoundingCFv
+	.4byte CalculateMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte Draw__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
+	.4byte DrawSelf__Q34nw4r3lyt8BoundingFRCQ34nw4r3lyt8DrawInfo
+	.4byte Animate__Q34nw4r3lyt4PaneFUl
+	.4byte AnimateSelf__Q34nw4r3lyt4PaneFUl
+	.4byte GetVtxColor__Q34nw4r3lyt4PaneCFUl
+	.4byte SetVtxColor__Q34nw4r3lyt4PaneFUlQ34nw4r2ut5Color
+	.4byte GetColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q34nw4r3lyt4PaneCFUl
+	.4byte SetVtxColorElement__Q34nw4r3lyt4PaneFUlUc
+	.4byte FindPaneByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q34nw4r3lyt4PaneFPCcb
+	.4byte BindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte UnbindAnimation__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q34nw4r3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLinkSelf__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFPQ34nw4r3lyt13AnimTransformbb
+	.4byte SetAnimationEnable__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt12AnimResourcebb
+	.4byte GetMaterialNum__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFv
+	.4byte GetMaterial__Q34nw4r3lyt4PaneCFUl
+	.4byte LoadMtx__Q34nw4r3lyt4PaneFRCQ34nw4r3lyt8DrawInfo
 	.4byte 0
 
-.global lbl_80333A10
-lbl_80333A10:
+.global _LOCAL_SetupGX__Q34nw4r3lyt8MaterialFbUc_kColSels
+_LOCAL_SetupGX__Q34nw4r3lyt8MaterialFbUc_kColSels:
 
 	# ROM: 0x32FAF0
 	.4byte 0x0000001F
@@ -57215,8 +57215,8 @@ lbl_80333A10:
 	.4byte 0x00000016
 	.4byte 0x00000012
 
-.global lbl_80333A30
-lbl_80333A30:
+.global _LOCAL_SetupGX__Q34nw4r3lyt8MaterialFbUc_kAlpSels_0
+_LOCAL_SetupGX__Q34nw4r3lyt8MaterialFbUc_kAlpSels_0:
 
 	# ROM: 0x32FB10
 	.4byte 0x0000001F
@@ -57228,77 +57228,77 @@ lbl_80333A30:
 	.4byte 0x00000016
 	.4byte 0x00000012
 
-.global lbl_80333A50
-lbl_80333A50:
+.global __vt__Q34nw4r3lyt8Material
+__vt__Q34nw4r3lyt8Material:
 
 	# ROM: 0x32FB30
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8028C600
-	.4byte lbl_8028D550
-	.4byte lbl_8028E360
-	.4byte lbl_8028E380
-	.4byte lbl_8028E390
-	.4byte lbl_8028E3B0
-	.4byte lbl_8028E470
-	.4byte lbl_8028E480
-	.4byte lbl_8028E490
-	.4byte lbl_8028E4E0
+	.4byte __dt__Q34nw4r3lyt8MaterialFv
+	.4byte SetupGX__Q34nw4r3lyt8MaterialFbUc
+	.4byte BindAnimation__Q34nw4r3lyt8MaterialFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAnimation__Q34nw4r3lyt8MaterialFPQ34nw4r3lyt13AnimTransform
+	.4byte UnbindAllAnimation__Q34nw4r3lyt8MaterialFv
+	.4byte Animate__Q34nw4r3lyt8MaterialFv
+	.4byte FindAnimationLink__Q34nw4r3lyt8MaterialFPQ34nw4r3lyt13AnimTransform
+	.4byte FindAnimationLink__Q34nw4r3lyt8MaterialFRCQ34nw4r3lyt12AnimResource
+	.4byte SetAnimationEnable__Q34nw4r3lyt8MaterialFPQ34nw4r3lyt13AnimTransformb
+	.4byte SetAnimationEnable__Q34nw4r3lyt8MaterialFRCQ34nw4r3lyt12AnimResourceb
 
-.global lbl_80333A80
-lbl_80333A80:
+.global __vt__Q34nw4r3lyt8DrawInfo
+__vt__Q34nw4r3lyt8DrawInfo:
 
 	# ROM: 0x32FB60
 	.4byte 0
 	.4byte 0
-	.4byte func_8028E9D0
+	.4byte __dt__Q34nw4r3lyt8DrawInfoFv
 	.4byte 0
 
-.global lbl_80333A90
-lbl_80333A90:
+.global __vt__Q34nw4r3lyt18AnimTransformBasic
+__vt__Q34nw4r3lyt18AnimTransformBasic:
 
 	# ROM: 0x32FB70
 	.4byte 0
 	.4byte 0
-	.4byte func_8028ED10
-	.4byte lbl_8028EDA0
-	.4byte lbl_8028EDC0
-	.4byte lbl_8028EF30
-	.4byte lbl_8028F100
-	.4byte lbl_8028F220
-	.4byte lbl_8028F400
+	.4byte __dt__Q34nw4r3lyt18AnimTransformBasicFv
+	.4byte SetResource__Q34nw4r3lyt18AnimTransformBasicFPCQ44nw4r3lyt3res14AnimationBlockPQ34nw4r3lyt16ResourceAccessor
+	.4byte SetResource__Q34nw4r3lyt18AnimTransformBasicFPCQ44nw4r3lyt3res14AnimationBlockPQ34nw4r3lyt16ResourceAccessorUs
+	.4byte Bind__Q34nw4r3lyt18AnimTransformBasicFPQ34nw4r3lyt4Panebb
+	.4byte Bind__Q34nw4r3lyt18AnimTransformBasicFPQ34nw4r3lyt8Materialb
+	.4byte Animate__Q34nw4r3lyt18AnimTransformBasicFUlPQ34nw4r3lyt4Pane
+	.4byte Animate__Q34nw4r3lyt18AnimTransformBasicFUlPQ34nw4r3lyt8Material
 	.4byte 0
 
-.global lbl_80333AB8
-lbl_80333AB8:
+.global __vt__Q34nw4r3lyt16ResourceAccessor
+__vt__Q34nw4r3lyt16ResourceAccessor:
 
 	# ROM: 0x32FB98
 	.4byte 0
 	.4byte 0
-	.4byte func_8028FFB0
+	.4byte __dt__Q34nw4r3lyt16ResourceAccessorFv
 	.4byte 0
-	.4byte lbl_80290000
+	.4byte GetFont__Q34nw4r3lyt16ResourceAccessorFPCc
 	.4byte 0
 
-.global lbl_80333AD0
-lbl_80333AD0:
+.global __vt__Q34nw4r3lyt24MultiArcResourceAccessor
+__vt__Q34nw4r3lyt24MultiArcResourceAccessor:
 
 	# ROM: 0x32FBB0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80290510
-	.4byte lbl_802905E0
-	.4byte lbl_802906A0
+	.4byte __dt__Q34nw4r3lyt24MultiArcResourceAccessorFv
+	.4byte GetResource__Q34nw4r3lyt24MultiArcResourceAccessorFUlPCcPUl
+	.4byte GetFont__Q34nw4r3lyt24MultiArcResourceAccessorFPCc
 
-.global lbl_80333AE4
-lbl_80333AE4:
+.global __vt__Q34nw4r3lyt19ArcResourceAccessor
+__vt__Q34nw4r3lyt19ArcResourceAccessor:
 
 	# ROM: 0x32FBC4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800961AC
-	.4byte lbl_80290360
-	.4byte lbl_80290440
+	.4byte __dt__Q34nw4r3lyt19ArcResourceAccessorFv
+	.4byte GetResource__Q34nw4r3lyt19ArcResourceAccessorFUlPCcPUl
+	.4byte GetFont__Q34nw4r3lyt19ArcResourceAccessorFPCc
 
 .global lbl_80333AF8
 lbl_80333AF8:
@@ -57961,13 +57961,13 @@ lbl_80334408:
 	.4byte 0x42000000
 	.4byte 0x3F207467
 
-.global lbl_80334510
-lbl_80334510:
+.global __vt__Q44nw4r3snd6detail11BasicPlayer
+__vt__Q44nw4r3snd6detail11BasicPlayer:
 
 	# ROM: 0x3305F0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80298BC0
+	.4byte __dt__Q44nw4r3snd6detail11BasicPlayerFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -57976,142 +57976,142 @@ lbl_80334510:
 	.4byte 0
 	.4byte 0
 
-.global lbl_80334538
-lbl_80334538:
+.global __vt__Q44nw4r3snd6detail10BasicSound
+__vt__Q44nw4r3snd6detail10BasicSound:
 
 	# ROM: 0x330618
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A270
-	.4byte lbl_8029A230
-	.4byte func_80299C70
+	.4byte GetRuntimeTypeInfo__Q44nw4r3snd6detail10BasicSoundCFv
+	.4byte __dt__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte Shutdown__Q44nw4r3snd6detail10BasicSoundFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte func_80298CE0
+	.4byte InitParam__Q44nw4r3snd6detail10BasicSoundFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80299ED0
-	.4byte func_80299860
-	.4byte func_802998A0
+	.4byte OnUpdatePlayerPriority__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte UpdateMoveValue__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte UpdateParam__Q44nw4r3snd6detail10BasicSoundFv
 
-.global lbl_80334570
-lbl_80334570:
+.global __vt__Q44nw4r3snd6detail19BiquadFilterBpf2048
+__vt__Q44nw4r3snd6detail19BiquadFilterBpf2048:
 
 	# ROM: 0x330650
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A690
-	.4byte lbl_8029A4F0
+	.4byte __dt__Q44nw4r3snd6detail19BiquadFilterBpf2048Fv
+	.4byte GetCoef__Q44nw4r3snd6detail19BiquadFilterBpf2048CFifPQ44nw4r3snd20BiquadFilterCallback10BiquadCoef
 
-.global lbl_80334580
-lbl_80334580:
+.global __vt__Q44nw4r3snd6detail19BiquadFilterBpf1024
+__vt__Q44nw4r3snd6detail19BiquadFilterBpf1024:
 
 	# ROM: 0x330660
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A650
-	.4byte lbl_8029A450
+	.4byte __dt__Q44nw4r3snd6detail19BiquadFilterBpf1024Fv
+	.4byte GetCoef__Q44nw4r3snd6detail19BiquadFilterBpf1024CFifPQ44nw4r3snd20BiquadFilterCallback10BiquadCoef
 
-.global lbl_80334590
-lbl_80334590:
+.global __vt__Q44nw4r3snd6detail18BiquadFilterBpf512
+__vt__Q44nw4r3snd6detail18BiquadFilterBpf512:
 
 	# ROM: 0x330670
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A610
-	.4byte lbl_8029A3B0
+	.4byte __dt__Q44nw4r3snd6detail18BiquadFilterBpf512Fv
+	.4byte GetCoef__Q44nw4r3snd6detail18BiquadFilterBpf512CFifPQ44nw4r3snd20BiquadFilterCallback10BiquadCoef
 
-.global lbl_803345A0
-lbl_803345A0:
+.global __vt__Q44nw4r3snd6detail15BiquadFilterHpf
+__vt__Q44nw4r3snd6detail15BiquadFilterHpf:
 
 	# ROM: 0x330680
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A5D0
-	.4byte lbl_8029A320
+	.4byte __dt__Q44nw4r3snd6detail15BiquadFilterHpfFv
+	.4byte GetCoef__Q44nw4r3snd6detail15BiquadFilterHpfCFifPQ44nw4r3snd20BiquadFilterCallback10BiquadCoef
 
-.global lbl_803345B0
-lbl_803345B0:
+.global __vt__Q44nw4r3snd6detail15BiquadFilterLpf
+__vt__Q44nw4r3snd6detail15BiquadFilterLpf:
 
 	# ROM: 0x330690
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029A590
-	.4byte lbl_8029A290
+	.4byte __dt__Q44nw4r3snd6detail15BiquadFilterLpfFv
+	.4byte GetCoef__Q44nw4r3snd6detail15BiquadFilterLpfCFifPQ44nw4r3snd20BiquadFilterCallback10BiquadCoef
 
-.global lbl_803345C0
-lbl_803345C0:
+.global __vt__Q44nw4r3snd15DvdSoundArchive13DvdFileStream
+__vt__Q44nw4r3snd15DvdSoundArchive13DvdFileStream:
 
 	# ROM: 0x3306A0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029C220
-	.4byte lbl_8029C270
-	.4byte lbl_802B6BA0
-	.4byte lbl_8029C0C0
-	.4byte lbl_8029C210
-	.4byte lbl_802B62A0
-	.4byte lbl_802B62B0
-	.4byte lbl_8029C1E0
-	.4byte lbl_8029C1F0
-	.4byte lbl_8029C1C0
-	.4byte lbl_8029C1B0
-	.4byte lbl_8029C190
-	.4byte lbl_8029C180
-	.4byte lbl_8029C170
-	.4byte lbl_8029C230
-	.4byte lbl_8029C0F0
-	.4byte lbl_802B6DA0
-	.4byte lbl_802B6970
-	.4byte lbl_8029C1D0
-	.4byte lbl_8029C1A0
-	.4byte lbl_8029C240
-	.4byte lbl_802B6CC0
-	.4byte lbl_8029C200
+	.4byte GetRuntimeTypeInfo__Q34nw4r2ut19DvdLockedFileStreamCFv
+	.4byte __dt__Q44nw4r3snd15DvdSoundArchive13DvdFileStreamFv
+	.4byte Close__Q34nw4r2ut19DvdLockedFileStreamFv
+	.4byte Read__Q44nw4r3snd15DvdSoundArchive13DvdFileStreamFPvUl
+	.4byte ReadAsync__Q34nw4r2ut19DvdLockedFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte Write__Q34nw4r2ut8IOStreamFPCvUl
+	.4byte WriteAsync__Q34nw4r2ut8IOStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte IsBusy__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanAsync__Q34nw4r2ut19DvdLockedFileStreamCFv
+	.4byte CanRead__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanWrite__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetOffsetAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSizeAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetBufferAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSize__Q44nw4r3snd15DvdSoundArchive13DvdFileStreamCFv
+	.4byte Seek__Q44nw4r3snd15DvdSoundArchive13DvdFileStreamFlUl
+	.4byte Cancel__Q34nw4r2ut19DvdLockedFileStreamFv
+	.4byte CancelAsync__Q34nw4r2ut13DvdFileStreamFPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte CanSeek__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanCancel__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Tell__Q44nw4r3snd15DvdSoundArchive13DvdFileStreamCFv
+	.4byte Peek__Q34nw4r2ut19DvdLockedFileStreamFPvUl
+	.4byte PeekAsync__Q34nw4r2ut19DvdLockedFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 	.4byte 0
 
-.global lbl_80334628
-lbl_80334628:
+.global __vt__Q34nw4r3snd15DvdSoundArchive
+__vt__Q34nw4r3snd15DvdSoundArchive:
 
 	# ROM: 0x330708
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029BCD0
-	.4byte lbl_8029C260
-	.4byte lbl_8029C250
-	.4byte lbl_8029C020
-	.4byte lbl_8029BEB0
-	.4byte lbl_8029BF60
+	.4byte __dt__Q34nw4r3snd15DvdSoundArchiveFv
+	.4byte detail_GetFileAddress__Q34nw4r3snd15DvdSoundArchiveCFUl
+	.4byte detail_GetWaveDataFileAddress__Q34nw4r3snd15DvdSoundArchiveCFUl
+	.4byte detail_GetRequiredStreamBufferSize__Q34nw4r3snd15DvdSoundArchiveCFv
+	.4byte OpenStream__Q34nw4r3snd15DvdSoundArchiveCFPviUlUl
+	.4byte OpenExtStream__Q34nw4r3snd15DvdSoundArchiveCFPviPCcUlUl
 
-.global lbl_80334648
-lbl_80334648:
+.global __vt__Q34nw4r3snd12FxChorusDpl2
+__vt__Q34nw4r3snd12FxChorusDpl2:
 
 	# ROM: 0x330728
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029D980
-	.4byte lbl_8029D4B0
-	.4byte lbl_8029D5E0
-	.4byte lbl_8029D870
-	.4byte lbl_8029D910
-	.4byte lbl_8029D490
-	.4byte lbl_8029D4A0
+	.4byte __dt__Q34nw4r3snd12FxChorusDpl2Fv
+	.4byte StartUp__Q34nw4r3snd12FxChorusDpl2Fv
+	.4byte Shutdown__Q34nw4r3snd12FxChorusDpl2Fv
+	.4byte UpdateBuffer__Q34nw4r3snd12FxChorusDpl2FiPPvUlQ34nw4r3snd12SampleFormatfQ34nw4r3snd10OutputMode
+	.4byte OnChangeOutputMode__Q34nw4r3snd12FxChorusDpl2Fv
+	.4byte AssignWorkBuffer__Q34nw4r3snd12FxChorusDpl2FPvUl
+	.4byte ReleaseWorkBuffer__Q34nw4r3snd12FxChorusDpl2Fv
 	.4byte 0
 
-.global lbl_80334670
-lbl_80334670:
+.global __vt__Q34nw4r3snd15FxReverbStdDpl2
+__vt__Q34nw4r3snd15FxReverbStdDpl2:
 
 	# ROM: 0x330750
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029E140
-	.4byte lbl_8029DB50
-	.4byte lbl_8029DC80
-	.4byte lbl_8029E030
-	.4byte lbl_8029E0D0
-	.4byte lbl_8029DB30
-	.4byte lbl_8029DB40
+	.4byte __dt__Q34nw4r3snd15FxReverbStdDpl2Fv
+	.4byte StartUp__Q34nw4r3snd15FxReverbStdDpl2Fv
+	.4byte Shutdown__Q34nw4r3snd15FxReverbStdDpl2Fv
+	.4byte UpdateBuffer__Q34nw4r3snd15FxReverbStdDpl2FiPPvUlQ34nw4r3snd12SampleFormatfQ34nw4r3snd10OutputMode
+	.4byte OnChangeOutputMode__Q34nw4r3snd15FxReverbStdDpl2Fv
+	.4byte AssignWorkBuffer__Q34nw4r3snd15FxReverbStdDpl2FPvUl
+	.4byte ReleaseWorkBuffer__Q34nw4r3snd15FxReverbStdDpl2Fv
 	.4byte 0
 
 .global lbl_80334698
@@ -58252,232 +58252,232 @@ lbl_803346C0:
 	.4byte lbl_8029F388
 	.4byte 0
 
-.global lbl_803348B8
-lbl_803348B8:
+.global __vt__Q44nw4r3snd6detail9MmlParser
+__vt__Q44nw4r3snd6detail9MmlParser:
 
 	# ROM: 0x330998
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029EE00
-	.4byte lbl_8029F780
+	.4byte CommandProc__Q44nw4r3snd6detail9MmlParserCFPQ44nw4r3snd6detail11MmlSeqTrackUlll
+	.4byte NoteOnCommandProc__Q44nw4r3snd6detail9MmlParserCFPQ44nw4r3snd6detail11MmlSeqTrackiilb
 
-.global lbl_803348C8
-lbl_803348C8:
+.global __vt__Q44nw4r3snd6detail11MmlSeqTrack
+__vt__Q44nw4r3snd6detail11MmlSeqTrack:
 
 	# ROM: 0x3309A8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029F9B0
-	.4byte lbl_8029F990
+	.4byte __dt__Q44nw4r3snd6detail11MmlSeqTrackFv
+	.4byte Parse__Q44nw4r3snd6detail11MmlSeqTrackFb
 
-.global lbl_803348D8
-lbl_803348D8:
+.global __vt__Q44nw4r3snd6detail20MmlSeqTrackAllocator
+__vt__Q44nw4r3snd6detail20MmlSeqTrackAllocator:
 
 	# ROM: 0x3309B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029FB20
-	.4byte lbl_8029FA10
-	.4byte lbl_8029FA80
-	.4byte lbl_8029FB10
+	.4byte __dt__Q44nw4r3snd6detail20MmlSeqTrackAllocatorFv
+	.4byte AllocTrack__Q44nw4r3snd6detail20MmlSeqTrackAllocatorFPQ44nw4r3snd6detail9SeqPlayer
+	.4byte FreeTrack__Q44nw4r3snd6detail20MmlSeqTrackAllocatorFPQ44nw4r3snd6detail8SeqTrack
+	.4byte GetAllocatableTrackCount__Q44nw4r3snd6detail20MmlSeqTrackAllocatorCFv
 
-.global lbl_803348F0
-lbl_803348F0:
+.global __vt__Q44nw4r3snd6detail10PlayerHeap
+__vt__Q44nw4r3snd6detail10PlayerHeap:
 
 	# ROM: 0x3309D0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029FB90
-	.4byte lbl_8029FC90
+	.4byte __dt__Q44nw4r3snd6detail10PlayerHeapFv
+	.4byte Alloc__Q44nw4r3snd6detail10PlayerHeapFUl
 
-.global lbl_80334900
-lbl_80334900:
+.global __vt__Q44nw4r3snd6detail9SeqPlayer
+__vt__Q44nw4r3snd6detail9SeqPlayer:
 
 	# ROM: 0x3309E0
 	.4byte 0
 	.4byte 0
-	.4byte func_802A0C90
-	.4byte lbl_802A1260
-	.4byte lbl_802A12D0
-	.4byte lbl_802A1420
-	.4byte lbl_8029E720
-	.4byte lbl_8029E710
-	.4byte lbl_8029E700
+	.4byte __dt__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte Start__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte Stop__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte Pause__Q44nw4r3snd6detail9SeqPlayerFb
+	.4byte IsActive__Q44nw4r3snd6detail9SeqPlayerCFv
+	.4byte IsStarted__Q44nw4r3snd6detail9SeqPlayerCFv
+	.4byte IsPause__Q44nw4r3snd6detail9SeqPlayerCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A1FF0
-	.4byte lbl_8029E740
-	.4byte lbl_8029E730
+	.4byte _180___dt__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte _180_InvalidateData__Q44nw4r3snd6detail9SeqPlayerFPCvPCv
+	.4byte _180_InvalidateWaveData__Q44nw4r3snd6detail9SeqPlayerFPCvPCv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A2000
-	.4byte lbl_8029E760
-	.4byte lbl_8029E6F0
-	.4byte lbl_8029E750
-	.4byte func_802A1640
-	.4byte func_8029E6E0
-	.4byte lbl_802A1FE0
-	.4byte func_8029E6C0
-	.4byte func_8029E6D0
+	.4byte _192___dt__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte _192_OnUpdateFrameSoundThread__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte OnUpdateVoiceSoundThread__Q54nw4r3snd6detail11SoundThread14PlayerCallbackFv
+	.4byte _192_OnShutdownSoundThread__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte InvalidateData__Q44nw4r3snd6detail9SeqPlayerFPCvPCv
+	.4byte InvalidateWaveData__Q44nw4r3snd6detail9SeqPlayerFPCvPCv
+	.4byte ChannelCallback__Q44nw4r3snd6detail9SeqPlayerFPQ44nw4r3snd6detail7Channel
+	.4byte OnUpdateFrameSoundThread__Q44nw4r3snd6detail9SeqPlayerFv
+	.4byte OnShutdownSoundThread__Q44nw4r3snd6detail9SeqPlayerFv
 	.4byte 0
 
-.global lbl_80334968
-lbl_80334968:
+.global __vt__Q44nw4r3snd6detail8SeqSound
+__vt__Q44nw4r3snd6detail8SeqSound:
 
 	# ROM: 0x330A48
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A2810
-	.4byte lbl_802A24A0
-	.4byte lbl_802A23C0
-	.4byte lbl_802A2800
-	.4byte lbl_802A2650
-	.4byte lbl_802A2670
-	.4byte lbl_802A2110
-	.4byte lbl_802A27E0
-	.4byte lbl_802A27F0
-	.4byte lbl_802A2540
-	.4byte func_80299860
-	.4byte func_802998A0
+	.4byte GetRuntimeTypeInfo__Q44nw4r3snd6detail8SeqSoundCFv
+	.4byte __dt__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte Shutdown__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte IsPrepared__Q44nw4r3snd6detail8SeqSoundCFv
+	.4byte IsAttachedTempSpecialHandle__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte DetachTempSpecialHandle__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte InitParam__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail8SeqSoundCFv
+	.4byte OnUpdatePlayerPriority__Q44nw4r3snd6detail8SeqSoundFv
+	.4byte UpdateMoveValue__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte UpdateParam__Q44nw4r3snd6detail10BasicSoundFv
 
-.global lbl_803349A0
-lbl_803349A0:
+.global __vt__Q54nw4r3snd6detail8SeqSound11SeqLoadTask
+__vt__Q54nw4r3snd6detail8SeqSound11SeqLoadTask:
 
 	# ROM: 0x330A80
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A20B0
-	.4byte lbl_802A2680
-	.4byte lbl_802A2780
-	.4byte lbl_802A27B0
+	.4byte __dt__Q54nw4r3snd6detail8SeqSound11SeqLoadTaskFv
+	.4byte Execute__Q54nw4r3snd6detail8SeqSound11SeqLoadTaskFv
+	.4byte Cancel__Q54nw4r3snd6detail8SeqSound11SeqLoadTaskFv
+	.4byte OnCancel__Q54nw4r3snd6detail8SeqSound11SeqLoadTaskFv
 
-.global lbl_803349B8
-lbl_803349B8:
+.global __vt__Q44nw4r3snd6detail8SeqTrack
+__vt__Q44nw4r3snd6detail8SeqTrack:
 
 	# ROM: 0x330A98
 	.4byte 0
 	.4byte 0
-	.4byte func_802A2A20
+	.4byte __dt__Q44nw4r3snd6detail8SeqTrackFv
 	.4byte 0
 
-.global lbl_803349C8
-lbl_803349C8:
+.global __vt__Q34nw4r3snd12Sound3DActor
+__vt__Q34nw4r3snd12Sound3DActor:
 
 	# ROM: 0x330AA8
 	.4byte 0
 	.4byte 0
-	.4byte func_802A3E60
-	.4byte lbl_802A5800
-	.4byte lbl_802A5840
-	.4byte lbl_802A3F40
-	.4byte func_802A57E0
+	.4byte __dt__Q34nw4r3snd12Sound3DActorFv
+	.4byte detail_SetupSound__Q34nw4r3snd10SoundActorFPQ34nw4r3snd11SoundHandleUlbPCQ44nw4r3snd14SoundStartable9StartInfo
+	.4byte detail_ConvertLabelStringToSoundId__Q34nw4r3snd10SoundActorFPCc
+	.4byte SetupSound__Q34nw4r3snd12Sound3DActorFPQ34nw4r3snd11SoundHandleUlPCQ44nw4r3snd14SoundStartable9StartInfoPv
+	.4byte detail_SetupSoundWithAmbientInfo__Q34nw4r3snd10SoundActorFPQ34nw4r3snd11SoundHandleUlPCQ44nw4r3snd14SoundStartable9StartInfoPQ54nw4r3snd6detail10BasicSound11AmbientInfoPv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A41B0
-	.4byte lbl_802A41A0
-	.4byte func_802A4160
+	.4byte _84___dt__Q34nw4r3snd12Sound3DActorFv
+	.4byte _84_detail_UpdateAmbientArg__Q34nw4r3snd12Sound3DActorFPvPCQ44nw4r3snd6detail10BasicSound
+	.4byte detail_UpdateAmbientArg__Q34nw4r3snd12Sound3DActorFPvPCQ44nw4r3snd6detail10BasicSound
 
-.global lbl_803349F8
-lbl_803349F8:
+.global __vt__Q34nw4r3snd13Sound3DEngine
+__vt__Q34nw4r3snd13Sound3DEngine:
 
 	# ROM: 0x330AD8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A4FE0
-	.4byte lbl_802A4E80
-	.4byte lbl_802A4EF0
-	.4byte lbl_802A4FD0
-	.4byte lbl_802A4CC0
+	.4byte __dt__Q34nw4r3snd13Sound3DEngineFv
+	.4byte UpdateAmbientParam__Q34nw4r3snd13Sound3DEngineFPCQ34nw4r3snd14Sound3DManagerPCQ34nw4r3snd12Sound3DParamUliPQ34nw4r3snd17SoundAmbientParam
+	.4byte GetAmbientPriority__Q34nw4r3snd13Sound3DEngineFPCQ34nw4r3snd14Sound3DManagerPCQ34nw4r3snd12Sound3DParamUl
+	.4byte GetRequiredVoiceOutCount__Q34nw4r3snd13Sound3DEngineFPCQ34nw4r3snd14Sound3DManagerPCQ34nw4r3snd12Sound3DParamUl
+	.4byte UpdateAmbientParam__Q34nw4r3snd13Sound3DEngineFPCQ34nw4r3snd14Sound3DManagerPCQ34nw4r3snd12Sound3DParamUlUlPQ34nw4r3snd17SoundAmbientParam
 	.4byte 0
 
-.global lbl_80334A18
-lbl_80334A18:
+.global __vt__Q34nw4r3snd14Sound3DManager
+__vt__Q34nw4r3snd14Sound3DManager:
 
 	# ROM: 0x330AF8
 	.4byte 0
 	.4byte 0
-	.4byte func_8000DB4C
-	.4byte lbl_802A53B0
-	.4byte lbl_802A5400
-	.4byte lbl_802A5440
+	.4byte __dt__Q34nw4r3snd14Sound3DManagerFv
+	.4byte detail_UpdateAmbientParam__Q34nw4r3snd14Sound3DManagerFPCvUliPQ34nw4r3snd17SoundAmbientParam
+	.4byte detail_GetAmbientPriority__Q34nw4r3snd14Sound3DManagerFPCvUl
+	.4byte detail_GetRequiredVoiceOutCount__Q34nw4r3snd14Sound3DManagerFPCvUl
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A5570
-	.4byte lbl_802A5560
-	.4byte lbl_802A5550
-	.4byte func_802A5480
-	.4byte func_802A54F0
+	.4byte _4___dt__Q34nw4r3snd14Sound3DManagerFv
+	.4byte _4_detail_AllocAmbientArg__Q34nw4r3snd14Sound3DManagerFUl
+	.4byte _4_detail_FreeAmbientArg__Q34nw4r3snd14Sound3DManagerFPvPCQ44nw4r3snd6detail10BasicSound
+	.4byte detail_AllocAmbientArg__Q34nw4r3snd14Sound3DManagerFUl
+	.4byte detail_FreeAmbientArg__Q34nw4r3snd14Sound3DManagerFPvPCQ44nw4r3snd6detail10BasicSound
 	.4byte 0
 
-.global lbl_80334A50
-lbl_80334A50:
+.global __vt__Q34nw4r3snd10SoundActor
+__vt__Q34nw4r3snd10SoundActor:
 
 	# ROM: 0x330B30
 	.4byte 0
 	.4byte 0
-	.4byte func_802A5640
-	.4byte lbl_802A5800
-	.4byte lbl_802A5840
-	.4byte lbl_802A57C0
-	.4byte func_802A57E0
+	.4byte __dt__Q34nw4r3snd10SoundActorFv
+	.4byte detail_SetupSound__Q34nw4r3snd10SoundActorFPQ34nw4r3snd11SoundHandleUlbPCQ44nw4r3snd14SoundStartable9StartInfo
+	.4byte detail_ConvertLabelStringToSoundId__Q34nw4r3snd10SoundActorFPCc
+	.4byte SetupSound__Q34nw4r3snd10SoundActorFPQ34nw4r3snd11SoundHandleUlPCQ44nw4r3snd14SoundStartable9StartInfoPv
+	.4byte detail_SetupSoundWithAmbientInfo__Q34nw4r3snd10SoundActorFPQ34nw4r3snd11SoundHandleUlPCQ44nw4r3snd14SoundStartable9StartInfoPQ54nw4r3snd6detail10BasicSound11AmbientInfoPv
 	.4byte 0
 
-.global lbl_80334A70
-lbl_80334A70:
+.global __vt__Q34nw4r3snd12SoundArchive
+__vt__Q34nw4r3snd12SoundArchive:
 
 	# ROM: 0x330B50
 	.4byte 0
 	.4byte 0
-	.4byte func_802A58A0
+	.4byte __dt__Q34nw4r3snd12SoundArchiveFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 
-.global lbl_80334A90
-lbl_80334A90:
+.global __vt__Q34nw4r3snd18SoundArchivePlayer
+__vt__Q34nw4r3snd18SoundArchivePlayer:
 
 	# ROM: 0x330B70
 	.4byte 0
 	.4byte 0
-	.4byte func_802A7A10
-	.4byte lbl_802A9D10
-	.4byte lbl_802A9DC0
+	.4byte __dt__Q34nw4r3snd18SoundArchivePlayerFv
+	.4byte InvalidateData__Q34nw4r3snd18SoundArchivePlayerFPCvPCv
+	.4byte InvalidateWaveData__Q34nw4r3snd18SoundArchivePlayerFPCvPCv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802AA0C0
-	.4byte lbl_802AA0B0
-	.4byte lbl_802AA0A0
-	.4byte func_802A5860
-	.4byte func_802A8AE0
+	.4byte _12___dt__Q34nw4r3snd18SoundArchivePlayerFv
+	.4byte _12_detail_SetupSound__Q34nw4r3snd18SoundArchivePlayerFPQ34nw4r3snd11SoundHandleUlbPCQ44nw4r3snd14SoundStartable9StartInfo
+	.4byte _12_detail_ConvertLabelStringToSoundId__Q34nw4r3snd18SoundArchivePlayerFPCc
+	.4byte detail_ConvertLabelStringToSoundId__Q34nw4r3snd18SoundArchivePlayerFPCc
+	.4byte detail_SetupSound__Q34nw4r3snd18SoundArchivePlayerFPQ34nw4r3snd11SoundHandleUlbPCQ44nw4r3snd14SoundStartable9StartInfo
 
-.global lbl_80334AC0
-lbl_80334AC0:
+.global __vt__Q44nw4r3snd18SoundArchivePlayer11WsdCallback
+__vt__Q44nw4r3snd18SoundArchivePlayer11WsdCallback:
 
 	# ROM: 0x330BA0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A7850
-	.4byte lbl_802A9FA0
+	.4byte __dt__Q44nw4r3snd18SoundArchivePlayer11WsdCallbackFv
+	.4byte GetWaveSoundData__Q44nw4r3snd18SoundArchivePlayer11WsdCallbackCFPQ44nw4r3snd6detail13WaveSoundInfoPQ44nw4r3snd6detail17WaveSoundNoteInfoPQ44nw4r3snd6detail8WaveInfoPCviiUl
 
-.global lbl_80334AD0
-lbl_80334AD0:
+.global __vt__Q44nw4r3snd18SoundArchivePlayer17SeqNoteOnCallback
+__vt__Q44nw4r3snd18SoundArchivePlayer17SeqNoteOnCallback:
 
 	# ROM: 0x330BB0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802A7810
-	.4byte lbl_802A9E70
+	.4byte __dt__Q44nw4r3snd18SoundArchivePlayer17SeqNoteOnCallbackFv
+	.4byte NoteOn__Q44nw4r3snd18SoundArchivePlayer17SeqNoteOnCallbackFPQ44nw4r3snd6detail9SeqPlayeriRCQ44nw4r3snd6detail10NoteOnInfo
 
-.global lbl_80334AE0
-lbl_80334AE0:
+.global __vt__Q34nw4r3snd9SoundHeap
+__vt__Q34nw4r3snd9SoundHeap:
 
 	# ROM: 0x330BC0
 	.4byte 0
 	.4byte 0
-	.4byte func_802AA210
-	.4byte lbl_802AA2A0
+	.4byte __dt__Q34nw4r3snd9SoundHeapFv
+	.4byte Alloc__Q34nw4r3snd9SoundHeapFUl
 
 .global lbl_80334AF0
 lbl_80334AF0:
@@ -58486,69 +58486,69 @@ lbl_80334AF0:
 	.asciz "<< NW4R    - SND \tfinal   build: Dec 22 2009 02:23:58 (0x4302_158) >>"
 	.balign 4
 
-.global lbl_80334B38
-lbl_80334B38:
+.global __vt__Q44nw4r3snd6detail10StrmPlayer
+__vt__Q44nw4r3snd6detail10StrmPlayer:
 
 	# ROM: 0x330C18
 	.4byte 0
 	.4byte 0
-	.4byte func_802AC780
-	.4byte lbl_802ACC10
-	.4byte lbl_802ACF70
-	.4byte lbl_802AD140
-	.4byte lbl_802AF090
-	.4byte lbl_802AF080
-	.4byte lbl_802AF070
+	.4byte __dt__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte Start__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte Stop__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte Pause__Q44nw4r3snd6detail10StrmPlayerFb
+	.4byte IsActive__Q44nw4r3snd6detail10StrmPlayerCFv
+	.4byte IsStarted__Q44nw4r3snd6detail10StrmPlayerCFv
+	.4byte IsPause__Q44nw4r3snd6detail10StrmPlayerCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802AF0D0
-	.4byte lbl_802AF0C0
-	.4byte lbl_802AF0B0
-	.4byte lbl_802AF0A0
-	.4byte func_802AF040
-	.4byte func_802AF050
-	.4byte func_802AF060
+	.4byte _180___dt__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte _180_OnUpdateFrameSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte _180_OnUpdateVoiceSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte _180_OnShutdownSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte OnUpdateFrameSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte OnUpdateVoiceSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
+	.4byte OnShutdownSoundThread__Q44nw4r3snd6detail10StrmPlayerFv
 
-.global lbl_80334B80
-lbl_80334B80:
+.global __vt__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTask
+__vt__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTask:
 
 	# ROM: 0x330C60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802AC720
-	.4byte lbl_802AEE30
-	.4byte lbl_802AEF00
-	.4byte lbl_802AEF90
+	.4byte __dt__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTaskFv
+	.4byte Execute__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTaskFv
+	.4byte Cancel__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTaskFv
+	.4byte OnCancel__Q54nw4r3snd6detail10StrmPlayer16StrmDataLoadTaskFv
 
-.global lbl_80334B98
-lbl_80334B98:
+.global __vt__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTask
+__vt__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTask:
 
 	# ROM: 0x330C78
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802AC6C0
-	.4byte lbl_802AECD0
-	.4byte lbl_802AED20
-	.4byte lbl_802AED30
+	.4byte __dt__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTaskFv
+	.4byte Execute__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTaskFv
+	.4byte Cancel__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTaskFv
+	.4byte OnCancel__Q54nw4r3snd6detail10StrmPlayer18StrmHeaderLoadTaskFv
 
-.global lbl_80334BB0
-lbl_80334BB0:
+.global __vt__Q44nw4r3snd6detail9StrmSound
+__vt__Q44nw4r3snd6detail9StrmSound:
 
 	# ROM: 0x330C90
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802AF770
-	.4byte lbl_802AF5C0
-	.4byte lbl_802AF520
-	.4byte lbl_802AF760
-	.4byte lbl_802AF710
-	.4byte lbl_802AF730
-	.4byte lbl_802AF1A0
-	.4byte lbl_802AF740
-	.4byte lbl_802AF750
-	.4byte lbl_802AF620
-	.4byte lbl_802AF3C0
-	.4byte lbl_802AF440
+	.4byte GetRuntimeTypeInfo__Q44nw4r3snd6detail9StrmSoundCFv
+	.4byte __dt__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte Shutdown__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte IsPrepared__Q44nw4r3snd6detail9StrmSoundCFv
+	.4byte IsAttachedTempSpecialHandle__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte DetachTempSpecialHandle__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte InitParam__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail9StrmSoundCFv
+	.4byte OnUpdatePlayerPriority__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte UpdateMoveValue__Q44nw4r3snd6detail9StrmSoundFv
+	.4byte UpdateParam__Q44nw4r3snd6detail9StrmSoundFv
 
 .global lbl_80334BE8
 lbl_80334BE8:
@@ -58564,153 +58564,153 @@ lbl_80334BE8:
 	.4byte lbl_802B2030
 	.4byte lbl_802B2044
 
-.global lbl_80334C0C
-lbl_80334C0C:
+.global __vt__Q44nw4r3snd6detail5Voice
+__vt__Q44nw4r3snd6detail5Voice:
 
 	# ROM: 0x330CEC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B02C0
-	.4byte lbl_802B2A70
-	.4byte lbl_802B2920
+	.4byte __dt__Q44nw4r3snd6detail5VoiceFv
+	.4byte InvalidateData__Q44nw4r3snd6detail5VoiceFPCvPCv
+	.4byte InvalidateWaveData__Q44nw4r3snd6detail5VoiceFPCvPCv
 
-.global lbl_80334C20
-lbl_80334C20:
+.global PanTableTable__Q44nw4r3snd6detail4Util
+PanTableTable__Q44nw4r3snd6detail4Util:
 
 	# ROM: 0x330D00
-	.4byte lbl_802F9054
-	.4byte lbl_802F9458
-	.4byte lbl_802F985C
+	.4byte Pan2RatioTableSqrt__Q44nw4r3snd6detail4Util
+	.4byte Pan2RatioTableSinCos__Q44nw4r3snd6detail4Util
+	.4byte Pan2RatioTableLinear__Q44nw4r3snd6detail4Util
 	.4byte 0
 
-.global lbl_80334C30
-lbl_80334C30:
+.global __vt__Q44nw4r3snd6detail9WaveSound
+__vt__Q44nw4r3snd6detail9WaveSound:
 
 	# ROM: 0x330D10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B3E20
-	.4byte lbl_802B3C70
-	.4byte lbl_802B3BD0
-	.4byte lbl_802B3E10
-	.4byte lbl_802B3DC0
-	.4byte lbl_802B3DE0
-	.4byte func_80298CE0
-	.4byte lbl_802B3DF0
-	.4byte lbl_802B3E00
-	.4byte lbl_802B3CD0
-	.4byte func_80299860
-	.4byte func_802998A0
+	.4byte GetRuntimeTypeInfo__Q44nw4r3snd6detail9WaveSoundCFv
+	.4byte __dt__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte Shutdown__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte IsPrepared__Q44nw4r3snd6detail9WaveSoundCFv
+	.4byte IsAttachedTempSpecialHandle__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte DetachTempSpecialHandle__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte InitParam__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte GetBasicPlayer__Q44nw4r3snd6detail9WaveSoundCFv
+	.4byte OnUpdatePlayerPriority__Q44nw4r3snd6detail9WaveSoundFv
+	.4byte UpdateMoveValue__Q44nw4r3snd6detail10BasicSoundFv
+	.4byte UpdateParam__Q44nw4r3snd6detail10BasicSoundFv
 
-.global lbl_80334C68
-lbl_80334C68:
+.global __vt__Q44nw4r3snd6detail9WsdPlayer
+__vt__Q44nw4r3snd6detail9WsdPlayer:
 
 	# ROM: 0x330D48
 	.4byte 0
 	.4byte 0
-	.4byte func_802B3AF0
-	.4byte lbl_802B4510
-	.4byte lbl_802B4580
-	.4byte lbl_802B46B0
-	.4byte lbl_802B5250
-	.4byte lbl_802B5230
-	.4byte lbl_802B5210
+	.4byte __dt__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte Start__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte Stop__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte Pause__Q44nw4r3snd6detail9WsdPlayerFb
+	.4byte IsActive__Q44nw4r3snd6detail9WsdPlayerCFv
+	.4byte IsStarted__Q44nw4r3snd6detail9WsdPlayerCFv
+	.4byte IsPause__Q44nw4r3snd6detail9WsdPlayerCFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B5290
-	.4byte lbl_802B5280
-	.4byte lbl_802B5270
+	.4byte _180___dt__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte _180_InvalidateData__Q44nw4r3snd6detail9WsdPlayerFPCvPCv
+	.4byte _180_InvalidateWaveData__Q44nw4r3snd6detail9WsdPlayerFPCvPCv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B52C0
-	.4byte lbl_802B52B0
-	.4byte lbl_8029E6F0
-	.4byte lbl_802B52A0
-	.4byte func_802B4790
-	.4byte func_802B5200
-	.4byte func_802B51E0
-	.4byte func_802B51F0
+	.4byte _192___dt__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte _192_OnUpdateFrameSoundThread__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte OnUpdateVoiceSoundThread__Q54nw4r3snd6detail11SoundThread14PlayerCallbackFv
+	.4byte _192_OnShutdownSoundThread__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte InvalidateData__Q44nw4r3snd6detail9WsdPlayerFPCvPCv
+	.4byte InvalidateWaveData__Q44nw4r3snd6detail9WsdPlayerFPCvPCv
+	.4byte OnUpdateFrameSoundThread__Q44nw4r3snd6detail9WsdPlayerFv
+	.4byte OnShutdownSoundThread__Q44nw4r3snd6detail9WsdPlayerFv
 
-.global lbl_80334CC8
-lbl_80334CC8:
+.global __vt__Q34nw4r2ut19TagProcessorBase_w_
+__vt__Q34nw4r2ut19TagProcessorBase_w_:
 
 	# ROM: 0x330DA8
 	.4byte 0
 	.4byte 0
-	.4byte func_802B5E00
-	.4byte func_802B5E40
-	.4byte func_802B5F70
+	.4byte __dt__Q34nw4r2ut19TagProcessorBase_w_Fv
+	.4byte Process__Q34nw4r2ut19TagProcessorBase_w_FUsPQ34nw4r2ut15PrintContext_w_
+	.4byte CalcRect__Q34nw4r2ut19TagProcessorBase_w_FPQ34nw4r2ut4RectUsPQ34nw4r2ut15PrintContext_w_
 
-.global lbl_80334CDC
-lbl_80334CDC:
+.global __vt__Q34nw4r2ut19TagProcessorBase_c_
+__vt__Q34nw4r2ut19TagProcessorBase_c_:
 
 	# ROM: 0x330DBC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B5950
-	.4byte lbl_802B5990
-	.4byte lbl_802B5AC0
+	.4byte __dt__Q34nw4r2ut19TagProcessorBase_c_Fv
+	.4byte Process__Q34nw4r2ut19TagProcessorBase_c_FUsPQ34nw4r2ut15PrintContext_c_
+	.4byte CalcRect__Q34nw4r2ut19TagProcessorBase_c_FPQ34nw4r2ut4RectUsPQ34nw4r2ut15PrintContext_c_
 
-.global lbl_80334CF0
-lbl_80334CF0:
+.global __vt__Q34nw4r2ut13DvdFileStream
+__vt__Q34nw4r2ut13DvdFileStream:
 
 	# ROM: 0x330DD0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_802B6A00
-	.4byte func_802B6630
-	.4byte func_802B66B0
-	.4byte func_802B6700
-	.4byte lbl_802B6790
-	.4byte lbl_802B62A0
-	.4byte lbl_802B62B0
-	.4byte lbl_8029C1E0
-	.4byte lbl_802B69D0
-	.4byte lbl_8029C1C0
-	.4byte lbl_8029C1B0
-	.4byte lbl_8029C190
-	.4byte lbl_8029C180
-	.4byte lbl_8029C170
-	.4byte lbl_802B69E0
-	.4byte func_802B6950
-	.4byte func_802B6960
-	.4byte lbl_802B6970
-	.4byte lbl_8029C1D0
-	.4byte lbl_8029C1A0
-	.4byte lbl_802B69F0
-	.4byte func_802B6890
-	.4byte lbl_802B68D0
+	.4byte GetRuntimeTypeInfo__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte __dt__Q34nw4r2ut13DvdFileStreamFv
+	.4byte Close__Q34nw4r2ut13DvdFileStreamFv
+	.4byte Read__Q34nw4r2ut13DvdFileStreamFPvUl
+	.4byte ReadAsync__Q34nw4r2ut13DvdFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte Write__Q34nw4r2ut8IOStreamFPCvUl
+	.4byte WriteAsync__Q34nw4r2ut8IOStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte IsBusy__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanAsync__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanRead__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanWrite__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetOffsetAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSizeAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetBufferAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSize__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Seek__Q34nw4r2ut13DvdFileStreamFlUl
+	.4byte Cancel__Q34nw4r2ut13DvdFileStreamFv
+	.4byte CancelAsync__Q34nw4r2ut13DvdFileStreamFPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte CanSeek__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanCancel__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Tell__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Peek__Q34nw4r2ut13DvdFileStreamFPvUl
+	.4byte PeekAsync__Q34nw4r2ut13DvdFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 	.4byte 0
 
-.global lbl_80334D58
-lbl_80334D58:
+.global __vt__Q34nw4r2ut19DvdLockedFileStream
+__vt__Q34nw4r2ut19DvdLockedFileStream:
 
 	# ROM: 0x330E38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8029C220
-	.4byte func_802B6B40
-	.4byte lbl_802B6BA0
-	.4byte func_802B6BE0
-	.4byte lbl_8029C210
-	.4byte lbl_802B62A0
-	.4byte lbl_802B62B0
-	.4byte lbl_8029C1E0
-	.4byte lbl_8029C1F0
-	.4byte lbl_8029C1C0
-	.4byte lbl_8029C1B0
-	.4byte lbl_8029C190
-	.4byte lbl_8029C180
-	.4byte lbl_8029C170
-	.4byte lbl_802B69E0
-	.4byte func_802B6950
-	.4byte lbl_802B6DA0
-	.4byte lbl_802B6970
-	.4byte lbl_8029C1D0
-	.4byte lbl_8029C1A0
-	.4byte lbl_802B69F0
-	.4byte lbl_802B6CC0
-	.4byte lbl_8029C200
+	.4byte GetRuntimeTypeInfo__Q34nw4r2ut19DvdLockedFileStreamCFv
+	.4byte __dt__Q34nw4r2ut19DvdLockedFileStreamFv
+	.4byte Close__Q34nw4r2ut19DvdLockedFileStreamFv
+	.4byte Read__Q34nw4r2ut19DvdLockedFileStreamFPvUl
+	.4byte ReadAsync__Q34nw4r2ut19DvdLockedFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte Write__Q34nw4r2ut8IOStreamFPCvUl
+	.4byte WriteAsync__Q34nw4r2ut8IOStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte IsBusy__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanAsync__Q34nw4r2ut19DvdLockedFileStreamCFv
+	.4byte CanRead__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanWrite__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetOffsetAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSizeAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetBufferAlign__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte GetSize__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Seek__Q34nw4r2ut13DvdFileStreamFlUl
+	.4byte Cancel__Q34nw4r2ut19DvdLockedFileStreamFv
+	.4byte CancelAsync__Q34nw4r2ut13DvdFileStreamFPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte CanSeek__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte CanCancel__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Tell__Q34nw4r2ut13DvdFileStreamCFv
+	.4byte Peek__Q34nw4r2ut19DvdLockedFileStreamFPvUl
+	.4byte PeekAsync__Q34nw4r2ut19DvdLockedFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 	.4byte 0
 
 .global lbl_80334DC0
@@ -58719,16 +58719,16 @@ lbl_80334DC0:
 	# ROM: 0x330EA0
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B5820
+	.4byte ReadNextCharUTF8__Q34nw4r2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B58A0
+	.4byte ReadNextCharUTF16__Q34nw4r2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B58E0
+	.4byte ReadNextCharSJIS__Q34nw4r2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B58C0
+	.4byte ReadNextCharCP1252__Q34nw4r2ut14CharStrmReaderFv
 
 .global lbl_80334DF0
 lbl_80334DF0:
@@ -58736,43 +58736,43 @@ lbl_80334DF0:
 	# ROM: 0x330ED0
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B58C0
+	.4byte ReadNextCharCP1252__Q34nw4r2ut14CharStrmReaderFv
 
-.global lbl_80334DFC
-lbl_80334DFC:
+.global __vt__Q34nw4r2ut7RomFont
+__vt__Q34nw4r2ut7RomFont:
 
 	# ROM: 0x330EDC
 	.4byte 0
 	.4byte 0
-	.4byte func_802B7100
-	.4byte lbl_802B7290
-	.4byte lbl_802B72A0
-	.4byte lbl_802B7300
-	.4byte lbl_802B7310
-	.4byte lbl_802B7320
-	.4byte lbl_802B7330
-	.4byte lbl_802B7340
-	.4byte lbl_802B7350
-	.4byte lbl_802B7360
-	.4byte lbl_802B7370
-	.4byte lbl_802B7380
-	.4byte lbl_802B7390
-	.4byte lbl_802B73B0
-	.4byte lbl_802B73D0
-	.4byte lbl_802B7460
-	.4byte lbl_802B7470
-	.4byte lbl_802B7500
-	.4byte lbl_802B7550
-	.4byte lbl_802B7650
-	.4byte lbl_802B7710
+	.4byte __dt__Q34nw4r2ut7RomFontFv
+	.4byte GetWidth__Q34nw4r2ut7RomFontCFv
+	.4byte GetHeight__Q34nw4r2ut7RomFontCFv
+	.4byte GetAscent__Q34nw4r2ut7RomFontCFv
+	.4byte GetDescent__Q34nw4r2ut7RomFontCFv
+	.4byte GetBaselinePos__Q34nw4r2ut7RomFontCFv
+	.4byte GetCellHeight__Q34nw4r2ut7RomFontCFv
+	.4byte GetCellWidth__Q34nw4r2ut7RomFontCFv
+	.4byte GetMaxCharWidth__Q34nw4r2ut7RomFontCFv
+	.4byte GetType__Q34nw4r2ut7RomFontCFv
+	.4byte GetTextureFormat__Q34nw4r2ut7RomFontCFv
+	.4byte GetLineFeed__Q34nw4r2ut7RomFontCFv
+	.4byte GetDefaultCharWidths__Q34nw4r2ut7RomFontCFv
+	.4byte SetDefaultCharWidths__Q34nw4r2ut7RomFontFRCQ34nw4r2ut10CharWidths
+	.4byte SetAlternateChar__Q34nw4r2ut7RomFontFUs
+	.4byte SetLineFeed__Q34nw4r2ut7RomFontFi
+	.4byte GetCharWidth__Q34nw4r2ut7RomFontCFUs
+	.4byte GetCharWidths__Q34nw4r2ut7RomFontCFUs
+	.4byte GetGlyph__Q34nw4r2ut7RomFontCFPQ34nw4r2ut5GlyphUs
+	.4byte HasGlyph__Q34nw4r2ut7RomFontCFUs
+	.4byte GetEncoding__Q34nw4r2ut7RomFontCFv
 
-.global lbl_80334E58
-lbl_80334E58:
+.global __vt__Q34nw4r2ut4Font
+__vt__Q34nw4r2ut4Font:
 
 	# ROM: 0x330F38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80288B00
+	.4byte __dt__Q34nw4r2ut4FontFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -58801,92 +58801,92 @@ lbl_80334EB8:
 	# ROM: 0x330F98
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_802B58C0
+	.4byte ReadNextCharCP1252__Q34nw4r2ut14CharStrmReaderFv
 
-.global lbl_80334EC4
-lbl_80334EC4:
+.global __vt__Q44nw4r2ut6detail11ResFontBase
+__vt__Q44nw4r2ut6detail11ResFontBase:
 
 	# ROM: 0x330FA4
 	.4byte 0
 	.4byte 0
-	.4byte func_802B77A0
-	.4byte lbl_802B7810
-	.4byte lbl_802B7820
-	.4byte lbl_802B7830
-	.4byte lbl_802B7840
-	.4byte lbl_802B7860
-	.4byte lbl_802B7880
-	.4byte lbl_802B7890
-	.4byte lbl_802B78A0
-	.4byte lbl_802B78B0
-	.4byte lbl_802B78C0
-	.4byte lbl_802B78D0
-	.4byte lbl_802B78E0
-	.4byte lbl_802B7900
-	.4byte lbl_802B7920
-	.4byte lbl_802B79E0
-	.4byte lbl_802B79F0
-	.4byte lbl_802B7A40
-	.4byte lbl_802B7B60
-	.4byte lbl_802B7C30
-	.4byte lbl_802B7CF0
+	.4byte __dt__Q44nw4r2ut6detail11ResFontBaseFv
+	.4byte GetWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseFRCQ34nw4r2ut10CharWidths
+	.4byte SetAlternateChar__Q44nw4r2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q44nw4r2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetGlyph__Q44nw4r2ut6detail11ResFontBaseCFPQ34nw4r2ut5GlyphUs
+	.4byte HasGlyph__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetEncoding__Q44nw4r2ut6detail11ResFontBaseCFv
 
-.global lbl_80334F20
-lbl_80334F20:
+.global __vt__Q34nw4r2ut7ResFont
+__vt__Q34nw4r2ut7ResFont:
 
 	# ROM: 0x331000
 	.4byte 0
 	.4byte 0
-	.4byte func_802B80E0
-	.4byte lbl_802B7810
-	.4byte lbl_802B7820
-	.4byte lbl_802B7830
-	.4byte lbl_802B7840
-	.4byte lbl_802B7860
-	.4byte lbl_802B7880
-	.4byte lbl_802B7890
-	.4byte lbl_802B78A0
-	.4byte lbl_802B78B0
-	.4byte lbl_802B78C0
-	.4byte lbl_802B78D0
-	.4byte lbl_802B78E0
-	.4byte lbl_802B7900
-	.4byte lbl_802B7920
-	.4byte lbl_802B79E0
-	.4byte lbl_802B79F0
-	.4byte lbl_802B7A40
-	.4byte lbl_802B7B60
-	.4byte lbl_802B7C30
-	.4byte lbl_802B7CF0
+	.4byte __dt__Q34nw4r2ut7ResFontFv
+	.4byte GetWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseFRCQ34nw4r2ut10CharWidths
+	.4byte SetAlternateChar__Q44nw4r2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q44nw4r2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetGlyph__Q44nw4r2ut6detail11ResFontBaseCFPQ34nw4r2ut5GlyphUs
+	.4byte HasGlyph__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetEncoding__Q44nw4r2ut6detail11ResFontBaseCFv
 	.4byte 0
 
-.global lbl_80334F80
-lbl_80334F80:
+.global __vt__Q44nw4r2ut6detail15ArchiveFontBase
+__vt__Q44nw4r2ut6detail15ArchiveFontBase:
 
 	# ROM: 0x331060
 	.4byte 0
 	.4byte 0
-	.4byte func_802B83F0
-	.4byte lbl_802B7810
-	.4byte lbl_802B7820
-	.4byte lbl_802B7830
-	.4byte lbl_802B7840
-	.4byte lbl_802B7860
-	.4byte lbl_802B7880
-	.4byte lbl_802B7890
-	.4byte lbl_802B78A0
-	.4byte lbl_802B78B0
-	.4byte lbl_802B78C0
-	.4byte lbl_802B78D0
-	.4byte lbl_802B78E0
-	.4byte lbl_802B7900
-	.4byte lbl_802B7920
-	.4byte lbl_802B79E0
-	.4byte lbl_802B79F0
-	.4byte lbl_802B8450
-	.4byte lbl_802B7B60
-	.4byte lbl_802B84F0
-	.4byte lbl_802B7CF0
+	.4byte __dt__Q44nw4r2ut6detail15ArchiveFontBaseFv
+	.4byte GetWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseFRCQ34nw4r2ut10CharWidths
+	.4byte SetAlternateChar__Q44nw4r2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q44nw4r2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q44nw4r2ut6detail15ArchiveFontBaseCFUs
+	.4byte GetGlyph__Q44nw4r2ut6detail11ResFontBaseCFPQ34nw4r2ut5GlyphUs
+	.4byte HasGlyph__Q44nw4r2ut6detail15ArchiveFontBaseCFUs
+	.4byte GetEncoding__Q44nw4r2ut6detail11ResFontBaseCFv
 	.4byte 0
 
 .global lbl_80334FE0
@@ -58907,53 +58907,53 @@ lbl_80334FE0:
 	.4byte lbl_802B9FB4
 	.4byte lbl_802B9FC8
 
-.global lbl_80335014
-lbl_80335014:
+.global __vt__Q34nw4r2ut11ArchiveFont
+__vt__Q34nw4r2ut11ArchiveFont:
 
 	# ROM: 0x3310F4
 	.4byte 0
 	.4byte 0
-	.4byte func_802B9920
-	.4byte lbl_802B7810
-	.4byte lbl_802B7820
-	.4byte lbl_802B7830
-	.4byte lbl_802B7840
-	.4byte lbl_802B7860
-	.4byte lbl_802B7880
-	.4byte lbl_802B7890
-	.4byte lbl_802B78A0
-	.4byte lbl_802B78B0
-	.4byte lbl_802B78C0
-	.4byte lbl_802B78D0
-	.4byte lbl_802B78E0
-	.4byte lbl_802B7900
-	.4byte lbl_802B7920
-	.4byte lbl_802B79E0
-	.4byte lbl_802B79F0
-	.4byte lbl_802B8450
-	.4byte lbl_802BA170
-	.4byte lbl_802B84F0
-	.4byte lbl_802B7CF0
+	.4byte __dt__Q34nw4r2ut11ArchiveFontFv
+	.4byte GetWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q44nw4r2ut6detail11ResFontBaseFRCQ34nw4r2ut10CharWidths
+	.4byte SetAlternateChar__Q44nw4r2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q44nw4r2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q44nw4r2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q44nw4r2ut6detail15ArchiveFontBaseCFUs
+	.4byte GetGlyph__Q34nw4r2ut11ArchiveFontCFPQ34nw4r2ut5GlyphUs
+	.4byte HasGlyph__Q44nw4r2ut6detail15ArchiveFontBaseCFUs
+	.4byte GetEncoding__Q44nw4r2ut6detail11ResFontBaseCFv
 
-.global lbl_80335070
-lbl_80335070:
+.global _STRING_allocate__Q23std191allocator_Q33std166__list_deleter_Q53atn5Colli9Collision33_unnamed_atn_colli_collision_cpp_7SegData_Q23std76allocator_Q53atn5Colli9Collision33_unnamed_atn_colli_collision_cpp_7SegData__4node_FUlPCv
+_STRING_allocate__Q23std191allocator_Q33std166__list_deleter_Q53atn5Colli9Collision33_unnamed_atn_colli_collision_cpp_7SegData_Q23std76allocator_Q53atn5Colli9Collision33_unnamed_atn_colli_collision_cpp_7SegData__4node_FUlPCv:
 
 	# ROM: 0x331150
 	.asciz "Memory allocation failure"
 	.balign 4
 	.4byte 0
 
-.global lbl_80335090
-lbl_80335090:
+.global __vt__Q23atn9ColliBase
+__vt__Q23atn9ColliBase:
 
 	# ROM: 0x331170
 	.4byte 0
 	.4byte 0
-	.4byte func_802C5D5C
-	.4byte lbl_802C6B8C
-	.4byte lbl_802C6B94
-	.4byte lbl_802C6B9C
-	.4byte lbl_802C6B88
+	.4byte __dt__Q23atn9ColliBaseFv
+	.4byte HitCheck__Q23atn9ColliBaseFPQ33atn5Colli6ResultiRCQ23atn23SphereT_Q23atn7Vector3_
+	.4byte HitCheck__Q23atn9ColliBaseFPQ33atn5Colli6ResultiRCQ23atn24SegmentT_Q23atn7Vector3_
+	.4byte HitCheck__Q23atn9ColliBaseFPQ33atn5Colli6ResultiRCQ23atn24CapsuleT_Q23atn7Vector3_
+	.4byte Draw__Q23atn9ColliBaseFii
 	.4byte 0
 
 .global lbl_803350B0

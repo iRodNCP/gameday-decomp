@@ -7,8 +7,8 @@
 lbl_802D7280:
 
 	# ROM: 0x2D3380
-	.4byte lbl_80198730
-	.4byte lbl_8019947C
+	.4byte func_80198730
+	.4byte func_8019947C
 	.4byte 0
 	.4byte 0
 	.4byte 0

@@ -3,8 +3,8 @@
 .section .sdata, "wa"  # 0x8041BCC0 - 0x8041CD40 ; 0x00001080
 
 
-.global lbl_8041BCC0
-lbl_8041BCC0:
+.global FREE__Q36Memory4Heap6Header
+FREE__Q36Memory4Heap6Header:
 
 	# ROM: 0x331D40
 	.byte 0x00
@@ -16,15 +16,15 @@ lbl_8041BCC1:
 	.balign 4
 	.4byte 0
 
-.global lbl_8041BCC8
-lbl_8041BCC8:
+.global base__Q26Memory12StartingInit
+base__Q26Memory12StartingInit:
 
 	# ROM: 0x331D48
 	.4byte 0x01000000
 	.4byte 0
 
-.global lbl_8041BCD0
-lbl_8041BCD0:
+.global init_flag__Q26Memory12StartingInit
+init_flag__Q26Memory12StartingInit:
 
 	# ROM: 0x331D50
 	.4byte 0
@@ -42,22 +42,22 @@ lbl_8041BCD8:
 	.4byte 0x41F00000
 	.4byte 0
 
-.global lbl_8041BCE0
-lbl_8041BCE0:
+.global self__Q29GameSpeed7Manager
+self__Q29GameSpeed7Manager:
 
 	# ROM: 0x331D60
 	.4byte 0x0042006F
 	.4byte 0x00620000
 
-.global lbl_8041BCE8
-lbl_8041BCE8:
+.global task_rti_info__Q26System8RootTask
+task_rti_info__Q26System8RootTask:
 
 	# ROM: 0x331D68
 	.4byte 0xFFFFFFFF
 	.4byte 0
 
-.global lbl_8041BCF0
-lbl_8041BCF0:
+.global heap_p__Q24Task4Heap
+heap_p__Q24Task4Heap:
 
 	# ROM: 0x331D70
 	.4byte 0x01000000
@@ -100,22 +100,22 @@ lbl_8041BD00:
 	.4byte lbl_802D8EB8
 	.4byte lbl_802D8ECC
 
-.global lbl_8041BD08
-lbl_8041BD08:
+.global NORMAL__Q24Task9Condition
+NORMAL__Q24Task9Condition:
 
 	# ROM: 0x331D88
 	.4byte lbl_802D8F98
 	.4byte lbl_802D8FA8
 
-.global lbl_8041BD10
-lbl_8041BD10:
+.global system_cond__4Task
+system_cond__4Task:
 
 	# ROM: 0x331D90
 	.4byte lbl_802D8FB8
 	.4byte lbl_802D8FC8
 
-.global lbl_8041BD18
-lbl_8041BD18:
+.global task_rti_info__Q24Task4Base
+task_rti_info__Q24Task4Base:
 
 	# ROM: 0x331D98
 	.asciz "ResMat"
@@ -133,8 +133,8 @@ lbl_8041BD24:
 	# ROM: 0x331DA4
 	.4byte 0x72656600
 
-.global lbl_8041BD28
-lbl_8041BD28:
+.global s_loading__Q24File3Dvd
+s_loading__Q24File3Dvd:
 
 	# ROM: 0x331DA8
 	.4byte 0xFFFFFFFC
@@ -145,8 +145,8 @@ lbl_8041BD2C:
 	# ROM: 0x331DAC
 	.4byte 0xFFFFFFFC
 
-.global lbl_8041BD30
-lbl_8041BD30:
+.global KEY_MARK__Q23Key7KeyHeap
+KEY_MARK__Q23Key7KeyHeap:
 
 	# ROM: 0x331DB0
 	.byte 0x01
@@ -158,8 +158,8 @@ lbl_8041BD31:
 	.balign 4
 	.4byte 0
 
-.global lbl_8041BD38
-lbl_8041BD38:
+.global task_size__Q26Memory3Wii
+task_size__Q26Memory3Wii:
 
 	# ROM: 0x331DB8
 	.byte 0x00
@@ -170,27 +170,27 @@ lbl_8041BD39:
 	# ROM: 0x331DB9
 	.balign 4
 
-.global lbl_8041BD3C
-lbl_8041BD3C:
+.global debug_size__Q26Memory3Wii
+debug_size__Q26Memory3Wii:
 
 	# ROM: 0x331DBC
 	.4byte 0x25640000
 
-.global lbl_8041BD40
-lbl_8041BD40:
+.global task_top_p__Q26Memory3Wii
+task_top_p__Q26Memory3Wii:
 
 	# ROM: 0x331DC0
 	.asciz "0x%X"
 	.balign 4
 
-.global lbl_8041BD48
-lbl_8041BD48:
+.global _GUARD_Init__6MemoryFPQ26Memory4Heap_SYSLIB_MARK
+_GUARD_Init__6MemoryFPQ26Memory4Heap_SYSLIB_MARK:
 
 	# ROM: 0x331DC8
 	.4byte 0x30780000
 
-.global lbl_8041BD4C
-lbl_8041BD4C:
+.global _LOCAL_Init__6MemoryFPQ26Memory4Heap_SYSLIB_MARK
+_LOCAL_Init__6MemoryFPQ26Memory4Heap_SYSLIB_MARK:
 
 	# ROM: 0x331DCC
 	.4byte 0x25660000
@@ -201,8 +201,8 @@ lbl_8041BD50:
 	# ROM: 0x331DD0
 	.4byte 0x5A000000
 
-.global lbl_8041BD54
-lbl_8041BD54:
+.global self__Q25Sound7Manager
+self__Q25Sound7Manager:
 
 	# ROM: 0x331DD4
 	.4byte 0x59000000
@@ -233,8 +233,8 @@ lbl_8041BD68:
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BD70
-lbl_8041BD70:
+.global self__Q35Debug8Shortcut7Manager
+self__Q35Debug8Shortcut7Manager:
 
 	# ROM: 0x331DF0
 	.4byte lbl_802D96C8
@@ -257,8 +257,8 @@ lbl_8041BD7C:
 	# ROM: 0x331DFC
 	.4byte lbl_802D971C
 
-.global lbl_8041BD80
-lbl_8041BD80:
+.global task_rti_info__Q28Sequence9SeqTask3D
+task_rti_info__Q28Sequence9SeqTask3D:
 
 	# ROM: 0x331E00
 	.4byte lbl_802D9730
@@ -275,14 +275,14 @@ lbl_8041BD88:
 	# ROM: 0x331E08
 	.4byte lbl_8041E2AC
 
-.global lbl_8041BD8C
-lbl_8041BD8C:
+.global m_flagset__Q24Flag8Volatile
+m_flagset__Q24Flag8Volatile:
 
 	# ROM: 0x331E0C
 	.4byte lbl_802D9740
 
-.global lbl_8041BD90
-lbl_8041BD90:
+.global strap_info__Q24Flag9Temporary
+strap_info__Q24Flag9Temporary:
 
 	# ROM: 0x331E10
 	.4byte lbl_802D974C
@@ -299,14 +299,14 @@ lbl_8041BD98:
 	# ROM: 0x331E18
 	.4byte lbl_802D9808
 
-.global lbl_8041BD9C
-lbl_8041BD9C:
+.global s_cp_access__4Main
+s_cp_access__4Main:
 
 	# ROM: 0x331E1C
 	.4byte lbl_802D9820
 
-.global lbl_8041BDA0
-lbl_8041BDA0:
+.global rand__Q24Math6Random
+rand__Q24Math6Random:
 
 	# ROM: 0x331E20
 	.4byte lbl_802D9838
@@ -317,8 +317,8 @@ lbl_8041BDA4:
 	# ROM: 0x331E24
 	.4byte 0x3F800000
 
-.global lbl_8041BDA8
-lbl_8041BDA8:
+.global self__Q23Rso7Manager
+self__Q23Rso7Manager:
 
 	# ROM: 0x331E28
 	.4byte lbl_802D9928
@@ -330,8 +330,8 @@ lbl_8041BDB0:
 	# ROM: 0x331E30
 	.4byte 0x42000000
 
-.global lbl_8041BDB4
-lbl_8041BDB4:
+.global task_rti_info__Q28Sequence9RsoHolder
+task_rti_info__Q28Sequence9RsoHolder:
 
 	# ROM: 0x331E34
 	.4byte 0x47000000
@@ -348,8 +348,8 @@ lbl_8041BDBC:
 	# ROM: 0x331E3C
 	.4byte 0x41000000
 
-.global lbl_8041BDC0
-lbl_8041BDC0:
+.global fbx4__11ShareBuffer
+fbx4__11ShareBuffer:
 
 	# ROM: 0x331E40
 	.4byte 0x42000000
@@ -360,8 +360,8 @@ lbl_8041BDC4:
 	# ROM: 0x331E44
 	.4byte 0x47000000
 
-.global lbl_8041BDC8
-lbl_8041BDC8:
+.global fbx1__11ShareBuffer
+fbx1__11ShareBuffer:
 
 	# ROM: 0x331E48
 	.4byte 0x52000000
@@ -372,8 +372,8 @@ lbl_8041BDCC:
 	# ROM: 0x331E4C
 	.4byte 0x72656600
 
-.global lbl_8041BDD0
-lbl_8041BDD0:
+.global capture__11ShareBuffer
+capture__11ShareBuffer:
 
 	# ROM: 0x331E50
 	.4byte 0x72656600
@@ -384,33 +384,33 @@ lbl_8041BDD4:
 	# ROM: 0x331E54
 	.4byte 0x72656600
 
-.global lbl_8041BDD8
-lbl_8041BDD8:
+.global self__Q28Shutdown7Manager
+self__Q28Shutdown7Manager:
 
 	# ROM: 0x331E58
 	.4byte 0x72656600
 
-.global lbl_8041BDDC
-lbl_8041BDDC:
+.global m_save_access__Q28Shutdown7Manager
+m_save_access__Q28Shutdown7Manager:
 
 	# ROM: 0x331E5C
 	.4byte 0x72656600
 
-.global lbl_8041BDE0
-lbl_8041BDE0:
+.global self__Q26System6Render
+self__Q26System6Render:
 
 	# ROM: 0x331E60
 	.4byte 0x72656600
 
-.global lbl_8041BDE4
-lbl_8041BDE4:
+.global s_now_pixel_format__6System
+s_now_pixel_format__6System:
 
 	# ROM: 0x331E64
 	.asciz "ResTex"
 	.balign 4
 
-.global lbl_8041BDEC
-lbl_8041BDEC:
+.global dlSize__Q26System8SuportGX
+dlSize__Q26System8SuportGX:
 
 	# ROM: 0x331E6C
 	.4byte 0x72656600
@@ -421,8 +421,8 @@ lbl_8041BDF0:
 	# ROM: 0x331E70
 	.4byte 0x72656600
 
-.global lbl_8041BDF4
-lbl_8041BDF4:
+.global _GUARD_Get__Q27Message7ManagerFv_self
+_GUARD_Get__Q27Message7ManagerFv_self:
 
 	# ROM: 0x331E74
 	.4byte 0x72656600
@@ -434,14 +434,14 @@ lbl_8041BDF8:
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BE00
-lbl_8041BE00:
+.global task_rti_info__Q27Message18DialogMenuSelector
+task_rti_info__Q27Message18DialogMenuSelector:
 
 	# ROM: 0x331E80
 	.4byte 0x3F800000
 
-.global lbl_8041BE04
-lbl_8041BE04:
+.global task_rti_info__Q27Message16DialogMenuButton
+task_rti_info__Q27Message16DialogMenuButton:
 
 	# ROM: 0x331E84
 	.4byte 0x72656600
@@ -458,46 +458,46 @@ lbl_8041BE0C:
 	# ROM: 0x331E8C
 	.4byte 0x72656600
 
-.global lbl_8041BE10
-lbl_8041BE10:
+.global WriteDataBuf__8SaveLoad
+WriteDataBuf__8SaveLoad:
 
 	# ROM: 0x331E90
 	.4byte 0x007D0000
 	.4byte 0
 
-.global lbl_8041BE18
-lbl_8041BE18:
+.global UserDataBuf__8SaveLoad
+UserDataBuf__8SaveLoad:
 
 	# ROM: 0x331E98
 	.4byte 0x72656600
 
-.global lbl_8041BE1C
-lbl_8041BE1C:
+.global s_EnableSave__8SaveLoad
+s_EnableSave__8SaveLoad:
 
 	# ROM: 0x331E9C
 	.4byte 0x72656600
 
-.global lbl_8041BE20
-lbl_8041BE20:
+.global BannerData__8SaveLoad
+BannerData__8SaveLoad:
 
 	# ROM: 0x331EA0
 	.4byte 0x72656600
 
-.global lbl_8041BE24
-lbl_8041BE24:
+.global s_SaveIconNum__8SaveLoad
+s_SaveIconNum__8SaveLoad:
 
 	# ROM: 0x331EA4
 	.4byte 0x72656600
 
-.global lbl_8041BE28
-lbl_8041BE28:
+.global s_banner_fs_size__8SaveLoad
+s_banner_fs_size__8SaveLoad:
 
 	# ROM: 0x331EA8
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BE30
-lbl_8041BE30:
+.global s_user_fs_size__8SaveLoad
+s_user_fs_size__8SaveLoad:
 
 	# ROM: 0x331EB0
 	.byte 0x00
@@ -516,14 +516,14 @@ lbl_8041BE38:
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BE40
-lbl_8041BE40:
+.global m_mantask__Q34Game7Penguin7Manager
+m_mantask__Q34Game7Penguin7Manager:
 
 	# ROM: 0x331EC0
 	.4byte 0x00000080
 
-.global lbl_8041BE44
-lbl_8041BE44:
+.global task_rti_info__Q34Game7Penguin7Manager
+task_rti_info__Q34Game7Penguin7Manager:
 
 	# ROM: 0x331EC4
 	.4byte 0x000000E0
@@ -534,8 +534,8 @@ lbl_8041BE48:
 	# ROM: 0x331EC8
 	.4byte 0x00000010
 
-.global lbl_8041BE4C
-lbl_8041BE4C:
+.global task_rti_info__Q34Game7Penguin4Body
+task_rti_info__Q34Game7Penguin4Body:
 
 	# ROM: 0x331ECC
 	.4byte 0x72656600
@@ -546,26 +546,26 @@ lbl_8041BE50:
 	# ROM: 0x331ED0
 	.4byte 0x72656600
 
-.global lbl_8041BE54
-lbl_8041BE54:
+.global MESSAGE__Q24Game7SeqBase
+MESSAGE__Q24Game7SeqBase:
 
 	# ROM: 0x331ED4
 	.4byte 0x72656600
 
-.global lbl_8041BE58
-lbl_8041BE58:
+.global PAUSE__Q24Game7SeqBase
+PAUSE__Q24Game7SeqBase:
 
 	# ROM: 0x331ED8
 	.4byte 0x72656600
 
-.global lbl_8041BE5C
-lbl_8041BE5C:
+.global LOCK__Q24Game7SeqBase
+LOCK__Q24Game7SeqBase:
 
 	# ROM: 0x331EDC
 	.4byte 0x72656600
 
-.global lbl_8041BE60
-lbl_8041BE60:
+.global DISCONNECT__Q24Game7SeqBase
+DISCONNECT__Q24Game7SeqBase:
 
 	# ROM: 0x331EE0
 	.byte 0x00
@@ -577,28 +577,28 @@ lbl_8041BE61:
 	.byte 0x01, 0x00, 0x00
 	.4byte 0
 
-.global lbl_8041BE68
-lbl_8041BE68:
+.global gamebase
+gamebase:
 
 	# ROM: 0x331EE8
 	.4byte 0x3F800000
 	.4byte 0
 
-.global lbl_8041BE70
-lbl_8041BE70:
+.global m_self__Q45Scene6Camera7forGame3Obj
+m_self__Q45Scene6Camera7forGame3Obj:
 
 	# ROM: 0x331EF0
-	.4byte lbl_8026D3E0
-	.4byte lbl_8026D3F0
+	.4byte PlayPolicy_Onetime__Q24nw4r3g3dFfff
+	.4byte PlayPolicy_Loop__Q24nw4r3g3dFfff
 
-.global lbl_8041BE78
-lbl_8041BE78:
+.global _LOCAL_SetDir__Q24Game7EyeMoveFPCQ34nw4r4math4VEC3PCQ34nw4r4math4VEC3l_c
+_LOCAL_SetDir__Q24Game7EyeMoveFPCQ34nw4r4math4VEC3PCQ34nw4r4math4VEC3l_c:
 
 	# ROM: 0x331EF8
 	.asciz "ResNode"
 
-.global lbl_8041BE80
-lbl_8041BE80:
+.global task_rti_info__Q24Game11FadeControl
+task_rti_info__Q24Game11FadeControl:
 
 	# ROM: 0x331F00
 	.4byte 0x72656600
@@ -635,14 +635,14 @@ lbl_8041BE98:
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BEA0
-lbl_8041BEA0:
+.global task_rti_info__Q34Game6MapObj3Obj
+task_rti_info__Q34Game6MapObj3Obj:
 
 	# ROM: 0x331F20
 	.4byte 0x72656600
 
-.global lbl_8041BEA4
-lbl_8041BEA4:
+.global m_pthis__Q34Game6MapObj7Manager
+m_pthis__Q34Game6MapObj7Manager:
 
 	# ROM: 0x331F24
 	.4byte 0x72656600
@@ -678,8 +678,8 @@ lbl_8041BEB8:
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041BEC0
-lbl_8041BEC0:
+.global task_rti_info__Q24Game18GamePlayerTriangle
+task_rti_info__Q24Game18GamePlayerTriangle:
 
 	# ROM: 0x331F40
 	.4byte 0xFF000000
@@ -690,8 +690,8 @@ lbl_8041BEC4:
 	# ROM: 0x331F44
 	.4byte 0x3F800000
 
-.global lbl_8041BEC8
-lbl_8041BEC8:
+.global task_rti_info__Q24Game11GameReadyGo
+task_rti_info__Q24Game11GameReadyGo:
 
 	# ROM: 0x331F48
 	.2byte 0x0000
@@ -749,8 +749,8 @@ lbl_8041BEF4:
 	# ROM: 0x331F74
 	.4byte lbl_802DAE08
 
-.global lbl_8041BEF8
-lbl_8041BEF8:
+.global g_bgm__4Game
+g_bgm__4Game:
 
 	# ROM: 0x331F78
 	.4byte lbl_802DAE24
@@ -761,8 +761,8 @@ lbl_8041BEFC:
 	# ROM: 0x331F7C
 	.4byte lbl_8041E6E0
 
-.global lbl_8041BF00
-lbl_8041BF00:
+.global task_rti_info__Q24Game11BgmPlayWait
+task_rti_info__Q24Game11BgmPlayWait:
 
 	# ROM: 0x331F80
 	.4byte lbl_8041E6E8
@@ -779,14 +779,14 @@ lbl_8041BF08:
 	# ROM: 0x331F88
 	.4byte 0x10000000
 
-.global lbl_8041BF0C
-lbl_8041BF0C:
+.global task_rti_info__Q24Game6SeTask
+task_rti_info__Q24Game6SeTask:
 
 	# ROM: 0x331F8C
 	.4byte 0xFFFFFFFC
 
-.global lbl_8041BF10
-lbl_8041BF10:
+.global task_rti_info__Q24Game8Se3DTask
+task_rti_info__Q24Game8Se3DTask:
 
 	# ROM: 0x331F90
 	.4byte 0xFFFFFFFC
@@ -797,8 +797,8 @@ lbl_8041BF14:
 	# ROM: 0x331F94
 	.4byte 0
 
-.global lbl_8041BF18
-lbl_8041BF18:
+.global m_current__Q25Bloom8ScnBloom
+m_current__Q25Bloom8ScnBloom:
 
 	# ROM: 0x331F98
 	.4byte 0
@@ -810,8 +810,8 @@ lbl_8041BF20:
 	# ROM: 0x331FA0
 	.4byte 0x3F800000
 
-.global lbl_8041BF24
-lbl_8041BF24:
+.global pBooleanImg__11BooleanDraw
+pBooleanImg__11BooleanDraw:
 
 	# ROM: 0x331FA4
 	.byte 0x00
@@ -834,8 +834,8 @@ lbl_8041BF27:
 	# ROM: 0x331FA7
 	.byte 0x01
 
-.global lbl_8041BF28
-lbl_8041BF28:
+.global m_current__Q23DOF6ScnDOF
+m_current__Q23DOF6ScnDOF:
 
 	# ROM: 0x331FA8
 	.4byte 0x61726300
@@ -846,15 +846,15 @@ lbl_8041BF2C:
 	# ROM: 0x331FAC
 	.4byte 0x000A0000
 
-.global lbl_8041BF30
-lbl_8041BF30:
+.global self__Q35Scene6Effect7Manager
+self__Q35Scene6Effect7Manager:
 
 	# ROM: 0x331FB0
 	.asciz "OK!\n"
 	.balign 4
 
-.global lbl_8041BF38
-lbl_8041BF38:
+.global task_rti_info__Q35Scene6Effect3Obj
+task_rti_info__Q35Scene6Effect3Obj:
 
 	# ROM: 0x331FB8
 	.4byte 0
@@ -866,15 +866,15 @@ lbl_8041BF40:
 	# ROM: 0x331FC0
 	.4byte 0x73000000
 
-.global lbl_8041BF44
-lbl_8041BF44:
+.global m_current__Q210FaceWindow17FaceWindowManager
+m_current__Q210FaceWindow17FaceWindowManager:
 
 	# ROM: 0x331FC4
 	.asciz "_get"
 	.balign 4
 
-.global lbl_8041BF4C
-lbl_8041BF4C:
+.global _LOCAL_Draw__Q210FaceWindow17FaceWindowManagerFv_scount
+_LOCAL_Draw__Q210FaceWindow17FaceWindowManagerFv_scount:
 
 	# ROM: 0x331FCC
 	.asciz "sn|b|s"
@@ -887,35 +887,35 @@ lbl_8041BF54:
 	.asciz "_set"
 	.balign 4
 
-.global lbl_8041BF5C
-lbl_8041BF5C:
+.global task_rti_info__Q35Scene6Layout8PaneBase
+task_rti_info__Q35Scene6Layout8PaneBase:
 
 	# ROM: 0x331FDC
 	.asciz "_set"
 	.balign 4
 
-.global lbl_8041BF64
-lbl_8041BF64:
+.global task_rti_info__Q35Scene6Layout14PaneManagerOne
+task_rti_info__Q35Scene6Layout14PaneManagerOne:
 
 	# ROM: 0x331FE4
 	.4byte 0x696E7400
 
-.global lbl_8041BF68
-lbl_8041BF68:
+.global task_rti_info__Q35Scene6Layout18PaneManagerPointer
+task_rti_info__Q35Scene6Layout18PaneManagerPointer:
 
 	# ROM: 0x331FE8
 	.asciz "Vector"
 	.balign 4
 
-.global lbl_8041BF70
-lbl_8041BF70:
+.global MARK__Q35Scene6Layout10FontHolder
+MARK__Q35Scene6Layout10FontHolder:
 
 	# ROM: 0x331FF0
 	.asciz "Vector"
 	.balign 4
 
-.global lbl_8041BF78
-lbl_8041BF78:
+.global task_rti_info__Q35Scene5Light9Animation
+task_rti_info__Q35Scene5Light9Animation:
 
 	# ROM: 0x331FF8
 	.asciz "float"
@@ -933,22 +933,22 @@ lbl_8041BF84:
 	# ROM: 0x332004
 	.4byte lbl_802DC8B8
 
-.global lbl_8041BF88
-lbl_8041BF88:
+.global pMirrorImg__6Mirror
+pMirrorImg__6Mirror:
 
 	# ROM: 0x332008
 	.4byte lbl_802DC8CC
 	.4byte 0
 
-.global lbl_8041BF90
-lbl_8041BF90:
+.global self__Q28Resource7Manager
+self__Q28Resource7Manager:
 
 	# ROM: 0x332010
 	.4byte lbl_802DC958
 	.4byte lbl_802DC964
 
-.global lbl_8041BF98
-lbl_8041BF98:
+.global current__5Scene
+current__5Scene:
 
 	# ROM: 0x332018
 	.4byte 0xFFFFFFFC
@@ -959,8 +959,8 @@ lbl_8041BF9C:
 	# ROM: 0x33201C
 	.4byte 0xFFFFFFFC
 
-.global lbl_8041BFA0
-lbl_8041BFA0:
+.global group_p__Q25Scene6Normal
+group_p__Q25Scene6Normal:
 
 	# ROM: 0x332020
 	.4byte 0x00000030
@@ -973,26 +973,26 @@ lbl_8041BFA8:
 	.4byte 0x3F800000
 	.4byte 0
 
-.global lbl_8041BFB0
-lbl_8041BFB0:
+.global s_camera_w__6Shadow
+s_camera_w__6Shadow:
 
 	# ROM: 0x332030
 	.4byte 0
 
-.global lbl_8041BFB4
-lbl_8041BFB4:
+.global s_camera_h__6Shadow
+s_camera_h__6Shadow:
 
 	# ROM: 0x332034
 	.4byte 0
 
-.global lbl_8041BFB8
-lbl_8041BFB8:
+.global s_camera_n__6Shadow
+s_camera_n__6Shadow:
 
 	# ROM: 0x332038
 	.4byte 0
 
-.global lbl_8041BFBC
-lbl_8041BFBC:
+.global s_camera_f__6Shadow
+s_camera_f__6Shadow:
 
 	# ROM: 0x33203C
 	.4byte 0
@@ -1003,26 +1003,26 @@ lbl_8041BFC0:
 	# ROM: 0x332040
 	.4byte 0
 
-.global lbl_8041BFC4
-lbl_8041BFC4:
+.global s_tmp_pos__6Shadow
+s_tmp_pos__6Shadow:
 
 	# ROM: 0x332044
 	.4byte 0
 
-.global lbl_8041BFC8
-lbl_8041BFC8:
+.global m_border_z__Q26Shadow12ShadowCamera
+m_border_z__Q26Shadow12ShadowCamera:
 
 	# ROM: 0x332048
 	.4byte lbl_8041ECB4
 
-.global lbl_8041BFCC
-lbl_8041BFCC:
+.global m_sub_enable__Q26Shadow12ShadowCamera
+m_sub_enable__Q26Shadow12ShadowCamera:
 
 	# ROM: 0x33204C
 	.4byte lbl_802DD5B0
 
-.global lbl_8041BFD0
-lbl_8041BFD0:
+.global pShadowImg__6Shadow
+pShadowImg__6Shadow:
 
 	# ROM: 0x332050
 	.4byte lbl_802DD5BC
@@ -1033,20 +1033,20 @@ lbl_8041BFD4:
 	# ROM: 0x332054
 	.4byte 0
 
-.global lbl_8041BFD8
-lbl_8041BFD8:
+.global pTKList__6Shadow
+pTKList__6Shadow:
 
 	# ROM: 0x332058
 	.4byte 0x00000009
 
-.global lbl_8041BFDC
-lbl_8041BFDC:
+.global dlSize__Q26Shadow6TKList
+dlSize__Q26Shadow6TKList:
 
 	# ROM: 0x33205C
 	.4byte 0x00000008
 
-.global lbl_8041BFE0
-lbl_8041BFE0:
+.global dlSize1__Q26Shadow12ShadowCamera
+dlSize1__Q26Shadow12ShadowCamera:
 
 	# ROM: 0x332060
 	.4byte 0x00000001
@@ -1057,8 +1057,8 @@ lbl_8041BFE4:
 	# ROM: 0x332064
 	.4byte 0x00000004
 
-.global lbl_8041BFE8
-lbl_8041BFE8:
+.global current__6Sprite
+current__6Sprite:
 
 	# ROM: 0x332068
 	.4byte 0x00000003
@@ -1069,8 +1069,8 @@ lbl_8041BFEC:
 	# ROM: 0x33206C
 	.4byte 0
 
-.global lbl_8041BFF0
-lbl_8041BFF0:
+.global font__6System
+font__6System:
 
 	# ROM: 0x332070
 	.4byte 0x00000008
@@ -1081,8 +1081,8 @@ lbl_8041BFF4:
 	# ROM: 0x332074
 	.4byte 0x00000003
 
-.global lbl_8041BFF8
-lbl_8041BFF8:
+.global m_instance__Q26System9DiskError
+m_instance__Q26System9DiskError:
 
 	# ROM: 0x332078
 	.4byte 0x00000001
@@ -1093,20 +1093,20 @@ lbl_8041BFFC:
 	# ROM: 0x33207C
 	.4byte 0x00000009
 
-.global lbl_8041C000
-lbl_8041C000:
+.global ACTIVE__10HomeButton
+ACTIVE__10HomeButton:
 
 	# ROM: 0x332080
 	.4byte 0x00000004
 
-.global lbl_8041C004
-lbl_8041C004:
+.global EXCEPT__10HomeButton
+EXCEPT__10HomeButton:
 
 	# ROM: 0x332084
 	.4byte 0x00000003
 
-.global lbl_8041C008
-lbl_8041C008:
+.global pManager__10HomeButton
+pManager__10HomeButton:
 
 	# ROM: 0x332088
 	.4byte 0x00000009
@@ -1135,14 +1135,14 @@ lbl_8041C018:
 	# ROM: 0x332098
 	.4byte 0x00000004
 
-.global lbl_8041C01C
-lbl_8041C01C:
+.global task_rti_info__Q24File14NowLoadingTask
+task_rti_info__Q24File14NowLoadingTask:
 
 	# ROM: 0x33209C
 	.4byte 0
 
-.global lbl_8041C020
-lbl_8041C020:
+.global g_loading__4File
+g_loading__4File:
 
 	# ROM: 0x3320A0
 	.4byte 0x00000009
@@ -1159,26 +1159,26 @@ lbl_8041C028:
 	# ROM: 0x3320A8
 	.4byte 0x00000001
 
-.global lbl_8041C02C
-lbl_8041C02C:
+.global task_rti_info__Q23Key18RemoconPointerDisp
+task_rti_info__Q23Key18RemoconPointerDisp:
 
 	# ROM: 0x3320AC
 	.4byte 0x00000004
 
-.global lbl_8041C030
-lbl_8041C030:
+.global task_rti_info__Q23Key14RemoconManager
+task_rti_info__Q23Key14RemoconManager:
 
 	# ROM: 0x3320B0
 	.4byte 0x00000008
 
-.global lbl_8041C034
-lbl_8041C034:
+.global m_pInstance__Q23Key14RemoconManager
+m_pInstance__Q23Key14RemoconManager:
 
 	# ROM: 0x3320B4
 	.4byte 0
 
-.global lbl_8041C038
-lbl_8041C038:
+.global task_rti_info__Q33Key9Vibration3Obj
+task_rti_info__Q33Key9Vibration3Obj:
 
 	# ROM: 0x3320B8
 	.4byte 0
@@ -1212,15 +1212,15 @@ lbl_8041C058:
 	.4byte lbl_802DE244
 	.4byte lbl_802DE250
 
-.global lbl_8041C060
-lbl_8041C060:
+.global common_callback__9Collision
+common_callback__9Collision:
 
 	# ROM: 0x3320E0
 	.4byte lbl_802DDE8C
 	.4byte lbl_802DDE9C
 
-.global lbl_8041C068
-lbl_8041C068:
+.global task_rti_info__Q24Game15GameDebugCamera
+task_rti_info__Q24Game15GameDebugCamera:
 
 	# ROM: 0x3320E8
 	.4byte 0
@@ -1233,15 +1233,15 @@ lbl_8041C070:
 	.4byte 0x00000006
 	.4byte 0
 
-.global lbl_8041C078
-lbl_8041C078:
+.global s_self__Q35Scene6Layout13LoadCommonRes
+s_self__Q35Scene6Layout13LoadCommonRes:
 
 	# ROM: 0x3320F8
 	.4byte 0x72656600
 	.4byte 0
 
-.global lbl_8041C080
-lbl_8041C080:
+.global _GUARD_GetCommonArchive__Q25Scene6LayoutFv_holder
+_GUARD_GetCommonArchive__Q25Scene6LayoutFv_holder:
 
 	# ROM: 0x332100
 	.4byte lbl_802DF790
@@ -1252,8 +1252,8 @@ lbl_8041C084:
 	# ROM: 0x332104
 	.4byte lbl_802DF7A8
 
-.global lbl_8041C088
-lbl_8041C088:
+.global _LOCAL_GetCommonArchive__Q25Scene6LayoutFv_holder
+_LOCAL_GetCommonArchive__Q25Scene6LayoutFv_holder:
 
 	# ROM: 0x332108
 	.4byte lbl_802DF7C4
@@ -1264,8 +1264,8 @@ lbl_8041C08C:
 	# ROM: 0x33210C
 	.4byte lbl_802DF7E0
 
-.global lbl_8041C090
-lbl_8041C090:
+.global _GUARD_is_comp__Q25Scene6LayoutFRCQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___CMP_EXT
+_GUARD_is_comp__Q25Scene6LayoutFRCQ23std59basic_string_c_Q23std14char_traits_c__Q23std12allocator_c___CMP_EXT:
 
 	# ROM: 0x332110
 	.4byte lbl_802DF7FC
@@ -1290,8 +1290,8 @@ lbl_8041C0A0:
 	.4byte 0x01000000
 	.4byte 0
 
-.global lbl_8041C0A8
-lbl_8041C0A8:
+.global task_rti_info__Q216SoftwareKeyboard16ResourceLoadTask
+task_rti_info__Q216SoftwareKeyboard16ResourceLoadTask:
 
 	# ROM: 0x332128
 	.4byte 0x01000000
@@ -1304,8 +1304,8 @@ lbl_8041C0B0:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8041C0B8
-lbl_8041C0B8:
+.global m_instance__Q216SoftwareKeyboard7Manager
+m_instance__Q216SoftwareKeyboard7Manager:
 
 	# ROM: 0x332138
 	.4byte 0x40800000
@@ -1323,26 +1323,26 @@ lbl_8041C0C0:
 	.4byte 0x000A0000
 	.4byte 0
 
-.global lbl_8041C0C8
-lbl_8041C0C8:
+.global task_rti_info__Q26Script4Base
+task_rti_info__Q26Script4Base:
 
 	# ROM: 0x332148
 	.4byte lbl_802E1618
 
-.global lbl_8041C0CC
-lbl_8041C0CC:
+.global task_rti_info__Q26Script6Thread
+task_rti_info__Q26Script6Thread:
 
 	# ROM: 0x33214C
 	.4byte lbl_802E162C
 
-.global lbl_8041C0D0
-lbl_8041C0D0:
+.global task_rti_info__Q26Script7Manager
+task_rti_info__Q26Script7Manager:
 
 	# ROM: 0x332150
 	.4byte lbl_802E1730
 
-.global lbl_8041C0D4
-lbl_8041C0D4:
+.global m_pthis__Q26Script7Manager
+m_pthis__Q26Script7Manager:
 
 	# ROM: 0x332154
 	.4byte lbl_802E1748
@@ -1365,8 +1365,8 @@ lbl_8041C0E0:
 	# ROM: 0x332160
 	.4byte lbl_802E1828
 
-.global lbl_8041C0E4
-lbl_8041C0E4:
+.global _GUARD_Get__Q26SqPlus12ClassType_i_Fv_st_ct
+_GUARD_Get__Q26SqPlus12ClassType_i_Fv_st_ct:
 
 	# ROM: 0x332164
 	.4byte lbl_8041F0E8
@@ -1459,8 +1459,8 @@ lbl_8041C128:
 	.4byte lbl_802E1DC8
 	.4byte lbl_802E1DE8
 
-.global lbl_8041C130
-lbl_8041C130:
+.global task_rti_info__Q26Script6MapObj
+task_rti_info__Q26Script6MapObj:
 
 	# ROM: 0x3321B0
 	.4byte lbl_802E1E08
@@ -1472,8 +1472,8 @@ lbl_8041C138:
 	# ROM: 0x3321B8
 	.4byte lbl_802E1E28
 
-.global lbl_8041C13C
-lbl_8041C13C:
+.global task_rti_info__Q27Message11CommonMenue
+task_rti_info__Q27Message11CommonMenue:
 
 	# ROM: 0x3321BC
 	.4byte lbl_802E1E34
@@ -1496,14 +1496,14 @@ lbl_8041C148:
 	# ROM: 0x3321C8
 	.4byte lbl_802E1E8C
 
-.global lbl_8041C14C
-lbl_8041C14C:
+.global _GUARD_Init__14CommonResourceFv_f1
+_GUARD_Init__14CommonResourceFv_f1:
 
 	# ROM: 0x3321CC
 	.4byte lbl_802E1EA8
 
-.global lbl_8041C150
-lbl_8041C150:
+.global _LOCAL_Init__14CommonResourceFv_f1
+_LOCAL_Init__14CommonResourceFv_f1:
 
 	# ROM: 0x3321D0
 	.4byte lbl_802E1EC4
@@ -1514,8 +1514,8 @@ lbl_8041C154:
 	# ROM: 0x3321D4
 	.4byte lbl_802E1ED0
 
-.global lbl_8041C158
-lbl_8041C158:
+.global _GUARD_Init__14CommonResourceFv_f2_0
+_GUARD_Init__14CommonResourceFv_f2_0:
 
 	# ROM: 0x3321D8
 	.4byte lbl_802E1EDC
@@ -1526,8 +1526,8 @@ lbl_8041C15C:
 	# ROM: 0x3321DC
 	.4byte lbl_802E1EE8
 
-.global lbl_8041C160
-lbl_8041C160:
+.global _LOCAL_Init__14CommonResourceFv_f2_0
+_LOCAL_Init__14CommonResourceFv_f2_0:
 
 	# ROM: 0x3321E0
 	.4byte lbl_802E1EF4
@@ -1538,8 +1538,8 @@ lbl_8041C164:
 	# ROM: 0x3321E4
 	.4byte lbl_8041F1C0
 
-.global lbl_8041C168
-lbl_8041C168:
+.global _GUARD_Init__14CommonResourceFv_f5_1
+_GUARD_Init__14CommonResourceFv_f5_1:
 
 	# ROM: 0x3321E8
 	.4byte lbl_802E20E8
@@ -1550,8 +1550,8 @@ lbl_8041C16C:
 	# ROM: 0x3321EC
 	.4byte lbl_802E2104
 
-.global lbl_8041C170
-lbl_8041C170:
+.global _LOCAL_Init__14CommonResourceFv_f5_1
+_LOCAL_Init__14CommonResourceFv_f5_1:
 
 	# ROM: 0x3321F0
 	.4byte lbl_802E2120
@@ -1562,8 +1562,8 @@ lbl_8041C174:
 	# ROM: 0x3321F4
 	.4byte lbl_802E213C
 
-.global lbl_8041C178
-lbl_8041C178:
+.global _GUARD_Init__14CommonResourceFv_f6_2
+_GUARD_Init__14CommonResourceFv_f6_2:
 
 	# ROM: 0x3321F8
 	.4byte lbl_802E215C
@@ -1574,8 +1574,8 @@ lbl_8041C17C:
 	# ROM: 0x3321FC
 	.4byte lbl_802E217C
 
-.global lbl_8041C180
-lbl_8041C180:
+.global _LOCAL_Init__14CommonResourceFv_f6_2
+_LOCAL_Init__14CommonResourceFv_f6_2:
 
 	# ROM: 0x332200
 	.4byte lbl_802E2188
@@ -1586,8 +1586,8 @@ lbl_8041C184:
 	# ROM: 0x332204
 	.4byte lbl_802E2194
 
-.global lbl_8041C188
-lbl_8041C188:
+.global _GUARD_Init__14CommonResourceFv_f7_3
+_GUARD_Init__14CommonResourceFv_f7_3:
 
 	# ROM: 0x332208
 	.4byte lbl_802E21A4
@@ -1598,8 +1598,8 @@ lbl_8041C18C:
 	# ROM: 0x33220C
 	.4byte lbl_8041F228
 
-.global lbl_8041C190
-lbl_8041C190:
+.global _LOCAL_Init__14CommonResourceFv_f7_3
+_LOCAL_Init__14CommonResourceFv_f7_3:
 
 	# ROM: 0x332210
 	.4byte lbl_8041F230
@@ -1616,14 +1616,14 @@ lbl_8041C198:
 	# ROM: 0x332218
 	.4byte lbl_802E21F0
 
-.global lbl_8041C19C
-lbl_8041C19C:
+.global task_rti_info__Q24Game12cResultBoard
+task_rti_info__Q24Game12cResultBoard:
 
 	# ROM: 0x33221C
 	.4byte lbl_802E2200
 
-.global lbl_8041C1A0
-lbl_8041C1A0:
+.global m_current__Q24Dof27ScnDof2
+m_current__Q24Dof27ScnDof2:
 
 	# ROM: 0x332220
 	.4byte lbl_802E2350
@@ -1634,8 +1634,8 @@ lbl_8041C1A4:
 	# ROM: 0x332224
 	.4byte lbl_8041F230
 
-.global lbl_8041C1A8
-lbl_8041C1A8:
+.global m_current__Q210ShowWindow17ShowWindowManager
+m_current__Q210ShowWindow17ShowWindowManager:
 
 	# ROM: 0x332228
 	.4byte lbl_802E2438
@@ -1646,8 +1646,8 @@ lbl_8041C1AC:
 	# ROM: 0x33222C
 	.4byte lbl_802E2448
 
-.global lbl_8041C1B0
-lbl_8041C1B0:
+.global _LOCAL_Draw__Q210ShowWindow17ShowWindowManagerFv_scount
+_LOCAL_Draw__Q210ShowWindow17ShowWindowManagerFv_scount:
 
 	# ROM: 0x332230
 	.4byte lbl_802E2454
@@ -1664,14 +1664,14 @@ lbl_8041C1B8:
 	# ROM: 0x332238
 	.4byte lbl_802E246C
 
-.global lbl_8041C1BC
-lbl_8041C1BC:
+.global task_rti_info__Q26Script6Object
+task_rti_info__Q26Script6Object:
 
 	# ROM: 0x33223C
 	.4byte lbl_802E2478
 
-.global lbl_8041C1C0
-lbl_8041C1C0:
+.global task_rti_info__Q26Script10MoveObject
+task_rti_info__Q26Script10MoveObject:
 
 	# ROM: 0x332240
 	.4byte lbl_802E2484
@@ -1688,21 +1688,21 @@ lbl_8041C1C8:
 	# ROM: 0x332248
 	.4byte lbl_802E249C
 
-.global lbl_8041C1CC
-lbl_8041C1CC:
+.global task_rti_info__Q26Script10UniAccMove
+task_rti_info__Q26Script10UniAccMove:
 
 	# ROM: 0x33224C
 	.4byte lbl_802E24B4
 
-.global lbl_8041C1D0
-lbl_8041C1D0:
+.global task_rti_info__Q26Script13UniAccRadMove
+task_rti_info__Q26Script13UniAccRadMove:
 
 	# ROM: 0x332250
 	.4byte lbl_802FFAB0
 	.4byte 0
 
-.global lbl_8041C1D8
-lbl_8041C1D8:
+.global task_rti_info__Q26Script12ShakeRadMove
+task_rti_info__Q26Script12ShakeRadMove:
 
 	# ROM: 0x332258
 	.asciz "arc.c"
@@ -1715,8 +1715,8 @@ lbl_8041C1E0:
 	.4byte lbl_802FFB68
 	.4byte 0
 
-.global lbl_8041C1E8
-lbl_8041C1E8:
+.global task_rti_info__Q26Script11SoundObject
+task_rti_info__Q26Script11SoundObject:
 
 	# ROM: 0x332268
 	.2byte 0x0010
@@ -1727,26 +1727,26 @@ lbl_8041C1EA:
 	# ROM: 0x33226A
 	.2byte 0x0037
 
-.global lbl_8041C1EC
-lbl_8041C1EC:
+.global task_rti_info__Q26Script8SeObject
+task_rti_info__Q26Script8SeObject:
 
 	# ROM: 0x33226C
 	.4byte 0x20000000
 
-.global lbl_8041C1F0
-lbl_8041C1F0:
+.global task_rti_info__Q26Script10Se3DObject
+task_rti_info__Q26Script10Se3DObject:
 
 	# ROM: 0x332270
 	.4byte lbl_800FA320
 
-.global lbl_8041C1F4
-lbl_8041C1F4:
+.global task_rti_info__Q26Script9BgmObject
+task_rti_info__Q26Script9BgmObject:
 
 	# ROM: 0x332274
 	.4byte lbl_800FA330
 
-.global lbl_8041C1F8
-lbl_8041C1F8:
+.global task_rti_info__Q24Game13SoundListener
+task_rti_info__Q24Game13SoundListener:
 
 	# ROM: 0x332278
 	.4byte 0x00000001
@@ -1773,31 +1773,31 @@ lbl_8041C204:
 lbl_8041C208:
 
 	# ROM: 0x332288
-	.4byte lbl_802E251C
+	.4byte bta_dm_rm_cfg
 
 .global lbl_8041C20C
 lbl_8041C20C:
 
 	# ROM: 0x33228C
-	.4byte lbl_802E2528
+	.4byte bta_dm_compress_cfg
 
 .global lbl_8041C210
 lbl_8041C210:
 
 	# ROM: 0x332290
-	.4byte lbl_80420F50
+	.4byte bta_dm_pm_cfg
 
 .global lbl_8041C214
 lbl_8041C214:
 
 	# ROM: 0x332294
-	.4byte lbl_802E253C
+	.4byte bta_dm_pm_spec
 
-.global lbl_8041C218
-lbl_8041C218:
+.global m_instance__Q34Game10StampRally7Manager
+m_instance__Q34Game10StampRally7Manager:
 
 	# ROM: 0x332298
-	.4byte lbl_802E2588
+	.4byte bta_dm_pm_md
 	.4byte 0
 
 .global lbl_8041C220
@@ -1811,18 +1811,18 @@ lbl_8041C220:
 lbl_8041C228:
 
 	# ROM: 0x3322A8
-	.4byte lbl_802E25A0
+	.4byte bta_hh_cfg
 	.4byte 0
 
 .global lbl_8041C230
 lbl_8041C230:
 
 	# ROM: 0x3322B0
-	.4byte lbl_8041F430
+	.4byte bta_sys_cfg
 	.4byte 0
 
-.global lbl_8041C238
-lbl_8041C238:
+.global task_rti_info__Q29LensFlare7Manager
+task_rti_info__Q29LensFlare7Manager:
 
 	# ROM: 0x3322B8
 	.4byte 0x25730A00
@@ -1835,20 +1835,20 @@ lbl_8041C240:
 	.4byte 0x0A5C2101
 	.4byte 0
 
-.global lbl_8041C248
-lbl_8041C248:
+.global task_rti_info__Q38SaveLoad9NowSaving12HomeButtonUI
+task_rti_info__Q38SaveLoad9NowSaving12HomeButtonUI:
 
 	# ROM: 0x3322C8
 	.4byte 0x01000000
 
-.global lbl_8041C24C
-lbl_8041C24C:
+.global m_pInstance__Q38SaveLoad9NowSaving12HomeButtonUI
+m_pInstance__Q38SaveLoad9NowSaving12HomeButtonUI:
 
 	# ROM: 0x3322CC
 	.4byte 0x00000001
 
-.global lbl_8041C250
-lbl_8041C250:
+.global task_rti_info__Q38SaveLoad9NowSaving7cAccess
+task_rti_info__Q38SaveLoad9NowSaving7cAccess:
 
 	# ROM: 0x3322D0
 	.4byte 0
@@ -1867,8 +1867,8 @@ lbl_8041C25C:
 	.asciz "TRUE"
 	.balign 4
 
-.global lbl_8041C264
-lbl_8041C264:
+.global task_rti_info__Q35Scene5Front13cFrontScnTask
+task_rti_info__Q35Scene5Front13cFrontScnTask:
 
 	# ROM: 0x3322E4
 	.asciz "FALSE"
@@ -1888,15 +1888,15 @@ lbl_8041C278:
 	.asciz "TRUE"
 	.balign 4
 
-.global lbl_8041C280
-lbl_8041C280:
+.global m_instance__Q34Game5Cheer6cCheer
+m_instance__Q34Game5Cheer6cCheer:
 
 	# ROM: 0x332300
 	.asciz "FALSE"
 	.balign 4
 
-.global lbl_8041C288
-lbl_8041C288:
+.global task_rti_info__Q35Scene2pp10cppScnTask
+task_rti_info__Q35Scene2pp10cppScnTask:
 
 	# ROM: 0x332308
 	.asciz "Bad UA"
@@ -1916,8 +1916,8 @@ lbl_8041C298:
 	.4byte lbl_803090C0
 	.4byte 0
 
-.global lbl_8041C2A0
-lbl_8041C2A0:
+.global task_rti_info__Q27Message16WhiteBtnSelector
+task_rti_info__Q27Message16WhiteBtnSelector:
 
 	# ROM: 0x332320
 	.4byte 0x00000001
@@ -1960,15 +1960,15 @@ lbl_8041C2C4:
 	# ROM: 0x332344
 	.4byte 0xFFFFFFFF
 
-.global lbl_8041C2C8
-lbl_8041C2C8:
+.global task_rti_info__Q24Game9EmojiBase
+task_rti_info__Q24Game9EmojiBase:
 
 	# ROM: 0x332348
 	.4byte lbl_80309EA4
 	.4byte lbl_80309F48
 
-.global lbl_8041C2D0
-lbl_8041C2D0:
+.global task_rti_info__Q24Game11EmojiChoice
+task_rti_info__Q24Game11EmojiChoice:
 
 	# ROM: 0x332350
 	.4byte 0x00000001
@@ -1981,14 +1981,14 @@ lbl_8041C2D8:
 	.4byte 0xFFFFFFFF
 	.4byte 0
 
-.global lbl_8041C2E0
-lbl_8041C2E0:
+.global task_rti_info__Q28GoingOut15GoingOutPenguin
+task_rti_info__Q28GoingOut15GoingOutPenguin:
 
 	# ROM: 0x332360
 	.asciz "/dev/di"
 
-.global lbl_8041C2E8
-lbl_8041C2E8:
+.global task_rti_info__Q28GoingOut10WpadMemory
+task_rti_info__Q28GoingOut10WpadMemory:
 
 	# ROM: 0x332368
 	.4byte lbl_8030B090
@@ -2015,21 +2015,21 @@ lbl_8041C300:
 	.4byte 0xFFFFFFFF
 	.4byte 0
 
-.global lbl_8041C308
-lbl_8041C308:
+.global task_rti_info__Q27BadWord14BadWordManager
+task_rti_info__Q27BadWord14BadWordManager:
 
 	# ROM: 0x332388
 	.asciz "/dev/fs"
 
-.global lbl_8041C310
-lbl_8041C310:
+.global task_rti_info__Q24Game9NamePlate
+task_rti_info__Q24Game9NamePlate:
 
 	# ROM: 0x332390
 	.4byte lbl_8030B160
 	.4byte 0
 
-.global lbl_8041C318
-lbl_8041C318:
+.global task_rti_info__Q24Game9GameTimer
+task_rti_info__Q24Game9GameTimer:
 
 	# ROM: 0x332398
 	.4byte 0x00040102
@@ -2040,8 +2040,8 @@ lbl_8041C31C:
 	# ROM: 0x33239C
 	.4byte 0x00080102
 
-.global lbl_8041C320
-lbl_8041C320:
+.global task_rti_info__Q27Message8B_Cancel
+task_rti_info__Q27Message8B_Cancel:
 
 	# ROM: 0x3323A0
 	.4byte 0x000C0102
@@ -2054,22 +2054,22 @@ lbl_8041C328:
 	.4byte 0x80818283
 	.4byte 0xA0A1A2A3
 
-.global lbl_8041C330
-lbl_8041C330:
+.global task_rti_info__Q24Game12PlayerCursor
+task_rti_info__Q24Game12PlayerCursor:
 
 	# ROM: 0x3323B0
 	.4byte 0x84858687
 	.4byte 0xA4A5A6A7
 
-.global lbl_8041C338
-lbl_8041C338:
+.global task_rti_info__Q24Game8UIPlayer
+task_rti_info__Q24Game8UIPlayer:
 
 	# ROM: 0x3323B8
 	.4byte 0x88898A8B
 	.4byte 0xA8A9AAAB
 
-.global lbl_8041C340
-lbl_8041C340:
+.global task_rti_info__Q24Game8UICommon
+task_rti_info__Q24Game8UICommon:
 
 	# ROM: 0x3323C0
 	.4byte 0x8C8D8E8F
@@ -2082,8 +2082,8 @@ lbl_8041C348:
 	.4byte 0x90919293
 	.4byte 0xB0B1B2B3
 
-.global lbl_8041C350
-lbl_8041C350:
+.global task_rti_info__Q24Game10NextButton
+task_rti_info__Q24Game10NextButton:
 
 	# ROM: 0x3323D0
 	.4byte 0x94959697
@@ -2333,8 +2333,8 @@ lbl_8041C404:
 	# ROM: 0x332484
 	.4byte 0x2F000000
 
-.global lbl_8041C408
-lbl_8041C408:
+.global __AXClMode
+__AXClMode:
 
 	# ROM: 0x332488
 	.4byte 0
@@ -2574,8 +2574,8 @@ lbl_8041C4D8:
 	# ROM: 0x332558
 	.4byte lbl_8031B718
 
-.global lbl_8041C4DC
-lbl_8041C4DC:
+.global __ntd_ohci
+__ntd_ohci:
 
 	# ROM: 0x33255C
 	.asciz "IPL.CB"
@@ -2589,14 +2589,14 @@ lbl_8041C4E4:
 	.balign 4
 	.4byte 0
 
-.global lbl_8041C4F0
-lbl_8041C4F0:
+.global p_hcisu_if
+p_hcisu_if:
 
 	# ROM: 0x332570
 	.asciz "IPL.ARN"
 
-.global lbl_8041C4F8
-lbl_8041C4F8:
+.global bte_target_mode
+bte_target_mode:
 
 	# ROM: 0x332578
 	.asciz "IPL.CD"
@@ -2608,8 +2608,8 @@ lbl_8041C500:
 	# ROM: 0x332580
 	.asciz "IPL.CD2"
 
-.global lbl_8041C508
-lbl_8041C508:
+.global appl_trace_level
+appl_trace_level:
 
 	# ROM: 0x332588
 	.asciz "IPL.DH"
@@ -2621,20 +2621,20 @@ lbl_8041C510:
 	# ROM: 0x332590
 	.asciz "IPL.E60"
 
-.global lbl_8041C518
-lbl_8041C518:
+.global __DSP_rude_task_pending
+__DSP_rude_task_pending:
 
 	# ROM: 0x332598
 	.asciz "IPL.FRC"
 
-.global lbl_8041C520
-lbl_8041C520:
+.global __DSP_tmp_task
+__DSP_tmp_task:
 
 	# ROM: 0x3325A0
 	.asciz "IPL.IDL"
 
-.global lbl_8041C528
-lbl_8041C528:
+.global __DSP_first_task
+__DSP_first_task:
 
 	# ROM: 0x3325A8
 	.asciz "IPL.INC"
@@ -2645,8 +2645,8 @@ lbl_8041C530:
 	# ROM: 0x3325B0
 	.asciz "IPL.LNG"
 
-.global lbl_8041C538
-lbl_8041C538:
+.global __DVDThreadQueue
+__DVDThreadQueue:
 
 	# ROM: 0x3325B8
 	.asciz "IPL.NIK"
@@ -2718,8 +2718,8 @@ lbl_8041C590:
 	# ROM: 0x332610
 	.asciz "BT.DINF"
 
-.global lbl_8041C598
-lbl_8041C598:
+.global __DVDLayoutFormat
+__DVDLayoutFormat:
 
 	# ROM: 0x332618
 	.asciz "BT.CDIF"
@@ -3004,22 +3004,22 @@ lbl_8041C678:
 	.4byte 0x001E001E
 	.4byte 0x001E001E
 
-.global lbl_8041C680
-lbl_8041C680:
+.global _LOCAL_ISFS_OpenLib__Fv_hi_0
+_LOCAL_ISFS_OpenLib__Fv_hi_0:
 
 	# ROM: 0x332700
 	.asciz "RFNJ"
 	.balign 4
 
-.global lbl_8041C688
-lbl_8041C688:
+.global __piReg
+__piReg:
 
 	# ROM: 0x332708
 	.asciz "WUD.c"
 	.balign 4
 
-.global lbl_8041C690
-lbl_8041C690:
+.global __peReg
+__peReg:
 
 	# ROM: 0x332710
 	.4byte 0x80000000
@@ -3052,8 +3052,8 @@ lbl_8041C6B0:
 	.4byte 0x00000001
 	.4byte 0
 
-.global lbl_8041C6B8
-lbl_8041C6B8:
+.global __GXCurrentBP
+__GXCurrentBP:
 
 	# ROM: 0x332738
 	.4byte lbl_8041F8E8
@@ -3153,8 +3153,8 @@ lbl_8041C718:
 	.4byte 0x00450053
 	.4byte 0
 
-.global lbl_8041C720
-lbl_8041C720:
+.global kp_stick_clamp_cross
+kp_stick_clamp_cross:
 
 	# ROM: 0x3327A0
 	.4byte 0x00490054
@@ -3214,8 +3214,8 @@ lbl_8041C758:
 	.asciz "Chng"
 	.balign 4
 
-.global lbl_8041C760
-lbl_8041C760:
+.global kp_err_dist_min
+kp_err_dist_min:
 
 	# ROM: 0x3327E0
 	.asciz "prdc"
@@ -3256,15 +3256,15 @@ lbl_8041C788:
 	.4byte 0x0045004E
 	.4byte 0
 
-.global lbl_8041C790
-lbl_8041C790:
+.global __OSInIPL
+__OSInIPL:
 
 	# ROM: 0x332810
 	.4byte 0x00440045
 	.4byte 0
 
-.global lbl_8041C798
-lbl_8041C798:
+.global __OSIsGcam
+__OSIsGcam:
 
 	# ROM: 0x332818
 	.4byte 0x00460052
@@ -3317,8 +3317,8 @@ lbl_8041C7CC:
 	# ROM: 0x33284C
 	.4byte lbl_80322ED4
 
-.global lbl_8041C7D0
-lbl_8041C7D0:
+.global __OSStartTime
+__OSStartTime:
 
 	# ROM: 0x332850
 	.4byte lbl_80322EE4
@@ -3378,8 +3378,8 @@ lbl_8041C7F4:
 	# ROM: 0x332874
 	.4byte 0
 
-.global lbl_8041C7F8
-lbl_8041C7F8:
+.global __OSInReboot
+__OSInReboot:
 
 	# ROM: 0x332878
 	.asciz "N_2line"
@@ -3403,14 +3403,14 @@ lbl_8041C808:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8041C810
-lbl_8041C810:
+.global __OSLastInterruptSrr0
+__OSLastInterruptSrr0:
 
 	# ROM: 0x332890
 	.asciz "P_OnBtn"
 
-.global lbl_8041C818
-lbl_8041C818:
+.global __OSLastInterruptTime
+__OSLastInterruptTime:
 
 	# ROM: 0x332898
 	.asciz "B_OnBtn"
@@ -3427,15 +3427,15 @@ lbl_8041C824:
 	# ROM: 0x3328A4
 	.4byte lbl_803253A8
 
-.global lbl_8041C828
-lbl_8041C828:
+.global _LOCAL___OSInitMemoryProtection__Fv_initialized
+_LOCAL___OSInitMemoryProtection__Fv_initialized:
 
 	# ROM: 0x3328A8
 	.asciz "N_UP"
 	.balign 4
 
-.global lbl_8041C830
-lbl_8041C830:
+.global __OSIsReturnToIdle
+__OSIsReturnToIdle:
 
 	# ROM: 0x3328B0
 	.asciz "N_DOWN"
@@ -3543,21 +3543,21 @@ lbl_8041C89C:
 	.asciz "0~0H"
 	.balign 4
 
-.global lbl_8041C8A4
-lbl_8041C8A4:
+.global __OSExpireSetExpiredFlag
+__OSExpireSetExpiredFlag:
 
 	# ROM: 0x332924
 	.4byte 0x21900000
 
-.global lbl_8041C8A8
-lbl_8041C8A8:
+.global __OSExpireCallback
+__OSExpireCallback:
 
 	# ROM: 0x332928
 	.4byte 0x524D9875
 	.4byte 0
 
-.global lbl_8041C8B0
-lbl_8041C8B0:
+.global __OSExpireTime
+__OSExpireTime:
 
 	# ROM: 0x332930
 	.4byte 0x00610000
@@ -3570,8 +3570,8 @@ lbl_8041C8B8:
 	.4byte 0x30683058
 	.4byte 0x308B0000
 
-.global lbl_8041C8C0
-lbl_8041C8C0:
+.global __PADSpec
+__PADSpec:
 
 	# ROM: 0x332940
 	.4byte 0x517395ED
@@ -3626,8 +3626,8 @@ lbl_8041C8F8:
 	.4byte 0
 	.4byte 0
 
-.global lbl_8041C900
-lbl_8041C900:
+.global _LOCAL_SCGetProductCode__Fv_buf
+_LOCAL_SCGetProductCode__Fv_buf:
 
 	# ROM: 0x332980
 	.asciz "0W0~0F"
@@ -3640,8 +3640,8 @@ lbl_8041C908:
 	.4byte 0x8FD456DE
 	.4byte 0
 
-.global lbl_8041C910
-lbl_8041C910:
+.global _LOCAL_SIGetType__Fl_cmdTypeAndStatus
+_LOCAL_SIGetType__Fl_cmdTypeAndStatus:
 
 	# ROM: 0x332990
 	.4byte 0xB4A4B85C
@@ -3859,8 +3859,8 @@ lbl_8041C9DC:
 	.balign 4
 	.4byte 0
 
-.global lbl_8041C9E8
-lbl_8041C9E8:
+.global Vdac_Flag_Changed
+Vdac_Flag_Changed:
 
 	# ROM: 0x332A68
 	.asciz "@INDEX@"
@@ -3976,60 +3976,60 @@ lbl_8041CA10:
 	.4byte lbl_80331C70
 	.4byte 0
 
-.global lbl_8041CA18
-lbl_8041CA18:
+.global _wpadVSMInit
+_wpadVSMInit:
 
 	# ROM: 0x332A98
 	.4byte lbl_80331D80
 	.4byte 0
 
-.global lbl_8041CA20
-lbl_8041CA20:
+.global _wpadGTRInit
+_wpadGTRInit:
 
 	# ROM: 0x332AA0
 	.asciz "halt\n"
 	.balign 4
 
-.global lbl_8041CA28
-lbl_8041CA28:
+.global _wpadTKOInit
+_wpadTKOInit:
 
 	# ROM: 0x332AA8
 	.asciz "http://"
 
-.global lbl_8041CA30
-lbl_8041CA30:
+.global _wpadBLKInit
+_wpadBLKInit:
 
 	# ROM: 0x332AB0
 	.4byte 0x3A000000
 
-.global lbl_8041CA34
-lbl_8041CA34:
+.global _enabledVSM
+_enabledVSM:
 
 	# ROM: 0x332AB4
 	.asciz "Host: "
 	.balign 4
 
-.global lbl_8041CA3C
-lbl_8041CA3C:
+.global _enabledGTR
+_enabledGTR:
 
 	# ROM: 0x332ABC
 	.4byte 0x0D0A0000
 
-.global lbl_8041CA40
-lbl_8041CA40:
+.global _enabledDRM
+_enabledDRM:
 
 	# ROM: 0x332AC0
 	.asciz "HTTP/"
 	.balign 4
 
-.global lbl_8041CA48
-lbl_8041CA48:
+.global _enabledTBL
+_enabledTBL:
 
 	# ROM: 0x332AC8
 	.4byte 0x3A200000
 
-.global lbl_8041CA4C
-lbl_8041CA4C:
+.global _enabledBLK
+_enabledBLK:
 
 	# ROM: 0x332ACC
 	.4byte 0x220D0A00
@@ -4120,8 +4120,8 @@ lbl_8041CAA0:
 	.4byte lbl_80332338
 	.4byte 0
 
-.global lbl_8041CAA8
-lbl_8041CAA8:
+.global _linkedWBC
+_linkedWBC:
 
 	# ROM: 0x332B28
 	.4byte 0xFFFFFFFF
@@ -4221,15 +4221,15 @@ lbl_8041CB30:
 	.4byte 0x422A0000
 	.4byte 0
 
-.global lbl_8041CB38
-lbl_8041CB38:
+.global TRK_Use_BBA
+TRK_Use_BBA:
 
 	# ROM: 0x332BB8
 	.4byte 0x3F800000
 	.4byte 0
 
-.global lbl_8041CB40
-lbl_8041CB40:
+.global gTRKBigEndian
+gTRKBigEndian:
 
 	# ROM: 0x332BC0
 	.4byte 0xFFFFFFFF
@@ -4240,8 +4240,8 @@ lbl_8041CB44:
 	# ROM: 0x332BC4
 	.4byte lbl_803E87C8
 
-.global lbl_8041CB48
-lbl_8041CB48:
+.global gTRKInputPendingPtr
+gTRKInputPendingPtr:
 
 	# ROM: 0x332BC8
 	.asciz "NodeMix"
@@ -4307,15 +4307,15 @@ lbl_8041CB80:
 	.4byte 0xFFFFFFFF
 	.4byte 0
 
-.global lbl_8041CB88
-lbl_8041CB88:
+.global _LOCAL_KPRInitQueue__FP9_KPRQueue_once
+_LOCAL_KPRInitQueue__FP9_KPRQueue_once:
 
 	# ROM: 0x332C08
 	.4byte lbl_80333688
 	.4byte 0
 
-.global lbl_8041CB90
-lbl_8041CB90:
+.global _GUARD_getInstance__Q39textinput12LayoutGather9SingletonFv_sGather
+_GUARD_getInstance__Q39textinput12LayoutGather9SingletonFv_sGather:
 
 	# ROM: 0x332C10
 	.4byte 0x000A0000
@@ -4413,15 +4413,15 @@ lbl_8041CBE8:
 	.4byte lbl_802FA190
 	.4byte 0
 
-.global lbl_8041CBF0
-lbl_8041CBF0:
+.global _null_
+_null_:
 
 	# ROM: 0x332C70
 	.4byte lbl_80335108
 	.4byte 0
 
-.global lbl_8041CBF8
-lbl_8041CBF8:
+.global _true_
+_true_:
 
 	# ROM: 0x332C78
 	.4byte lbl_80335438
@@ -4432,8 +4432,8 @@ lbl_8041CBFC:
 	# ROM: 0x332C7C
 	.4byte 0
 
-.global lbl_8041CC00
-lbl_8041CC00:
+.global _false_
+_false_:
 
 	# ROM: 0x332C80
 	.4byte 0
@@ -4444,8 +4444,8 @@ lbl_8041CC04:
 	# ROM: 0x332C84
 	.4byte 0x2F2F0000
 
-.global lbl_8041CC08
-lbl_8041CC08:
+.global _one_
+_one_:
 
 	# ROM: 0x332C88
 	.4byte 0x2F000000
@@ -4464,15 +4464,15 @@ lbl_8041CC14:
 	.asciz "action"
 	.balign 4
 
-.global lbl_8041CC1C
-lbl_8041CC1C:
+.global _no_vm_ref__10SquirrelVM
+_no_vm_ref__10SquirrelVM:
 
 	# ROM: 0x332C9C
 	.asciz "login"
 	.balign 4
 
-.global lbl_8041CC24
-lbl_8041CC24:
+.global vm_list_count
+vm_list_count:
 
 	# ROM: 0x332CA4
 	.asciz "gsbrcd"
@@ -4579,8 +4579,8 @@ lbl_8041CC98:
 	# ROM: 0x332D18
 	.asciz "makercd"
 
-.global lbl_8041CCA0
-lbl_8041CCA0:
+.global VFipf_sys_set
+VFipf_sys_set:
 
 	# ROM: 0x332D20
 	.4byte 0x31000000
@@ -4614,21 +4614,21 @@ lbl_8041CCBC:
 	.balign 4
 	.4byte 0
 
-.global lbl_8041CCC8
-lbl_8041CCC8:
+.global VF_nand_retry_max
+VF_nand_retry_max:
 
 	# ROM: 0x332D48
 	.asciz "devtime"
 
-.global lbl_8041CCD0
-lbl_8041CCD0:
+.global mHeapHandle__Q34nw4r2db15DbgPrintBase_c_
+mHeapHandle__Q34nw4r2db15DbgPrintBase_c_:
 
 	# ROM: 0x332D50
 	.asciz "%s%09d"
 	.balign 4
 
-.global lbl_8041CCD8
-lbl_8041CCD8:
+.global mHeapHandle__Q34nw4r2db15DbgPrintBase_w_
+mHeapHandle__Q34nw4r2db15DbgPrintBase_w_:
 
 	# ROM: 0x332D58
 	.asciz "csnum"
@@ -4665,8 +4665,8 @@ lbl_8041CCF8:
 	# ROM: 0x332D78
 	.4byte 0x260D0A00
 
-.global lbl_8041CCFC
-lbl_8041CCFC:
+.global mDisplayVersion__Q34nw4r2ef12EffectSystem
+mDisplayVersion__Q34nw4r2ef12EffectSystem:
 
 	# ROM: 0x332D7C
 	.asciz " %s\n"
@@ -4700,14 +4700,14 @@ lbl_8041CD20:
 	.asciz "%llu"
 	.balign 4
 
-.global lbl_8041CD28
-lbl_8041CD28:
+.global _GUARD_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_billboardStrategy
+_GUARD_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_billboardStrategy:
 
 	# ROM: 0x332DA8
 	.4byte 0
 
-.global lbl_8041CD2C
-lbl_8041CD2C:
+.global _GUARD_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_pointStrategy_3
+_GUARD_Create__Q34nw4r2ef19DrawStrategyBuilderFUl_pointStrategy_3:
 
 	# ROM: 0x332DAC
 	.4byte 0
